@@ -3,10 +3,10 @@ title: Componente core moduli adattivi - Procedura guidata
 description: Utilizzo o personalizzazione del componente core della procedura guidata nei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
-source-git-commit: 0e7bfe0d9a7263469d96227e37caf932a8c135c6
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '2100'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -18,8 +18,7 @@ Ogni passaggio della procedura guidata contiene in genere un gruppo di campi mod
 
 Il layout della procedura guidata è utile per i moduli che contengono molti campi o informazioni da raccogliere, in quanto suddivide il modulo in blocchi più piccoli e gestibili. Aiuta inoltre gli utenti a concentrarsi su un insieme di campi alla volta, il che può rendere il processo di compilazione del modulo meno complesso.
 
-Tuttavia, può anche aumentare la complessità del modulo, in quanto l’utente deve passare attraverso più pagine per completare il modulo. Pertanto, è necessario valutare i requisiti del modulo e le esigenze dell’utente prima di decidere di utilizzare un layout della procedura guidata.
-
+Tuttavia, può anche aumentare la complessità del modulo, in quanto l’utente deve passare attraverso più pagine per completare il modulo. È quindi necessario valutare i requisiti del modulo e le esigenze dell’utente prima di decidere di utilizzare un layout di procedura guidata.
 È possibile utilizzare il componente core del layout della procedura guidata in un modulo adattivo per creare il layout della procedura guidata.
 
 

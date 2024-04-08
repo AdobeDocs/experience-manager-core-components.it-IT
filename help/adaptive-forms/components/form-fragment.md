@@ -3,7 +3,7 @@ title: Frammento di modulo adattivo
 description: Utilizza i frammenti di modulo per creare segmenti di modulo o gruppi di campi e riutilizzarli nei moduli adattivi per migliorarne l’efficienza e la riutilizzabilità.
 role: Architect, Developer, Admin, User
 exl-id: bde4a416-1d6b-4e9e-ac74-70fccef473cb
-source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '1780'
 ht-degree: 100%
@@ -66,7 +66,6 @@ Puoi personalizzare facilmente la tua esperienza con i frammenti per i visitator
      ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
 - **Nascondi titolo**: seleziona l’opzione per nascondere il titolo del componente.
-
 - **Raggruppa dati dei componenti secondari all’invio del modulo (racchiudi dati nell’oggetto)**: quando questa opzione è selezionata, i dati dei relativi componenti secondari sono nidificati all’interno dell’oggetto JSON del componente principale. Tuttavia, se l’opzione non è selezionata, i dati JSON inviati hanno una struttura semplice, senza alcun oggetto per il componente principale. Ad esempio:
 
    - Quando l’opzione è selezionata, i dati dei componenti secondari (ad esempio, Via, Città e CAP) vengono nidificati all’interno del componente principale (Indirizzo) come oggetto JSON. In questo modo viene creata una struttura gerarchica e i dati vengono organizzati sotto il componente principale.

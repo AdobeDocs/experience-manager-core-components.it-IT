@@ -3,8 +3,8 @@ title: Componente core moduli adattivi - Titolo
 description: Utilizzo o personalizzazione del componente core del titolo dei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
-workflow-type: ht
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
+workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 100%
 
@@ -109,6 +109,7 @@ La scheda dei formati consente di specificare i formati di data predefiniti e pe
 -->
 
 ## Articoli correlati {#related-articles}
+
 
 {{more-like-this}}
 

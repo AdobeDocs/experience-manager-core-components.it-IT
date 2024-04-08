@@ -3,7 +3,7 @@ title: Componente core dei moduli adattivi - Testo
 description: Utilizzo o personalizzazione del componente core di testo dei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: b8de68e4-ca0d-4ae5-9a04-104cc617f1be
-source-git-commit: 337f3b40f0a6046e4161d8365fc8ecc7d029cdcd
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '993'
 ht-degree: 100%
@@ -62,7 +62,6 @@ Puoi personalizzare facilmente l’esperienza di testo per i visitatori tramite 
 - **Contrassegna come elemento modulo non associato**: seleziona l’opzione per configurare un campo modulo non collegato ad alcun schema. Questa opzione consente di salvare i dati senza aggiornare l’origine dati. Consente inoltre di gestire i dati in modo personalizzato, separato dall’integrazione standard del database.
 - **Nascondi componente**: seleziona questa opzione per nascondere il componente dal modulo. Il componente rimane accessibile per altri scopi, ad esempio per i calcoli nell’editor di regole. Questa funzione è utile quando devi memorizzare informazioni che non devono essere viste o modificate direttamente dall’utente.
   <!--    **Read-only** - Select the option to make the component non-editable. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.-->
-
 
 ## Finestra di dialogo per la progettazione {#design-dialog}
 

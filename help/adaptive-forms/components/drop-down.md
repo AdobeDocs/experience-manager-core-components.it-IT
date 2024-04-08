@@ -3,7 +3,7 @@ title: Componente core moduli adattivi - Elenco a discesa
 description: Utilizzo o personalizzazione del componente core dell’elenco a discesa dei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
-source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '2011'
 ht-degree: 98%
@@ -78,7 +78,6 @@ Puoi personalizzare facilmente l’esperienza dell’elenco a discesa per i visi
 - **Nascondi titolo**: seleziona l’opzione per nascondere il titolo del componente.
 
 - **Consenti selezione multipla**: seleziona questa opzione per selezionare più opzioni da un elenco a discesa.
-
 - **Salva valore come**: questa opzione specifica il tipo di dati del valore inviato quando viene selezionata qualsiasi opzione. Se **Salva valore con nome** è impostato su `Number` e si aggiungono dati stringa a **Valore dati** sulla scheda **Opzioni**, viene visualizzato il messaggio di errore `Value type mismatch`.
 
   Nella scheda **Opzioni**, puoi aggiungere valori dati e visualizzare coppie di testo utilizzando il pulsante **Aggiungi**. Una volta aggiunta una nuova opzione, vengono eseguite le seguenti azioni:

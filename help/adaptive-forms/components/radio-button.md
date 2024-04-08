@@ -3,7 +3,7 @@ title: Componente core dei moduli adattivi - Pulsante di scelta
 description: Utilizzo o personalizzazione del componente core del pulsante di scelta nei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '1901'
 ht-degree: 97%
@@ -72,7 +72,6 @@ Puoi personalizzare facilmente l’esperienza del pulsante di scelta per i visit
      
      ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
-
 - **Nascondi titolo**: seleziona l’opzione per nascondere il titolo del componente.
 
 - **Opzioni** - È possibile aggiungere valori di dati e visualizzare coppie di testo utilizzando **Aggiungi** pulsante.
@@ -85,7 +84,6 @@ Puoi personalizzare facilmente l’esperienza del pulsante di scelta per i visit
     ![Rich text support for options](/help/adaptive-forms/assets/richtextoptions-support.png)-->
 
   Dopo l’aggiunta di una nuova opzione, è possibile eseguire le azioni seguenti:
-
    - **Valore Dati**: questa opzione consente di immettere il contenuto da inviare quando viene selezionata un’opzione.
    - **Testo Visualizzato**: questa opzione consente di inserire il contenuto da visualizzare in un modulo adattivo.
    - **Elimina**: tocca o fai clic per eliminare l’opzione di un pulsante di scelta.

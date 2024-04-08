@@ -2,9 +2,9 @@
 title: Componente core Modulo adattivo - Schede superiori
 description: Utilizzo o personalizzazione delle schede superiori dei moduli adattivi per i componenti core.
 role: Architect, Developer, Admin, User
-source-git-commit: 59cd9d65bf4c1be6ab2eaf15bbb747b532863fdd
-workflow-type: ht
-source-wordcount: '473'
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
+workflow-type: tm+mt
+source-wordcount: '467'
 ht-degree: 100%
 
 ---
@@ -38,7 +38,7 @@ Il componente core Pannello a soffietto moduli adattativi è stato rilasciato a 
 
 | Versione del componente | AEM as a Cloud Service | AEM Forms 6.5.16.0 o versioni successive |
 |---|---|---|
-| v1 | Compatibile con<br>[versione 2.0.4](/help/adaptive-forms/version.md) e successive | Compatibile con <br>[versione 1.1.12](/help/adaptive-forms/version.md) e successive, ma precedenti a 2.0.0. |
+| v1 | Compatibile con <br>[versione 2.0.4](/help/adaptive-forms/version.md) e successive | Compatibile con <br>[versione 1.1.12](/help/adaptive-forms/version.md) e successive, ma precedenti a 2.0.0. |
 
 Per informazioni sulle versioni dei componenti core, consulta il documento [Versioni dei componenti core](/help/adaptive-forms/version.md).
 
@@ -89,5 +89,6 @@ Puoi personalizzare facilmente l’esperienza delle schede superiori per i visit
 >* [Procedura guidata](/help/adaptive-forms/components/wizard.md)
 
 ## Consulta anche {#see-also}
+
 
 {{see-also}}

@@ -3,7 +3,7 @@ title: 'Componente core dei moduli adattivi: casella di controllo'
 description: Utilizzo o personalizzazione del componente core della casella di controllo nei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: bb226c9545ce32f48896d737c8652a1e0c0e11a5
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '1666'
 ht-degree: 97%
@@ -92,7 +92,6 @@ Puoi personalizzare facilmente la tua esperienza con le caselle di controllo per
 - **Obbligatorio**: seleziona questa opzione se desideri visualizzare il componente in un modulo adattivo. Dopo aver selezionato l’opzione, è necessario effettuare una selezione prima di procedere con l’invio di un modulo. Non è possibile selezionare **Nascondi componente** o **Disattiva componente** nella scheda **Base** quando questa opzione è selezionata.
 
 - **Messaggio di errore**: questa opzione consente di inserire un messaggio visualizzato se la casella di controllo **Obbligatorio** è selezionata e il campo modulo viene lasciato vuoto.
-
 - **Messaggio di convalida script**: questa opzione consente di inserire un messaggio da visualizzare in caso di mancata convalida dello script.
 
 ### Scheda Contenuto Guida {#helpcontent-tab}

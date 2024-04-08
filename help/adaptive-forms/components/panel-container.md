@@ -3,7 +3,7 @@ title: Componente core dei moduli adattivi - Contenitore di pannelli
 description: Utilizzo o personalizzazione del componente core contenitore di pannelli dei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
-source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '2052'
 ht-degree: 99%
@@ -115,7 +115,6 @@ Per gestire in modo efficace le sezioni ripetibili all’interno del contenitore
 ### Scheda Contenuto Guida {#help-content}
 
 ![Scheda Contenuto Guida](/help/adaptive-forms/assets/helpcontent-panel.png)
-
 
 - **Breve descrizione**: una breve descrizione è una breve spiegazione testuale che fornisce informazioni aggiuntive o chiarimenti sullo scopo di un campo modulo specifico. Aiuta l’utente a capire quale tipo di dati deve essere immesso nel campo e può fornire linee guida o esempi per garantire che le informazioni immesse siano valide e soddisfino i criteri desiderati. Per impostazione predefinita, le descrizioni brevi rimangono nascoste. Abilita l’opzione **Mostra sempre una breve descrizione** per visualizzarla sotto il componente.
 

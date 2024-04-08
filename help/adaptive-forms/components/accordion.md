@@ -3,7 +3,7 @@ title: Pannello a soffietto moduli adattivi
 description: Utilizza il pannello a soffietto per organizzare e semplificare un modulo lungo o complesso suddividendolo in sezioni più piccole e gestibili.
 role: Architect, Developer, Admin, User
 exl-id: 0ed38eee-fc22-4708-82eb-3fb1839b1ff2
-source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '2149'
 ht-degree: 100%
@@ -78,7 +78,6 @@ Puoi personalizzare facilmente l’esperienza del pannello a soffietto per i vis
      ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
 
 - **Nascondi titolo**: seleziona l’opzione per nascondere il titolo del componente.
-
 - **Raggruppa dati dei componenti secondari all’invio del modulo (racchiudi dati nell’oggetto)**: quando questa opzione è selezionata, i dati dei relativi componenti secondari sono nidificati all’interno dell’oggetto JSON del componente principale. Tuttavia, se l’opzione non è selezionata, i dati JSON inviati hanno una struttura semplice, senza alcun oggetto per il componente principale. Ad esempio:
 
    - Quando l’opzione è selezionata, i dati dei componenti secondari (ad esempio, Via, Città e CAP) vengono nidificati all’interno del componente principale (Indirizzo) come oggetto JSON. In questo modo viene creata una struttura gerarchica e i dati vengono organizzati sotto il componente principale.

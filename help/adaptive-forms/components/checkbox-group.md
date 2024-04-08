@@ -3,7 +3,7 @@ title: Componente core dei moduli adattivi - Gruppo di caselle di controllo
 description: Utilizzo o personalizzazione del componente core del gruppo di caselle di controllo nei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
-source-git-commit: db65bd4dd2190ea034799ae209edd78598ac8a48
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '1869'
 ht-degree: 98%

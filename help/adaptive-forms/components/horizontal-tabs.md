@@ -3,7 +3,7 @@ title: Componente core moduli adattivi - Schede orizzontali
 description: Utilizzo o personalizzazione del componente core delle schede orizzontali dei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
-source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '1979'
 ht-degree: 98%
@@ -109,7 +109,6 @@ Puoi personalizzare facilmente l’esperienza con le schede orizzontali per i vi
 - **Rendi le schede ripetibili in alto**: funzione di attivazione/disattivazione che consente agli utenti di abilitare o disabilitare la funzionalità di ripetibilità.
 - **Numero minimo di ripetizioni**: stabilisce il numero minimo di volte in cui il componente Schede orizzontali può essere ripetuto. Il valore zero indica che il componente Schede orizzontali non è ripetuto; il valore predefinito è zero.
 - **Numero massimo di ripetizioni**: imposta il numero massimo di volte in cui il componente Schede orizzontali può essere ripetuto. Per impostazione predefinita, questo valore è illimitato.
-
 Per gestire in modo efficace le sezioni ripetibili nelle schede Orizzontali, segui i passaggi descritti nell’articolo [Creazione di moduli con sezioni ripetibili](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=it).
 
 ### Scheda Elementi {#items-tab}

@@ -3,7 +3,7 @@ title: Componente core moduli adattivi - Allegato file
 description: Utilizzo o personalizzazione del componente core allegato file dei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
-source-git-commit: 8c51bd29074e5977d3435d849033770cadc357b8
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '1726'
 ht-degree: 97%
@@ -84,7 +84,6 @@ Puoi personalizzare facilmente l’esperienza dell’allegato file per i visitat
 ![Scheda Convalida](/help/adaptive-forms/assets/fileattachment_validationtab.png)
 
 - **Obbligatorio**: seleziona questa opzione se desideri visualizzare il componente in un modulo adattivo. Dopo aver selezionato l’opzione, è necessario allegare gli allegati prima di procedere con l’invio di un modulo. Non è possibile selezionare **Nascondi componente** o **Disattiva componente** nella scheda **Base** quando questa opzione è selezionata.
-
 - **Messaggio di errore**: questa opzione consente di inserire un messaggio visualizzato se la casella di controllo **Obbligatorio** è selezionata e il campo viene lasciato vuoto.
 
 - **Messaggio di convalida script**: questa opzione consente di inserire un messaggio da visualizzare in caso di errore di convalida dello script.

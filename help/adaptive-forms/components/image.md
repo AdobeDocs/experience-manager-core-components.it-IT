@@ -3,7 +3,7 @@ title: Componente core moduli adattivi - Immagine
 description: Utilizzo o personalizzazione del componente core immagine dei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: 9ee42d5d-16e3-4973-8364-5bc512ebe72e
-source-git-commit: 337f3b40f0a6046e4161d8365fc8ecc7d029cdcd
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '1057'
 ht-degree: 100%
@@ -15,7 +15,6 @@ ht-degree: 100%
 Un componente Immagine in un modulo adattivo consente di includere le immagini in un modulo. Queste immagini possono essere utilizzate per migliorare la struttura complessiva del modulo, fornire informazioni aggiuntive o servire come aiuto visivo per favorire la comprensione dello scopo del modulo. Il componente Immagine può essere utilizzato per aggiungere un logo, una foto o un elemento grafico nel modulo.
 
 Per l’accessibilità, è importante specificare un **Testo alternativo** all’immagine per fornire un testo alternativo breve e descrittivo per l’immagine, la quale viene descritta agli utenti che non possono visualizzarla.
-
 
 **Esempio**
 

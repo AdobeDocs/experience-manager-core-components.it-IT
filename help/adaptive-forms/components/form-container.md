@@ -3,7 +3,7 @@ title: Componente core dei moduli adattivi - Contenitore di moduli
 description: Aggiungere un modulo adattivo a una pagina web.
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
-source-git-commit: 7862206660909b396cb3d95b7ac81eee9221957b
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '1340'
 ht-degree: 100%
@@ -17,7 +17,6 @@ I moduli consentono ai visitatori di un sito web di interagire con il sito web f
 ## Utilizzo {#reasons-to-use-forms-container}
 
 Ci sono diversi motivi per i quali viene aggiunto un modulo a un sito web:
-
 - **Raccolta dati**: i moduli possono essere utilizzati per raccogliere dati dai visitatori di un sito web per vari scopi, come ricerche di mercato, analisi del comportamento degli utenti e altro ancora.
 
 - **Generare lead**: un modulo può essere utilizzato per raccogliere informazioni dai potenziali clienti, ad esempio nome e indirizzo e-mail, per generare lead per attività di vendita e marketing.
