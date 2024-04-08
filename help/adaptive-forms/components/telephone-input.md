@@ -3,10 +3,10 @@ title: Componente core moduli adattivi - Inserimento numero di telefono
 description: Utilizzo o personalizzazione del componente core per l’inserimento del numero di telefono nei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
-source-git-commit: e0ed415bd7f45fdca6fbbb8ba409604d9e82a647
-workflow-type: ht
-source-wordcount: '2010'
-ht-degree: 100%
+source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+workflow-type: tm+mt
+source-wordcount: '2027'
+ht-degree: 98%
 
 ---
 
@@ -34,7 +34,7 @@ Il componente core Pannello a soffietto moduli adattativi è stato rilasciato a 
 
 | Versione del componente | AEM as a Cloud Service | AEM Forms 6.5.16.0 o versioni successive |
 |---|---|---|
-| v1 | Compatibile con<br>[versione 2.0.4](/help/adaptive-forms/version.md) e successive | Compatibile con <br>[versione 1.1.12](/help/adaptive-forms/version.md) e successive, ma precedenti a 2.0.0. |
+| v1 | Compatibile con <br>[versione 2.0.4](/help/adaptive-forms/version.md) e successive | Compatibile con <br>[versione 1.1.12](/help/adaptive-forms/version.md) e successive, ma precedenti a 2.0.0. |
 
 Per informazioni sulle versioni dei componenti core, consulta il documento [Versioni dei componenti core](/help/adaptive-forms/version.md).
 
@@ -55,6 +55,10 @@ Puoi personalizzare facilmente l’esperienza di immissione del numero di telefo
 - **Nome**: è possibile identificare facilmente un componente modulo con il suo nome univoco sia nel modulo che nell’editor di regole, ma il nome non deve contenere spazi o caratteri speciali.
 
 - **Titolo**: con il relativo titolo è possibile identificare facilmente un componente in un modulo e, per impostazione predefinita, il titolo viene visualizzato sopra il componente. Se non aggiungi un titolo, al posto del testo del titolo viene visualizzato il nome del componente.
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
 - **Nascondi titolo**: seleziona l’opzione per nascondere il titolo del componente.
 
@@ -71,6 +75,8 @@ Puoi personalizzare facilmente l’esperienza di immissione del numero di telefo
 
 - **Valore predefinito** - questa opzione consente di aggiungere un valore predefinito in un campo modulo. Se **Componente disabilitato** o **Componente di sola lettura** è selezionato, il valore predefinito viene visualizzato sullo schermo. Se l’utente non immette alcun valore nel campo modulo, questo valore viene inviato al momento dell’invio del modulo.
 
+- **Attributo riempimento automatico**: l’opzione consente agli utenti di immettere un valore che viene popolato automaticamente nel campo del modulo in base alle informazioni memorizzate.
+
 ### Scheda Convalida {#validation-tab}
 
 ![Scheda Convalida](/help/adaptive-forms/assets/telephoneinput_validationtab.png)
@@ -85,9 +91,9 @@ Puoi personalizzare facilmente l’esperienza di immissione del numero di telefo
 
 - **Messaggio di errore relativo al numero massimo di caratteri**: la finestra di dialogo **Messaggio di errore relativo al numero massimo di caratteri** ti permette di aggiungere un messaggio di errore personalizzato se si immettono caratteri superiori al valore specificato nell’opzione **Numero massimo di caratteri**.
 
-- **Numero minimo di caratteri**: questa opzione ti consente di specificare il numero minimo di caratteri consentiti nel campo. Se immetti caratteri inferiori al valore specificato in **Numero minimo di caratteri**, sullo schermo viene visualizzato un messaggio di errore. La finestra di testo **Messaggio di errore relativo al numero minimo caratteri** consente di aggiungere un messaggio di errore personalizzato.
+- **Numero minimo di caratteri**: questa opzione ti consente di specificare il numero minimo di caratteri consentiti nel campo. Se immetti caratteri inferiori al valore specificato in **Numero minimo di caratteri**, sullo schermo viene visualizzato un messaggio di errore. La finestra di dialogo **Messaggio di errore relativo al numero minimo di caratteri** ti consente di aggiungere un messaggio di errore personalizzato.
 
-- *Messaggio di errore relativo al numero minimo dei caratteri**: la finestra di dialogo **Messaggio di errore relativo al numero minimo dei caratteri** consente di aggiungere un messaggio di errore personalizzato se inserisci meno caratteri rispetto al valore specificato nell’opzione **Numero minimo di caratteri**.
+- **Messaggio di errore relativo al numero minimo di caratteri**: la finestra di dialogo **Messaggio di errore relativo al numero minimo di caratteri** ti consente di aggiungere un messaggio di errore personalizzato se si immettono caratteri inferiori al valore specificato nell’opzione **Numero minimo di caratteri**.
 
 L’opzione **Pattern di convalida** consente di inserire un pattern per convalidare il numero di telefono inserito. Il numero di telefono inserito viene convalidato in base al valore inserito nell’opzione **Pattern**. Nel caso in cui il numero di telefono non venga convalidato con il valore inserito nell’opzione **Pattern**, il messaggio di errore viene visualizzato sullo schermo.
 
@@ -131,7 +137,7 @@ La scheda è utilizzata per definire e gestire gli stili CSS per un componente. 
 
 Le proprietà personalizzate consentono di associare attributi personalizzati (coppie chiave-valore) a un componente core del modulo adattivo utilizzando il modello di modulo. Le proprietà personalizzate vengono riflesse nella sezione delle proprietà della rappresentazione headless del componente. Consentono di creare un comportamento di modulo dinamico che si adatta in base ai valori degli attributi personalizzati. Ad esempio, gli sviluppatori possono progettare diverse rappresentazioni di un componente moduli headless su piattaforme mobili, desktop o web, migliorando in modo significativo l’esperienza utente su un’ampia gamma di dispositivi.
 
-- **Nome gruppo**: puoi fornire un nome per identificare il gruppo di proprietà personalizzata. È possibile aggiungere, eliminare o ridisporre più gruppi di proprietà personalizzate. Dopo aver aggiunto il gruppo di proprietà personalizzate, puoi visualizzare le seguenti opzioni:
+- **Nome gruppo**: puoi fornire un nome per identificare il gruppo di proprietà personalizzate. È possibile aggiungere, eliminare o ridisporre più gruppi di proprietà personalizzate. Dopo aver aggiunto il gruppo di proprietà personalizzate, puoi visualizzare le seguenti opzioni:
 
    - **Coppie chiave-valore**: puoi aggiungere più nomi e valori della proprietà personalizzata facendo clic sul pulsante **Aggiungi** per ogni gruppo di proprietà personalizzate.
 

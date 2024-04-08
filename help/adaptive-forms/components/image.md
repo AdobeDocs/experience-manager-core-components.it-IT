@@ -3,9 +3,9 @@ title: Componente core moduli adattivi - Immagine
 description: Utilizzo o personalizzazione del componente core immagine dei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: 9ee42d5d-16e3-4973-8364-5bc512ebe72e
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+source-git-commit: 337f3b40f0a6046e4161d8365fc8ecc7d029cdcd
 workflow-type: tm+mt
-source-wordcount: '1198'
+source-wordcount: '1057'
 ht-degree: 100%
 
 ---
@@ -66,7 +66,7 @@ Puoi personalizzare facilmente l’esperienza dell’immagine per i visitatori t
 
 - **Contrassegna come elemento modulo non associato**: seleziona l’opzione per configurare un campo modulo non collegato ad alcun schema. Questa opzione consente di salvare i dati senza aggiornare l’origine dati. Consente inoltre di gestire i dati in modo personalizzato, separato dall’integrazione standard del database.
 
-- **Riferimento di binding del documento di record**: questa opzione consente di associare un campo di un modulo adattivo a un campo di un documento di record. Quando l’utente immette un valore in un campo collegato di un modulo adattivo, tale valore viene visualizzato anche nel campo collegato del corrispondente documento di record. Ad esempio, è possibile utilizzare un riferimento di binding del documento di record per visualizzare il nome e l’indirizzo dell’utente in un documento di record, in base all’ID cliente immesso nel modulo. In questo modo, AEM Forms consente di generare un documento di record e offre un’esperienza utente semplice per la raccolta e la gestione dei dati.
+<!--   **Document of Record bind reference** - This option allows you to associate an Adaptive Form field with Document of Record field. When user enters any value in a linked field of an Adaptive Form that value also appears in the linked field of the corresponding Document of Record. For example, a Document of Record bind reference can be used to display a customer's name and address in a Document of Record, based on the customer's ID entered into the form. In this way, AEM Forms enable you to generate Document of Record and offers a seamless user experience for collecting and managing data.-->
 
 - **Descrizione**: una descrizione è una breve spiegazione testuale che fornisce informazioni aggiuntive o chiarimenti sullo scopo di una specifica immagine.
 
@@ -79,7 +79,8 @@ Puoi personalizzare facilmente l’esperienza dell’immagine per i visitatori t
 
 - **Nascondi componente**: seleziona l’opzione per nascondere il componente dal modulo. Il componente rimane accessibile per altri scopi, ad esempio per i calcoli nell’editor di regole. Questa funzione è utile quando devi memorizzare informazioni che non devono essere viste o modificate direttamente dall’utente.
 
-- **Sola lettura**: seleziona l’opzione per rendere il componente non modificabile. L’utente può visualizzare il valore del campo, ma non può modificarlo. Il componente rimane accessibile per altri scopi, ad esempio per i calcoli nell’editor di regole.
+<!--   **Read-only** - Select the option to make the component non-editable. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
+-->
 
 ## Finestra di dialogo per la progettazione {#design-dialog}
 

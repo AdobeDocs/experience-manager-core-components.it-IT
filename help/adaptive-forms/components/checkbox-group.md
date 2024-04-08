@@ -3,10 +3,10 @@ title: Componente core dei moduli adattivi - Gruppo di caselle di controllo
 description: Utilizzo o personalizzazione del componente core del gruppo di caselle di controllo nei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
-source-git-commit: 93acf5f6f11da42a7834bbb11b15a36db1e03dc9
-workflow-type: ht
-source-wordcount: '1875'
-ht-degree: 100%
+source-git-commit: db65bd4dd2190ea034799ae209edd78598ac8a48
+workflow-type: tm+mt
+source-wordcount: '1869'
+ht-degree: 98%
 
 ---
 
@@ -50,7 +50,7 @@ Il componente core Pannello a soffietto moduli adattativi è stato rilasciato a 
 
 | Versione del componente | AEM as a Cloud Service | AEM Forms 6.5.16.0 o versioni successive |
 |---|---|---|
-| v1 | Compatibile con<br>[versione 2.0.4](/help/adaptive-forms/version.md) e successive | Compatibile con <br>[versione 1.1.12](/help/adaptive-forms/version.md) e successive, ma precedenti a 2.0.0. |
+| v1 | Compatibile con <br>[versione 2.0.4](/help/adaptive-forms/version.md) e successive | Compatibile con <br>[versione 1.1.12](/help/adaptive-forms/version.md) e successive, ma precedenti a 2.0.0. |
 
 Per informazioni sulle versioni dei componenti core, consulta il documento [Versioni dei componenti core](/help/adaptive-forms/version.md).
 
@@ -75,14 +75,28 @@ Puoi personalizzare facilmente la tua esperienza con le caselle di controllo per
 
 - **Titolo**: con il relativo titolo è possibile identificare facilmente un componente in un modulo e, per impostazione predefinita, il titolo viene visualizzato sopra il componente. Se non aggiungi un titolo, al posto del testo del titolo viene visualizzato il nome del componente.
 
-- **Nascondi titolo**: seleziona l’opzione per nascondere il Titolo del componente.
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
 
-- **Opzioni**: è possibile aggiungere valori dati e visualizzare coppie di testo utilizzando il pulsante **Aggiungi**. Una volta aggiunta una nuova opzione, è possibile eseguire le azioni seguenti:
+- **Nascondi titolo**: seleziona l’opzione per nascondere il titolo del componente.
 
+- **Opzioni** - È possibile aggiungere valori di dati e visualizzare coppie di testo utilizzando **Aggiungi** pulsante.\
+  Dopo l’aggiunta di una nuova opzione, è possibile eseguire le azioni seguenti:
    - **Valore Dati**: questa opzione consente di immettere il contenuto da inviare quando viene selezionata un’opzione.
    - **Testo visualizzato**: questa opzione consente di inserire il contenuto da visualizzare in un modulo adattivo.
    - **Elimina**: tocca o fai clic per eliminare l’opzione di una casella di controllo.
    - **Ridisponi**: tocca o fai clic e trascina per modificare l’ordine dei pannelli.
+
+<!-- You can also format the options for checkbox group using **Allow Rich Text for Options**. 
+  
+     ![Rich text support for options](/help/adaptive-forms/assets/richtext-for-options.png)
+
+    Once you select the checkbox for **Allow Rich Text for Options** formatting options become visible to style the component's options. To access all available formatting options, you can click on the `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     ![Rich text support for options](/help/adaptive-forms/assets/richtextoptions-support.png)
+
+    -->
 
 - **Riferimento di binding**: un riferimento di binding è un riferimento a un elemento dati memorizzato in un’origine dati esterna e utilizzato in un modulo. Il riferimento di binding consente di eseguire un binding dinamico dei dati ai campi del modulo, in modo che il modulo possa visualizzare i dati più aggiornati dell’origine dati. Ad esempio, è possibile utilizzare un riferimento di binding per visualizzare il nome e l’indirizzo di un cliente in un modulo, in base all’ID cliente immesso nel modulo. È inoltre possibile utilizzare il riferimento di binding per aggiornare l’origine dati con i dati immessi nel modulo. In questo modo, AEM Forms consente di creare moduli che interagiscono con origini dati esterne, fornendo un’esperienza utente fluida per la raccolta e la gestione dei dati.
 

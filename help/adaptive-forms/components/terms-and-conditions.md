@@ -3,10 +3,10 @@ title: Componente core dei moduli adattivi - Termini e condizioni
 description: Utilizzo o personalizzazione del componente core Termini e condizioni dei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
-source-git-commit: 723d29b88d4cbc73f756d26a64d503b425ab26f4
-workflow-type: ht
-source-wordcount: '2690'
-ht-degree: 100%
+source-git-commit: c29798f15edb77fbc5912010685e97c1072e2034
+workflow-type: tm+mt
+source-wordcount: '2862'
+ht-degree: 98%
 
 ---
 
@@ -63,6 +63,10 @@ Puoi personalizzare facilmente l’esperienza del componente Termini e condizion
 - **Nome**: il nome identifica il componente in modo univoco nell’editor di regole. I caratteri speciali e gli spazi non sono consentiti nelle stringhe dei nomi.
 
 - **Titolo**: il titolo permette di identificare facilmente un componente in un modulo e, per impostazione predefinita, il titolo viene visualizzato sopra il componente. Se non aggiungi un titolo, al posto del testo del titolo viene visualizzato il nome del componente.
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
 
 - **Mostra opzione di approvazione** : seleziona l’opzione per visualizzare la casella di controllo relativa al consenso utilizzata per ottenere il consenso esplicito dell’utente.
 
@@ -114,7 +118,9 @@ Puoi personalizzare facilmente l’esperienza del componente Termini e condizion
 
 ![Scheda Accessibilità](/help/adaptive-forms/assets/terms-and-conditions-accessibility-tab.png)
 
-**Testo per utilità per la lettura dello schermo**: il testo per le utilità per la lettura dello schermo si riferisce al testo aggiuntivo destinato specificamente ad essere letto da tecnologie di assistenza, come le utilità per la lettura dello schermo, utilizzate da persone ipovedenti. Questo testo fornisce una descrizione audio dello scopo del campo modulo e può includere informazioni sul titolo, la descrizione, il nome del campo ed eventuali messaggi rilevanti (testo personalizzato). Il testo dell’assistente vocale consente di garantire l’accesso al modulo da parte di qualsiasi utente, comprese le persone ipovedenti, consentendo di comprendere appieno il campo del modulo e i relativi requisiti.
+- **Testo per utilità per la lettura dello schermo**: il testo per le utilità per la lettura dello schermo si riferisce al testo aggiuntivo destinato specificamente ad essere letto da tecnologie di assistenza, come le utilità per la lettura dello schermo, utilizzate da persone ipovedenti. Questo testo fornisce una descrizione audio dello scopo del campo modulo e può includere informazioni sul titolo, la descrizione, il nome del campo ed eventuali messaggi rilevanti (testo personalizzato). Il testo dell’assistente vocale consente di garantire l’accesso al modulo da parte di qualsiasi utente, comprese le persone ipovedenti, consentendo di comprendere appieno il campo del modulo e i relativi requisiti.
+
+- **Ruolo di HTML per l’annuncio dell’assistente vocale**: il ruolo HTML è un attributo utilizzato per specificare lo scopo di un elemento HTML per tecnologie di assistenza come le utilità per la lettura dello schermo. L’attributo ruolo viene utilizzato per fornire ulteriore contesto e significato semantico a un elemento, facilitando l’interpretazione e la lettura del contenuto da parte delle utilità per la lettura dello schermo per l’utente. Ad esempio, in AEM Forms, l’etichetta di un campo modulo potrebbe avere il ruolo di “etichetta” e il relativo campo di input potrebbe avere il ruolo di “casella di testo”. Questo permette all’assistente vocale di comprendere la relazione tra l’etichetta e il campo di input, e di leggerli in modo corretto all’utente.
 
 ## Finestra di dialogo per la progettazione {#design-dialog}
 
@@ -163,10 +169,23 @@ Questo componente sostituisce un testo di consenso con uno o più collegamenti w
 - **Nome**: il nome identifica il componente in modo univoco nell’editor di regole. I caratteri speciali e gli spazi non sono consentiti nelle stringhe dei nomi.
 
 - **Titolo**: il titolo permette di identificare facilmente un componente in un modulo e, per impostazione predefinita, il titolo viene visualizzato sopra il componente. Se non aggiungi un titolo, al posto del testo del titolo viene visualizzato il nome del componente.
+<!-- **Allow Rich Text for Title** - This feature enables users to format titles using options like bold, italic, font styles, colors, and alignment, enhancing visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
 - **Nascondi titolo**: seleziona l’opzione per nascondere il titolo del componente.
 
-- **Collegamenti**: specifica il collegamento e il testo da visualizzare corrispondente al posto del testo del consenso. È possibile aggiungere più collegamenti facendo clic sul pulsante **Aggiungi**.
+- **Collegamenti**: specifica il collegamento e il testo da visualizzare corrispondente al posto del testo del consenso. È possibile aggiungere più collegamenti facendo clic sul pulsante **Aggiungi** pulsante.
+Dopo l’aggiunta di una nuova opzione, è possibile eseguire le azioni seguenti:
+   - **Collegamento** - Questa opzione consente di immettere l’URL da reindirizzare quando viene selezionata un’opzione.
+   - **Testo Visualizzato**: questa opzione consente di inserire il contenuto da visualizzare in un modulo adattivo.
+   - **Elimina**: tocca o fai clic per eliminare l’opzione di un pulsante di scelta.
+   - **Ridisponi**: tocca o fai clic e trascina per riordinare le opzioni.
+
+<!-- You can also format the options for checkbox group using **Allow Rich Text for Options**. Once you select the checkbox for **Allow Rich Text for Options** formatting options become visible to style the component's options. To access all available formatting options, you can click on the `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+    
+    ![Rich text support for options](/help/adaptive-forms/assets/link-options.png)-->
 
 - **Riferimento di binding**: un riferimento di binding è un riferimento a un elemento dati memorizzato in un’origine dati esterna e utilizzato in un modulo. Il riferimento di binding consente di eseguire un binding dinamico dei dati ai campi del modulo, in modo che il modulo possa visualizzare i dati più aggiornati dell’origine dati. Ad esempio, è possibile utilizzare un riferimento di binding per visualizzare il nome e l’indirizzo di un cliente in un modulo, in base all’ID cliente immesso nel modulo. È inoltre possibile utilizzare il riferimento di binding per aggiornare l’origine dati con i dati immessi nel modulo. In questo modo, AEM Forms consente di creare moduli che interagiscono con origini dati esterne, offrendo agli utenti un’esperienza utente semplice per la raccolta e la gestione dei dati.
 

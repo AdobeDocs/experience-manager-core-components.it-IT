@@ -3,10 +3,10 @@ title: Componente core dei moduli adattivi - Inserimento e-mail
 description: Utilizzo o personalizzazione del componente core per l’inserimento e-mail dei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
-workflow-type: ht
-source-wordcount: '1917'
-ht-degree: 100%
+source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+workflow-type: tm+mt
+source-wordcount: '1940'
+ht-degree: 98%
 
 ---
 
@@ -63,6 +63,10 @@ Puoi personalizzare facilmente la tua esperienza di immissione e-mail per i visi
 - **Nome**: il nome identifica in modo univoco il componente nell’editor delle regole. Le stringhe di nome non consentono l’uso di caratteri e spazi speciali.
 
 - **Titolo**: con il relativo titolo è possibile identificare facilmente un componente in un modulo e, per impostazione predefinita, il titolo viene visualizzato sopra il componente. Se non aggiungi un titolo, al posto del testo del titolo viene visualizzato il nome del componente.
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
 - **Nascondi titolo**: seleziona l’opzione per nascondere il titolo del componente.
 
@@ -76,6 +80,7 @@ Puoi personalizzare facilmente la tua esperienza di immissione e-mail per i visi
 
 - **Valore predefinito** - questa opzione consente di aggiungere un valore predefinito in un campo modulo. Se **Componente disabilitato** o **Componente di sola lettura** è selezionato, il valore predefinito viene visualizzato sullo schermo. Se l’utente non immette alcun valore nel campo modulo, questo valore viene inviato al momento dell’invio del modulo.
 
+- **Attributo riempimento automatico**: l’opzione consente agli utenti di immettere un valore che viene popolato automaticamente nel campo del modulo in base alle informazioni memorizzate.
 
 ### Scheda Convalida {#validation-tab}
 

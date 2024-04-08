@@ -3,9 +3,9 @@ title: Componente core moduli adattivi - Input numero
 description: Utilizzo o personalizzazione del componente core di inserimento numero dei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
-workflow-type: ht
-source-wordcount: '2035'
+source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+workflow-type: tm+mt
+source-wordcount: '1989'
 ht-degree: 100%
 
 ---
@@ -65,6 +65,10 @@ Puoi personalizzare facilmente l’esperienza di inserimento numerico per i visi
 - **Nome**: è possibile identificare facilmente un componente modulo con il suo nome univoco sia nel modulo che nell’editor di regole, ma il nome non deve contenere spazi o caratteri speciali.
 
 - **Titolo**: con il relativo titolo è possibile identificare facilmente un componente in un modulo e, per impostazione predefinita, il titolo viene visualizzato sopra il componente. Se non aggiungi un titolo, al posto del testo del titolo viene visualizzato il nome del componente.
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.   
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
 
 - **Nascondi titolo**: seleziona l’opzione per nascondere il titolo del componente.
 
@@ -121,9 +125,9 @@ Puoi personalizzare facilmente l’esperienza di inserimento numerico per i visi
 
 - **Formato visualizzato**: questa opzione consente di selezionare un’opzione tra diversi formati numerici interi da visualizzare. Quando l’utente seleziona una qualsiasi opzione dal menu a discesa **Tipo**, l’opzione **Formato** diventa visibile nel pannello. È possibile scegliere un formato specifico in cui i numeri vengono mostrati all’utente.
 
-- **Numero di cifre prima del separatore decimale (1234,000)**: utilizza questa opzione per specificare il numero di cifre da visualizzare prima del separatore decimale.
+<!--   **Number of digits before the decimal separator (1234.000)** - Use this option to specify the number of digits to display before the decimal point. 
 
-- **Numero di cifre dopo il separatore decimale (1234,000)**: utilizza questa opzione per specificare il numero di cifre da visualizzare dopo il separatore decimale.
+- **Number of digits after the decimal separator (1234.000)** - Use this option to specify the number of digits to display after the decimal point. -->
 
 ## Finestra di dialogo per la progettazione {#design-dialog}
 

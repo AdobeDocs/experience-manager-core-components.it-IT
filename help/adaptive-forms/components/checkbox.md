@@ -3,10 +3,10 @@ title: 'Componente core dei moduli adattivi: casella di controllo'
 description: Utilizzo o personalizzazione del componente core della casella di controllo nei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: 723d29b88d4cbc73f756d26a64d503b425ab26f4
-workflow-type: ht
-source-wordcount: '1746'
-ht-degree: 100%
+source-git-commit: bb226c9545ce32f48896d737c8652a1e0c0e11a5
+workflow-type: tm+mt
+source-wordcount: '1666'
+ht-degree: 97%
 
 ---
 
@@ -62,6 +62,11 @@ Puoi personalizzare facilmente la tua esperienza con le caselle di controllo per
 
 - **Titolo**: puoi identificare facilmente un componente in un modulo con il suo nome e, per impostazione predefinita, il titolo viene visualizzato accanto al componente. Se non aggiungi un titolo, il componente non viene visualizzato.
 
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
+
 - **Nascondi titolo**: seleziona l’opzione per nascondere il titolo del componente.
 
 - **Riferimento di binding**: un riferimento di binding è un riferimento a un elemento dati memorizzato in un’origine dati esterna e utilizzato in un modulo. Il riferimento di binding consente di eseguire un binding dinamico dei dati ai campi del modulo, in modo che il modulo possa visualizzare i dati più aggiornati dell’origine dati. Ad esempio, è possibile utilizzare un riferimento di binding per visualizzare il nome e l’indirizzo di un cliente in un modulo, in base all’ID cliente immesso nel modulo. È inoltre possibile utilizzare il riferimento di binding per aggiornare l’origine dati con i dati immessi nel modulo. In questo modo, AEM Forms consente di creare moduli che interagiscono con origini dati esterne, offrendo agli utenti un’esperienza utente semplice per la raccolta e la gestione dei dati.
@@ -73,12 +78,9 @@ Puoi personalizzare facilmente la tua esperienza con le caselle di controllo per
 - **Nascondi componente**: seleziona questa opzione per nascondere il componente dal modulo. Il componente rimane accessibile per altri scopi, ad esempio per i calcoli nell’editor di regole. Questa funzione è utile quando devi memorizzare informazioni che non devono essere viste o modificate direttamente dall’utente.
 
 - **Disattiva componente**: seleziona l’opzione per disabilitare o bloccare il componente. Il componente disabilitato non è attivo o modificabile dall’utente finale. L’utente può visualizzare il valore del campo, ma non può modificarlo. Il componente rimane accessibile per altri scopi, ad esempio per i calcoli nell’editor di regole.
-- **Sola lettura**: seleziona questa opzione per rendere il componente non modificabile. L’utente può visualizzare il valore del campo, ma non può modificarlo. Il componente rimane accessibile per altri scopi, ad esempio per i calcoli nell’editor di regole.
+  <!-- - **Read-only** - Select the option to make the component non-editable. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.-->
 - **Se selezionata, restituisce un valore**: selezionare questa opzione per specificare il valore da associare alla casella di controllo quando è verificata o selezionata. Si tratta dell’azione che si verifica quando si spunta o si contrassegna la casella di controllo.
-- **Abilita Deseleziona.**: seleziona l’opzione per abilitare o disabilitare la possibilità di deselezionare una casella di controllo selezionata in precedenza.
-   - Se **Abilita Deseleziona** è abilitato o impostato su true, significa che l’utente può selezionare e deselezionare la casella di controllo a propria discrezione. Se necessario, può attivare e disattivare la casella di controllo.
-
-   - Se **Abilita Deseleziona** è disabilitato o impostato su false, significa che una volta selezionata la casella di controllo, l’utente non può deselezionarla.
+- **Mantieni valore stato deselezionato**- Seleziona questa opzione per specificare il valore da restituire quando il componente Casella di controllo non è selezionato. Se **Mantieni valore stato deselezionato** è abilitato o impostato su true, **Se questa opzione è deselezionata, viene restituito un valore** viene visualizzata l&#39;opzione.
 - **Se deselezionata, restituisce un valore**: questa opzione ti consente di specificare il valore da associare alla casella di controllo quando si trova in uno stato non selezionato o deselezionato.
 
 - **Valore predefinito**: questa opzione consente di aggiungere un valore predefinito in un campo del modulo. Se sono selezionati il **Componente disabilitato** o il **Componente di sola lettura**, il valore predefinito viene visualizzato sullo schermo. Se l’utente non immette alcun valore nel campo modulo, questo valore viene inviato al momento dell’invio del modulo.

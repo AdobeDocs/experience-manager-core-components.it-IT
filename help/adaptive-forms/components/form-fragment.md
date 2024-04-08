@@ -2,13 +2,13 @@
 title: Frammento di modulo adattivo
 description: Utilizza i frammenti di modulo per creare segmenti di modulo o gruppi di campi e riutilizzarli nei moduli adattivi per migliorarne l’efficienza e la riutilizzabilità.
 role: Architect, Developer, Admin, User
-source-git-commit: 6f83e843b95689bad2cfb31bd53c20b135d789d5
-workflow-type: ht
-source-wordcount: '1675'
+exl-id: bde4a416-1d6b-4e9e-ac74-70fccef473cb
+source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+workflow-type: tm+mt
+source-wordcount: '1780'
 ht-degree: 100%
 
 ---
-
 
 # Componente frammento di modulo {#form-fragment-component-adaptive-forms-core-component}
 
@@ -60,6 +60,10 @@ Puoi personalizzare facilmente la tua esperienza con i frammenti per i visitator
 - **Nome**: è possibile identificare facilmente un componente modulo con il suo nome univoco sia nel modulo che nell’editor di regole, ma il nome non deve contenere spazi o caratteri speciali.
 
 - **Titolo**: con il relativo titolo è possibile identificare facilmente un componente in un modulo e, per impostazione predefinita, il titolo viene visualizzato sopra il componente. Se non aggiungi un titolo, al posto del testo del titolo viene visualizzato il nome del componente.
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.    
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
 - **Nascondi titolo**: seleziona l’opzione per nascondere il titolo del componente.
 
@@ -118,6 +122,8 @@ Puoi personalizzare facilmente la tua esperienza con i frammenti per i visitator
 
 - **Testo per utilità per la lettura dello schermo**: il testo per le utilità per la lettura dello schermo si riferisce al testo aggiuntivo destinato specificamente ad essere letto da tecnologie di assistenza, come le utilità per la lettura dello schermo, utilizzate da persone ipovedenti. Questo testo fornisce una descrizione audio dello scopo del campo modulo e può includere informazioni sul titolo, la descrizione, il nome del campo ed eventuali messaggi rilevanti (testo personalizzato). Il testo dell’assistente vocale consente di garantire l’accesso al modulo da parte di qualsiasi utente, comprese le persone ipovedenti, consentendo di comprendere appieno il campo del modulo e i relativi requisiti.
 
+- **Ruolo di HTML per l’annuncio dell’assistente vocale**: il ruolo HTML è un attributo utilizzato per specificare lo scopo di un elemento HTML per tecnologie di assistenza come le utilità per la lettura dello schermo. L’attributo ruolo viene utilizzato per fornire ulteriore contesto e significato semantico a un elemento, facilitando l’interpretazione e la lettura del contenuto da parte delle utilità per la lettura dello schermo per l’utente. Ad esempio, in AEM Forms, l’etichetta di un campo modulo potrebbe avere il ruolo di “etichetta” e il relativo campo di input potrebbe avere il ruolo di “casella di testo”. Questo permette all’assistente vocale di comprendere la relazione tra l’etichetta e il campo di input, e di leggerli in modo corretto all’utente.
+
 ## Finestra di dialogo per la progettazione {#design-dialog}
 
 La finestra di dialogo per la progettazione viene utilizzata per definire e gestire gli stili CSS per il componente frammento di modulo.
@@ -153,9 +159,3 @@ Le proprietà personalizzate consentono di associare attributi personalizzati (c
 ## Consulta anche {#see-also}
 
 {{see-also}}
-
-
-
-
-
-

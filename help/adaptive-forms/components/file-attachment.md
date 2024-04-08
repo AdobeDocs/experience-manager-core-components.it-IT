@@ -3,10 +3,10 @@ title: Componente core moduli adattivi - Allegato file
 description: Utilizzo o personalizzazione del componente core allegato file dei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
-workflow-type: ht
-source-wordcount: '1740'
-ht-degree: 100%
+source-git-commit: 8c51bd29074e5977d3435d849033770cadc357b8
+workflow-type: tm+mt
+source-wordcount: '1726'
+ht-degree: 97%
 
 ---
 
@@ -62,6 +62,10 @@ Puoi personalizzare facilmente l’esperienza dell’allegato file per i visitat
 - **Nome**: è possibile identificare facilmente un componente modulo con il suo nome univoco sia nel modulo che nell’editor di regole, ma il nome non deve contenere spazi o caratteri speciali.
 
 - **Titolo**: con il relativo titolo è possibile identificare facilmente un componente in un modulo e, per impostazione predefinita, il titolo viene visualizzato sopra il componente. Se non aggiungi un titolo, al posto del testo del titolo viene visualizzato il nome del componente.
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
 - **Nascondi titolo**: seleziona l’opzione per nascondere il titolo del componente.
 
@@ -73,6 +77,7 @@ Puoi personalizzare facilmente l’esperienza dell’allegato file per i visitat
 - **Disattiva componente**: seleziona questa opzione per disabilitare il componente. Il componente disabilitato non è attivo o modificabile dall’utente finale. L’utente può visualizzare il valore del campo, ma non può modificarlo. Il componente rimane accessibile per altri scopi, ad esempio per i calcoli nell’editor di regole.
 - **Sola lettura**: seleziona questa opzione per rendere il componente non modificabile. L’utente può visualizzare il valore del campo, ma non può modificarlo. Il componente rimane accessibile per altri scopi, ad esempio per i calcoli nell’editor di regole.
 - **Consenti più allegati**: seleziona questa opzione per caricare più allegati utilizzando il pulsante **Allegato file**.
+- **Trascina testo di rilascio** - È il testo visualizzato nella parte superiore della **Allega** per richiedere agli utenti di allegare o trascinare i file. È possibile personalizzare il testo visualizzato nella parte superiore della **Allega** pulsante. <!-- Additionally, you can format the text using the rich text menu. -->
 
 ### Scheda Convalida {#validation-tab}
 
@@ -84,11 +89,10 @@ Puoi personalizzare facilmente l’esperienza dell’allegato file per i visitat
 
 - **Messaggio di convalida script**: questa opzione consente di inserire un messaggio da visualizzare in caso di errore di convalida dello script.
 
-- **Messaggio di errore numero minimo di file**: questa opzione viene utilizzata per inserire un messaggio di errore visualizzato se si caricano un numero di file inferiore al numero minimo specificato.
-
-- **Messaggio di errore numero massimo di file**: questa opzione viene utilizzata per inserire un messaggio di errore visualizzato se si carica un numero di file superiore al numero massimo specificato.
+<!--   **Minimum files error message** - This option is used to enter an error message that is displayed if you upload files lesser than the specified minimum number of files.-->
 
 - **Dimensione massima del file (MB)**: questa opzione consente di specificare una dimensione massima del file. Le dimensioni dei file sono specificate in MB.
+  <!--   **Maximum files error message** - This option is used to enter an error message that is displayed if you upload files greater than the specified maximum number of files.-->
 
 - **Messaggio di errore dimensione massima file**: questa opzione viene utilizzata per inserire un messaggio di errore visualizzato se si caricano file di dimensioni superiori a quelle specificate nell’opzione **Dimensione massima del file (MB)**.
 

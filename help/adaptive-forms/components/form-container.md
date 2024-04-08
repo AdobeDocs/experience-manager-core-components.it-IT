@@ -3,9 +3,9 @@ title: Componente core dei moduli adattivi - Contenitore di moduli
 description: Aggiungere un modulo adattivo a una pagina web.
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
-source-git-commit: 4d01c75fadb0220f0093a6647c27c4002cc979c9
-workflow-type: ht
-source-wordcount: '1297'
+source-git-commit: 7862206660909b396cb3d95b7ac81eee9221957b
+workflow-type: tm+mt
+source-wordcount: '1340'
 ht-degree: 100%
 
 ---
@@ -62,6 +62,8 @@ Per informazioni aggiornate sul componente core contenitore di moduli adattivi, 
 
 ![Scheda Base](/help/adaptive-forms/assets/formcontainer_basictab.png)
 
+- **Titolo**: il titolo permette di identificare facilmente un componente in un modulo e, per impostazione predefinita, il titolo viene visualizzato sopra il componente. Se non aggiungi un titolo, al posto del testo del titolo viene visualizzato il nome del componente.
+
 - **Servizi di precompilazione**: questa opzione consente all’utente di selezionare un servizio di precompilazione per il recupero dei dati durante il rendering del modulo adattivo. Ulteriori informazioni su [come creare e configurare un servizio di precompilazione](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/prepopulate-adaptive-form-fields.html?lang=it#aem-forms-custom-prefill-service).
 
 - **Categoria Libreria client**: l’utente può configurare una libreria JavaScript personalizzata per un modulo adattivo. Si consiglia di mantenere solo le funzioni riutilizzabili nella libreria, che dipendono dalle librerie di terze parti jquery e underscore.js.
@@ -79,15 +81,15 @@ L’utente può configurare una libreria JavaScript personalizzata per modulo ad
 
 ### Scheda Invio {#submission-tab}
 
-![Scheda Invio](/help/adaptive-forms/assets/formcontainer_submissiontab.png)
-
 Gli utenti possono configurare azioni diverse per gli invii di moduli adattivi.
 
 - **URL/percorso di reindirizzamento**: questa opzione consente agli utenti di configurare una pagina per ciascun modulo, a cui verranno reindirizzati gli utenti dei moduli dopo l’invio di un modulo adattivo. Fai clic qui per ulteriori informazioni su [come configurare le pagine di reindirizzamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-redirect-page.html?lang=it).
 
-![Scheda Mostra Messaggio](/help/adaptive-forms/assets/formconatiner_showmessage.png)
+![Scheda Invio](/help/adaptive-forms/assets/formcontainer_submissiontab.png)
 
 - **Mostra Messaggio**: questa opzione consente agli utenti di aggiungere un messaggio da visualizzare quando il modulo adattivo viene inviato correttamente. Il testo predefinito viene incluso nella finestra di dialogo e può essere modificato dall’utente. La finestra di dialogo Mostra messaggio supporta gli strumenti di formattazione RTF che consentono agli utenti di formattare il testo aggiunto.
+
+![Scheda Mostra Messaggio](/help/adaptive-forms/assets/formconatiner_showmessage.png)
 
 - **Azione di invio**: un’azione di invio viene attivata quando l’utente fa clic sul pulsante Invia in un modulo adattivo. Gli utenti possono selezionare azioni di Invio dall’elenco a discesa supportato come predefinito. Scopri come [configurare un’azione di invio nella scheda Invio](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=it#supporting-custom-functions-in-validation-expressions-br).
 

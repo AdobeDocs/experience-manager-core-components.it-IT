@@ -3,10 +3,10 @@ title: Componente core dei moduli adattivi - Contenitore di pannelli
 description: Utilizzo o personalizzazione del componente core contenitore di pannelli dei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
-workflow-type: ht
-source-wordcount: '2013'
-ht-degree: 100%
+source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+workflow-type: tm+mt
+source-wordcount: '2052'
+ht-degree: 99%
 
 ---
 
@@ -65,6 +65,10 @@ Puoi personalizzare facilmente l’esperienza del contenitore di pannelli per i 
 - **Nome**: è possibile identificare facilmente un componente modulo con il suo nome univoco sia nel modulo che nell’editor di regole, ma il nome non deve contenere spazi o caratteri speciali.
 
 - **Titolo**: con il relativo titolo è possibile identificare facilmente un componente in un modulo e, per impostazione predefinita, il titolo viene visualizzato sopra il componente. Se non aggiungi un titolo, al posto del testo del titolo viene visualizzato il nome del componente.
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
 
 - **Nascondi titolo**: seleziona l’opzione per nascondere il titolo del componente.
 
@@ -94,6 +98,7 @@ Puoi personalizzare facilmente l’esperienza del contenitore di pannelli per i 
 - **Riferimento di binding**: un riferimento di binding è un riferimento a un elemento dati memorizzato in un’origine dati esterna e utilizzato in un modulo. Il riferimento di binding consente di eseguire un binding dinamico dei dati ai campi del modulo, in modo che il modulo possa visualizzare i dati più aggiornati dell’origine dati. Ad esempio, è possibile utilizzare un riferimento di binding per visualizzare il nome e l’indirizzo di un cliente in un modulo, in base all’ID cliente immesso nel modulo. È inoltre possibile utilizzare il riferimento di binding per aggiornare l’origine dati con i dati immessi nel modulo. In questo modo, AEM Forms consente di creare moduli che interagiscono con origini dati esterne, fornendo un’esperienza utente fluida per la raccolta e la gestione dei dati.
 - **Nascondi componente**: seleziona l’opzione per nascondere il componente del modulo. Il componente rimane accessibile per altri scopi, ad esempio per i calcoli nell’editor di regole. Questa funzione è utile quando devi memorizzare informazioni che non devono essere viste o modificate direttamente dall’utente.
 - **Disattiva componente**: seleziona questa opzione per disabilitare il componente. Il componente disabilitato non è attivo o modificabile dall’utente finale. L’utente può visualizzare il valore del campo, ma non può modificarlo. Il componente rimane accessibile per altri scopi, ad esempio per i calcoli nell’editor di regole.
+- **Sola lettura**: seleziona questa opzione per rendere il componente non modificabile. L’utente può visualizzare il valore del campo, ma non può modificarlo. Il componente rimane accessibile per altri scopi, ad esempio per i calcoli nell’editor di regole.
 
 ### Scheda Ripeti pannello {#repeat-panel}
 
@@ -101,7 +106,7 @@ Puoi personalizzare facilmente l’esperienza del contenitore di pannelli per i 
 
 È possibile utilizzare le opzioni di ripetibilità per duplicare il contenitore di pannelli e i relativi componenti secondari, definire un numero di ripetizioni minimo e massimo e facilitare la replica di sezioni simili all’interno di un modulo. Quando si interagisce con il componente Contenitore di pannelli e si accede alle relative impostazioni, vengono visualizzate le seguenti opzioni:
 
-- **Rendi ripetibile la procedura guidata**: una funzione di attivazione/disattivazione che consente agli utenti di abilitare o disabilitare la funzione di ripetibilità.
+- **Rendi il pannello ripetibile**: funzione di attivazione/disattivazione che consente agli utenti di abilitare o disabilitare la funzionalità di ripetibilità.
 - **Numero minimo di ripetizioni**: stabilisce il numero minimo di volte in cui il contenitore di pannelli può essere ripetuto. Il valore zero indica che il pannello della procedura guidata non è ripetuto. Il valore predefinito è zero.
 - **Numero massimo di ripetizioni**: imposta il numero massimo di volte in cui il contenitore di pannelli può essere ripetuto. Per impostazione predefinita, questo valore è illimitato.
 

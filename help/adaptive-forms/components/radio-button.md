@@ -3,10 +3,10 @@ title: Componente core dei moduli adattivi - Pulsante di scelta
 description: Utilizzo o personalizzazione del componente core del pulsante di scelta nei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
-workflow-type: ht
-source-wordcount: '1904'
-ht-degree: 100%
+source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+workflow-type: tm+mt
+source-wordcount: '1901'
+ht-degree: 97%
 
 ---
 
@@ -67,10 +67,24 @@ Puoi personalizzare facilmente l’esperienza del pulsante di scelta per i visit
 - **Nome**: è possibile identificare facilmente un componente modulo con il suo nome univoco sia nel modulo che nell’editor di regole, ma il nome non deve contenere spazi o caratteri speciali.
 
 - **Titolo**: con il relativo titolo è possibile identificare facilmente un componente in un modulo e, per impostazione predefinita, il titolo viene visualizzato sopra il componente. Se non aggiungi un titolo, al posto del testo del titolo viene visualizzato il nome del componente.
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.    
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
+
 
 - **Nascondi titolo**: seleziona l’opzione per nascondere il titolo del componente.
 
-  Nella scheda **Opzioni** è possibile aggiungere valori dati e visualizzare coppie di testo utilizzando il pulsante **Aggiungi**. Una volta aggiunta una nuova opzione, è possibile eseguire le azioni seguenti:
+- **Opzioni** - È possibile aggiungere valori di dati e visualizzare coppie di testo utilizzando **Aggiungi** pulsante.
+  <!-- You can also format the options for radiobutton group using **Allow Rich Text for Options**. 
+  
+     ![Rich text support for options](/help/adaptive-forms/assets/richtext-for-options.png)-->
+
+  <!-- Once you select the checkbox for **Allow Rich Text for Options** formatting options become visible to style the component's options. To access all available formatting options, you can click on the `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+    
+    ![Rich text support for options](/help/adaptive-forms/assets/richtextoptions-support.png)-->
+
+  Dopo l’aggiunta di una nuova opzione, è possibile eseguire le azioni seguenti:
 
    - **Valore Dati**: questa opzione consente di immettere il contenuto da inviare quando viene selezionata un’opzione.
    - **Testo Visualizzato**: questa opzione consente di inserire il contenuto da visualizzare in un modulo adattivo.
@@ -83,7 +97,7 @@ Puoi personalizzare facilmente l’esperienza del pulsante di scelta per i visit
 
 - **Tipo di dati del valore inviato** - questa opzione specifica il tipo di dati del valore inviato quando viene selezionata un’opzione. Se il **tipo di dati del valore inviato** è impostato su `Number` e si aggiungono dati stringa al **Valore dati** nella scheda **Opzioni**, nella schermata viene visualizzato il messaggio di errore `Value type mismatch`.
 
-- **Opzioni predefinite**: questa opzione consente di aggiungere valori predefiniti e preselezionati quando il modulo viene caricato. Se il **tipo di dati del valore inviato** è impostato su `Number` e si aggiungono dati stringa a **Opzioni predefinite**, nella schermata viene visualizzato il messaggio di errore `Value type mismatch`.
+- **Opzione predefinita** - Questa opzione consente di aggiungere i valori predefiniti preselezionati al caricamento del modulo. Se il **tipo di dati del valore inviato** è impostato su `Number` e si aggiungono dati stringa a **Opzioni predefinite**, nella schermata viene visualizzato il messaggio di errore `Value type mismatch`.
 
 - **Opzioni visualizzate**: questa opzione viene utilizzata per impostare l’allineamento visivo dei pulsanti di scelta in un modulo adattivo. Le due opzioni supportate sono:
    - **Orizzontale**: quando è selezionata questa opzione, i pulsanti di scelta vengono visualizzati da sinistra a destra in un modulo adattivo.

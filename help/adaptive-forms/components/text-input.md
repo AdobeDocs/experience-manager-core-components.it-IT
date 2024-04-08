@@ -3,10 +3,10 @@ title: Componente core dei moduli adattivi - Input di testo (casella di testo)
 description: Utilizzo o personalizzazione del componente core per l’input di testo dei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: 49d9fe69-0578-4489-beaa-a18cdb14add7
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
-workflow-type: ht
-source-wordcount: '1984'
-ht-degree: 100%
+source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+workflow-type: tm+mt
+source-wordcount: '1949'
+ht-degree: 98%
 
 ---
 
@@ -57,6 +57,10 @@ Puoi personalizzare facilmente l’esperienza di input di testo per i visitatori
 - **Nome**: è possibile identificare facilmente un componente modulo con il suo nome univoco sia nel modulo che nell’editor di regole, ma il nome non deve contenere spazi o caratteri speciali.
 
 - **Titolo**: con il relativo titolo è possibile identificare facilmente un componente in un modulo e, per impostazione predefinita, il titolo viene visualizzato sopra il componente. Se non aggiungi un titolo, al posto del testo del titolo viene visualizzato il nome del componente.
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
 - **Nascondi titolo**: seleziona l’opzione per nascondere il titolo del componente.
 
@@ -75,9 +79,7 @@ Puoi personalizzare facilmente l’esperienza di input di testo per i visitatori
 
 - **Consenti righe multiple**: questa opzione consente all’utente di immettere più righe in un campo modulo.
 
-- **Consenti RTF**: la finestra di dialogo di modifica fornisce strumenti di formattazione RTF standard che consentono all’utente di formattare il testo.
-
-- **Attributo di riempimento automatico**: l’opzione di riempimento automatico riempie il campo del modulo in base a un pattern o a un testo immesso in precedenza. Quando l’utente inizia a digitare del testo nel campo modulo, i suggerimenti vengono visualizzati in un elenco a discesa dal quale può selezionare l’opzione appropriata.
+- **Attributo riempimento automatico** : l’opzione consente agli utenti di immettere un valore che viene automaticamente popolato all’interno del campo del modulo in base alle informazioni memorizzate.
 
 ### Scheda Convalida {#validation-tab}
 

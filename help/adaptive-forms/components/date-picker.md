@@ -3,10 +3,10 @@ title: Componente core moduli adattivi - Selettore data
 description: Utilizzo o personalizzazione del componente core del selettore data dei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
 workflow-type: tm+mt
-source-wordcount: '1901'
-ht-degree: 100%
+source-wordcount: '1980'
+ht-degree: 98%
 
 ---
 
@@ -64,10 +64,16 @@ Puoi personalizzare facilmente l’esperienza del selettore data per gli utenti 
 - **Nome**: il nome identifica il componente in modo univoco nell’editor di regole. I caratteri speciali e gli spazi non sono consentiti nelle stringhe dei nomi.
 
 - **Titolo**: il titolo è una stringa che viene visualizzata nella parte superiore di un componente in un modulo adattivo. Il titolo identifica in modo univoco il componente nella struttura ad albero di un modulo adattivo. Se non aggiungi un titolo, al posto del testo del titolo viene visualizzato il nome del componente.
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
 
 - **Nascondi titolo**: seleziona questa opzione per nascondere il titolo del tipo di componente in un modulo adattivo.
 
 - **Testo segnaposto**: il testo segnaposto in un componente del modulo si riferisce a un’etichetta breve o a un prompt che viene visualizzato all’interno di un campo di inserimento come suggerimento per l’utente sul tipo di informazioni che ci si aspetta venga inserito in quel campo. Il testo segnaposto scompare quando l’utente inizia a digitare nel campo e viene visualizzato nuovamente se il campo viene lasciato vuoto. Fornisce un suggerimento visivo all’utente, ma non funge da etichetta o valore permanente per il campo.
+
+- **Riferimento di binding**: un riferimento di binding è un riferimento a un elemento dati memorizzato in un’origine dati esterna e utilizzato in un modulo. Il riferimento di binding consente di eseguire un binding dinamico dei dati ai campi del modulo, in modo che il modulo possa visualizzare i dati più aggiornati dell’origine dati. Ad esempio, è possibile utilizzare un riferimento di binding per visualizzare il nome e l’indirizzo di un cliente in un modulo, in base all’ID cliente immesso nel modulo. È inoltre possibile utilizzare il riferimento di binding per aggiornare l’origine dati con i dati immessi nel modulo. In questo modo, AEM Forms consente di creare moduli che interagiscono con origini dati esterne, offrendo agli utenti un’esperienza utente semplice per la raccolta e la gestione dei dati.
 
 - **Contrassegna come elemento modulo non associato**: seleziona l’opzione per configurare un campo modulo non collegato ad alcun schema. Questa opzione consente di salvare i dati senza aggiornare l’origine dati. Consente inoltre di gestire i dati in modo personalizzato, separato dall’integrazione standard del database.
 
@@ -90,11 +96,13 @@ Puoi personalizzare facilmente l’esperienza del selettore data per gli utenti 
 - **Data minima**: questa opzione consente di inserire la data minima richiesta. Se immetti una data precedente alla data specificata in Data minima, sullo schermo viene visualizzato un messaggio di errore. La finestra di dialogo **Messaggio di errore minimo** consente di aggiungere un messaggio di errore personalizzato.
 
 - **Messaggio di errore minimo**: la finestra di dialogo **Messaggio di errore minimo** permette di aggiungere un messaggio di errore personalizzato da mostrare se si inserisce una data precedente alla data specificata nell’opzione **Data minima**.
+- **Escludi data minima** - Questa opzione consente di omettere la data minima in un determinato intervallo o set di date.
 
 - **Data massima**: questa opzione consente di inserire la data massima richiesta. Se immetti una data successiva alla data specificata in Data massima, sullo schermo viene visualizzato un messaggio di errore. La finestra di dialogo **Messaggio di errore massimo** consente di aggiungere un messaggio di errore personalizzato.
 
 - **Messaggio di errore massimo**: la finestra di dialogo **Messaggio di errore massimo** consente di aggiungere un messaggio di errore personalizzato da visualizzare, se si immette una data successiva alla data specificata nell’opzione **Data massima**.
 
+- **Escludi data massima** - Questa opzione consente di omettere la data massima in un determinato intervallo o set di date.
 
 ### Scheda Contenuto Guida {#help-content-tab}
 
@@ -120,10 +128,6 @@ Puoi personalizzare facilmente l’esperienza del selettore data per gli utenti 
 - **Formato visualizzato**: rappresenta il formato della data visualizzato dall’utente. L’opzione **Tipo** consente all’utente di selezionare il formato della data. È inoltre possibile personalizzare il formato della data utilizzando l’opzione **Personalizza** nel menu a discesa **Tipo**.
 
 - **Modifica formato**: rappresenta un formato di data in cui l’utente può modificare la data. L’opzione **Tipo** consente all’utente di selezionare il formato della data. È inoltre possibile personalizzare il formato della data utilizzando l’opzione **Personalizza** nel menu a discesa **Tipo**.
-
-- **Formato visualizzato**: rappresenta il formato della data visualizzato dall’utente. L’opzione Tipo consente all’utente di selezionare il formato della data. È inoltre possibile personalizzare il formato della data utilizzando l’opzione **Personalizzato** nel menu a discesa **Tipo**.
-
-- **Modifica formato**: rappresenta un formato di data in cui l’utente modifica la data. L’opzione Tipo consente all’utente di selezionare il formato della data. È inoltre possibile personalizzare il formato della data utilizzando l’opzione **Personalizza** nel menu a discesa **Tipo**.
 
 ## Finestra di dialogo per la progettazione {#design-dialog}
 
