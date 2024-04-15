@@ -3,7 +3,7 @@ title: Componente core dei moduli adattivi - Inserimento e-mail
 description: Utilizzo o personalizzazione del componente core per l’inserimento e-mail dei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2054'
 ht-degree: 93%
@@ -79,7 +79,6 @@ Puoi personalizzare facilmente la tua esperienza di immissione e-mail per i visi
 - **Sola lettura**: seleziona questa opzione per rendere il componente non modificabile. L’utente può visualizzare il valore del campo, ma non può modificarlo. Il componente rimane accessibile per altri scopi, ad esempio per i calcoli nell’editor di regole.
 
 - **Valore predefinito** - questa opzione consente di aggiungere un valore predefinito in un campo modulo. Se **Componente disabilitato** o **Componente di sola lettura** è selezionato, il valore predefinito viene visualizzato sullo schermo. Se l’utente non immette alcun valore nel campo modulo, questo valore viene inviato al momento dell’invio del modulo.
-
 - **Attributo riempimento automatico**: l’opzione consente agli utenti di immettere un valore che viene popolato automaticamente nel campo del modulo in base alle informazioni memorizzate.
 
 ### Scheda Convalida {#validation-tab}

@@ -3,7 +3,7 @@ title: Pannello a soffietto moduli adattivi
 description: Utilizza il pannello a soffietto per organizzare e semplificare un modulo lungo o complesso suddividendolo in sezioni più piccole e gestibili.
 role: Architect, Developer, Admin, User
 exl-id: 0ed38eee-fc22-4708-82eb-3fb1839b1ff2
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2263'
 ht-degree: 94%
@@ -52,6 +52,7 @@ Il componente core per pannello a soffietto adattivo dei moduli adattivi è stat
 | v1 | Compatibile con <br>[versione 2.0.4](/help/adaptive-forms/version.md) e successive | Compatibile | Compatibile |
 
 Per informazioni sulle versioni dei componenti core, consulta il documento [Versioni dei componenti core](/help/adaptive-forms/version.md).
+
 
 <!-- ## Sample Component Output {#sample-component-output}
 

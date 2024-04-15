@@ -3,10 +3,10 @@ title: Componente core dei moduli adattivi - Gruppo di caselle di controllo
 description: Utilizzo o personalizzazione del componente core del gruppo di caselle di controllo nei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2047'
-ht-degree: 90%
+ht-degree: 88%
 
 ---
 
@@ -14,8 +14,7 @@ ht-degree: 90%
 
 <span class="preview"> Questo articolo contiene informazioni su **Consenti formato Rich Text per titolo** e **Consenti formato Rich Text per opzioni**  funzioni, funzionalità precedenti al rilascio. La funzione di pre-release è accessibile solo tramite [canale preliminare](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
-Un gruppo di caselle di controllo in un modulo adattivo è un insieme di caselle di controllo correlate che consentono agli utenti di selezionare una o più opzioni da un elenco. Ciascuna casella di controllo è rappresentata da un valore dati (valore utilizzato per elaborare gli elementi di un gruppo di caselle di controllo) e dal valore visualizzato (etichetta per ogni elemento della casella di controllo che ne descrive lo scopo)
-
+Un gruppo di caselle di controllo in un modulo adattivo è un insieme di caselle di controllo correlate che consentono agli utenti di selezionare una o più opzioni da un elenco. Ogni casella di controllo è rappresentata da un valore di dati (valore utilizzato per elaborare gli elementi di un gruppo di caselle di controllo) e da un valore di visualizzazione (etichetta per ogni casella di controllo che ne descrive lo scopo)
 **Esempio**
 
 ![esempio di gruppo di caselle di controllo](/help/adaptive-forms/assets/checkbox-group.png)

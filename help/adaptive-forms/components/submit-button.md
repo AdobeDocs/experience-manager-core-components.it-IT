@@ -3,7 +3,7 @@ title: Componente core moduli adattivi - Pulsante Invia
 description: Utilizzo o personalizzazione del componente core del pulsante di invio dei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: e4b8e475-79b9-4c4d-9f11-a125a424d32b
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 92%
@@ -31,7 +31,6 @@ I motivi per utilizzare un pulsante di invio in un modulo adattivo sono i seguen
 - **Esperienza utente migliorata**: un pulsante di invio ben progettato può migliorare l’esperienza utente fornendo un feedback chiaro sul processo di invio del modulo e indicando quando il modulo è stato inviato correttamente.
 
 - **Convalida dei dati**: il pulsante di invio può essere utilizzato per attivare i controlli di convalida dei dati, garantendo che i dati del modulo siano completi e precisi prima dell’invio al server.
-
 
 ## Versione e compatibilità {#version-and-compatibility}
 

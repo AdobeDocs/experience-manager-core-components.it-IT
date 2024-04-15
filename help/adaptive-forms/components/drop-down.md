@@ -3,7 +3,7 @@ title: Componente core moduli adattivi - Elenco a discesa
 description: Utilizzo o personalizzazione del componente core dell’elenco a discesa dei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2125'
 ht-degree: 92%
@@ -32,7 +32,6 @@ Ci sono diversi motivi per cui è utile includere un elenco a discesa in un modu
 - **Esperienza utente**: gli elenchi a discesa possono essere utilizzati per rendere il modulo più semplice da usare, fornendo agli utenti un modo chiaro e intuitivo di selezionare le opzioni.
 
 - **Analisi dei dati**: gli elenchi a discesa possono essere utilizzati per raccogliere dati da varie sorgenti e analizzarli o utilizzarli come input per un’ulteriore elaborazione.
-
 
 **Finestra di dialogo Proprietà**
 

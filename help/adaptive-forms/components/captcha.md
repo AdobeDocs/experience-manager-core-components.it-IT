@@ -5,7 +5,7 @@ role: Architect, Developer, Admin, User
 hide: true
 hidefromtoc: true
 exl-id: 1e413ef3-7a6f-41fc-825d-dbe09ebaffe9
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 100%
@@ -33,6 +33,7 @@ AEM Forms as a Cloud Service supporta il reCAPTCHA di Google v2 nei Moduli adatt
 ## Versione e compatibilità {#version-and-compatibility}
 
 Il componente core reCAPTCHA di Google per moduli adattivi è stato rilasciato nell’agosto 2023 come parte della “versione” dei componenti core. Di seguito è riportata una tabella che mostra tutte le versioni supportate, la compatibilità AEM e i collegamenti alla documentazione corrispondente:
+
 
 |  |  |
 |---|---|

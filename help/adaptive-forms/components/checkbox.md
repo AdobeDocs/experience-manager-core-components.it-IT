@@ -3,7 +3,7 @@ title: 'Componente core dei moduli adattivi: casella di controllo'
 description: Utilizzo o personalizzazione del componente core della casella di controllo nei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '1780'
 ht-degree: 91%
@@ -13,7 +13,6 @@ ht-degree: 91%
 # Componente casella di controllo{#checkbox-component}
 
 <span class="preview"> Questo articolo contiene informazioni su **Consenti formato Rich Text per titolo** , una funzione di pre-release. La funzione di pre-release è accessibile solo tramite [canale preliminare](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
-
 
 Una casella di controllo è un elemento grafico dell’interfaccia utente comunemente utilizzato nelle applicazioni software e nei moduli per consentire agli utenti di effettuare una scelta binaria tra due opzioni: selezionata (selezionata) o deselezionata (deselezionata).
 

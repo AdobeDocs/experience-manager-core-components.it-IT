@@ -3,7 +3,7 @@ title: Componente core dei moduli adattivi - Contenitore di moduli
 description: Aggiungere un modulo adattivo a una pagina web.
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '1340'
 ht-degree: 100%
@@ -34,7 +34,6 @@ Ci sono diversi motivi per i quali viene aggiunto un modulo a un sito web:
 - **Autenticazione utente**: i moduli possono essere utilizzati per l’autenticazione degli utenti, poiché consentono ai visitatori di un sito web di creare account e di accedere a contenuti o funzionalità esclusive.
 
 - **Aumentare il tasso di conversione**: un modulo ben progettato può aumentare il tasso di conversione rendendo più semplice per gli utenti completare un’azione desiderata, ad esempio acquistare un prodotto o iscriversi a un servizio.
-
 
 ## Versione e compatibilità {#version-and-compatibility}
 

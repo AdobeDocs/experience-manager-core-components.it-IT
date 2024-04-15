@@ -3,7 +3,7 @@ title: Introduzione ai componenti core dei moduli adattivi in AEM
 description: Le versioni dei Componenti core AEM pubblicate possono contenere più di una versione degli stessi Componenti core. Questo documento spiega cosa s’intende per versioni e come comprendere la compatibilità con i Componenti core e AEM.
 role: Architect, Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
-source-git-commit: 5ddb234ee5551fa3ecd47b4df073b97bef9a882f
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 55%
@@ -20,6 +20,7 @@ Identifica le versioni precise delle dipendenze dei moduli dei Componenti core e
 Le versioni dei Componenti core compatibili con AEM as a Cloud Service sono disponibili su [GitHub con dettagli completi sulle loro versioni](https://github.com/adobe/aem-core-forms-components/releases).
 
 Per visualizzare la cronologia delle versioni dei Componenti core per AEM as a Cloud Service, [fai clic qui](https://github.com/adobe/aem-core-forms-components/blob/master/VERSIONS.md).
+
 
 <!--
 | Forms Core Components | WCM Core Components | AEM Forms as a cloud service | Java  | Maven  |  

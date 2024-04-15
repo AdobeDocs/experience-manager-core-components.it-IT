@@ -3,7 +3,7 @@ title: Componente core moduli adattivi - Input numero
 description: Utilizzo o personalizzazione del componente core di inserimento numero dei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2103'
 ht-degree: 94%
@@ -35,7 +35,6 @@ Esistono diversi motivi per cui è utile includere un componente di inserimento 
 - **Intervallo dati**: i campi numerici possono essere utilizzati per impostare un intervallo di valori validi mediante gli attributi min, max e passaggio.
 
 - **Contenuto dinamico**: il componente numerico può essere utilizzato per visualizzare i dati dinamici in base ai campi del modulo.
-
 
 ## Versione e compatibilità {#version-and-compatibility}
 

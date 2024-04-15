@@ -3,10 +3,10 @@ title: 'Componente core moduli adattivi: schede verticali'
 description: Utilizzo o personalizzazione del componente core delle schede verticali dei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2112'
-ht-degree: 94%
+ht-degree: 93%
 
 ---
 
@@ -14,8 +14,7 @@ ht-degree: 94%
 
 <span class="preview"> Questo articolo contiene informazioni su **Consenti formato Rich Text per titolo** , una funzione di pre-release. La funzione di pre-release è accessibile solo tramite [canale preliminare](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
-Le schede verticali in un modulo adattivo fanno riferimento a un pattern di progettazione in cui più sezioni di un modulo sono raggruppate e visualizzate come schede separate, allineate verticalmente. L’utente può passare da una scheda all’altra per accedere a diverse sezioni del modulo. Ogni scheda funge da attivatore per mostrare e nascondere il relativo contenuto del modulo. Le schede verticali consentono di organizzare i moduli lunghi in sezioni gestibili e di migliorare l’esperienza di utilizzo. Le schede possono essere utili per rendere un modulo più accessibile agli utenti con disabilità, consentendo di passare da una sezione all’altra tramite la navigazione con tastiera.
-
+Le schede verticali in un modulo adattivo fanno riferimento a un pattern di progettazione in cui più sezioni di un modulo sono raggruppate e visualizzate come schede separate, allineate verticalmente. L’utente può passare da una scheda all’altra per accedere a diverse sezioni del modulo. Ogni scheda funge da attivatore per mostrare e nascondere il relativo contenuto del modulo. Le schede verticali consentono di organizzare i moduli lunghi in sezioni gestibili e di migliorare l’esperienza di utilizzo. Le schede possono essere utili per rendere un modulo più accessibile agli utenti con disabilità, in quanto consentono di passare da una sezione all’altra utilizzando la navigazione da tastiera.
 Facendo clic su una scheda, il contenuto del modulo si aggiorna dinamicamente mostrando la sezione corrispondente.
 
 >[!NOTE]

@@ -3,7 +3,7 @@ title: Componente core dei moduli adattivi - Pulsante
 description: Utilizzo o personalizzazione del componente core del pulsante per moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: cb75929b-8c86-49d1-b51a-368f5b80b1a9
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '1601'
 ht-degree: 92%
@@ -49,6 +49,7 @@ Il componente core Pannello a soffietto moduli adattativi è stato rilasciato a 
 | v1 | Compatibile con <br>[versione 2.0.4](/help/adaptive-forms/version.md) e successive | Compatibile con <br>[versione 1.1.12](/help/adaptive-forms/version.md) e successive, ma precedenti a 2.0.0. |
 
 Per informazioni sulle versioni dei componenti core, consulta il documento [Versioni dei componenti core](/help/adaptive-forms/version.md).
+
 
 <!-- ## Sample Component Output {#sample-component-output}
 

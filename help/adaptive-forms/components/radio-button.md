@@ -3,7 +3,7 @@ title: Componente core dei moduli adattivi - Pulsante di scelta
 description: Utilizzo o personalizzazione del componente core del pulsante di scelta nei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2079'
 ht-degree: 88%
@@ -110,7 +110,6 @@ Potete anche formattare le opzioni per il gruppo di pulsanti di scelta utilizzan
 ![Scheda Convalida](/help/adaptive-forms/assets/radiobutton_validationtab.png)
 
 - **Obbligatorio**: seleziona questa opzione se desideri visualizzare il componente in un modulo adattivo. Dopo aver selezionato l’opzione, è necessario effettuare una selezione prima di procedere con l’invio di un modulo. Non è possibile selezionare **Nascondi componente** o **Disattiva componente** nella scheda **Base** quando questa opzione è selezionata.
-
 - **Messaggio di errore**: questa opzione consente di inserire un messaggio visualizzato se la casella di controllo **Obbligatorio** è selezionata e il campo modulo viene lasciato vuoto.
 
 - **Messaggio di convalida script**: questa opzione consente di inserire un messaggio da visualizzare in caso di mancata convalida dello script.

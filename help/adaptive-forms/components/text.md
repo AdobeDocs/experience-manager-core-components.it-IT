@@ -3,10 +3,10 @@ title: Componente core dei moduli adattivi - Testo
 description: Utilizzo o personalizzazione del componente core di testo dei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: b8de68e4-ca0d-4ae5-9a04-104cc617f1be
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 100%
+source-wordcount: '995'
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ Questo consente anche di suddividere la struttura di un modulo in sezioni logich
 
 **Esempio**
 
-![esempio](/help/adaptive-forms/assets/text.png)
+![esempio di testo](/help/adaptive-forms/assets/text.png)
 
 ## Utilizzo {#reasons-to-use-text-label}
 

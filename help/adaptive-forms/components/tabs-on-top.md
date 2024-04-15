@@ -2,21 +2,20 @@
 title: Componente core Modulo adattivo - Schede superiori
 description: Utilizzo o personalizzazione delle schede superiori dei moduli adattivi per i componenti core.
 role: Architect, Developer, Admin, User
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 100%
+source-wordcount: '470'
+ht-degree: 93%
 
 ---
 
 
 # Schede superiori {#tabs-on-top-adaptive-forms-core-component}
 
-Un layout con schede nella parte superiore in un modulo adattivo consente di organizzare e raggruppare i campi e le sezioni correlati di un modulo in schede separate. Ciascuna scheda è rappresentata da un’etichetta di scheda, in genere situata nella parte superiore del modulo, e contiene un set specifico di campi e sezioni del modulo. Questo layout consente agli utenti di spostarsi e accedere facilmente a diverse sezioni del modulo, rendendolo più semplice e meno complesso. Viene generalmente utilizzato quando il modulo contiene molti campi e sezioni ed è necessario suddividerli in blocchi più piccoli e gestibili. Le schede possono inoltre essere utili per migliorare l’accessibilità consentendo agli utenti di navigare nel modulo utilizzando le scelte rapide da tastiera, facilitando l’accesso al modulo da parte degli utenti affetti da disabilità.
-
+Un layout con schede nella parte superiore in un modulo adattivo consente di organizzare e raggruppare i campi e le sezioni correlati di un modulo in schede separate. Ciascuna scheda è rappresentata da un’etichetta di scheda, in genere situata nella parte superiore del modulo, e contiene un set specifico di campi e sezioni del modulo. Questo layout consente agli utenti di spostarsi e accedere facilmente a diverse sezioni del modulo, rendendolo più semplice e meno complesso. Viene generalmente utilizzato quando il modulo contiene molti campi e sezioni ed è necessario suddividerli in blocchi più piccoli e gestibili. Le schede consentono inoltre di migliorare l&#39;accessibilità consentendo agli utenti di navigare nel modulo utilizzando le scelte rapide da tastiera e facilitando l&#39;accesso al modulo da parte degli utenti con disabilità.
 **Esempio**
 
-![](/help/adaptive-forms/assets/tabs.png)
+![schede in alto](/help/adaptive-forms/assets/tabs.png)
 
 ## Utilizzo {#reasons-to-use-tab-on-the-top-layout}
 

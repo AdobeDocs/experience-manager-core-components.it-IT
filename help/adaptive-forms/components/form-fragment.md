@@ -3,7 +3,7 @@ title: Frammento di modulo adattivo
 description: Utilizza i frammenti di modulo per creare segmenti di modulo o gruppi di campi e riutilizzarli nei moduli adattivi per migliorarne l’efficienza e la riutilizzabilità.
 role: Architect, Developer, Admin, User
 exl-id: bde4a416-1d6b-4e9e-ac74-70fccef473cb
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '1894'
 ht-degree: 93%
@@ -152,6 +152,7 @@ Le proprietà personalizzate consentono di associare attributi personalizzati (c
    - **Elimina**: tocca o fai clic per eliminare il nome e il valore della proprietà personalizzata.
 
    - **Ridisponi**: tocca o fai clic e trascina per ridisporre l’ordine del nome e del valore della proprietà personalizzata.
+
 
 ## Articoli correlati {#related-articles}
 
