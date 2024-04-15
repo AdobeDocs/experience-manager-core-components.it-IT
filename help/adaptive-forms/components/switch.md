@@ -3,14 +3,16 @@ title: 'Componente core dei moduli adattivi: componente Interruttore'
 description: Utilizzo o personalizzazione del componente core interruttore nei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: 6ff2ca76-1514-42eb-bde3-60259af2d187
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
 workflow-type: tm+mt
-source-wordcount: '1689'
-ht-degree: 100%
+source-wordcount: '1867'
+ht-degree: 90%
 
 ---
 
 # Componente interruttore{#switch-adaptive-forms-core-component}
+
+<span class="preview"> Questo articolo contiene informazioni su **Consenti formato Rich Text per titolo** e **Consenti formato Rich Text per opzioni**  funzioni, funzionalità precedenti al rilascio. La funzione di pre-release è accessibile solo tramite [canale preliminare](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 Il componente Interruttore è un’interfaccia utente grafica utilizzata nei moduli che consente agli utenti di scegliere tra due opzioni. In genere si tratta di un interruttore a due stati che consente agli utenti di scegliere tra due stati, per abilitare o disabilitare una funzione, un’impostazione o una funzionalità. Il componente Interruttore è progettato per rappresentare visivamente lo stato corrente e indicare se una particolare funzione è attivata o disattivata.
 
@@ -57,10 +59,10 @@ Puoi personalizzare facilmente l’esperienza del componente Interruttore per i 
 - **Nome**: è possibile identificare facilmente un componente modulo con il suo nome univoco sia nel modulo che nell’editor di regole, ma il nome non deve contenere spazi o caratteri speciali.
 
 - **Titolo**: puoi identificare facilmente un componente in un modulo con il suo nome e, per impostazione predefinita, il titolo viene visualizzato accanto al componente. Se non aggiungi un titolo, il componente non viene visualizzato.
-<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
-    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-     
-     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
+- **Consenti formato Rich Text per titolo** - Questa funzione consente agli utenti di formattare i titoli di testo normale, incorporando funzioni come il grassetto, il corsivo, il testo sottolineato, vari font, dimensioni dei font, colori e opzioni aggiuntive per migliorare la presentazione visiva e la personalizzazione. Offre maggiore flessibilità e controllo creativo nel far risaltare i titoli all&#39;interno di documenti, siti Web o applicazioni.\
+  Dopo aver selezionato la casella di controllo per **Consenti formato Rich Text per titolo** , le opzioni di formattazione diventano visibili per applicare lo stile al titolo del componente. Per accedere a tutte le opzioni di formattazione disponibili, puoi fare clic sul pulsante ![Icona Schermo intero](/help/adaptive-forms/assets/fullscreen-icon.png) scheda.
+
+  ![Supporto Rich Text](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **Nascondi titolo**: seleziona l’opzione per nascondere il titolo del componente.
 
@@ -71,13 +73,13 @@ Puoi personalizzare facilmente l’esperienza del componente Interruttore per i 
    - **Valore dati disattivato**: specifica il valore da inviare quando l’interruttore non è abilitato in un modulo adattivo. Questa opzione è visibile solo se è attivata l’opzione **Mantieni valore stato deselezionato**.
    - **Testo visualizzato disattivato**: specifica il testo da visualizzare come etichetta quando l’interruttore non è abilitato in un modulo adattivo. Questa opzione è visibile solo se è attivata l’opzione **Mantieni valore stato deselezionato**.
 
-<!-- You can also format the options for switch using **Allow Rich Text for Options**. 
-  
-     ![Rich text support for options](/help/adaptive-forms/assets/switch-optipn-rich-text.png)
+  È inoltre possibile formattare le opzioni per cambiare componente utilizzando **Consenti formato Rich Text per opzioni**.
 
-    Once you select the checkbox for **Allow Rich Text for options** formatting options become visible to style the component's options. To access all available formatting options, you can click on the `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-    
-    ![Rich text support for options](/help/adaptive-forms/assets/switch-richtext-for-display.png) -->
+  ![Supporto di testo formattato per le opzioni](/help/adaptive-forms/assets/switch-optipn-rich-text.png)
+
+  Dopo aver selezionato la casella di controllo per **Consenti formato Rich Text per le opzioni** le opzioni di formattazione diventano visibili per formattare le opzioni del componente. Per accedere a tutte le opzioni di formattazione disponibili, puoi fare clic sul pulsante `Fullscreen` ![Icona Schermo intero](/help/adaptive-forms/assets/fullscreen-icon.png) scheda.
+
+  ![Supporto di testo formattato per le opzioni](/help/adaptive-forms/assets/switch-richtext-for-display.png)
 
 - **Riferimento di binding**: un riferimento di binding è un riferimento a un elemento dati memorizzato in un’origine dati esterna e utilizzato in un modulo. Il riferimento di binding consente di eseguire un binding dinamico dei dati ai campi del modulo, in modo che il modulo possa visualizzare i dati più aggiornati dell’origine dati. Ad esempio, è possibile utilizzare un riferimento di binding per visualizzare il nome e l’indirizzo di un cliente in un modulo, in base all’ID cliente immesso nel modulo. È inoltre possibile utilizzare il riferimento di binding per aggiornare l’origine dati con i dati immessi nel modulo. In questo modo, AEM Forms consente di creare moduli che interagiscono con origini dati esterne, offrendo agli utenti un’esperienza utente semplice per la raccolta e la gestione dei dati.
 - **Contrassegna come elemento modulo non associato**: seleziona l’opzione per configurare un campo modulo non collegato ad alcun schema. Questa opzione consente di salvare i dati senza aggiornare l’origine dati. Consente inoltre di gestire i dati in modo personalizzato, separato dall’integrazione standard del database.
