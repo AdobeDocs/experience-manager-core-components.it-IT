@@ -6,7 +6,7 @@ exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2141'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -77,7 +77,7 @@ Puoi personalizzare facilmente l’esperienza di immissione del numero di telefo
 
 - **Valore predefinito** - questa opzione consente di aggiungere un valore predefinito in un campo modulo. Se **Componente disabilitato** o **Componente di sola lettura** è selezionato, il valore predefinito viene visualizzato sullo schermo. Se l’utente non immette alcun valore nel campo modulo, questo valore viene inviato al momento dell’invio del modulo.
 
-- **Attributo riempimento automatico**: l’opzione consente agli utenti di immettere un valore che viene popolato automaticamente nel campo del modulo in base alle informazioni memorizzate.
+- **Attributo riempimento automatico**: questa opzione consente agli utenti di immettere un valore che viene popolato automaticamente nel campo del modulo in base alle informazioni memorizzate.
 
 ### Scheda Convalida {#validation-tab}
 

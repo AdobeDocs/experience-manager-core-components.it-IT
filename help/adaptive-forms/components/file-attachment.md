@@ -6,7 +6,7 @@ exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '1851'
-ht-degree: 90%
+ht-degree: 92%
 
 ---
 
@@ -78,7 +78,7 @@ Puoi personalizzare facilmente l’esperienza dell’allegato file per i visitat
 - **Disattiva componente**: seleziona questa opzione per disabilitare il componente. Il componente disabilitato non è attivo o modificabile dall’utente finale. L’utente può visualizzare il valore del campo, ma non può modificarlo. Il componente rimane accessibile per altri scopi, ad esempio per i calcoli nell’editor di regole.
 - **Sola lettura**: seleziona questa opzione per rendere il componente non modificabile. L’utente può visualizzare il valore del campo, ma non può modificarlo. Il componente rimane accessibile per altri scopi, ad esempio per i calcoli nell’editor di regole.
 - **Consenti più allegati**: seleziona questa opzione per caricare più allegati utilizzando il pulsante **Allegato file**.
-- **Trascina testo di rilascio** - È il testo visualizzato nella parte superiore della **Allega** per richiedere agli utenti di allegare o trascinare i file. È possibile personalizzare il testo visualizzato nella parte superiore della **Allega** pulsante. È inoltre possibile formattare il testo utilizzando il menu RTF.
+- **Trascina testo**: è il testo visualizzato nella parte superiore del pulsante **Allega** per richiedere agli utenti di allegare o trascinare i file. È possibile personalizzare il testo visualizzato nella parte superiore della **Allega** pulsante. È inoltre possibile formattare il testo utilizzando il menu RTF.
 
 ### Scheda Convalida {#validation-tab}
 

@@ -6,7 +6,7 @@ exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2047'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
@@ -83,8 +83,8 @@ Puoi personalizzare facilmente la tua esperienza con le caselle di controllo per
 
 - **Nascondi titolo**: seleziona l’opzione per nascondere il titolo del componente.
 
-- **Opzioni** - È possibile aggiungere valori di dati e visualizzare coppie di testo utilizzando **Aggiungi** pulsante.\
-  Dopo l’aggiunta di una nuova opzione, è possibile eseguire le azioni seguenti:
+- **Opzioni**: puoi aggiungere valori dati e visualizzare coppie di testo utilizzando il pulsante **Aggiungi**.\
+  Una volta aggiunta una nuova opzione, è possibile eseguire le azioni seguenti:
    - **Valore Dati**: questa opzione consente di immettere il contenuto da inviare quando viene selezionata un’opzione.
    - **Testo visualizzato**: questa opzione consente di inserire il contenuto da visualizzare in un modulo adattivo.
    - **Elimina**: tocca o fai clic per eliminare l’opzione di una casella di controllo.

@@ -6,7 +6,7 @@ exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '1780'
-ht-degree: 91%
+ht-degree: 93%
 
 ---
 
@@ -82,7 +82,7 @@ Puoi personalizzare facilmente la tua esperienza con le caselle di controllo per
 - **Disattiva componente**: seleziona l’opzione per disabilitare o bloccare il componente. Il componente disabilitato non è attivo o modificabile dall’utente finale. L’utente può visualizzare il valore del campo, ma non può modificarlo. Il componente rimane accessibile per altri scopi, ad esempio per i calcoli nell’editor di regole.
   <!-- - **Read-only** - Select the option to make the component non-editable. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.-->
 - **Se selezionata, restituisce un valore**: selezionare questa opzione per specificare il valore da associare alla casella di controllo quando è verificata o selezionata. Si tratta dell’azione che si verifica quando si spunta o si contrassegna la casella di controllo.
-- **Mantieni valore stato deselezionato**- Seleziona questa opzione per specificare il valore da restituire quando il componente Casella di controllo non è selezionato. Se **Mantieni valore stato deselezionato** è abilitato o impostato su true, **Se questa opzione è deselezionata, viene restituito un valore** viene visualizzata l&#39;opzione.
+- **Mantieni valore stato deselezionato**: selezionando questa opzione è possibile specificare il valore da restituire quando il componente casella di controllo non è selezionato. Se l’opzione **Mantieni valore stato deselezionato** è abilitata o impostata su true, sarà visualizzata l’opzione **Quando deselezionata, viene restituito un valore**.
 - **Se deselezionata, restituisce un valore**: questa opzione ti consente di specificare il valore da associare alla casella di controllo quando si trova in uno stato non selezionato o deselezionato.
 
 - **Valore predefinito**: questa opzione consente di aggiungere un valore predefinito in un campo del modulo. Se sono selezionati il **Componente disabilitato** o il **Componente di sola lettura**, il valore predefinito viene visualizzato sullo schermo. Se l’utente non immette alcun valore nel campo modulo, questo valore viene inviato al momento dell’invio del modulo.

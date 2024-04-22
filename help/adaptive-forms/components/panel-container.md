@@ -6,7 +6,7 @@ exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2166'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -108,7 +108,7 @@ Puoi personalizzare facilmente l’esperienza del contenitore di pannelli per i 
 
 È possibile utilizzare le opzioni di ripetibilità per duplicare il contenitore di pannelli e i relativi componenti secondari, definire un numero di ripetizioni minimo e massimo e facilitare la replica di sezioni simili all’interno di un modulo. Quando si interagisce con il componente Contenitore di pannelli e si accede alle relative impostazioni, vengono visualizzate le seguenti opzioni:
 
-- **Rendi il pannello ripetibile**: funzione di attivazione/disattivazione che consente agli utenti di abilitare o disabilitare la funzionalità di ripetibilità.
+- **Rendi ripetibile i pannelli**: funzione di attivazione/disattivazione che consente agli utenti di abilitare o disabilitare la funzione di ripetibilità.
 - **Numero minimo di ripetizioni**: stabilisce il numero minimo di volte in cui il contenitore di pannelli può essere ripetuto. Il valore zero indica che il pannello della procedura guidata non è ripetuto. Il valore predefinito è zero.
 - **Numero massimo di ripetizioni**: imposta il numero massimo di volte in cui il contenitore di pannelli può essere ripetuto. Per impostazione predefinita, questo valore è illimitato.
 

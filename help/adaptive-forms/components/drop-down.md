@@ -6,7 +6,7 @@ exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2125'
-ht-degree: 92%
+ht-degree: 94%
 
 ---
 
@@ -87,11 +87,11 @@ Puoi personalizzare facilmente l’esperienza dell’elenco a discesa per i visi
    - **Elimina**: tocca o fai clic per eliminare l’opzione di un menu a discesa.
    - **Ridisponi**: tocca o fai clic e trascina per ridisporre l’ordine per l’opzione di un menu a discesa.
 
-- **Opzione predefinita** - Questa opzione consente di aggiungere valori predefiniti. Utilizza l’icona Elimina per rimuovere l’opzione aggiunta. Se **Salva valore con nome** è impostato su `Number` e si aggiungono dati stringa a **Opzioni predefinite**, viene visualizzato il messaggio di errore `Value type mismatch`.
+- **Opzioni predefinite**: questa opzione consente di aggiungere valori predefiniti. Utilizza l’icona Elimina per rimuovere l’opzione aggiunta. Se **Salva valore con nome** è impostato su `Number` e si aggiungono dati stringa a **Opzioni predefinite**, viene visualizzato il messaggio di errore `Value type mismatch`.
 
 - **Testo segnaposto**: il testo segnaposto in un componente del modulo si riferisce a un’etichetta o a un prompt breve che viene visualizzato all’interno di un campo di input come suggerimento per l’utente sul tipo di informazioni che si prevede vengano immesse in quel campo. Il testo segnaposto scompare quando l’utente inizia a digitare nel campo e viene visualizzato nuovamente se il campo viene lasciato vuoto. Fornisce un suggerimento visivo all’utente, ma non funge da etichetta o valore permanente per il campo.
 
-- **Opzioni** - È possibile aggiungere valori di dati e visualizzare coppie di testo utilizzando **Aggiungi** pulsante.  Dopo l’aggiunta di una nuova opzione, è possibile eseguire le azioni seguenti:
+- **Opzioni**: puoi aggiungere valori dati e visualizzare coppie di testo utilizzando il pulsante **Aggiungi**.  Una volta aggiunta una nuova opzione, è possibile eseguire le azioni seguenti:
    - **Valore Dati**: questa opzione consente di immettere il contenuto da inviare quando viene selezionata un’opzione.
    - **Testo visualizzato**: questa opzione consente di inserire il contenuto da visualizzare in un modulo adattivo.
    - **Elimina**: tocca o fai clic per eliminare l’opzione di una casella di controllo.

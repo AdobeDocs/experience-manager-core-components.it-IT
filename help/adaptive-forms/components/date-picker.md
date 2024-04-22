@@ -6,7 +6,7 @@ exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2094'
-ht-degree: 92%
+ht-degree: 94%
 
 ---
 
@@ -96,13 +96,13 @@ Puoi personalizzare facilmente l’esperienza del selettore data per gli utenti 
 - **Data minima**: questa opzione consente di inserire la data minima richiesta. Se immetti una data precedente alla data specificata in Data minima, sullo schermo viene visualizzato un messaggio di errore. La finestra di dialogo **Messaggio di errore minimo** consente di aggiungere un messaggio di errore personalizzato.
 
 - **Messaggio di errore minimo**: la finestra di dialogo **Messaggio di errore minimo** permette di aggiungere un messaggio di errore personalizzato da mostrare se si inserisce una data precedente alla data specificata nell’opzione **Data minima**.
-- **Escludi data minima** - Questa opzione consente di omettere la data minima in un determinato intervallo o set di date.
+- **Escludi data minima**: questa opzione consente di omettere la data minima in un determinato intervallo o set di date.
 
 - **Data massima**: questa opzione consente di inserire la data massima richiesta. Se immetti una data successiva alla data specificata in Data massima, sullo schermo viene visualizzato un messaggio di errore. La finestra di dialogo **Messaggio di errore massimo** consente di aggiungere un messaggio di errore personalizzato.
 
 - **Messaggio di errore massimo**: la finestra di dialogo **Messaggio di errore massimo** consente di aggiungere un messaggio di errore personalizzato da visualizzare, se si immette una data successiva alla data specificata nell’opzione **Data massima**.
 
-- **Escludi data massima** - Questa opzione consente di omettere la data massima in un determinato intervallo o set di date.
+- **Escludi data massima**: questa opzione consente di omettere la data massima in un determinato intervallo o set di date.
 
 ### Scheda Contenuto Guida {#help-content-tab}
 

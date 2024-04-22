@@ -6,7 +6,7 @@ exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2079'
-ht-degree: 88%
+ht-degree: 90%
 
 ---
 
@@ -76,8 +76,8 @@ Puoi personalizzare facilmente l’esperienza del pulsante di scelta per i visit
 
 - **Nascondi titolo**: seleziona l’opzione per nascondere il titolo del componente.
 
-- **Opzioni** - È possibile aggiungere valori di dati e visualizzare coppie di testo utilizzando **Aggiungi** pulsante.\
-  Dopo l’aggiunta di una nuova opzione, è possibile eseguire le azioni seguenti:
+- **Opzioni**: puoi aggiungere valori dati e visualizzare coppie di testo utilizzando il pulsante **Aggiungi**.\
+  Una volta aggiunta una nuova opzione, è possibile eseguire le azioni seguenti:
    - **Valore Dati**: questa opzione consente di immettere il contenuto da inviare quando viene selezionata un’opzione.
    - **Testo Visualizzato**: questa opzione consente di inserire il contenuto da visualizzare in un modulo adattivo.
    - **Elimina**: tocca o fai clic per eliminare l’opzione di un pulsante di scelta.
@@ -96,7 +96,7 @@ Potete anche formattare le opzioni per il gruppo di pulsanti di scelta utilizzan
 
 - **Tipo di dati del valore inviato** - questa opzione specifica il tipo di dati del valore inviato quando viene selezionata un’opzione. Se il **tipo di dati del valore inviato** è impostato su `Number` e si aggiungono dati stringa al **Valore dati** nella scheda **Opzioni**, nella schermata viene visualizzato il messaggio di errore `Value type mismatch`.
 
-- **Opzione predefinita** - Questa opzione consente di aggiungere i valori predefiniti preselezionati al caricamento del modulo. Se il **tipo di dati del valore inviato** è impostato su `Number` e si aggiungono dati stringa a **Opzioni predefinite**, nella schermata viene visualizzato il messaggio di errore `Value type mismatch`.
+- **Opzione predefinita**: questa opzione consente di aggiungere valori predefiniti e preselezionati quando il modulo viene caricato. Se il **tipo di dati del valore inviato** è impostato su `Number` e si aggiungono dati stringa a **Opzioni predefinite**, nella schermata viene visualizzato il messaggio di errore `Value type mismatch`.
 
 - **Opzioni visualizzate**: questa opzione viene utilizzata per impostare l’allineamento visivo dei pulsanti di scelta in un modulo adattivo. Le due opzioni supportate sono:
    - **Orizzontale**: quando è selezionata questa opzione, i pulsanti di scelta vengono visualizzati da sinistra a destra in un modulo adattivo.

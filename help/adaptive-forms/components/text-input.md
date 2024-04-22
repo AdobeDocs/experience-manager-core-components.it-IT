@@ -6,7 +6,7 @@ exl-id: 49d9fe69-0578-4489-beaa-a18cdb14add7
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2063'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -79,7 +79,7 @@ Puoi personalizzare facilmente l’esperienza di input di testo per i visitatori
 
 - **Consenti righe multiple**: questa opzione consente all’utente di immettere più righe in un campo modulo.
 
-- **Attributo riempimento automatico** : l’opzione consente agli utenti di immettere un valore che viene automaticamente popolato all’interno del campo del modulo in base alle informazioni memorizzate.
+- **Attributo riempimento automatico**: questa opzione consente agli utenti di immettere un valore che viene popolato automaticamente all’interno del campo del modulo in base alle informazioni memorizzate.
 
 ### Scheda Convalida {#validation-tab}
 
