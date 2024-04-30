@@ -4,15 +4,15 @@ description: Utilizzo o personalizzazione del componente core del pulsante di in
 role: Architect, Developer, Admin, User
 exl-id: e4b8e475-79b9-4c4d-9f11-a125a424d32b
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1449'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 # Pulsante Invia {#submit-button}
 
-<span class="preview"> Questo articolo contiene informazioni su **Consenti formato Rich Text per titolo** , una funzione di pre-release. La funzione di pre-release è accessibile solo tramite [canale preliminare](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview">Questo articolo contiene informazioni sulla funzione **Consenti testo formattato per titolo**, una funzione pre-release. La funzione pre-release è accessibile solo tramite il [canale pre-release](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=it#new-features).</span>
 
 Un pulsante di invio in un modulo adattivo è un pulsante che consente agli utenti di inviare i dati del modulo a un server per l’elaborazione. Facendo clic sul pulsante Invio, i dati del modulo vengono inviati al server, dove possono essere memorizzati, elaborati o utilizzati per vari scopi, ad esempio per l’invio di un’e-mail o l’aggiornamento di un database.
 
@@ -61,10 +61,10 @@ Puoi personalizzare facilmente l’esperienza del pulsante di invio per i visita
 - **Nome**: è possibile identificare facilmente un componente modulo con il suo nome univoco sia nel modulo che nell’editor di regole, ma il nome non deve contenere spazi o caratteri speciali.
 
 - **Titolo**: con il relativo titolo è possibile identificare facilmente un componente in un modulo e, per impostazione predefinita, il titolo viene visualizzato sopra il componente. Se non aggiungi un titolo, al posto del testo del titolo viene visualizzato il nome del componente.
-- **Consenti formato Rich Text per titolo** - Questa funzione consente agli utenti di formattare i titoli di testo normale, incorporando funzioni come il grassetto, il corsivo, il testo sottolineato, vari font, dimensioni dei font, colori e opzioni aggiuntive per migliorare la presentazione visiva e la personalizzazione. Offre maggiore flessibilità e controllo creativo nel far risaltare i titoli all&#39;interno di documenti, siti Web o applicazioni.\
-  Dopo aver selezionato la casella di controllo per **Consenti formato Rich Text per titolo** , le opzioni di formattazione diventano visibili per applicare lo stile al titolo del componente. Per accedere a tutte le opzioni di formattazione disponibili, puoi fare clic sul pulsante ![Icona Schermo intero](/help/adaptive-forms/assets/fullscreen-icon.png) scheda.
+- **Consenti testo formattato per titolo**: questa funzione permette agli utenti di formattare i titoli in testo normale, incorporando opzioni come il grassetto, il corsivo, il testo sottolineato, vari font, dimensioni dei font, colori e altre opzioni per migliorare la presentazione visiva e la personalizzazione. Offre maggiore flessibilità e controllo creativo nel far risaltare i titoli all’interno di documenti, siti web o applicazioni.\
+  Dopo aver selezionato la casella di controllo **Consenti testo formattato per titolo**, le opzioni di formattazione diventano visibili per applicare lo stile al titolo del componente. Per accedere a tutte le opzioni di formattazione disponibili, fai clic sulla scheda ![Icona schermo intero](/help/adaptive-forms/assets/fullscreen-icon.png).
 
-  ![Supporto Rich Text](/help/adaptive-forms/assets/richtext-support-title.png)
+  ![Supporto testo RTF](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **Riferimento di binding**: un riferimento di binding è un riferimento a un elemento dati memorizzato in un’origine dati esterna e utilizzato in un modulo. Il riferimento di binding consente di eseguire un binding dinamico dei dati ai campi del modulo, in modo che il modulo possa visualizzare i dati più aggiornati dell’origine dati. Ad esempio, è possibile utilizzare un riferimento di binding per visualizzare il nome e l’indirizzo di un cliente in un modulo, in base all’ID cliente immesso nel modulo. È inoltre possibile utilizzare il riferimento di binding per aggiornare l’origine dati con i dati immessi nel modulo. In questo modo, AEM Forms consente di creare moduli che interagiscono con origini dati esterne, fornendo un’esperienza utente fluida per la raccolta e la gestione dei dati.
 - **Contrassegna come elemento modulo non associato**: seleziona l’opzione per configurare un campo modulo non collegato ad alcun schema. Questa opzione consente di salvare i dati senza aggiornare l’origine dati. Consente inoltre di gestire i dati in modo personalizzato, separato dall’integrazione standard del database.

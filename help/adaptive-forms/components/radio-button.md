@@ -4,15 +4,15 @@ description: Utilizzo o personalizzazione del componente core del pulsante di sc
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2079'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # Pulsante di scelta {#radio-button-adaptive-forms-core-component}
 
-<span class="preview"> Questo articolo contiene informazioni su **Consenti formato Rich Text per titolo** e **Consenti formato Rich Text per opzioni**  funzioni, funzionalità precedenti al rilascio. La funzione di pre-release è accessibile solo tramite [canale preliminare](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> Questo articolo contiene informazioni sulle funzioni **Consenti formato RTF per il titolo** e **Consenti formato RTF per le opzioni** e sulle funzioni pre-release. La funzione pre-release è accessibile solo tramite il [canale pre-release](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=it#new-features).</span>
 
 Un pulsante di scelta in un modulo adattivo è un tipo di elemento di input che consente a un utente di selezionare una opzione da un gruppo di opzioni correlate. Il pulsante è rappresentato da un piccolo pulsante circolare pieno o vuoto per indicare se l’opzione è selezionata o meno. Quando l’utente seleziona un pulsante di scelta, gli altri nel gruppo si deselezionano. I pulsanti di scelta vengono generalmente utilizzati quando sono presenti più opzioni che si escludono reciprocamente, e se ne può selezionare uno solo alla volta.
 
@@ -69,10 +69,10 @@ Puoi personalizzare facilmente l’esperienza del pulsante di scelta per i visit
 - **Nome**: è possibile identificare facilmente un componente modulo con il suo nome univoco sia nel modulo che nell’editor di regole, ma il nome non deve contenere spazi o caratteri speciali.
 
 - **Titolo**: con il relativo titolo è possibile identificare facilmente un componente in un modulo e, per impostazione predefinita, il titolo viene visualizzato sopra il componente. Se non aggiungi un titolo, al posto del testo del titolo viene visualizzato il nome del componente.
-- **Consenti formato Rich Text per titolo** - Questa funzione consente agli utenti di formattare i titoli di testo normale, incorporando funzioni come il grassetto, il corsivo, il testo sottolineato, vari font, dimensioni dei font, colori e opzioni aggiuntive per migliorare la presentazione visiva e la personalizzazione. Offre maggiore flessibilità e controllo creativo nel far risaltare i titoli all&#39;interno di documenti, siti Web o applicazioni.\
-  Dopo aver selezionato la casella di controllo per **Consenti formato Rich Text per titolo** , le opzioni di formattazione diventano visibili per applicare lo stile al titolo del componente. Per accedere a tutte le opzioni di formattazione disponibili, puoi fare clic sul pulsante ![Icona Schermo intero](/help/adaptive-forms/assets/fullscreen-icon.png) scheda.
+- **Consenti formato RTF per il titolo**: questa funzione consente agli utenti di formattare i titoli di testo normale, incorporando funzioni come il grassetto, il corsivo, il testo sottolineato, vari font, dimensioni dei font, colori e opzioni aggiuntive per migliorare la presentazione visiva e la personalizzazione. Offre maggiore flessibilità e controllo creativo nel far risaltare i titoli all’interno di documenti, siti web o applicazioni.\
+  Dopo aver selezionato la casella di controllo per **Consenti formato RTF per il titolo**, le opzioni di formattazione diventano visibili per applicare lo stile al titolo del componente. Per accedere a tutte le opzioni di formattazione disponibili, puoi fare clic sulla scheda ![Icona schermo intero](/help/adaptive-forms/assets/fullscreen-icon.png).
 
-  ![Supporto Rich Text](/help/adaptive-forms/assets/richtext-support-title.png)
+  ![Supporto RTF](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **Nascondi titolo**: seleziona l’opzione per nascondere il titolo del componente.
 
@@ -81,14 +81,14 @@ Puoi personalizzare facilmente l’esperienza del pulsante di scelta per i visit
    - **Valore Dati**: questa opzione consente di immettere il contenuto da inviare quando viene selezionata un’opzione.
    - **Testo Visualizzato**: questa opzione consente di inserire il contenuto da visualizzare in un modulo adattivo.
    - **Elimina**: tocca o fai clic per eliminare l’opzione di un pulsante di scelta.
-   - **Ridisponi** - Tocca o fai clic e trascina per modificare l’ordine delle opzioni.
-Potete anche formattare le opzioni per il gruppo di pulsanti di scelta utilizzando **Consenti formato Rich Text per opzioni**.
+   - **Ridisponi**: tocca o fai clic e trascina per riordinare le opzioni.
+Puoi anche formattare le opzioni per il gruppo di pulsanti di scelta utilizzando **Consenti formato RTF per le opzioni**.
 
-  ![Supporto di testo formattato per le opzioni](/help/adaptive-forms/assets/richtext-for-options.png)
+  ![Supporto RTF per le opzioni](/help/adaptive-forms/assets/richtext-for-options.png)
 
-  Dopo aver selezionato la casella di controllo per **Consenti formato Rich Text per opzioni** le opzioni di formattazione diventano visibili per formattare le opzioni del componente. Per accedere a tutte le opzioni di formattazione disponibili, puoi fare clic sul pulsante `Fullscreen` ![Icona Schermo intero](/help/adaptive-forms/assets/fullscreen-icon.png) scheda.
+  Dopo aver selezionato la casella di controllo per **Consenti testo formattato per opzioni**, le opzioni di formattazione diventano visibili per applicare lo stile alle opzioni del componente. Per accedere a tutte le opzioni di formattazione disponibili, puoi fare clic sulla scheda `Fullscreen` ![Icona schermo intero](/help/adaptive-forms/assets/fullscreen-icon.png).
 
-  ![Supporto di testo formattato per le opzioni](/help/adaptive-forms/assets/richtextoptions-support.png)
+  ![Supporto RTF per le opzioni](/help/adaptive-forms/assets/richtextoptions-support.png)
 
 - **Riferimento di binding**: un riferimento di binding è un riferimento a un elemento dati memorizzato in un’origine dati esterna e utilizzato in un modulo. Il riferimento di binding consente di eseguire un binding dinamico dei dati ai campi del modulo, in modo che il modulo possa visualizzare i dati più aggiornati dell’origine dati. Ad esempio, è possibile utilizzare un riferimento di binding per visualizzare il nome e l’indirizzo di un cliente in un modulo, in base all’ID cliente immesso nel modulo. È inoltre possibile utilizzare il riferimento di binding per aggiornare l’origine dati con i dati immessi nel modulo. In questo modo, AEM Forms consente di creare moduli che interagiscono con origini dati esterne, fornendo un’esperienza utente fluida per la raccolta e la gestione dei dati.
 

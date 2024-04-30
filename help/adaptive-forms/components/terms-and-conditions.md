@@ -4,15 +4,15 @@ description: Utilizzo o personalizzazione del componente core Termini e condizio
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3115'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # Componente Termini e condizioni
 
-<span class="preview"> Questo articolo contiene informazioni su **Consenti formato Rich Text per titolo** e **Consenti formato Rich Text per opzioni**  funzioni, funzionalità precedenti al rilascio. La funzione di pre-release è accessibile solo tramite [canale preliminare](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> Questo articolo contiene informazioni sulle funzioni **Consenti formato RTF per il titolo** e **Consenti formato RTF per le opzioni** e sulle funzioni pre-release. La funzione pre-release è accessibile solo tramite il [canale pre-release](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=it#new-features).</span>
 
 Per componente **Termini e condizioni** si intende una sezione all’interno di un modulo che illustra i termini, le regole e le condizioni che gli utenti devono accettare o rispettare quando utilizzano un servizio o accedono al contenuto.
 
@@ -65,10 +65,10 @@ Puoi personalizzare facilmente l’esperienza del componente Termini e condizion
 - **Nome**: il nome identifica il componente in modo univoco nell’editor di regole. I caratteri speciali e gli spazi non sono consentiti nelle stringhe dei nomi.
 
 - **Titolo**: il titolo permette di identificare facilmente un componente in un modulo e, per impostazione predefinita, il titolo viene visualizzato sopra il componente. Se non aggiungi un titolo, al posto del testo del titolo viene visualizzato il nome del componente.
-- **Consenti formato Rich Text per titolo** - Questa funzione consente agli utenti di formattare i titoli di testo normale, incorporando funzioni come il grassetto, il corsivo, il testo sottolineato, vari font, dimensioni dei font, colori e opzioni aggiuntive per migliorare la presentazione visiva e la personalizzazione. Offre maggiore flessibilità e controllo creativo nel far risaltare i titoli all&#39;interno di documenti, siti Web o applicazioni.\
-  Dopo aver selezionato la casella di controllo per **Consenti formato Rich Text per titolo** , le opzioni di formattazione diventano visibili per applicare lo stile al titolo del componente. Per accedere a tutte le opzioni di formattazione disponibili, puoi fare clic sul pulsante ![Icona Schermo intero](/help/adaptive-forms/assets/fullscreen-icon.png) scheda.
+- **Consenti formato RTFper il titolo**: questa funzione consente agli utenti di formattare i titoli di testo normale, incorporando funzioni come il grassetto, il corsivo, il testo sottolineato, vari font, dimensioni dei font, colori e opzioni aggiuntive per migliorare la presentazione visiva e la personalizzazione. Offre maggiore flessibilità e controllo creativo nel far risaltare i titoli all’interno di documenti, siti web o applicazioni.\
+  Dopo aver selezionato la casella di controllo per **Consenti formato RTF per il titolo**, le opzioni di formattazione diventano visibili per applicare lo stile al titolo del componente. Per accedere a tutte le opzioni di formattazione disponibili, puoi fare clic sulla scheda ![Icona schermo intero](/help/adaptive-forms/assets/fullscreen-icon.png).
 
-  ![Supporto Rich Text](/help/adaptive-forms/assets/richtext-support-title.png)
+  ![Supporto RTF](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **Mostra opzione di approvazione** : seleziona l’opzione per visualizzare la casella di controllo relativa al consenso utilizzata per ottenere il consenso esplicito dell’utente.
 
@@ -170,10 +170,10 @@ Questo componente sostituisce un testo di consenso con uno o più collegamenti w
 - **Nome**: il nome identifica il componente in modo univoco nell’editor di regole. I caratteri speciali e gli spazi non sono consentiti nelle stringhe dei nomi.
 
 - **Titolo**: il titolo permette di identificare facilmente un componente in un modulo e, per impostazione predefinita, il titolo viene visualizzato sopra il componente. Se non aggiungi un titolo, al posto del testo del titolo viene visualizzato il nome del componente.
-- **Consenti formato Rich Text per titolo** - Questa funzione consente agli utenti di formattare i titoli utilizzando opzioni quali grassetto, corsivo, stili dei caratteri, colori e allineamento, migliorando la presentazione visiva e la personalizzazione. Offre maggiore flessibilità e controllo creativo nel far risaltare i titoli all&#39;interno di documenti, siti Web o applicazioni.\
-  Dopo aver selezionato la casella di controllo per **Consenti formato Rich Text per titolo** , le opzioni di formattazione diventano visibili per applicare lo stile al titolo del componente. Per accedere a tutte le opzioni di formattazione disponibili, puoi fare clic sul pulsante ![Icona Schermo intero](/help/adaptive-forms/assets/fullscreen-icon.png) scheda.
+- **Consenti testo formattato per titolo**: questa funzione consente agli utenti di formattare i titoli utilizzando opzioni quali grassetto, corsivo, stili dei caratteri, colori e allineamento, migliorando la presentazione visiva e la personalizzazione. Offre maggiore flessibilità e controllo creativo nel far risaltare i titoli all’interno di documenti, siti web o applicazioni.\
+  Dopo aver selezionato la casella di controllo per **Consenti formato RTF per il titolo**, le opzioni di formattazione diventano visibili per applicare lo stile al titolo del componente. Per accedere a tutte le opzioni di formattazione disponibili, puoi fare clic sulla scheda ![Icona schermo intero](/help/adaptive-forms/assets/fullscreen-icon.png).
 
-  ![Supporto Rich Text](/help/adaptive-forms/assets/richtext-support-title.png)
+  ![Supporto RTF](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **Nascondi titolo**: seleziona l’opzione per nascondere il titolo del componente.
 
@@ -184,9 +184,9 @@ Una volta aggiunta una nuova opzione, è possibile eseguire le azioni seguenti:
    - **Elimina**: tocca o fai clic per eliminare l’opzione di un pulsante di scelta.
    - **Ridisponi**: tocca o fai clic e trascina per riordinare le opzioni.
 
-  È inoltre possibile formattare le opzioni per il gruppo di caselle di controllo utilizzando **Consenti formato Rich Text per opzioni**. Dopo aver selezionato la casella di controllo per **Consenti formato Rich Text per opzioni** le opzioni di formattazione diventano visibili per formattare le opzioni del componente. Per accedere a tutte le opzioni di formattazione disponibili, puoi fare clic sul pulsante `Fullscreen` ![Icona Schermo intero](/help/adaptive-forms/assets/fullscreen-icon.png) scheda.
+  È inoltre possibile formattare le opzioni per il gruppo di caselle di controllo utilizzando **Consenti formato RTF per le opzioni**. Dopo aver selezionato la casella di controllo per **Consenti testo formattato per opzioni**. le opzioni di formattazione diventano visibili per applicare lo stile alle opzioni del componente. Per accedere a tutte le opzioni di formattazione disponibili, puoi fare clic sulla scheda `Fullscreen` ![Icona schermo intero](/help/adaptive-forms/assets/fullscreen-icon.png).
 
-  ![Supporto di testo formattato per le opzioni](/help/adaptive-forms/assets/link-options.png)
+  ![Supporto RTF per le opzioni](/help/adaptive-forms/assets/link-options.png)
 
 - **Riferimento di binding**: un riferimento di binding è un riferimento a un elemento dati memorizzato in un’origine dati esterna e utilizzato in un modulo. Il riferimento di binding consente di eseguire un binding dinamico dei dati ai campi del modulo, in modo che il modulo possa visualizzare i dati più aggiornati dell’origine dati. Ad esempio, è possibile utilizzare un riferimento di binding per visualizzare il nome e l’indirizzo di un cliente in un modulo, in base all’ID cliente immesso nel modulo. È inoltre possibile utilizzare il riferimento di binding per aggiornare l’origine dati con i dati immessi nel modulo. In questo modo, AEM Forms consente di creare moduli che interagiscono con origini dati esterne, offrendo agli utenti un’esperienza utente semplice per la raccolta e la gestione dei dati.
 

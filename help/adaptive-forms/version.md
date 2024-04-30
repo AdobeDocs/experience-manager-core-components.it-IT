@@ -4,9 +4,9 @@ description: Le versioni dei Componenti core AEM pubblicate possono contenere pi
 role: Architect, Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '192'
-ht-degree: 55%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Identifica le versioni precise delle dipendenze dei moduli dei Componenti core e
 
 ## Cronologia delle versioni di AEM Forms as Cloud Service {#aem-as-cs-version-history}
 
-Le versioni dei Componenti core compatibili con AEM as a Cloud Service sono disponibili su [GitHub con dettagli completi sulle loro versioni](https://github.com/adobe/aem-core-forms-components/releases).
+Le versioni dei Componenti core compatibili con AEM as a Cloud Service sono disponibili in [GitHub insieme a dettagli completi relativi alle loro versioni](https://github.com/adobe/aem-core-forms-components/releases).
 
 Per visualizzare la cronologia delle versioni dei Componenti core per AEM as a Cloud Service, [fai clic qui](https://github.com/adobe/aem-core-forms-components/blob/master/VERSIONS.md).
 
@@ -117,7 +117,7 @@ Per visualizzare la cronologia delle versioni dei Componenti core per AEM as a C
 
 ## Cronologia delle versioni di AEM 6.5 Forms {#aem-as-form-version-history}
 
-Le versioni dei Componenti core compatibili con AEM 6.5 Form on-premise e AMS disponibili su [GitHub con dettagli completi sulle loro versioni](https://github.com/adobe/aem-core-forms-components/releases).
+Le versioni dei Componenti core compatibili con AEM 6.5 Form on-premise e AMS sono disponibili in [GitHub insieme a dettagli completi relativi alle loro versioni](https://github.com/adobe/aem-core-forms-components/releases).
 
 Per visualizzare la cronologia delle versioni dei Componenti core per il modulo AEM 6.5 on-premise e AMS, [fai clic qui](https://github.com/adobe/aem-core-forms-components/blob/release/650/VERSIONS.md).
 
