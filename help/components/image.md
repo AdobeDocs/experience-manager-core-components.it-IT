@@ -3,9 +3,9 @@ title: Componente Immagine
 description: Il componente core Immagine è un componente immagine adattivo.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: a10c98aecf6d3c0d989f2e3c18affc51850f60bc
+source-git-commit: e37151536be5a4345f6e2bf630bb8bd4019ad699
 workflow-type: ht
-source-wordcount: '2061'
+source-wordcount: '1970'
 ht-degree: 100%
 
 ---
@@ -138,20 +138,6 @@ L’editor locale può essere utilizzato anche per modificare l’immagine. A ca
 ### Modifica delle risorse Dynamic Media {#dynamic-media-assets}
 
 Se le [funzionalità Dynamic Media sono abilitate,](#dynamic-media) la modifica dell’immagine stessa deve essere eseguita nella console Assets.
-
-### Modifica delle risorse Dynamic Medie di nuova generazione {#next-gen-dm-assets}
-
-Se hai [Dynamic Media di nuova generazione configurato](#next-gen-dm), l’opzione **Ritaglio avanzato** è disponibile nei menu di scelta rapida del componente.
-
-![Ritaglio avanzato](/help/assets/image-smart-crop.png)
-
-Utilizza la finestra di dialogo per regolare il ritaglio avanzato.
-
-![Finestra di dialogo Ritaglio avanzato](/help/assets/image-smart-crop-dialog.png)
-
->[!TIP]
->
->Per ulteriori informazioni su Ritaglio avanzato, consulta [questo video sulla funzione.](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/smart-crop-feature-video-use.html?lang=it)
 
 ## Finestra di dialogo per la configurazione {#configure-dialog}
 
