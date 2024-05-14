@@ -3,14 +3,14 @@ title: Componente core moduli adattivi - Titolo
 description: Utilizzo o personalizzazione del componente core del titolo dei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: ht
-source-wordcount: '863'
+source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+workflow-type: tm+mt
+source-wordcount: '864'
 ht-degree: 100%
 
 ---
 
-# Titolo {#title-input-adaptive-forms-core-component}
+# Componente titolo{#title-input-adaptive-forms-core-component}
 
 In un modulo adattivo, per “titolo” si intende il testo visualizzato nella parte superiore del modulo, in genere sotto l’intestazione. Il titolo viene specificato utilizzando il componente Titolo. Questo componente può essere aggiunto al layout del modulo e il relativo testo può essere modificato in base allo scopo o all’argomento del modulo. Il titolo funge da etichetta o breve descrizione del modulo per l’utente e consente di distinguere il modulo dagli altri.
 
