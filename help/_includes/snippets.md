@@ -1,8 +1,8 @@
 ---
-source-git-commit: 97da426e5c57f00d83d11560d1fa4e8f9ed00feb
-workflow-type: ht
-source-wordcount: '212'
-ht-degree: 100%
+source-git-commit: efc42e6c615987a1d85abe18b650ac23a6d84bf6
+workflow-type: tm+mt
+source-wordcount: '211'
+ht-degree: 99%
 
 ---
 # Snippet {#snippets}
@@ -61,24 +61,23 @@ ht-degree: 100%
 - [Gruppo di caselle di selezione](/help/adaptive-forms/components/checkbox-group.md)
 - [Casella di controllo](/help/adaptive-forms/components/checkbox.md)
 - [Selettore data](/help/adaptive-forms/components/date-picker.md)
-- [Elenco a discesa](/help/adaptive-forms/components/drop-down.md)
+- [Elenco a discesa](/help/adaptive-forms/components/drop-down-list.md)
 - [Inserimento e-mail](/help/adaptive-forms/components/email-input.md)
 - [Contenitore modulo](/help/adaptive-forms/components/form-container.md)
 - [Allegato file](/help/adaptive-forms/components/file-attachment.md)
-- [Frammento di modulo](/help/adaptive-forms/components/form-fragment.md)
+- [Frammenti di moduli adattivi](/help/adaptive-forms/components/adaptive-form-fragment.md)
 - [Piè di pagina](/help/adaptive-forms/components/footer.md)
 - [Intestazione](/help/adaptive-forms/components/header.md)
 - [Immagine](/help/adaptive-forms/components/image.md)
-- [Inserimento numero](/help/adaptive-forms/components/number-input.md)
-- [Contenitore pannelli](/help/adaptive-forms/components/panel-container.md)
+- [Casella numerica](/help/adaptive-forms/components/numeric-box.md)
+- [Pannello](/help/adaptive-forms/components/panel.md)
 - [Scheda orizzontale](/help/adaptive-forms/components/horizontal-tabs.md)
 - [Scheda verticale](/help/adaptive-forms/components/vertical-tabs.md)
 - [Pulsante di scelta](/help/adaptive-forms/components/radio-button.md)
 - [Pulsante Ripristina](/help/adaptive-forms/components/reset-button.md)
 - [Pulsante Invia](/help/adaptive-forms/components/submit-button.md)
-- [Interruttore](/help/adaptive-forms/components/switch.md)
-- [Inserimento telefono](/help/adaptive-forms/components/telephone-input.md)
-- [Inserimento testo](/help/adaptive-forms/components/text-input.md)
+- [Ingresso telefono](/help/adaptive-forms/components/telephone-input.md)
+- [Casella di testo](/help/adaptive-forms/components/text-box.md)
 - [Testo](/help/adaptive-forms/components/text.md)
 - [Titolo](/help/adaptive-forms/components/title.md)
 - [Scheda Termini e condizioni](/help/adaptive-forms/components/terms-and-conditions.md)

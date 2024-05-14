@@ -3,9 +3,9 @@ title: Introduzione ai componenti core dei moduli adattivi in AEM
 description: Crea esperienze di iscrizione accattivanti (moduli) utilizzando la flessibilità dei componenti core dei moduli adattivi e forniscile con l’aiuto di Adobe Experience Manager.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 1dbbb598c0856b76c076f322cdf0210bf38ee9e8
-workflow-type: ht
-source-wordcount: '1267'
+source-git-commit: efc42e6c615987a1d85abe18b650ac23a6d84bf6
+workflow-type: tm+mt
+source-wordcount: '1176'
 ht-degree: 100%
 
 ---
@@ -75,7 +75,7 @@ La versione attuale dei componenti core dei moduli adattivi include i componenti
 * [Pulsante](/help/adaptive-forms/components/button.md)
 * [Gruppo di caselle di selezione](/help/adaptive-forms/components/checkbox-group.md)
 * [Selettore data](/help/adaptive-forms/components/date-picker.md)
-* [Elenco a discesa](/help/adaptive-forms/components/drop-down.md)
+* [Elenco a discesa](/help/adaptive-forms/components/drop-down-list.md)
 * [Inserimento e-mail](/help/adaptive-forms/components/email-input.md)
 * [Contenitore modulo](/help/adaptive-forms/components/form-container.md)
 * [Allegato file](/help/adaptive-forms/components/file-attachment.md)
@@ -83,13 +83,13 @@ La versione attuale dei componenti core dei moduli adattivi include i componenti
 * [Intestazione](/help/adaptive-forms/components/header.md)
 * [Schede orizzontali](/help/adaptive-forms/components/horizontal-tabs.md)
 * [Immagine](/help/adaptive-forms/components/image.md)
-* [Inserimento numero](/help/adaptive-forms/components/number-input.md)
-* [Contenitore pannelli](/help/adaptive-forms/components/panel-container.md)
+* [Casella numerica](/help/adaptive-forms/components/numeric-box.md)
+* [Pannello](/help/adaptive-forms/components/panel.md)
 * [Pulsante di scelta](/help/adaptive-forms/components/radio-button.md)
 * [Pulsante Ripristina](/help/adaptive-forms/components/reset-button.md)
 * [Pulsante Invia](/help/adaptive-forms/components/submit-button.md)
 * [Inserimento telefono](/help/adaptive-forms/components/telephone-input.md)
-* [Inserimento testo](/help/adaptive-forms/components/text-input.md)
+* [Casella di testo](/help/adaptive-forms/components/text-box.md)
 * [Testo](/help/adaptive-forms/components/text.md)
 * [Titolo](/help/adaptive-forms/components/title.md)
 * [Procedura guidata](/help/adaptive-forms/components/wizard.md)
@@ -100,7 +100,7 @@ Abilitando i componenti core dei moduli adattivi su AEM Forms as a Cloud Service
 
 Di seguito sono riportati i requisiti dei componenti core dei moduli adattivi.
 
-| AEM Versione | Componente aggiuntivo per AEM Forms | Componenti core dei moduli adattivi |
+| Versione di AEM | Componente aggiuntivo per AEM Forms | Componenti core dei moduli adattivi |
 |---|---|---|
 | AEM as a Cloud Service | Forms: registrazione digitale | [Versione 2.0.10](version.md)+ |
 | AEM 6.5 | Componente aggiuntivo Forms | [Versione 1.1.12](version.md)+ |
