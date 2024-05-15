@@ -5,9 +5,9 @@ breadcrumb-title: Guida dei Componenti core
 feature: Core Components
 user-guide-description: Utilizza i Componenti core estensibili per consentire agli autori di creare facilmente contenuto.
 feature-set: Experience Manager Sites
-source-git-commit: efc42e6c615987a1d85abe18b650ac23a6d84bf6
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '377'
 ht-degree: 98%
 
 ---
@@ -130,7 +130,7 @@ ht-degree: 98%
       + [Testo moduli adattivi](/help/adaptive-forms/components/text.md)
       + [Casella di testo moduli adattivi](/help/adaptive-forms/components/text-box.md)
       + [Titolo moduli adattivi](/help/adaptive-forms/components/title.md)
-      + [Layout assistente virtuale moduli adattivi](/help/adaptive-forms/components/wizard.md)
+      + [Procedura guidata Forms adattivo](/help/adaptive-forms/components/wizard.md)
       + [Termini e condizioni dei moduli adattivi](/help/adaptive-forms/components/terms-and-conditions.md)
       + [Intestazione](/help/adaptive-forms/components/header.md)
       + [Piè di pagina](/help/adaptive-forms/components/footer.md)

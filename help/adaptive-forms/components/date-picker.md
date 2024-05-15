@@ -3,7 +3,7 @@ title: Componente core moduli adattivi - Selettore data
 description: Utilizzo o personalizzazione del componente core del selettore data dei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '2095'
 ht-degree: 99%
@@ -12,7 +12,7 @@ ht-degree: 99%
 
 # Componente selettore data{#date-picker-adaptive-forms-core-component}
 
-<span class="preview"> Questo articolo contiene informazioni su  **Consenti formato Rich Text per titolo**  , una funzione di pre-release. La funzione pre-release è accessibile solo tramite il [canale pre-release](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=it#new-features).</span>
+<span class="preview"> Questo articolo contiene informazioni su   **Consenti formato Rich Text per titolo**    , una funzione di pre-release. La funzione pre-release è accessibile solo tramite il [canale pre-release](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=it#new-features).</span>
 
 Un componente selettore di data in un modulo adattivo è un elemento dell’interfaccia utente che consente agli utenti di selezionare una data da un calendario o di inserire manualmente una data in un formato specifico. Il componente selettore di data può essere configurato in modo da avere diversi valori di formattazione, convalida e impostazione predefinita.
 

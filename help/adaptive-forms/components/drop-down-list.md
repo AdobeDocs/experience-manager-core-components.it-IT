@@ -3,7 +3,7 @@ title: Componente core moduli adattivi - Elenco a discesa
 description: Utilizzo o personalizzazione del componente core dell’elenco a discesa dei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '2126'
 ht-degree: 99%
@@ -12,7 +12,7 @@ ht-degree: 99%
 
 # Componente elenco a discesa{#drop-down-list-adaptive-forms-core-component}
 
-<span class="preview"> Questo articolo contiene informazioni su  **Consenti formato Rich Text per titolo**  , una funzione di pre-release. La funzione pre-release è accessibile solo tramite il [canale pre-release](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=it#new-features).</span>
+<span class="preview"> Questo articolo contiene informazioni su   **Consenti formato Rich Text per titolo**    , una funzione di pre-release. La funzione pre-release è accessibile solo tramite il [canale pre-release](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=it#new-features).</span>
 
 Un elenco a discesa in un modulo adattivo consente agli utenti di selezionare una o più opzioni da un elenco di opzioni predefinite. Le opzioni possono essere di tipo stringa, numero o booleano. Inoltre, il componente elenco a discesa può essere configurato in modo da avere diversi valori predefiniti e di convalida.
 

@@ -3,7 +3,7 @@ title: Componente core dei moduli adattivi - Pulsante di scelta
 description: Utilizzo o personalizzazione del componente core del pulsante di scelta nei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '2080'
 ht-degree: 98%
@@ -12,7 +12,7 @@ ht-degree: 98%
 
 # Componente pulsante di opzione {#radio-button-adaptive-forms-core-component}
 
-<span class="preview"> Questo articolo contiene informazioni su  **Consenti formato Rich Text per titolo**  e  **Consenti formato Rich Text per opzioni**   funzioni, funzionalità precedenti al rilascio. La funzione pre-release è accessibile solo tramite il [canale pre-release](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=it#new-features).</span>
+<span class="preview"> Questo articolo contiene informazioni su   **Consenti formato Rich Text per titolo**   e   **Consenti formato Rich Text per opzioni**   funzioni, funzionalità precedenti al rilascio. La funzione pre-release è accessibile solo tramite il [canale pre-release](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=it#new-features).</span>
 
 Un pulsante di scelta in un modulo adattivo è un tipo di elemento di input che consente a un utente di selezionare una opzione da un gruppo di opzioni correlate. Il pulsante è rappresentato da un piccolo pulsante circolare pieno o vuoto per indicare se l’opzione è selezionata o meno. Quando l’utente seleziona un pulsante di scelta, gli altri nel gruppo si deselezionano. I pulsanti di scelta vengono generalmente utilizzati quando sono presenti più opzioni che si escludono reciprocamente, e se ne può selezionare uno solo alla volta.
 

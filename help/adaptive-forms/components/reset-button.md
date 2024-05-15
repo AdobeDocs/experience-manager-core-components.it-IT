@@ -3,7 +3,7 @@ title: Componente core moduli adattivi - Pulsante Ripristina
 description: Utilizzo o personalizzazione del componente core del pulsante Ripristina per moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: e5aa9d89-aece-491e-80a1-7fb9ea6c4b60
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '1491'
 ht-degree: 98%
@@ -12,7 +12,7 @@ ht-degree: 98%
 
 # Componente pulsante di ripristino {#reset-button}
 
-<span class="preview"> Questo articolo contiene informazioni su  **Consenti formato Rich Text per titolo**  , una funzione di pre-release. La funzione pre-release è accessibile solo tramite il [canale pre-release](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=it#new-features).</span>
+<span class="preview"> Questo articolo contiene informazioni su   **Consenti formato Rich Text per titolo**    , una funzione di pre-release. La funzione pre-release è accessibile solo tramite il [canale pre-release](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=it#new-features).</span>
 
 Un pulsante di ripristino in un modulo adattivo è un pulsante che consente agli utenti di cancellare o ripristinare tutti i campi del modulo sui valori predefiniti. Quando si fa clic sul pulsante di ripristino, tutti i dati immessi nei campi del modulo vengono eliminati e i campi tornano allo stato originale. In genere, il pulsante di ripristino viene utilizzato come alternativa al pulsante di invio e consente agli utenti di ricominciare se nel modulo sono stati inseriti dati errati o indesiderati.
 

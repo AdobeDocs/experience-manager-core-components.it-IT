@@ -3,7 +3,7 @@ title: Componente core dei moduli adattivi - Inserimento e-mail
 description: Utilizzo o personalizzazione del componente core per l’inserimento e-mail dei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '2055'
 ht-degree: 99%
@@ -12,7 +12,7 @@ ht-degree: 99%
 
 # Componente input e-mail {#Email-input-adaptive-forms-core-component}
 
-<span class="preview"> Questo articolo contiene informazioni su  **Consenti formato Rich Text per titolo**  , una funzione di pre-release. La funzione pre-release è accessibile solo tramite il [canale pre-release](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=it#new-features).</span>
+<span class="preview"> Questo articolo contiene informazioni su   **Consenti formato Rich Text per titolo**    , una funzione di pre-release. La funzione pre-release è accessibile solo tramite il [canale pre-release](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=it#new-features).</span>
 
 Il componente core per l’inserimento di e-mail per moduli adattivi viene utilizzato per raccogliere gli indirizzi e-mail dagli utenti. Il campo di inserimento e-mail consente al browser di verificare che i dati immessi siano un formato di indirizzo e-mail valido. In genere è rappresentata come casella di testo e presenta convalide dei pattern per accettare solo indirizzi e-mail validi. Il campo di inseriemento e-mail può essere ulteriormente personalizzato con attributi aggiuntivi come “richiesto”, “segnaposto” e “pattern” per impostare le convalide per i dati di inserimento.
 

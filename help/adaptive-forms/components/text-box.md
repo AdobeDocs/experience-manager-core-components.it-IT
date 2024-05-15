@@ -3,7 +3,7 @@ title: Componente core dei moduli adattivi - Input di testo (casella di testo)
 description: Utilizzo o personalizzazione del componente core per l’input di testo dei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: 49d9fe69-0578-4489-beaa-a18cdb14add7
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '2062'
 ht-degree: 99%
@@ -12,7 +12,7 @@ ht-degree: 99%
 
 # Componente Casella di testo{#text-input-adaptive-forms-core-component}
 
-<span class="preview"> Questo articolo contiene informazioni su  **Consenti formato Rich Text per titolo**  , una funzione di pre-release. La funzione pre-release è accessibile solo tramite il [canale pre-release](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=it#new-features).</span>
+<span class="preview"> Questo articolo contiene informazioni su   **Consenti formato Rich Text per titolo**    , una funzione di pre-release. La funzione pre-release è accessibile solo tramite il [canale pre-release](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=it#new-features).</span>
 
 Un componente di input di testo (casella di testo) consente all’utente di immettere e modificare una o più righe di testo, a seconda dell’attributo di tipo dell’elemento di input. Il componente input di testo può essere posizionato all’interno di un modulo ed è solitamente contrassegnato con un testo utile che ne identifica facilmente lo scopo. Si tratta di un elemento fondamentale di qualsiasi modulo, ampiamente utilizzato per raccogliere diversi tipi di dati dagli utenti. Si tratta di un testo semplice, flessibile e configurabile per convalidare gli input e migliorare la precisione della raccolta dei dati.
 
