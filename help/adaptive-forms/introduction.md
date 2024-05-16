@@ -3,10 +3,10 @@ title: Introduzione ai componenti core dei moduli adattivi in AEM
 description: Crea esperienze di iscrizione accattivanti (moduli) utilizzando la flessibilità dei componenti core dei moduli adattivi e forniscile con l’aiuto di Adobe Experience Manager.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: efc42e6c615987a1d85abe18b650ac23a6d84bf6
+source-git-commit: 23ad6de410aaf4952607d9a4aa44864b0743c479
 workflow-type: tm+mt
-source-wordcount: '1176'
-ht-degree: 100%
+source-wordcount: '2154'
+ht-degree: 51%
 
 ---
 
@@ -53,9 +53,9 @@ Inoltre, poiché questi componenti sono open-source, gli sviluppatori possono pe
 
 Le esperienze di acquisizione dei dati sono fondamentali per la generazione e la registrazione dei lead e i componenti core dei moduli adattivi offrono una soluzione potente per la creazione di moduli ottimizzati per l’acquisizione dei dati. Alcuni dei motivi per utilizzare i componenti core per creare queste esperienze sui componenti di base sono:
 
-* **Disponibilità su GitHub e documentazione completa**: i componenti core per moduli adattivi in AEM sono open-source e disponibili su GitHub, insieme a una documentazione completa. In questo modo gli sviluppatori possono comprendere più facilmente i componenti e il loro funzionamento e contribuire al loro sviluppo. Anche il sito web [aemcomponents.dev](https://www.aemcomponents.dev/) è una risorsa preziosa, in cui gli sviluppatori possono vedere i componenti in azione e accedere alla documentazione dettagliata.
+* **[Disponibilità su GitHub](https://github.com/adobe/aem-core-forms-components)**: i componenti core Forms adattivi dell’AEM sono open-source e sono disponibili su GitHub, insieme alla relativa documentazione completa. In questo modo gli sviluppatori possono comprendere più facilmente i componenti e il loro funzionamento e contribuire al loro sviluppo. Anche il sito web [aemcomponents.dev](https://www.aemcomponents.dev/) è una risorsa preziosa, in cui gli sviluppatori possono vedere i componenti in azione e accedere alla documentazione dettagliata.
 
-* **Modello BEM per attribuzione di stile**: i componenti core seguono il modello BEM (Block Element Modifier) per lo stile, una metodologia consolidata e ampiamente utilizzata per l’organizzazione dei CSS. In questo modo gli sviluppatori possono comprendere più facilmente come sono organizzati gli stili e come modificarli in base alle proprie esigenze specifiche.
+* **[Modello BEM per la creazione di stili](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components)**: i Componenti core seguono il modello BEM (Block Element Modifier) per lo stile, che è una metodologia consolidata e ampiamente utilizzata per l’organizzazione dei CSS. In questo modo gli sviluppatori possono comprendere più facilmente come sono organizzati gli stili e come modificarli in base alle proprie esigenze specifiche.
 
 * **Nessuna dipendenza dalle librerie di terze parti**: uno dei vantaggi dei componenti core è che non hanno dipendenza da librerie JavaScript di terze parti, inclusi JQuery e Underscore. Questo rende i componenti più veloci e leggeri, nonché più facili da integrare in un’implementazione AEM esistente.
 
@@ -63,38 +63,155 @@ Le esperienze di acquisizione dei dati sono fondamentali per la generazione e la
 
 * **Componenti modulo nel modello e nei temi di Sites 30**: i componenti core supportano i componenti del modulo nel modello e nei temi di Sites 30, facilitando agli sviluppatori la creazione e la personalizzazione dei moduli all’interno di AEM.
 
-* **Stile più semplice**: lo stile dei componenti core è più semplice rispetto a quello delle controparti componenti di base. Il processo di creazione del tema è simile a Sites, con la possibilità di ereditare lo stesso tema/CSS dalla pagina Sites principale. Inoltre, il modello BEM per lo stile facilita la comprensione e la modifica degli stili.
+* **[Più semplice da personalizzare con gli stili](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components)**: i Componenti core hanno uno stile più semplice rispetto ai componenti di base corrispondenti. Il processo di creazione del tema è simile a Sites, con la possibilità di ereditare lo stesso tema/CSS dalla pagina Sites principale. Inoltre, il modello BEM per lo stile facilita la comprensione e la modifica degli stili.
 
-* **Accessibilità**: i componenti core dei moduli adattivi supportano gli standard e le linee guida di accessibilità per garantire che i moduli possano essere utilizzati da persone con disabilità, incluse quelle che utilizzano tecnologie per l’accessibilità, come le utilità per la lettura dello schermo
+* **Accessibilità**: i componenti core adattivi di Forms supportano gli standard e le linee guida di accessibilità per garantire che i moduli possano essere utilizzati da persone con disabilità, incluse quelle che utilizzano tecnologie per l’accessibilità, come gli assistenti vocali.
 
-## Componenti core dei moduli adattivi {#components}
+* **[Controllo delle versioni](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/add-comments-annotations-versioning-adaptive-form-core-components)**: puoi creare e gestire più versioni di un Forms adattivo basato su Componenti core, partecipare a discussioni collaborative tramite commenti e allegare annotazioni a componenti modulo specifici, in modo da migliorare l’esperienza complessiva di creazione del modulo.
 
-La versione attuale dei componenti core dei moduli adattivi include i componenti elencati in basso.
+## Confronto dei componenti core, dei componenti di base e dei componenti del blocco di modulo {#components}
 
-* [Pannello a soffietto](/help/adaptive-forms/components/accordion.md)
-* [Pulsante](/help/adaptive-forms/components/button.md)
-* [Gruppo di caselle di selezione](/help/adaptive-forms/components/checkbox-group.md)
-* [Selettore data](/help/adaptive-forms/components/date-picker.md)
-* [Elenco a discesa](/help/adaptive-forms/components/drop-down-list.md)
-* [Inserimento e-mail](/help/adaptive-forms/components/email-input.md)
-* [Contenitore modulo](/help/adaptive-forms/components/form-container.md)
-* [Allegato file](/help/adaptive-forms/components/file-attachment.md)
-* [Piè di pagina](/help/adaptive-forms/components/footer.md)
-* [Intestazione](/help/adaptive-forms/components/header.md)
-* [Schede orizzontali](/help/adaptive-forms/components/horizontal-tabs.md)
-* [Immagine](/help/adaptive-forms/components/image.md)
-* [Casella numerica](/help/adaptive-forms/components/numeric-box.md)
-* [Pannello](/help/adaptive-forms/components/panel.md)
-* [Pulsante di scelta](/help/adaptive-forms/components/radio-button.md)
-* [Pulsante Ripristina](/help/adaptive-forms/components/reset-button.md)
-* [Pulsante Invia](/help/adaptive-forms/components/submit-button.md)
-* [Inserimento telefono](/help/adaptive-forms/components/telephone-input.md)
-* [Casella di testo](/help/adaptive-forms/components/text-box.md)
-* [Testo](/help/adaptive-forms/components/text.md)
-* [Titolo](/help/adaptive-forms/components/title.md)
-* [Procedura guidata](/help/adaptive-forms/components/wizard.md)
+La versione corrente dell’AEM contiene i seguenti Componenti core e Componenti di base.
 
-## Configurazione dei componenti core dei moduli adattivi
+| Componenti | Componenti di base | Componenti core | Componenti blocco modulo | Informazioni aggiuntive |
+|------------|:---------------------:|:---------------:|:---------------------:|-----------------------|
+| Blocco Adobe Sign | ✔️ | | | L’integrazione di Adobe Sign è disponibile solo per i componenti di base. |
+| Pannello a soffietto | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/accordion.md)</span> | | Per i componenti di base, puoi configurare il layout a soffietto nelle proprietà dei componenti del pannello |
+| Frammento di modulo adattivo | ✔️ | ✔️ | | Per i componenti di base, puoi aggiungere un frammento dalle proprietà di un componente pannello. |
+| reCAPTCHA per modulo adattivo | ✔️ | ✔️ | ✔️ | Per i componenti Foundation, utilizza il componente Captcha per aggiungere Google reCaptcha a un modulo. |
+| Pulsante | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/button.md)</span> | ✔️ | |
+| Captcha | ✔️ | | | Per i componenti Foundation, utilizza il componente Captcha per aggiungere Google reCaptcha a un modulo. |
+| Grafico | ✔️ | | | |
+| Casella di controllo | ✔️ | ✔️ | | |
+| Gruppo di caselle di selezione | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/checkbox-group.md)</span> | ✔️ | Per i componenti di base, utilizza il componente Casella di controllo per aggiungere più caselle di controllo |
+| Campo immissione data | ✔️ | | | Per i Componenti core, utilizza il selettore data o utilizza componenti casella di testo o casella numerica separati per acquisire il giorno, il mese e l’anno. |
+| Selettore data | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/date-picker.md)</span> | ✔️ | |
+| Elenco a discesa | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/drop-down-list.md)</span> | ✔️ | |
+| E-mail | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/email-input.md)</span> | ✔️ | |
+| Allegato file | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/file-attachment.md)</span> | ✔️ | |
+| Elenco dei file allegati | ✔️ | | | |
+| Piè di pagina | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/footer.md)</span> | ✔️ | |
+| Segnaposto Nota a piè di pagina | ✔️ | | | |
+| Contenitore modulo | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/form-container.md)</span> | ✔️ | Per i componenti di base, utilizza il componente Pannello radice. |
+| Titolo modulo | ✔️ | ✔️ | | Per i componenti di base, utilizza il componente Titolo. |
+| Intestazione | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/header.md)</span> | ✔️ | |
+| Schede orizzontali | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/horizontal-tabs.md)</span> | | Per i componenti di base, puoi configurare le schede sul layout superiore (schede orizzontali) nelle proprietà dei componenti del pannello |
+| Immagine | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/image.md)</span> | ✔️ | |
+| Scelta dell&#39;immagine | ✔️ | | | |
+| Pulsante Successivo | ✔️ | ✔️ | | Utilizza il componente procedura guidata per i pulsanti successivo e precedente per spostarti tra più pannelli. |
+| Casella numerica | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/numeric-box.md)</span> | ✔️ | |
+| Stepper numerico | ✔️ | | | |
+| Pannello | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/panel.md)</span> | ✔️ | |
+| Casella password | ✔️ | | ✔️ | |
+| Telefono/Telefono | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/telephone-input.md)</span> | ✔️ | |
+| Pulsante Indietro | ✔️ | | | Utilizza il componente procedura guidata per i pulsanti successivo e precedente per spostarti tra più pannelli. |
+| Pulsante di scelta | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/radio-button.md)</span> | | |
+| Gruppo pulsante di opzione | | | ✔️ | |
+| Pulsante Ripristina | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/reset-button.md)</span> | ✔️ | |
+| Firma a mano | ✔️ | | | |
+| Separatore | ✔️ | | | |
+| Pulsante Invia | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/submit-button.md)</span> | ✔️ | |
+| Passaggio di riepilogo | ✔️ | | | |
+| Interruttore | ✔️ | ✔️ | | |
+| Tabella | ✔️ | | | |
+| Termini e condizioni | ✔️ | ✔️ | | |
+| Testo | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/text.md)</span> | ✔️ | |
+| Casella di testo | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/text-box.md)</span> | ✔️ | |
+| Titolo | ✔️ | | | Per i componenti core, utilizza il componente Titolo modulo. |
+| Schede verticali | ✔️ | ✔️ | | Per i componenti Foundation, puoi configurare le schede nel layout a sinistra (schede verticali) nelle proprietà dei componenti del pannello |
+| Procedura guidata | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/wizard.md)</span> | ✔️ | Per i componenti di base, puoi configurare il layout della procedura guidata nelle proprietà dei componenti del pannello |
+
+
+
+
+>[!NOTE]
+>
+>
+> * Oltre ai componenti elencati in precedenza, il blocco Forms supporta tutti i componenti validi [Tipi di input HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#input_types) e [textarea](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea) come componenti.
+> * Hai bisogno di un componente non elencato sopra? Richiedilo inviando un&#39;e-mail a aem-forms-ea@adobe.com dal tuo indirizzo ufficiale.
+
+
+<!-- >
+* [Accordion](/help/adaptive-forms/components/accordion.md)
+* [Button](/help/adaptive-forms/components/button.md)
+* [Check Box Group](/help/adaptive-forms/components/checkbox-group.md)
+* [Date Picker](/help/adaptive-forms/components/date-picker.md)
+* [Drop-down list](/help/adaptive-forms/components/drop-down-list.md)
+* [Email-input](/help/adaptive-forms/components/email-input.md)
+* [Form Container](/help/adaptive-forms/components/form-container.md)
+* [File Attachment](/help/adaptive-forms/components/file-attachment.md)
+* [Footer](/help/adaptive-forms/components/footer.md)
+* [Header](/help/adaptive-forms/components/header.md)
+* [Horizontal Tabs](/help/adaptive-forms/components/horizontal-tabs.md)
+* [Image](/help/adaptive-forms/components/image.md)
+* [Numeric Box](/help/adaptive-forms/components/numeric-box.md)
+* [Panel](/help/adaptive-forms/components/panel.md)
+* [Radio Button](/help/adaptive-forms/components/radio-button.md)
+* [Reset Button](/help/adaptive-forms/components/reset-button.md)
+* [Submit Button](/help/adaptive-forms/components/submit-button.md)
+* [Telephone input](/help/adaptive-forms/components/telephone-input.md)
+* [Text Box](/help/adaptive-forms/components/text-box.md)
+* [Text](/help/adaptive-forms/components/text.md)
+* [Title](/help/adaptive-forms/components/title.md)
+* [Wizard](/help/adaptive-forms/components/wizard.md)
+
+-->
+
+## Editor di moduli di facile utilizzo
+
+L’editor per Forms adattivo basato su Componenti core è simile a quello già utilizzato per la creazione di pagine AEM Sites. Ecco cosa si ottiene:
+
+
+* **Elementi e impostazioni dell’interfaccia utente familiari**: quando configuri le proprietà per i componenti modulo, la finestra di dialogo delle proprietà ha l’aspetto di quella utilizzata per i componenti core WCM. Questo consente di trovare più rapidamente le opzioni necessarie. Come i componenti core WCM, per i componenti modulo la finestra di dialogo delle proprietà viene visualizzata al centro dell’editor con schede chiare che separano le opzioni di base e avanzate, il testo della guida e le informazioni di accessibilità, il tutto in un formato di schede per facilitarne la navigazione.
+
+* **[Editor regole](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/rule-editor-core-components)**: è possibile aggiungere funzionalità logiche e dinamiche ai moduli senza scrivere codice. Puoi utilizzare l’editor di regole integrato per:
+   * Mostrare o nascondere i campi in base alle scelte degli utenti
+   * Attivare o disattivare un oggetto
+   * Imposta un valore per un oggetto
+   * Eseguire calcoli
+   * Impostare la proprietà di un oggetto
+   * Convalida immissione dati
+   * Richiama un servizio (richiamare funzionalità esterne)
+   * Utilizzare funzioni incorporate (funzioni predefinite per le attività comuni)
+   * Utilizzare funzioni personalizzate (codice personalizzato per esigenze specifiche)
+   * Convalidare campi e pannelli (verificare che i dati soddisfino i requisiti)
+   * Convalidare il valore di un oggetto
+   * Eseguire funzioni per calcolare il valore di un oggetto
+   * Richiama un servizio FDM (Form Data Model) ed esegui un’operazione
+   * Aggiunta dinamica di stili (modifica dell’aspetto in base alle condizioni)
+   * Creare altre regole (azioni a catena e logica)
+   * e altro ancora!
+
+  L’editor di regole non dispone dell’editor di codice. È possibile utilizzare [funzioni personalizzate](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-and-use-custom-functions) per aggiungere il tuo codice per esigenze specifiche all’editor di regole.
+
+
+
+* **Moduli precompilati**: è possibile compilare automaticamente alcuni campi di un modulo con i dati esistenti quando un utente lo apre. In questo modo gli utenti possono risparmiare tempo e fatica, eliminando la necessità di immettere manualmente informazioni che potrebbero essere già disponibili. L’editor dei componenti core fornisce un servizio di precompilazione OOTB per compilare i campi del modulo con l’aiuto di un modello di dati del modulo. Puoi anche creare servizi di preriempimento personalizzati per scenari più complessi.
+
+* **[Documento record (DoR)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/generate-document-of-record-core-components)**: un documento di record (DoR) fa riferimento a una rappresentazione formale e stampabile dei dati inviati tramite il modulo. Funge da record permanente delle informazioni immesse da un utente, fornendo un’istantanea dei dati inviati in un formato semplice, in genere un documento PDF. Puoi utilizzare l’editor per configurare facilmente un modello personalizzato o un modello OOTB per generare un documento record.
+
+* **[Modello dati modulo](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/using-form-data-model)**: un modello dati di Forms adattivo (FDM) funge da ponte tra il Forms adattivo e le origini dati. In sostanza, definisce la struttura e l’organizzazione dei dati che i moduli raccolgono e con cui interagiscono. È possibile utilizzare l’editor per collegare facilmente il modulo a un Forms Data Model (FDM).
+
+* **[Invio modulo](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Adaptive%20Form%20Submit%20Action&amp;text=Adobe%20recommends%20using%20Core%20Components,to%20create%20standalone%20Adaptive%20Forms.&amp;text=A%20Submit%20Action%20lets%20you,button%20on%20an%20Adaptive%20Form)**: l’invio di un modulo si riferisce al processo con cui gli utenti compilano e inviano i moduli compilati. Questo attiva una serie di azioni definite nella configurazione del modulo, che determinano l’archiviazione o l’elaborazione dei dati inviati. L’editor di Forms adattivo offre diverse opzioni per la configurazione dell’invio dei moduli. Alcune delle azioni di invio più comuni sono:
+
+   * [Invia e-mail](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Adaptive%20Form%20Submit%20Action&amp;text=Adobe%20recommends%20using%20Core%20Components,to%20create%20standalone%20Adaptive%20Forms.&amp;text=A%20Submit%20Action%20lets%20you,button%20on%20an%20Adaptive%20Form.)
+   * [Richiama un flusso Power Automate](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/integrate/services/forms-microsoft-power-automate-integration)
+   * [Invia a SharePoint](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-action-sharepoint)
+   * [Richiama Workfront Fusion](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Invoke%20a%20Workfront%20Fusion)
+   * [Invia utilizzando il modello dati modulo (FDM)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/using-form-data-model)
+   * [Invia ad Azure Blob Storage](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Submit%20to%20Azure%20Blob%20Storage)
+   * [Invia all’endpoint REST](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-action-restpoint)
+   * [Invia a OneDrive](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=to%20REST%20endpoint-,Submit%20to%20OneDrive,-Invoke%20an%20AEM)
+   * [Richiama un flusso di lavoro AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Invoke%20an%20AEM%20Workflow)
+
+
+<!-- 
+* **Preview Forms**: You can use the editor to  simulates how the form would appear on various devices like desktops, tablets, and smartphones.
+-->
+
+
+
+## Abilita componenti core Forms adattivi
 
 Abilitando i componenti core dei moduli adattivi su AEM Forms as a Cloud Service, è possibile iniziare a creare, pubblicare e distribuire componenti core basati su moduli adattivi e moduli headless utilizzando le istanze del Cloud Service di AEM Forms su più canali. Per istruzioni dettagliate sull’abilitazione dei componenti core dei moduli adattivi, consulta [Abilita i componenti core dei moduli adattivi nell’ambiente di sviluppo locale di AEM Forms as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html?lang=it).
 
