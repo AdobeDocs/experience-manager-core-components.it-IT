@@ -4,15 +4,15 @@ description: Utilizzo o personalizzazione del componente core del pulsante per m
 role: Architect, Developer, Admin, User
 exl-id: cb75929b-8c86-49d1-b51a-368f5b80b1a9
 source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1601'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 # Componente Pulsante {#button-component-adaptive-forms-core-component}
 
-<span class="preview"> Questo articolo contiene informazioni su   **Consenti formato Rich Text per titolo**    , una funzione di pre-release. La funzione pre-release è accessibile solo tramite il [canale pre-release](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=it#new-features).</span>
+<span class="preview"> Questo articolo contiene informazioni sulla funzione **Consenti testo formattato per titolo**, una funzione pre-release. La funzione pre-release è accessibile solo tramite il [canale pre-release](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=it#new-features).</span>
 
 Un pulsante in un modulo adattivo è un elemento dell’interfaccia utente che consente agli utenti di avviare un’azione quando ci cliccano sopra. L’elemento pulsante può essere utilizzato per inviare un modulo, reimpostare un modulo o eseguire altre operazioni, ad esempio la navigazione a una pagina diversa o l’attivazione di codice personalizzato. Il pulsante può essere creato utilizzando il componente core Pulsante.
 

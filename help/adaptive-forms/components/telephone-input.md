@@ -4,16 +4,16 @@ description: Utilizzo o personalizzazione del componente core per l’inseriment
 role: Architect, Developer, Admin, User
 exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
 source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2142'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Componente ingresso telefono{#telephone-input-adaptive-forms-core-component}
+# Componente inserimento telefono{#telephone-input-adaptive-forms-core-component}
 
-<span class="preview"> Questo articolo contiene informazioni su   **Consenti formato Rich Text per titolo**    , una funzione di pre-release. La funzione pre-release è accessibile solo tramite il [canale pre-release](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=it#new-features).</span>
+<span class="preview"> Questo articolo contiene informazioni sulla funzione **Consenti testo formattato per titolo**, una funzione pre-release. La funzione pre-release è accessibile solo tramite il [canale pre-release](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=it#new-features).</span>
 
 Il componente core per l’inserimento del numero di telefono in un modulo adattivo consente agli utenti di inserire un numero di telefono. Nel campo del numero di telefono, se utilizziamo dispositivi mobili, sono visualizzate le tastiere per inserire il numero di telefono. Il campo può essere personalizzato con attributi aggiuntivi quali “pattern” e “segnaposto” per specificare il formato e la descrizione del numero di telefono.
 

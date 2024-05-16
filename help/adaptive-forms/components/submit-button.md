@@ -4,15 +4,15 @@ description: Utilizzo o personalizzazione del componente core del pulsante di in
 role: Architect, Developer, Admin, User
 exl-id: e4b8e475-79b9-4c4d-9f11-a125a424d32b
 source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1450'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Componente pulsante di invio {#submit-button}
 
-<span class="preview"> Questo articolo contiene informazioni su   **Consenti formato Rich Text per titolo**    , una funzione di pre-release. La funzione pre-release è accessibile solo tramite il [canale pre-release](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=it#new-features).</span>
+<span class="preview"> Questo articolo contiene informazioni sulla funzione **Consenti testo formattato per titolo**, una funzione pre-release. La funzione pre-release è accessibile solo tramite il [canale pre-release](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=it#new-features).</span>
 
 Un pulsante di invio in un modulo adattivo è un pulsante che consente agli utenti di inviare i dati del modulo a un server per l’elaborazione. Facendo clic sul pulsante Invio, i dati del modulo vengono inviati al server, dove possono essere memorizzati, elaborati o utilizzati per vari scopi, ad esempio per l’invio di un’e-mail o l’aggiornamento di un database.
 

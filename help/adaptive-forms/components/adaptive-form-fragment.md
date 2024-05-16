@@ -4,15 +4,15 @@ description: Utilizza i frammenti di modulo per creare segmenti di modulo o grup
 role: Architect, Developer, Admin, User
 exl-id: bde4a416-1d6b-4e9e-ac74-70fccef473cb
 source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1895'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Componente Frammento di modulo adattivo {#form-fragment-component-adaptive-forms-core-component}
+# Componente frammento di modulo adattivo {#form-fragment-component-adaptive-forms-core-component}
 
-<span class="preview"> Questo articolo contiene informazioni su   **Consenti formato Rich Text per titolo**    , una funzione di pre-release. La funzione pre-release è accessibile solo tramite il [canale pre-release](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=it#new-features).</span>
+<span class="preview"> Questo articolo contiene informazioni sulla funzione **Consenti testo formattato per titolo**, una funzione pre-release. La funzione pre-release è accessibile solo tramite il [canale pre-release](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=it#new-features).</span>
 
 I moduli adattivi offrono un modo pratico per creare segmenti di moduli, come pannelli o gruppi di campi, in modo che possano essere riutilizzati in diversi moduli adattivi. Questi segmenti riutilizzabili e indipendenti sono denominati [Frammenti di moduli adattivi](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html?lang=it).
 

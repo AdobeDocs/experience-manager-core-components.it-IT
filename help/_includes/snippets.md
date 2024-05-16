@@ -1,8 +1,8 @@
 ---
 source-git-commit: efc42e6c615987a1d85abe18b650ac23a6d84bf6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '211'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 # Snippet {#snippets}
@@ -76,7 +76,7 @@ ht-degree: 99%
 - [Pulsante di scelta](/help/adaptive-forms/components/radio-button.md)
 - [Pulsante Ripristina](/help/adaptive-forms/components/reset-button.md)
 - [Pulsante Invia](/help/adaptive-forms/components/submit-button.md)
-- [Ingresso telefono](/help/adaptive-forms/components/telephone-input.md)
+- [Inserimento numero di telefono](/help/adaptive-forms/components/telephone-input.md)
 - [Casella di testo](/help/adaptive-forms/components/text-box.md)
 - [Testo](/help/adaptive-forms/components/text.md)
 - [Titolo](/help/adaptive-forms/components/title.md)

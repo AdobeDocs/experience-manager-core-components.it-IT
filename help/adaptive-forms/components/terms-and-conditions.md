@@ -4,15 +4,15 @@ description: Utilizzo o personalizzazione del componente core Termini e condizio
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
 source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3115'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Componente termini e condizioni
+# Componente Termini e condizioni
 
-<span class="preview"> Questo articolo contiene informazioni su   **Consenti formato Rich Text per titolo**   e   **Consenti formato Rich Text per opzioni**   funzioni, funzionalità precedenti al rilascio. La funzione pre-release è accessibile solo tramite il [canale pre-release](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=it#new-features).</span>
+<span class="preview"> Questo articolo contiene informazioni sulle funzioni **Consenti testo formattato per titolo** e **Consenti testo formattato per opzioni**, funzioni pre-release. La funzione pre-release è accessibile solo tramite il [canale pre-release](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=it#new-features).</span>
 
 Per componente **Termini e condizioni** si intende una sezione all’interno di un modulo che illustra i termini, le regole e le condizioni che gli utenti devono accettare o rispettare quando utilizzano un servizio o accedono al contenuto.
 

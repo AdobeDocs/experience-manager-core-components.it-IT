@@ -6,9 +6,9 @@ feature: Core Components
 user-guide-description: Utilizza i Componenti core estensibili per consentire agli autori di creare facilmente contenuto.
 feature-set: Experience Manager Sites
 source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '377'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -119,7 +119,7 @@ ht-degree: 98%
       + [Schede verticali per modulo adattivo](/help/adaptive-forms/components/vertical-tabs.md)
       + [Schede orizzontali moduli adattivi](/help/adaptive-forms/components/horizontal-tabs.md)
       + [Immagine moduli adattivi](/help/adaptive-forms/components/image.md)
-      + [Casella numerica Forms adattiva](/help/adaptive-forms/components/numeric-box.md)
+      + [Casella numerica moduli adattivi](/help/adaptive-forms/components/numeric-box.md)
       + [Pannello moduli adattivi](/help/adaptive-forms/components/panel.md)
       + [CAPTCHA dei moduli adattivi](/help/adaptive-forms/components/captcha.md)
       + [Pulsante di scelta moduli adattivi](/help/adaptive-forms/components/radio-button.md)
@@ -130,7 +130,7 @@ ht-degree: 98%
       + [Testo moduli adattivi](/help/adaptive-forms/components/text.md)
       + [Casella di testo moduli adattivi](/help/adaptive-forms/components/text-box.md)
       + [Titolo moduli adattivi](/help/adaptive-forms/components/title.md)
-      + [Procedura guidata Forms adattivo](/help/adaptive-forms/components/wizard.md)
+      + [Procedura guidata moduli adattivi](/help/adaptive-forms/components/wizard.md)
       + [Termini e condizioni dei moduli adattivi](/help/adaptive-forms/components/terms-and-conditions.md)
       + [Intestazione](/help/adaptive-forms/components/header.md)
       + [Piè di pagina](/help/adaptive-forms/components/footer.md)
