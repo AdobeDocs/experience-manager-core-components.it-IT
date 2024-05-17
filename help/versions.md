@@ -3,16 +3,16 @@ title: Versioni dei Componenti core
 description: Le versioni dei Componenti core pubblicate possono contenere più di una versione degli stessi Componenti core. Questo documento spiega cosa s’intende per versioni e come comprendere la compatibilità con i Componenti core e AEM.
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: f86340f87706d5803ec58a9034ac6a15027e0e0c
-workflow-type: ht
-source-wordcount: '3041'
-ht-degree: 100%
+source-git-commit: e25756d808d1deac338f4b7e054fe6f016a6bb97
+workflow-type: tm+mt
+source-wordcount: '3079'
+ht-degree: 98%
 
 ---
 
 # Versioni dei Componenti core {#core-components-versions}
 
-La versione corrente dei Componenti core è la 2.23.4 ed è compatibile con le installazioni di [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=it) e [AEM on-premise](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=it).
+La versione corrente dei Componenti core è la 2.25.4 ed è compatibile con [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=it) e [AEM locale](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=it) installazioni.
 
 ## Cronologia delle versioni e compatibilità {#release-history-and-compatibility}
 
@@ -26,6 +26,8 @@ La tabella che segue, il cui contenuto è [disponibile su GitHub con tutti i det
 
 | Versione | Descrizione | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Data di pubblicazione |
 |---|---|---|---|---|---|---|
+| [2.25.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.4) | Versione secondaria che corregge alcuni errori IT. | - | 6.5.22.0+ | Continua | 8, 11 | 10 maggio 2024 |
+| [2.25.2.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.2) | Versione secondaria che corregge alcuni errori IT. | - | 6.5.22.0+ | Continua | 8, 11 | 9 maggio 2024 |
 | [2.25.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.0) | Questa versione aggiunge supporto per i ritagli avanzati denominati in Dynamic Media, include miglioramenti delle prestazioni e dell’accessibilità e varie correzioni di bug. | - | 6.5.21.0+ | Continua | 8, 11 | 2 maggio 2024 |
 | [2.24.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.6) | Questa versione patch include miglioramenti per l’inizializzazione di Data Layer. | - | 6.5.21.0+ | Continua | 8, 11 | 22 aprile 2024 |
 | [2.24.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.4) | Questa versione patch corregge l’inizializzazione di Sling Model. | - | 6.5.21.0+ | Continua | 8, 11 | 1 aprile 2024 |
