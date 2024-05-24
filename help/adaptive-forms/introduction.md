@@ -3,10 +3,10 @@ title: Introduzione ai componenti core dei moduli adattivi in AEM
 description: Crea esperienze di iscrizione accattivanti (moduli) utilizzando la flessibilità dei componenti core dei moduli adattivi e forniscile con l’aiuto di Adobe Experience Manager.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 83a9a37495bb189592a657cac97c7277755b96be
-workflow-type: ht
-source-wordcount: '2215'
-ht-degree: 100%
+source-git-commit: 82b614774256efdd6c4f8eed86d9fd8b5b51279d
+workflow-type: tm+mt
+source-wordcount: '2214'
+ht-degree: 98%
 
 ---
 
@@ -69,9 +69,9 @@ Le esperienze di acquisizione dei dati sono fondamentali per la generazione e la
 
 * **[Controllo delle versioni](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/add-comments-annotations-versioning-adaptive-form-core-components)**: puoi creare e gestire più versioni di moduli adattivi basati su componenti core, partecipare a discussioni collaborative tramite commenti e allegare annotazioni a componenti modulo specifici, in modo da migliorare l’esperienza complessiva di creazione del modulo.
 
-## Confronto dei componenti core, dei componenti di base e dei componenti del blocco di modulo {#components}
+## Componenti disponibili: suddivisione per tipo di componente
 
-La versione corrente di AEM contiene i seguenti Componenti core: [Componenti di base](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/create-an-adaptive-form-on-forms-cs/introduction-forms-authoring#component-toolbar), e [Componenti blocco modulo (Edge Delivery Services)](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/edge-delivery/build-forms/forms-references/form-components).
+La versione corrente di AEM Forms include i seguenti Componenti core: [Componenti di base](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/create-an-adaptive-form-on-forms-cs/introduction-forms-authoring#component-toolbar), e [Componenti blocco modulo (Edge Delivery Services)](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/edge-delivery/build-forms/forms-references/form-components).
 
 | Componenti | Componenti di base | Componenti core | Componenti blocco modulo | Informazioni aggiuntive |
 |------------|:---------------------:|:---------------:|:---------------------:|-----------------------|
