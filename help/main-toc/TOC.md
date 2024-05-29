@@ -5,10 +5,10 @@ breadcrumb-title: Guida dei Componenti core
 feature: Core Components
 user-guide-description: Utilizza i Componenti core estensibili per consentire agli autori di creare facilmente contenuto.
 feature-set: Experience Manager Sites
-source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: ht
-source-wordcount: '377'
-ht-degree: 100%
+source-git-commit: 36ef19d5b29fe21f86309719d1e3f6588e31a93b
+workflow-type: tm+mt
+source-wordcount: '375'
+ht-degree: 99%
 
 ---
 
@@ -147,7 +147,7 @@ ht-degree: 100%
    + [Inclusione delle librerie client](/help/developing/including-clientlibs.md)
    + [Adaptive Image Servlet](/help/developing/adaptive-image-servlet.md)
    + [Consegna delle immagini ottimizzate per il web](/help/developing/web-optimized-image-delivery.md)
-   + [Supporto Dynamic Media di nuova generazione](/help/developing/next-gen-dm.md)
+   + [Supporto risorse remote](/help/developing/remote-assets.md)
    + Adobe Client Data Layer {#data-layer}
       + [Panoramica di Data Layer](/help/developing/data-layer/overview.md)
       + [Integrazioni con Data Layer](/help/developing/data-layer/integrations.md)

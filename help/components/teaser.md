@@ -3,10 +3,10 @@ title: Componente Teaser
 description: Il componente Teaser può mostrare un’immagine, un titolo, un testo RTF e opzionalmente un collegamento ad altro contenuto.
 role: Architect, Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
-source-git-commit: 63f9659a547729c7cb3eb3c7a61cf1bc838cf6ce
-workflow-type: ht
-source-wordcount: '1081'
-ht-degree: 100%
+source-git-commit: 5d2d79c96dc934efd7cccefb1a6a343813376483
+workflow-type: tm+mt
+source-wordcount: '1042'
+ht-degree: 95%
 
 ---
 
@@ -31,11 +31,9 @@ La tabella che segue descrive tutte le versioni supportate del componente, le ve
 | v2 | - | Compatibile | Compatibile |
 | [v1](v1/teaser.md) | Compatibile | Compatibile | Compatibile |
 
-## Supporto Dynamic Media di nuova generazione {#next-gen-dm}
+## Supporto risorse remote {#remote-assets}
 
-Il componente Teaser (a partire dalla [versione 2.23.2](/help/versions.md)) supporta le risorse remote di Dynamic Media di nuova generazione.
-
-[Una volta configurato](/help/developing/next-gen-dm.md), puoi selezionare le risorse da un servizio Dynamic Media di nuova generazione remoto per il componente teaser.
+Il componente Teaser (a partire da [versione 2.23.2](/help/versions.md)) supporta le risorse remote. [Una volta configurata,](/help/developing/remote-assets.md) puoi selezionare le risorse da un servizio remoto per il componente teaser.
 
 ## Esempio di output del componente {#sample-component-output}
 
@@ -84,7 +82,7 @@ Il titolo, la descrizione e l’immagine del teaser possono essere ereditati dal
 * **Risorsa immagine** - Rilascia una risorsa dal [browser di risorse](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=it) oppure tocca l’opzione **Sfoglia** per caricarla da un file system locale.
    * Tocca o fai clic su **Cancella** per deselezionare l’immagine attualmente selezionata.
    * Tocca o fai clic su **Scegli** per aprire il [browser Risorse](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=it) e selezionare un’immagine.
-      * Se le [funzioni di Dynamic Media di nuova generazione](#next-gen-dm) sono abilitate, sono disponibili diverse opzioni per la scelta di una risorsa:
+      * Se [Supporto risorse remote](#remote-assets) è attivato, sono disponibili diverse opzioni per il prelievo di una risorsa:
          * **Locale** sceglie la risorsa dalla libreria di risorse AEM locale.
          * **Remoto** sceglie la risorsa da una libreria Dynamic Media esterna all’istanza AEM.
    * Tocca o fai clic su **Modifica** per [gestire le rappresentazioni della risorsa](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=it) nell’Editor risorse.
