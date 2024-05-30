@@ -4,9 +4,9 @@ description: Il componente core Immagine è un componente immagine adattivo.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 source-git-commit: 5d2d79c96dc934efd7cccefb1a6a343813376483
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1957'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ La tua esperienza del web costruita con i Componenti core ora si arricchisce del
 
 ## Supporto risorse remote {#remote-assets}
 
-Il componente Immagine (come da [versione 2.23.2](/help/versions.md)) supporta le risorse remote. [Una volta configurata,](/help/developing/remote-assets.md) è possibile selezionare le risorse da un servizio remoto per il componente immagine.
+Il componente Immagine (a partire dalla [versione 2.23.2](/help/versions.md)) supporta le risorse remote. [Una volta configurato](/help/developing/remote-assets.md), è possibile selezionare le risorse da un servizio remoto per il componente Immagine.
 
 ## Supporto di SVG {#svg-support}
 
@@ -85,7 +85,7 @@ Il componente Immagine supporta [i microdati schema.org](https://schema.org).
 
 La finestra di dialogo per la modifica consente a chi crea contenuti di ritagliare ed eseguire lo zoom dell’immagine.
 
-A seconda che tu abbia o meno [Dynamic Medie](#dynamic-media) abilitato o [Supporto risorse remote](#remote-assets) , le opzioni disponibili per la modifica delle immagini sono diverse.
+A seconda che tu abbia o meno abilitato le funzioni di [Dynamic Media](#dynamic-media) o il [Supporto risorse remote](#remote-assets), le opzioni disponibili per la modifica delle immagini saranno diverse.
 
 ### Modifica delle risorse standard {#standard-assets}
 
@@ -152,7 +152,7 @@ Il componente Immagine offre una finestra di dialogo di configurazione in cui l�
    * Trascina una risorsa dal [browser Risorse](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html?lang=it) o tocca l’opzione **Sfoglia** per caricarla da un file system locale.
    * Tocca o fai clic su **Cancella** per deselezionare l’immagine attualmente selezionata.
    * Tocca o fai clic su **Scegli** per aprire il [browser Risorse](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html?lang=it) e seleziona un’immagine.
-      * Se [Supporto di avvisi remoti](#remote-assets) è attivato, sono disponibili diverse opzioni per il prelievo di una risorsa:
+      * Se il [Supporto risorse remote](#remote-assets) è attivato, sono disponibili diverse opzioni per la scelta di una risorsa:
          * **Locale** sceglie la risorsa dalla libreria di risorse AEM locale.
          * **Remoto** sceglie la risorsa da una libreria Dynamic Media esterna all’istanza AEM.
    * Tocca o fai clic su **Modifica** per [gestire le rappresentazioni della risorsa](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=it) nell’Editor risorse.

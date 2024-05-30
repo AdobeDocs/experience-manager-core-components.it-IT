@@ -4,9 +4,9 @@ description: Il componente Teaser può mostrare un’immagine, un titolo, un tes
 role: Architect, Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
 source-git-commit: 5d2d79c96dc934efd7cccefb1a6a343813376483
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1042'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ La tabella che segue descrive tutte le versioni supportate del componente, le ve
 
 ## Supporto risorse remote {#remote-assets}
 
-Il componente Teaser (a partire da [versione 2.23.2](/help/versions.md)) supporta le risorse remote. [Una volta configurata,](/help/developing/remote-assets.md) puoi selezionare le risorse da un servizio remoto per il componente teaser.
+Il componente Teaser (a partire dalla [versione 2.23.2](/help/versions.md)) supporta le risorse remote. [Una volta configurato](/help/developing/remote-assets.md), puoi selezionare le risorse da un servizio remoto per il componente Teaser.
 
 ## Esempio di output del componente {#sample-component-output}
 
@@ -82,7 +82,7 @@ Il titolo, la descrizione e l’immagine del teaser possono essere ereditati dal
 * **Risorsa immagine** - Rilascia una risorsa dal [browser di risorse](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=it) oppure tocca l’opzione **Sfoglia** per caricarla da un file system locale.
    * Tocca o fai clic su **Cancella** per deselezionare l’immagine attualmente selezionata.
    * Tocca o fai clic su **Scegli** per aprire il [browser Risorse](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=it) e selezionare un’immagine.
-      * Se [Supporto risorse remote](#remote-assets) è attivato, sono disponibili diverse opzioni per il prelievo di una risorsa:
+      * Se il [Supporto risorse remote](#remote-assets) è attivato, sono disponibili diverse opzioni per la scelta di una risorsa:
          * **Locale** sceglie la risorsa dalla libreria di risorse AEM locale.
          * **Remoto** sceglie la risorsa da una libreria Dynamic Media esterna all’istanza AEM.
    * Tocca o fai clic su **Modifica** per [gestire le rappresentazioni della risorsa](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=it) nell’Editor risorse.
