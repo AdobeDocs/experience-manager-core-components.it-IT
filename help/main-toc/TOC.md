@@ -4,11 +4,11 @@ user-guide-title: Componenti core AEM
 breadcrumb-title: Guida dei Componenti core
 feature: Core Components
 user-guide-description: Utilizza i Componenti core estensibili per consentire agli autori di creare facilmente contenuto.
-feature-set: Experience Manager Sites
-source-git-commit: 36ef19d5b29fe21f86309719d1e3f6588e31a93b
-workflow-type: ht
-source-wordcount: '375'
-ht-degree: 100%
+feature-set: Experience Manager Sites, Experience Manager Forms
+source-git-commit: a7cf223f8799054683f135e08fb83b320dd948fa
+workflow-type: tm+mt
+source-wordcount: '378'
+ht-degree: 99%
 
 ---
 
@@ -117,6 +117,7 @@ ht-degree: 100%
       + [Frammento di moduli adattivi](/help/adaptive-forms/components/adaptive-form-fragment.md)
       + [Allegati file moduli adattivi](/help/adaptive-forms/components/file-attachment.md)
       + [Schede verticali per modulo adattivo](/help/adaptive-forms/components/vertical-tabs.md)
+      + [hCaptcha Forms adattivo](/help/adaptive-forms/components/hcaptcha.md)
       + [Schede orizzontali moduli adattivi](/help/adaptive-forms/components/horizontal-tabs.md)
       + [Immagine moduli adattivi](/help/adaptive-forms/components/image.md)
       + [Casella numerica moduli adattivi](/help/adaptive-forms/components/numeric-box.md)
