@@ -2,8 +2,7 @@
 title: Introduzione ai componenti core dei moduli adattivi in AEM
 description: Crea esperienze di iscrizione accattivanti (moduli) utilizzando la flessibilità dei componenti core dei moduli adattivi e forniscile con l’aiuto di Adobe Experience Manager.
 role: Architect, Developer, Admin, User
-exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 1f9cef8eb448b4f5662c95827ab6575bdfeaf740
+source-git-commit: ae81102adafef131b013425465ad56af41f604bf
 workflow-type: tm+mt
 source-wordcount: '2229'
 ht-degree: 99%
