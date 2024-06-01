@@ -3,9 +3,9 @@ title: Introduzione ai componenti core dei moduli adattivi in AEM
 description: Crea esperienze di iscrizione accattivanti (moduli) utilizzando la flessibilità dei componenti core dei moduli adattivi e forniscile con l’aiuto di Adobe Experience Manager.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: d3a887338387b4d46c1f81c4a6ddf040a82a48b7
+source-git-commit: 1f9cef8eb448b4f5662c95827ab6575bdfeaf740
 workflow-type: tm+mt
-source-wordcount: '2210'
+source-wordcount: '2229'
 ht-degree: 99%
 
 ---
@@ -78,8 +78,9 @@ La versione corrente di AEM Forms contiene i seguenti componenti core: [Componen
 | Blocco Adobe Sign | ✔️ | | | [L’integrazione di Adobe Sign](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/forms/integrate/services/adobe-sign-integration-adaptive-forms#adobe-acrobat-sign-for-government) è disponibile solo per i componenti di base. |
 | Pannello a soffietto | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/accordion.md)</span> | | Per i componenti di base, puoi configurare il layout del pannello a soffietto nelle [proprietà dei componenti del pannello](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout). |
 | Frammento di modulo adattivo | ✔️ | ✔️ | | Per i componenti di base, puoi [aggiungere un frammento](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/forms/adaptive-forms-basic-authoring/adaptive-form-fragments#insert-a-fragment-in-an-adaptive-form) dal Browser risorse. |
-| reCAPTCHA | ✔️ | ✔️ | ✔️ | Per i componenti di base, utilizza il componente Captcha per [aggiungere Google reCaptcha a un modulo](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA). |
+| reCAPTCHA per modulo adattivo | ✔️ | ✔️ | ✔️ | Per i componenti di base, utilizza il componente Captcha per [aggiungere Google reCaptcha a un modulo](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA). |
 | Pulsante | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/button.md)</span> | ✔️ | |
+| CAPTCHA | ✔️ |  |  | Per i componenti di base, utilizza il componente Captcha per [aggiungere Google reCaptcha a un modulo](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA). |
 | Grafico | ✔️ | | | |
 | Casella di controllo | ✔️ | ✔️ | | |
 | Gruppo di caselle di selezione | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/checkbox-group.md)</span> | ✔️ | Per i componenti di base, utilizza il componente casella di controllo per aggiungere più caselle di controllo |
