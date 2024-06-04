@@ -8,7 +8,7 @@ feature-set: Experience Manager Sites, Experience Manager Forms
 source-git-commit: d41cf56f3889ff6aa1bf6f753dc5331248d1ae2e
 workflow-type: tm+mt
 source-wordcount: '377'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -117,7 +117,7 @@ ht-degree: 96%
       + [Frammento di moduli adattivi](/help/adaptive-forms/components/adaptive-form-fragment.md)
       + [Allegati file moduli adattivi](/help/adaptive-forms/components/file-attachment.md)
       + [Schede verticali per modulo adattivo](/help/adaptive-forms/components/vertical-tabs.md)
-      + [hCaptcha Forms adattivo](/help/adaptive-forms/components/hcaptcha.md)
+      + [hCaptcha per moduli adattivi](/help/adaptive-forms/components/hcaptcha.md)
       + [Schede orizzontali moduli adattivi](/help/adaptive-forms/components/horizontal-tabs.md)
       + [Immagine moduli adattivi](/help/adaptive-forms/components/image.md)
       + [Casella numerica moduli adattivi](/help/adaptive-forms/components/numeric-box.md)
