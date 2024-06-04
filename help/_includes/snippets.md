@@ -1,7 +1,7 @@
 ---
-source-git-commit: efc42e6c615987a1d85abe18b650ac23a6d84bf6
-workflow-type: ht
-source-wordcount: '211'
+source-git-commit: 46278a9b0f5e548297db3d6fcc42acde67eabf47
+workflow-type: tm+mt
+source-wordcount: '214'
 ht-degree: 100%
 
 ---
@@ -57,29 +57,30 @@ ht-degree: 100%
 ## Altri argomenti correlati {#more-like-this}
 
 - [Pannello a soffietto](/help/adaptive-forms/components/accordion.md)
+- [Frammenti di moduli adattivi](/help/adaptive-forms/components/adaptive-form-fragment.md)
+- [reCAPTCHA per modulo adattivo](/help/adaptive-forms/components/adaptive-form-recaptcha.md)
 - [Pulsante](/help/adaptive-forms/components/button.md)
 - [Gruppo di caselle di selezione](/help/adaptive-forms/components/checkbox-group.md)
 - [Casella di controllo](/help/adaptive-forms/components/checkbox.md)
 - [Selettore data](/help/adaptive-forms/components/date-picker.md)
 - [Elenco a discesa](/help/adaptive-forms/components/drop-down-list.md)
-- [Inserimento e-mail](/help/adaptive-forms/components/email-input.md)
+- [E-mail](/help/adaptive-forms/components/email.md)
 - [Contenitore modulo](/help/adaptive-forms/components/form-container.md)
+- [Titolo modulo](/help/adaptive-forms/components/form-title.md)
 - [Allegato file](/help/adaptive-forms/components/file-attachment.md)
-- [Frammenti di moduli adattivi](/help/adaptive-forms/components/adaptive-form-fragment.md)
 - [Piè di pagina](/help/adaptive-forms/components/footer.md)
 - [Intestazione](/help/adaptive-forms/components/header.md)
 - [Immagine](/help/adaptive-forms/components/image.md)
 - [Casella numerica](/help/adaptive-forms/components/numeric-box.md)
 - [Pannello](/help/adaptive-forms/components/panel.md)
+- [Telefono](/help/adaptive-forms/components/phone.md)
 - [Scheda orizzontale](/help/adaptive-forms/components/horizontal-tabs.md)
 - [Scheda verticale](/help/adaptive-forms/components/vertical-tabs.md)
 - [Pulsante di scelta](/help/adaptive-forms/components/radio-button.md)
 - [Pulsante Ripristina](/help/adaptive-forms/components/reset-button.md)
 - [Pulsante Invia](/help/adaptive-forms/components/submit-button.md)
-- [Inserimento numero di telefono](/help/adaptive-forms/components/telephone-input.md)
 - [Casella di testo](/help/adaptive-forms/components/text-box.md)
 - [Testo](/help/adaptive-forms/components/text.md)
-- [Titolo](/help/adaptive-forms/components/title.md)
 - [Scheda Termini e condizioni](/help/adaptive-forms/components/terms-and-conditions.md)
 - [Procedura guidata](/help/adaptive-forms/components/wizard.md)
 

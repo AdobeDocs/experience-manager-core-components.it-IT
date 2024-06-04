@@ -5,10 +5,10 @@ breadcrumb-title: Guida dei Componenti core
 feature: Core Components
 user-guide-description: Utilizza i Componenti core estensibili per consentire agli autori di creare facilmente contenuto.
 feature-set: Experience Manager Sites, Experience Manager Forms
-source-git-commit: a7cf223f8799054683f135e08fb83b320dd948fa
+source-git-commit: d41cf56f3889ff6aa1bf6f753dc5331248d1ae2e
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 99%
+source-wordcount: '377'
+ht-degree: 96%
 
 ---
 
@@ -113,7 +113,7 @@ ht-degree: 99%
       + [Contenitore di moduli adattivi](/help/adaptive-forms/components/form-container.md)
       + [Selettore data moduli adattivi](/help/adaptive-forms/components/date-picker.md)
       + [Elenco a discesa moduli adattivi](/help/adaptive-forms/components/drop-down-list.md)
-      + [Inserimento e-mail moduli adattivi](/help/adaptive-forms/components/email-input.md)
+      + [E-mail Forms adattivo](/help/adaptive-forms/components/email.md)
       + [Frammento di moduli adattivi](/help/adaptive-forms/components/adaptive-form-fragment.md)
       + [Allegati file moduli adattivi](/help/adaptive-forms/components/file-attachment.md)
       + [Schede verticali per modulo adattivo](/help/adaptive-forms/components/vertical-tabs.md)
@@ -122,15 +122,15 @@ ht-degree: 99%
       + [Immagine moduli adattivi](/help/adaptive-forms/components/image.md)
       + [Casella numerica moduli adattivi](/help/adaptive-forms/components/numeric-box.md)
       + [Pannello moduli adattivi](/help/adaptive-forms/components/panel.md)
-      + [CAPTCHA dei moduli adattivi](/help/adaptive-forms/components/captcha.md)
+      + [CAPTCHA dei moduli adattivi](/help/adaptive-forms/components/adaptive-form-recaptcha.md)
       + [Pulsante di scelta moduli adattivi](/help/adaptive-forms/components/radio-button.md)
       + [Pulsante reimpostazione moduli adattivi](/help/adaptive-forms/components/reset-button.md)
       + [Pulsante di invio moduli adattivi](/help/adaptive-forms/components/submit-button.md)
-      + [Interruttore moduli adattivi](/help/adaptive-forms/components/switch.md)
-      + [Inserimento telefono moduli adattivi](/help/adaptive-forms/components/telephone-input.md)
+      + [Interruttore moduli adattivi](/help/adaptive-forms/components/adaptive-form-switch.md)
+      + [Telefono Forms adattivo](/help/adaptive-forms/components/phone.md)
       + [Testo moduli adattivi](/help/adaptive-forms/components/text.md)
       + [Casella di testo moduli adattivi](/help/adaptive-forms/components/text-box.md)
-      + [Titolo moduli adattivi](/help/adaptive-forms/components/title.md)
+      + [Titolo modulo Forms adattivo](/help/adaptive-forms/components/form-title.md)
       + [Procedura guidata moduli adattivi](/help/adaptive-forms/components/wizard.md)
       + [Termini e condizioni dei moduli adattivi](/help/adaptive-forms/components/terms-and-conditions.md)
       + [Intestazione](/help/adaptive-forms/components/header.md)
