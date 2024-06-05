@@ -3,10 +3,10 @@ title: Componente core moduli adattivi - Selettore data
 description: Utilizzo o personalizzazione del componente core del selettore data dei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: b4a66a407e92398a98441c65ab588b9720777dfa
 workflow-type: tm+mt
-source-wordcount: '2154'
-ht-degree: 99%
+source-wordcount: '2299'
+ht-degree: 93%
 
 ---
 
@@ -131,6 +131,21 @@ Puoi personalizzare facilmente l’esperienza del selettore data per gli utenti 
 - **Formato visualizzato**: rappresenta il formato della data visualizzato dall’utente. L’opzione **Tipo** consente all’utente di selezionare il formato della data. È inoltre possibile personalizzare il formato della data utilizzando l’opzione **Personalizza** nel menu a discesa **Tipo**.
 
 - **Modifica formato**: rappresenta un formato di data in cui l’utente può modificare la data. L’opzione **Tipo** consente all’utente di selezionare il formato della data. È inoltre possibile personalizzare il formato della data utilizzando l’opzione **Personalizza** nel menu a discesa **Tipo**.
+- **Messaggio di errore Formato** - Questa opzione consente di immettere il messaggio visualizzato sullo schermo quando la data immessa non è nel formato corretto.
+- **Lingua** - Questa funzione viene utilizzata per la formattazione del campo specifico. Quando un utente seleziona un’opzione di lingua dalla **Tipo** menu a discesa, il **Tag lingua IETF BCP 47** nel pannello. È possibile scegliere la lingua per la formattazione dei campi durante la traduzione di un modulo adattivo in una lingua specifica.
+
+Il set di lingue non è visibile per impostazione predefinita, ma gli utenti possono immettere un **Tag lingua IETF BCP 47** aggiornando il criterio del modello:
+
+1. Apri il modello corrispondente associato a un modulo adattivo nell’editor di modelli.
+2. Seleziona il criterio esistente come `datepicker-default-policy` dal menu a discesa.
+
+   ![Criterio modello selettore data](/help/adaptive-forms/assets/date-picker-template-policy.png)
+
+3. Clic **Fine**.
+
+   >[!NOTE]
+   >
+   > Per ulteriori informazioni su come tradurre un modulo adattivo in una lingua specifica, [fai clic qui](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
 
 ## Finestra di dialogo per la progettazione {#design-dialog}
 

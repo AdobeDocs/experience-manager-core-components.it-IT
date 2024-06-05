@@ -3,16 +3,16 @@ title: Componente core moduli adattivi - Input numero
 description: Utilizzo o personalizzazione del componente core di inserimento numero dei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: b4a66a407e92398a98441c65ab588b9720777dfa
 workflow-type: tm+mt
-source-wordcount: '2163'
-ht-degree: 98%
+source-wordcount: '2283'
+ht-degree: 92%
 
 ---
 
 # Componente casella numerica{#number-input-adaptive-forms-core-component}
 
-Un componente di inserimento numero in un modulo adattivo è un tipo di campo modulo che consente agli utenti di immettere valori numerici. Il componente è in genere rappresentato da un campo di testo con una freccia su e giù per incrementare e diminuire il numero.
+Un componente Casella numerica in un modulo adattivo è un tipo di campo modulo che consente agli utenti di immettere valori numerici. Il componente è in genere rappresentato da un campo di testo con una freccia su e giù per incrementare e diminuire il numero.
 
 Può essere utilizzato anche con attributi come min, max, passaggio, valore e altro ancora. Questi attributi possono essere utilizzati per impostare i valori minimi e massimi consentiti nel campo, l’intervallo di passaggio per l’incremento o la riduzione del numero e il valore predefinito del campo.
 
@@ -127,10 +127,21 @@ Puoi personalizzare facilmente l’esperienza di inserimento numerico per i visi
 ![Scheda Accessibilità](/help/adaptive-forms/assets/numberinput_formattab.png)
 
 - **Formato visualizzato**: questa opzione consente di selezionare un’opzione tra diversi formati numerici interi da visualizzare. Quando l’utente seleziona una qualsiasi opzione dal menu a discesa **Tipo**, l’opzione **Formato** diventa visibile nel pannello. È possibile scegliere un formato specifico in cui i numeri vengono mostrati all’utente.
+- **Lingua** - Questa funzione viene utilizzata per la formattazione del campo specifico. Quando un utente seleziona un’opzione di lingua dalla **Tipo** menu a discesa, il **Tag lingua IETF BCP 47** nel pannello. È possibile scegliere la lingua per la formattazione dei campi durante la traduzione di un modulo adattivo in una lingua specifica.
 
-<!--   **Number of digits before the decimal separator (1234.000)** - Use this option to specify the number of digits to display before the decimal point. 
+Il set di lingue non è visibile per impostazione predefinita, ma gli utenti possono immettere un **Tag lingua IETF BCP 47** aggiornando il criterio del modello:
 
-- **Number of digits after the decimal separator (1234.000)** - Use this option to specify the number of digits to display after the decimal point. -->
+1. Apri il modello corrispondente associato a un modulo adattivo nell’editor di modelli.
+2. Seleziona il criterio esistente come `numberinput-default-policy` dal menu a discesa.
+
+   ![Criterio modello selettore data](/help/adaptive-forms/assets/numberinput-template-policy.png)
+
+3. Clic **Fine**.
+
+   >[!NOTE]
+   >
+   > Per ulteriori informazioni su come tradurre un modulo adattivo in una lingua specifica, [fai clic qui](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
+
 
 ## Finestra di dialogo per la progettazione {#design-dialog}
 

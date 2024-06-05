@@ -3,9 +3,9 @@ title: 'Componente core Forms adattivo: ingresso telefonico, telefono'
 description: Utilizzo o personalizzazione del componente core per l’inserimento del numero di telefono nei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: b4a66a407e92398a98441c65ab588b9720777dfa
 workflow-type: tm+mt
-source-wordcount: '2198'
+source-wordcount: '2197'
 ht-degree: 97%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 97%
 
 # Componente telefono{#telephone-input-adaptive-forms-core-component}
 
-Il componente core per l’inserimento del numero di telefono in un modulo adattivo consente agli utenti di inserire un numero di telefono. Nel campo del numero di telefono, se utilizziamo dispositivi mobili, sono visualizzate le tastiere per inserire il numero di telefono. Il campo può essere personalizzato con attributi aggiuntivi quali “pattern” e “segnaposto” per specificare il formato e la descrizione del numero di telefono.
+Il componente core Telefono modulo adattivo consente agli utenti di inserire un numero di telefono. Nel campo del numero di telefono, se utilizziamo dispositivi mobili, sono visualizzate le tastiere per inserire il numero di telefono. Il campo può essere personalizzato con attributi aggiuntivi quali “pattern” e “segnaposto” per specificare il formato e la descrizione del numero di telefono.
 
 Il campo del numero di telefono viene comunemente utilizzato nei moduli di contatto, nei moduli di registrazione e in altri moduli in cui è richiesto un numero telefonico come mezzo di contatto. Il campo del numero di telefono può essere utilizzato anche per garantire che l’utente immetta un numero di telefono valido, in quanto il browser può applicare determinati vincoli, come la lunghezza e il formato del numero di telefono, in base all’attributo “pattern”.
 
