@@ -4,13 +4,13 @@ description: Utilizzo o personalizzazione del componente core interruttore nei m
 role: Architect, Developer, Admin, User
 exl-id: 6ff2ca76-1514-42eb-bde3-60259af2d187
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1922'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Componente switch modulo adattivo{#switch-adaptive-forms-core-component}
+# Componente interruttore moduli adattivi{#switch-adaptive-forms-core-component}
 
 Il componente Interruttore è un’interfaccia utente grafica utilizzata nei moduli che consente agli utenti di scegliere tra due opzioni. In genere si tratta di un interruttore a due stati che consente agli utenti di scegliere tra due stati, per abilitare o disabilitare una funzione, un’impostazione o una funzionalità. Il componente Interruttore è progettato per rappresentare visivamente lo stato corrente e indicare se una particolare funzione è attivata o disattivata.
 
@@ -44,7 +44,7 @@ Per informazioni sulle versioni dei componenti core, consulta il documento [Vers
 
 ## Dettagli tecnici {#technical-details}
 
-Per informazioni aggiornate sul componente core interruttore per moduli adattivi, consulta la documentazione tecnica disponibile su [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/switch/v1/switch). Per ulteriori informazioni sullo sviluppo dei componenti core, dai un’occhiata alla [documentazione per gli sviluppatori dei componenti core](/help/developing/overview.md).
+Per informazioni aggiornate sul componente core interruttore per moduli adattivi, consulta la documentazione tecnica disponibile su [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/switch/v1/switch). Per ulteriori informazioni sullo sviluppo dei componenti core, consulta la [Documentazione per gli sviluppatori di componenti core](/help/developing/overview.md).
 
 ## Finestra di dialogo per la configurazione {#configure-dialog}
 
@@ -83,7 +83,7 @@ Puoi personalizzare facilmente l’esperienza del componente Interruttore per i 
 - **Contrassegna come elemento modulo non associato**: seleziona l’opzione per configurare un campo modulo non collegato ad alcun schema. Questa opzione consente di salvare i dati senza aggiornare l’origine dati. Consente inoltre di gestire i dati in modo personalizzato, separato dall’integrazione standard del database.
 
 - **Tipo di dati del valore inviato**: questa opzione specifica il tipo di dati del valore inviato quando viene selezionata un’opzione. Se il **tipo di dati del valore inviato** è impostato su `Number` e si aggiungono dati stringa al **Valore dati** nella scheda **Opzioni**, nella schermata viene visualizzato il messaggio di errore `Value type mismatch`.
-- **Nascondi componente**: seleziona questa opzione per nascondere il componente dal modulo. Il componente rimane accessibile per altri scopi, ad esempio per i calcoli nell’editor di regole. Questa funzione è utile quando devi memorizzare informazioni che non devono essere viste o modificate direttamente dall’utente.
+- **Nascondi componente**: seleziona questa opzione per nascondere il componente del modulo. Il componente rimane accessibile per altri scopi, ad esempio per i calcoli nell’editor di regole. Questa funzione è utile quando devi memorizzare informazioni che non devono essere viste o modificate direttamente dall’utente.
 
 - **Disattiva componente**: seleziona l’opzione per disabilitare o bloccare il componente. Il componente disabilitato non è attivo o modificabile dall’utente finale. L’utente può visualizzare il valore del campo, ma non può modificarlo. Il componente rimane accessibile per altri scopi, ad esempio per i calcoli nell’editor di regole.
 
@@ -138,7 +138,7 @@ Il componente core interruttore per i moduli adattivi supporta il [Sistema di st
 
 ![Finestra di dialogo per la progettazione](/help/adaptive-forms/assets/checkbox-style.png)
 
-- **Classi CSS predefinite**: puoi fornire una classe CSS predefinita per il componente core Switch di Forms adattivo.
+- **Classi CSS predefinite**: è possibile fornire una classe CSS predefinita per il componente core interruttore per i moduli adattivi.
 
 - **Stili consentiti**: è possibile definire gli stili fornendo un nome e la classe CSS che rappresenta lo stile. Ad esempio, puoi creare uno stile denominato “testo in grassetto” e fornire la classe CSS “spessore carattere: grassetto”. Puoi utilizzare o applicare questi stili a un modulo adattivo nell’editor di moduli adattivi. Per applicare uno stile, nell’editor dei moduli adattivi, seleziona il componente a cui applicare lo stile, passa alla finestra di dialogo delle proprietà e seleziona lo stile desiderato dall’elenco a discesa **Stili**. Per aggiornare o modificare gli stili, è sufficiente tornare alla finestra di dialogo per la progettazione, aggiornare gli stili nella scheda Stili e salvare le modifiche.
 

@@ -6,9 +6,9 @@ feature: Core Components
 user-guide-description: Utilizza i Componenti core estensibili per consentire agli autori di creare facilmente contenuto.
 feature-set: Experience Manager Sites, Experience Manager Forms
 source-git-commit: d41cf56f3889ff6aa1bf6f753dc5331248d1ae2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '377'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -113,7 +113,7 @@ ht-degree: 97%
       + [Contenitore di moduli adattivi](/help/adaptive-forms/components/form-container.md)
       + [Selettore data moduli adattivi](/help/adaptive-forms/components/date-picker.md)
       + [Elenco a discesa moduli adattivi](/help/adaptive-forms/components/drop-down-list.md)
-      + [E-mail Forms adattivo](/help/adaptive-forms/components/email.md)
+      + [E-mail moduli adattivi](/help/adaptive-forms/components/email.md)
       + [Frammento di moduli adattivi](/help/adaptive-forms/components/adaptive-form-fragment.md)
       + [Allegati file moduli adattivi](/help/adaptive-forms/components/file-attachment.md)
       + [Schede verticali per modulo adattivo](/help/adaptive-forms/components/vertical-tabs.md)
@@ -127,10 +127,10 @@ ht-degree: 97%
       + [Pulsante reimpostazione moduli adattivi](/help/adaptive-forms/components/reset-button.md)
       + [Pulsante di invio moduli adattivi](/help/adaptive-forms/components/submit-button.md)
       + [Interruttore moduli adattivi](/help/adaptive-forms/components/adaptive-form-switch.md)
-      + [Telefono Forms adattivo](/help/adaptive-forms/components/phone.md)
+      + [Telefono moduli adattivi](/help/adaptive-forms/components/phone.md)
       + [Testo moduli adattivi](/help/adaptive-forms/components/text.md)
       + [Casella di testo moduli adattivi](/help/adaptive-forms/components/text-box.md)
-      + [Titolo modulo Forms adattivo](/help/adaptive-forms/components/form-title.md)
+      + [Titolo modulo moduli adattivi](/help/adaptive-forms/components/form-title.md)
       + [Procedura guidata moduli adattivi](/help/adaptive-forms/components/wizard.md)
       + [Termini e condizioni dei moduli adattivi](/help/adaptive-forms/components/terms-and-conditions.md)
       + [Intestazione](/help/adaptive-forms/components/header.md)

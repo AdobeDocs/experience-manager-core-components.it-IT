@@ -4,13 +4,13 @@ description: Utilizzo o personalizzazione del componente core del pulsante di sc
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2134'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Componente pulsante di opzione {#radio-button-adaptive-forms-core-component}
+# Componente pulsante di scelta {#radio-button-adaptive-forms-core-component}
 
 Un pulsante di scelta in un modulo adattivo è un tipo di elemento di input che consente a un utente di selezionare una opzione da un gruppo di opzioni correlate. Il pulsante è rappresentato da un piccolo pulsante circolare pieno o vuoto per indicare se l’opzione è selezionata o meno. Quando l’utente seleziona un pulsante di scelta, gli altri nel gruppo si deselezionano. I pulsanti di scelta vengono generalmente utilizzati quando sono presenti più opzioni che si escludono reciprocamente, e se ne può selezionare uno solo alla volta.
 
@@ -26,7 +26,7 @@ In questo esempio, l’elemento Opzioni viene utilizzato per raggruppare i pulsa
 
 Ogni opzione del pulsante di scelta ha un valore dati univoco e un attributo Testo visualizzato. Se l’utente seleziona “1-10”, il valore dati corrispondente viene inviato al server quando viene inoltrato il modulo. Questi dati possono quindi essere elaborati da uno script lato server per determinare quali opzioni sono state selezionate dall’utente e possono essere utilizzate per eseguire varie azioni, ad esempio l’aggiornamento di altri campi del modulo o l’invio dei dati del modulo a uno script lato server per un’ulteriore elaborazione.
 
-Inoltre, ogni pulsante di scelta può essere configurato in modo da avere valori di elaborazione diversi per ciascuna opzione, e questo può essere impostato utilizzando l’Editor di regole dei moduli adattivi.
+Inoltre, ogni pulsante di scelta può essere configurato in modo da avere valori di elaborazione diversi per ciascuna opzione, e questo può essere impostato utilizzando l’Editor di regole dei moduli adattivi
 
 ## Utilizzo {#reasons-to-use-radio-button}
 
@@ -56,7 +56,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Dettagli tecnici {#technical-details}
 
-Per informazioni aggiornate sul componente core del pulsante di scelta nei moduli adattivi, consulta la documentazione tecnica disponibile in [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/radiobutton/v1/radiobutton). Per ulteriori informazioni sullo sviluppo dei componenti core, dai un’occhiata alla [Documentazione per gli sviluppatori dei componenti core](/help/developing/overview.md).
+Per informazioni aggiornate sul componente core del pulsante di scelta nei moduli adattivi, consulta la documentazione tecnica disponibile in [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/radiobutton/v1/radiobutton). Per ulteriori informazioni sullo sviluppo dei componenti core, consulta la [Documentazione per gli sviluppatori di componenti core](/help/developing/overview.md).
 
 ## Finestra di dialogo per la configurazione {#configure-dialog}
 
@@ -66,7 +66,7 @@ Puoi personalizzare facilmente l’esperienza del pulsante di scelta per i visit
 
 - **Nome**: è possibile identificare facilmente un componente modulo con il suo nome univoco sia nel modulo che nell’editor di regole, ma il nome non deve contenere spazi o caratteri speciali.
 
-- **Titolo**: con il relativo titolo è possibile identificare facilmente un componente in un modulo e, per impostazione predefinita, il titolo viene visualizzato sopra il componente. Se non aggiungi un titolo, al posto del testo del titolo viene visualizzato il nome del componente.
+- **Titolo** : con il relativo titolo è possibile identificare facilmente un componente in un modulo e, per impostazione predefinita, il titolo viene visualizzato sopra il componente. Se non aggiungi un titolo, al posto del testo del titolo viene visualizzato il nome del componente.
 - **Consenti testo formattato per titolo**: questa funzione permette agli utenti di formattare i titoli in testo normale, incorporando opzioni come il grassetto, il corsivo, il testo sottolineato, vari font, dimensioni dei font, colori e altre opzioni per migliorare la presentazione visiva e la personalizzazione. Offre maggiore flessibilità e controllo creativo nel far risaltare i titoli all’interno di documenti, siti web o applicazioni.\
   Dopo aver selezionato la casella di controllo **Consenti testo formattato per titolo**, le opzioni di formattazione diventano visibili per applicare lo stile al titolo del componente. Per accedere a tutte le opzioni di formattazione disponibili, fai clic sulla scheda ![Icona schermo intero](/help/adaptive-forms/assets/fullscreen-icon.png).
 
@@ -79,10 +79,9 @@ Puoi personalizzare facilmente l’esperienza del pulsante di scelta per i visit
    - **Valore Dati**: questa opzione consente di immettere il contenuto da inviare quando viene selezionata un’opzione.
    - **Testo Visualizzato**: questa opzione consente di inserire il contenuto da visualizzare in un modulo adattivo.
    - **Elimina**: tocca o fai clic per eliminare l’opzione di un pulsante di scelta.
-   - **Ridisponi**: tocca o fai clic e trascina per riordinare le opzioni.
-Puoi anche formattare le opzioni per il gruppo di pulsanti di scelta utilizzando **Consenti formato RTF per le opzioni**.
+   - **Ridisponi**: tocca o fai clic e trascina per riordinare le opzioni. Puoi anche formattare le opzioni per il gruppo di pulsanti di scelta utilizzando **Consenti formato RTF per le opzioni**.
 
-  ![Supporto RTF per le opzioni](/help/adaptive-forms/assets/richtext-for-options.png)
+  ![Supporto testo RTF per le opzioni](/help/adaptive-forms/assets/richtext-for-options.png)
 
   Dopo aver selezionato la casella di controllo per **Consenti testo formattato per opzioni**, le opzioni di formattazione diventano visibili per applicare lo stile alle opzioni del componente. Per accedere a tutte le opzioni di formattazione disponibili, puoi fare clic sulla scheda `Fullscreen` ![Icona schermo intero](/help/adaptive-forms/assets/fullscreen-icon.png).
 
@@ -99,7 +98,7 @@ Puoi anche formattare le opzioni per il gruppo di pulsanti di scelta utilizzando
 - **Opzioni visualizzate**: questa opzione viene utilizzata per impostare l’allineamento visivo dei pulsanti di scelta in un modulo adattivo. Le due opzioni supportate sono:
    - **Orizzontale**: quando è selezionata questa opzione, i pulsanti di scelta vengono visualizzati da sinistra a destra in un modulo adattivo.
    - **Verticale**: quando è selezionata questa opzione, i pulsanti di scelta vengono visualizzati dall’alto verso il basso in un modulo adattivo.
-- **Nascondi componente**: seleziona l’opzione per nascondere il componente dal modulo. Il componente rimane accessibile per altri scopi, ad esempio per i calcoli nell’editor di regole. Questa funzione è utile quando devi memorizzare informazioni che non devono essere viste o modificate direttamente dall’utente.
+- **Nascondi componente**: seleziona questa opzione per nascondere il componente del modulo. Il componente rimane accessibile per altri scopi, ad esempio per i calcoli nell’editor di regole. Questa funzione è utile quando devi memorizzare informazioni che non devono essere viste o modificate direttamente dall’utente.
 - **Disattiva componente**: seleziona questa opzione per disabilitare il componente. Il componente disabilitato non è attivo o modificabile dall’utente finale. L’utente può visualizzare il valore del campo, ma non può modificarlo. Il componente rimane accessibile per altri scopi, ad esempio per i calcoli nell’editor di regole.
 - **Sola lettura**: seleziona questa opzione per rendere il componente non modificabile. L’utente può visualizzare il valore del campo, ma non può modificarlo. Il componente rimane accessibile per altri scopi, ad esempio per i calcoli nell’editor di regole.
 

@@ -4,9 +4,9 @@ description: Utilizzo o personalizzazione del componente core del titolo dei mod
 role: Architect, Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
 source-git-commit: 8bba79956a04020647d5d04f9fe6fa674affedf1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '866'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Dettagli tecnici {#technical-details}
 
-Per informazioni aggiornate sul componente core del titolo per moduli adattivi, consulta la documentazione tecnica disponibile su [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/title/v1/title). Per ulteriori informazioni sullo sviluppo dei componenti core, dai un’occhiata alla [Documentazione per gli sviluppatori dei componenti core](/help/developing/overview.md).
+Per informazioni aggiornate sul componente core del titolo per moduli adattivi, consulta la documentazione tecnica disponibile su [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/title/v1/title). Per ulteriori informazioni sullo sviluppo dei componenti core, consulta la [Documentazione per gli sviluppatori di componenti core](/help/developing/overview.md).
 
 ## Finestra di dialogo per la configurazione {#configure-dialog}
 
@@ -63,7 +63,7 @@ Puoi personalizzare facilmente l’esperienza del titolo per i visitatori tramit
 
 La finestra di dialogo per modifica consente all’autore di contenuto di definire il testo del titolo e selezionare il livello dell’intestazione.
 
-- **Titolo**: puoi identificare facilmente un componente in un modulo con il suo nome e, per impostazione predefinita, il titolo viene visualizzato sopra il componente. Se non aggiungi un titolo, al posto del testo del titolo viene visualizzato il nome del componente.
+- **Titolo** : con il relativo titolo è possibile identificare facilmente un componente in un modulo e, per impostazione predefinita, il titolo viene visualizzato sopra il componente. Se non aggiungi un titolo, al posto del testo del titolo viene visualizzato il nome del componente.
 - **Tipo/Dimensione**: definisce il livello di intestazione del titolo.
 - **ID**: questa opzione consente di controllare l’identificatore univoco del componente nel codice HTML e nel livello dati.
    - Se non specificato, viene generato automaticamente un ID univoco reperibile sulla pagina risultante.
@@ -72,7 +72,7 @@ La finestra di dialogo per modifica consente all’autore di contenuto di defini
 
 ## Finestra di dialogo per la progettazione {#design-dialog}
 
-La scheda Progettazione viene utilizzata per definire e gestire gli stili CSS per il componente Titolo modulo.
+La scheda Progettazione consente di definire e gestire gli stili CSS per il componente titolo del modulo.
 
 ### Titolo
 

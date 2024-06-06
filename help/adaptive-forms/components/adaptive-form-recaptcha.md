@@ -1,18 +1,18 @@
 ---
-title: Componente core Forms adattivo - Google reCAPTCHA
-description: Migliora la sicurezza dei moduli con il servizio Google reCAPTCHA con AEM Forms. Spiegare le proprietà di reCaptcha modulo adattivo
+title: 'Componente core dei moduli adattivi: Google reCAPTCHA'
+description: Migliora facilmente la sicurezza dei moduli con il servizio Google reCAPTCHA con AEM Forms. Spiegare le proprietà di reCAPTCHA per modulo adattivo
 role: Architect, Developer, Admin, User
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1325'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
 
 # reCAPTCHA per modulo adattivo {#google-recaptcha}
 
-CAPTCHA (Completely Automated Public Turing Test to tell Computers and Humans Apart) è un programma comunemente utilizzato nelle transazioni online per distinguere tra esseri umani e programmi o bot automatizzati. Rappresenta una sfida e valuta la risposta dell’utente per determinare se si tratta di un essere umano o di un bot che interagisce con il sito. Impedisce all’utente di procedere se il test non riesce e contribuisce a rendere sicure le transazioni online impedendo ai bot di pubblicare spam o avere scopi dannosi.
+Il CAPTCHA (Completely Automated Public Turing test to tell Computers and Humans Apart) è un programma comunemente utilizzato nelle transazioni online per distinguere tra esseri umani e programmi o bot automatizzati. Rappresenta una sfida e valuta la risposta dell’utente per determinare se si tratta di un essere umano o di un bot che interagisce con il sito. Impedisce all’utente di procedere se il test non riesce e contribuisce a rendere sicure le transazioni online impedendo ai bot di pubblicare spam o avere scopi dannosi.
 
 AEM Forms as a Cloud Service supporta il reCAPTCHA di Google v2 nei Moduli adattivi. Puoi utilizzarlo per presentare una sfida CAPTCHA all’invio del modulo
 
@@ -42,7 +42,7 @@ Per informazioni sulle versioni dei componenti core, consulta il documento [Vers
 
 ## Dettagli tecnici {#technical-details}
 
-Per informazioni aggiornate sul componente core reCAPTCHA di Google per moduli adattivi, consulta la documentazione tecnica disponibile su [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/recaptcha/v1/recaptcha). Per ulteriori informazioni sullo sviluppo dei componenti core, dai un’occhiata alla [documentazione per gli sviluppatori dei componenti core](/help/developing/overview.md).
+Per informazioni aggiornate sul componente core reCAPTCHA di Google per moduli adattivi, consulta la documentazione tecnica disponibile su [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/recaptcha/v1/recaptcha). Per ulteriori informazioni sullo sviluppo dei componenti core, consulta la [Documentazione per gli sviluppatori di componenti core](/help/developing/overview.md).
 
 ## Finestra di dialogo per la configurazione {#configure-dialog}
 
@@ -54,10 +54,10 @@ Puoi personalizzare facilmente l’esperienza reCAPTCHA di Google per i visitato
 
 - **Nome**: è possibile identificare facilmente un componente modulo con il suo nome univoco sia nel modulo che nell’editor di regole, ma il nome non deve contenere spazi o caratteri speciali.
 
-- **Titolo**: con il relativo titolo è possibile identificare facilmente un componente in un modulo e, per impostazione predefinita, il titolo viene visualizzato sopra il componente. Se non aggiungi un titolo, al posto del testo del titolo viene visualizzato il nome del componente.
+- **Titolo** : con il relativo titolo è possibile identificare facilmente un componente in un modulo e, per impostazione predefinita, il titolo viene visualizzato sopra il componente. Se non aggiungi un titolo, al posto del testo del titolo viene visualizzato il nome del componente.
 
 - **Consenti testo formattato per titolo**: questa funzione permette agli utenti di formattare i titoli in testo normale, incorporando opzioni come il grassetto, il corsivo, il testo sottolineato, vari font, dimensioni dei font, colori e altre opzioni per migliorare la presentazione visiva e la personalizzazione. Offre maggiore flessibilità e controllo creativo nel far risaltare i titoli all’interno di documenti, siti web o applicazioni.\
-  Selezionando la casella di controllo **Consenti testo formattato per il titolo, diventano visibili le opzioni di formattazione per formattare il titolo del componente. Per accedere a tutte le opzioni di formattazione disponibili, fai clic sulla scheda ![Icona schermo intero](/help/adaptive-forms/assets/fullscreen-icon.png).
+  Dopo aver selezionato la casella di controllo **Consenti testo formattato per titolo, le opzioni di formattazione diventano visibili per applicare lo stile al titolo del componente. Per accedere a tutte le opzioni di formattazione disponibili, fai clic sulla scheda ![Icona schermo intero](/help/adaptive-forms/assets/fullscreen-icon.png).
 
   ![Supporto testo RTF](/help/adaptive-forms/assets/richtext-support-title.png)
 
@@ -67,13 +67,13 @@ Puoi personalizzare facilmente l’esperienza reCAPTCHA di Google per i visitato
 
   >[!NOTE]
   >
-  > Consulta la sezione [Utilizzare Google reCAPTCHA in un modulo adattivo AEM basato su componenti core](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/captcha-adaptive-forms-core-components) articolo per scoprire come creare e configurare Google reCAPTCHA per il tuo ambiente.
+  > Consulta l’articolo [Utilizzare Google reCAPTCHA in un modulo adattivo AEM basato su componenti core](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/captcha-adaptive-forms-core-components) per scoprire come creare e configurare Google reCAPTCHA per il tuo ambiente.
 
 - **Tipo**: scegli questa opzione per selezionare le dimensioni per reCAPTCHA.
-   - **Normale**: si riferisce alla versione standard e più grande del widget reCAPTCHA, che può essere più visibile e più facile per gli utenti di interagire con, soprattutto sui dispositivi con schermi più grandi.
-   - **Compatto**: fa riferimento a una versione più piccola del widget reCAPTCHA. Questa opzione è adatta per le situazioni in cui lo spazio è limitato, ad esempio su dispositivi mobili o in layout ristretti su pagine web.
+   - **Normale**: si riferisce alla versione standard e più grande del widget reCAPTCHA, che può essere più visibile e più facile con cui gli utenti di possono interagire, soprattutto sui dispositivi con schermi più grandi.
+   - **Compatta**: fa riferimento a una versione più piccola del widget reCAPTCHA. Questa opzione è adatta per le situazioni in cui lo spazio è limitato, ad esempio su dispositivi mobili o in layout ristretti su pagine web.
 
-- **Nascondi componente**: seleziona questa opzione per nascondere il componente dal modulo. Il componente rimane accessibile per altri scopi, ad esempio per i calcoli nell’editor di regole. Questa funzione è utile quando devi memorizzare informazioni che non devono essere viste o modificate direttamente dall’utente.
+- **Nascondi componente**: seleziona questa opzione per nascondere il componente del modulo. Il componente rimane accessibile per altri scopi, ad esempio per i calcoli nell’editor di regole. Questa funzione è utile quando devi memorizzare informazioni che non devono essere viste o modificate direttamente dall’utente.
 
 - **Disattiva componente**: seleziona questa opzione per disabilitare il componente. Il componente disabilitato non è attivo o modificabile dall’utente finale. I dati del componente disabilitato non vengono inviati. L’utente può visualizzare il valore del campo ma non può modificarlo. Il componente rimane accessibile per altri scopi, ad esempio per i calcoli nell’editor di regole.
 
@@ -89,15 +89,15 @@ Puoi personalizzare facilmente l’esperienza reCAPTCHA di Google per i visitato
 
 ## Finestra di dialogo per la progettazione {#design-dialog}
 
-La finestra di dialogo per progettazione viene utilizzata per definire e gestire gli stili CSS per il componente reCAPTCHA.
+La finestra di dialogo per la progettazione viene utilizzata per definire e gestire gli stili CSS per il componente reCAPTCHA.
 
 ### Scheda Stili {#styles-design-tab}
 
-Il componente core reCAPTCHA di Forms adattivo supporta l’AEM [Sistema di stili](/help/get-started/authoring.md#component-styling).
+Il componente core reCAPTCHA per i moduli adattivi supporta il [Sistema di stili](/help/get-started/authoring.md#component-styling) di AEM.
 
 ![Finestra di dialogo per la progettazione](/help/adaptive-forms/assets/checkbox-style.png)
 
-- **Classi CSS predefinite**: puoi fornire una classe CSS predefinita per il componente core reCAPTCHA di Forms adattivo.
+- **Classi CSS predefinite**: è possibile fornire una classe CSS predefinita per il componente core reCAPTCHA per moduli adattivi.
 
 - **Stili consentiti**: è possibile definire gli stili fornendo un nome e la classe CSS che rappresenta lo stile. Ad esempio, puoi creare uno stile denominato “testo in grassetto” e fornire la classe CSS “spessore carattere: grassetto”. Puoi utilizzare o applicare questi stili a un modulo adattivo nell’editor di moduli adattivi. Per applicare uno stile, nell’editor dei moduli adattivi, seleziona il componente a cui applicare lo stile, passa alla finestra di dialogo delle proprietà e seleziona lo stile desiderato dall’elenco a discesa **Stili**. Per aggiornare o modificare gli stili, è sufficiente tornare alla finestra di dialogo per la progettazione, aggiornare gli stili nella scheda Stili e salvare le modifiche.
 

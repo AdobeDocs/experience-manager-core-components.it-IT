@@ -4,9 +4,9 @@ description: Aggiungere un modulo adattivo a una pagina web.
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
 source-git-commit: 8bba79956a04020647d5d04f9fe6fa674affedf1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1341'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Per informazioni aggiornate sul componente core contenitore di moduli adattivi, 
 
 ![Scheda Base](/help/adaptive-forms/assets/formcontainer_basictab.png)
 
-- **Titolo**: il titolo permette di identificare facilmente un componente in un modulo e, per impostazione predefinita, il titolo viene visualizzato sopra il componente. Se non aggiungi un titolo, al posto del testo del titolo viene visualizzato il nome del componente.
+- **Titolo** : con il relativo titolo è possibile identificare facilmente un componente in un modulo e, per impostazione predefinita, il titolo viene visualizzato sopra il componente. Se non aggiungi un titolo, al posto del testo del titolo viene visualizzato il nome del componente.
 
 - **Servizi di precompilazione**: questa opzione consente all’utente di selezionare un servizio di precompilazione per il recupero dei dati durante il rendering del modulo adattivo. Ulteriori informazioni su [come creare e configurare un servizio di precompilazione](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/prepopulate-adaptive-form-fields.html?lang=it#aem-forms-custom-prefill-service).
 
@@ -99,7 +99,7 @@ La finestra di dialogo per la progettazione consente di definire e gestire gli s
 
 ![Scheda Componente consentito della finestra di dialogo per la progettazione](/help/adaptive-forms/assets/formcontainer-allowedcomponents.png)
 
-Il **Componenti consentiti** Questa scheda consente all’editor di modelli di impostare i componenti che possono essere aggiunti come elementi ai pannelli nel componente nell’editor di Forms adattivo.
+La scheda **Componenti consentiti** permette all’editor dei modelli di impostare i componenti che possono essere aggiunti come elementi ai pannelli nel componente nell’editor di moduli adattivi.
 
 ### Scheda Componenti predefiniti {#default-components-tab}
 

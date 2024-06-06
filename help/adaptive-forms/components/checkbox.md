@@ -4,9 +4,9 @@ description: Utilizzo o personalizzazione del componente core della casella di c
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1836'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Per informazioni sulle versioni dei componenti core, consulta il documento [Vers
 
 ## Dettagli tecnici {#technical-details}
 
-Puoi trovare le informazioni più recenti sul componente core della casella di controllo nei moduli adattivi nella documentazione tecnica su [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/checkbox/v1/checkbox). Per ulteriori informazioni sullo sviluppo dei componenti core, dai un’occhiata alla [documentazione per gli sviluppatori dei componenti core](/help/developing/overview.md).
+Puoi trovare le informazioni più recenti sul componente core della casella di controllo nei moduli adattivi nella documentazione tecnica su [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/checkbox/v1/checkbox). Per ulteriori informazioni sullo sviluppo dei componenti core, consulta la [Documentazione per gli sviluppatori di componenti core](/help/developing/overview.md).
 
 ## Finestra di dialogo per la configurazione {#configure-dialog}
 
@@ -75,7 +75,7 @@ Puoi personalizzare facilmente la tua esperienza con le caselle di controllo per
 
 - **Tipo di dati del valore inviato**: questa opzione specifica il tipo di dati del valore inviato quando viene selezionata un’opzione. Se il **tipo di dati del valore inviato** è impostato su `Number` e si aggiungono dati stringa al **Valore dati** nella scheda **Opzioni**, nella schermata viene visualizzato il messaggio di errore `Value type mismatch`.
 
-- **Nascondi componente**: seleziona questa opzione per nascondere il componente dal modulo. Il componente rimane accessibile per altri scopi, ad esempio per i calcoli nell’editor di regole. Questa funzione è utile quando devi memorizzare informazioni che non devono essere viste o modificate direttamente dall’utente.
+- **Nascondi componente**: seleziona questa opzione per nascondere il componente del modulo. Il componente rimane accessibile per altri scopi, ad esempio per i calcoli nell’editor di regole. Questa funzione è utile quando devi memorizzare informazioni che non devono essere viste o modificate direttamente dall’utente.
 
 - **Disattiva componente**: seleziona l’opzione per disabilitare o bloccare il componente. Il componente disabilitato non è attivo o modificabile dall’utente finale. L’utente può visualizzare il valore del campo, ma non può modificarlo. Il componente rimane accessibile per altri scopi, ad esempio per i calcoli nell’editor di regole.
   <!-- - **Read-only** - Select the option to make the component non-editable. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.-->
@@ -83,7 +83,7 @@ Puoi personalizzare facilmente la tua esperienza con le caselle di controllo per
 - **Mantieni valore stato deselezionato**: selezionando questa opzione è possibile specificare il valore da restituire quando il componente casella di controllo non è selezionato. Se l’opzione **Mantieni valore stato deselezionato** è abilitata o impostata su true, sarà visualizzata l’opzione **Quando deselezionata, viene restituito un valore**.
 - **Se deselezionata, restituisce un valore**: questa opzione ti consente di specificare il valore da associare alla casella di controllo quando si trova in uno stato non selezionato o deselezionato.
 
-- **Valore predefinito**: questa opzione consente di aggiungere un valore predefinito in un campo del modulo. Se **Disabilita componente** è selezionato, il valore predefinito viene visualizzato sullo schermo. Se l’utente non immette alcun valore nel campo modulo, questo valore viene inviato al momento dell’invio del modulo.
+- **Valore predefinito**: questa opzione consente di aggiungere un valore predefinito in un campo del modulo. Se è selezionato **Disabilita componente**, il valore predefinito viene visualizzato sullo schermo. Se l’utente non immette alcun valore nel campo modulo, questo valore viene inviato al momento dell’invio del modulo.
 
 ### Scheda Convalida {#validation-tab}
 

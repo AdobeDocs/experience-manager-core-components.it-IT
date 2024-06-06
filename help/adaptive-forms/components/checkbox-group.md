@@ -4,13 +4,13 @@ description: Utilizzo o personalizzazione del componente core del gruppo di case
 role: Architect, Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2102'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Componente gruppo casella di controllo {#button-component-adaptive-forms-core-component}
+# Componente gruppo di caselle di controllo {#button-component-adaptive-forms-core-component}
 
 Un gruppo di caselle di controllo in un modulo adattivo è un insieme di caselle di controllo correlate che consentono agli utenti di selezionare una o più opzioni da un elenco. Ciascuna casella di controllo è rappresentata da un valore dati (valore utilizzato per elaborare gli elementi di un gruppo di caselle di controllo) e dal valore visualizzato (etichetta per ogni elemento della casella di controllo che ne descrive lo scopo)**Esempio**
 
@@ -58,7 +58,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Dettagli tecnici {#technical-details}
 
-Puoi trovare le informazioni più recenti sul componente core di un gruppo di caselle di controllo nei moduli adattivi nella documentazione tecnica su [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/checkboxgroup/v1/checkboxgroup). Per ulteriori informazioni sullo sviluppo dei componenti core, dai un’occhiata alla [Documentazione per gli sviluppatori dei componenti core](/help/developing/overview.md).
+Puoi trovare le informazioni più recenti sul componente core di un gruppo di caselle di controllo nei moduli adattivi nella documentazione tecnica su [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/checkboxgroup/v1/checkboxgroup). Per ulteriori informazioni sullo sviluppo dei componenti core, consulta la [Documentazione per gli sviluppatori di componenti core](/help/developing/overview.md).
 
 ## Finestra di dialogo per la configurazione {#configure-dialog}
 
@@ -71,12 +71,12 @@ Puoi personalizzare facilmente la tua esperienza con le caselle di controllo per
 
 - **Nome**: il nome identifica in modo univoco il componente nell’editor delle regole. Le stringhe di nome non consentono l’uso di caratteri e spazi speciali.
 
-- **Titolo**: con il relativo titolo è possibile identificare facilmente un componente in un modulo e, per impostazione predefinita, il titolo viene visualizzato sopra il componente. Se non aggiungi un titolo, al posto del testo del titolo viene visualizzato il nome del componente.
+- **Titolo** : con il relativo titolo è possibile identificare facilmente un componente in un modulo e, per impostazione predefinita, il titolo viene visualizzato sopra il componente. Se non aggiungi un titolo, al posto del testo del titolo viene visualizzato il nome del componente.
 
 - **Consenti testo formattato per titolo**: questa funzione permette agli utenti di formattare i titoli in testo normale, incorporando opzioni come il grassetto, il corsivo, il testo sottolineato, vari font, dimensioni dei font, colori e altre opzioni per migliorare la presentazione visiva e la personalizzazione. Offre maggiore flessibilità e controllo creativo nel far risaltare i titoli all’interno di documenti, siti web o applicazioni.\
   Dopo aver selezionato la casella di controllo per **Consenti formato RTF per il titolo**, le opzioni di formattazione diventano visibili per applicare lo stile al titolo del componente. Per accedere a tutte le opzioni di formattazione disponibili, puoi fare clic sulla scheda `Fullscreen` ![Icona schermo intero](/help/adaptive-forms/assets/fullscreen-icon.png).
 
-  ![Supporto RTF](/help/adaptive-forms/assets/richtext-support-title.png)
+  ![Supporto testo RTF](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **Nascondi titolo**: seleziona l’opzione per nascondere il titolo del componente.
 
@@ -89,7 +89,7 @@ Puoi personalizzare facilmente la tua esperienza con le caselle di controllo per
 
   È inoltre possibile formattare le opzioni per il gruppo di caselle di controllo utilizzando **Consenti formato RTF per le opzioni**.
 
-  ![Supporto RTF per le opzioni](/help/adaptive-forms/assets/richtext-for-options.png)
+  ![Supporto testo RTF per le opzioni](/help/adaptive-forms/assets/richtext-for-options.png)
 
   Dopo aver selezionato la casella di controllo per **Consenti testo formattato per opzioni**, le opzioni di formattazione diventano visibili per applicare lo stile alle opzioni del componente. Per accedere a tutte le opzioni di formattazione disponibili, puoi fare clic sulla scheda `Fullscreen` ![Icona schermo intero](/help/adaptive-forms/assets/fullscreen-icon.png).
   ![Supporto testo RTF per le opzioni](/help/adaptive-forms/assets/richtextoptions-support.png)
@@ -105,7 +105,7 @@ Puoi personalizzare facilmente la tua esperienza con le caselle di controllo per
    - **Verticale**: quando questa opzione è selezionata, le caselle di controllo vengono visualizzate dall’alto verso il basso in un modulo adattivo.
 
 - **Opzioni predefinite**: questa opzione consente di aggiungere valori predefiniti preselezionati al caricamento del modulo. Utilizza l’icona Elimina per rimuovere le opzioni aggiunte. Se il **tipo di dati del valore inviato** è impostato su `Number` e aggiungi una stringa di dati a **Opzioni predefinite**, la schermata mostra un messaggio di errore `Value type mismatch`.
-- **Nascondi componente**: seleziona l’opzione per nascondere il componente dal modulo. Il componente rimane accessibile per altri scopi, ad esempio per i calcoli nell’editor di regole. Questa funzione è utile quando devi memorizzare informazioni che non devono essere viste o modificate direttamente dall’utente.
+- **Nascondi componente**: seleziona questa opzione per nascondere il componente del modulo. Il componente rimane accessibile per altri scopi, ad esempio per i calcoli nell’editor di regole. Questa funzione è utile quando devi memorizzare informazioni che non devono essere viste o modificate direttamente dall’utente.
 - **Disattiva componente**: seleziona questa opzione per disabilitare il componente. Il componente disabilitato non è attivo o modificabile dall’utente finale. L’utente può visualizzare il valore del campo, ma non può modificarlo. Il componente rimane accessibile per altri scopi, ad esempio per i calcoli nell’editor di regole.
 - **Sola lettura**: seleziona questa opzione per rendere il componente non modificabile. L’utente può visualizzare il valore del campo, ma non può modificarlo. Il componente rimane accessibile per altri scopi, ad esempio per i calcoli nell’editor di regole.
 
