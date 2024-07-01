@@ -4,9 +4,9 @@ description: I Componenti core utilizzano le configurazioni in base al contesto 
 role: Architect, Developer, Admin
 exl-id: d35210f7-a65d-4768-ab9e-f12ec406da2d
 source-git-commit: b72defe1bbe6cb286730ac3f508f7d6c14b3fc33
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '174'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Molte funzionalità dei Componenti core utilizzano le configurazioni in base al 
 
 Le singole configurazioni dipendono dal componente o dalla funzione specifica. Le funzioni dei Componenti core che utilizzano le configurazioni in base al contesto includono:
 
-* [Il componente Pagina](https://github.com/adobe/aem-core-wcm-components/tree/main/content/src/content/jcr_root/apps/core/wcm/components/page/v3/page#loading-of-context-aware-cssjs) si basa sulla configurazione in base al contesto durante il rendering `link`, `script` e `meta` tag.
+* [Il componente Pagina](https://github.com/adobe/aem-core-wcm-components/tree/main/content/src/content/jcr_root/apps/core/wcm/components/page/v3/page#loading-of-context-aware-cssjs) si basa sulla configurazione che tiene conto del contesto durante il rendering dei tag `link`, `script` e `meta`.
 * [Componente Visualizzatore PDF](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/pdfviewer/v1/pdfviewer#context-aware-config)
 * [Adobe Client Data Layer](/help/developing/data-layer/overview.md#installation-activation)
 * [Supporto AMP](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp)
