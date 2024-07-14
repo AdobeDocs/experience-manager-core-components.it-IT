@@ -1,16 +1,16 @@
 ---
-title: Componente Immagine  (v2)
+title: Componente Immagine (v2)
 description: Il componente core Immagine è un componente immagine adattivo che offre funzioni di modifica diretta.
 role: Architect, Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
 source-git-commit: 6c251cd03997dca8961b31498c6f5de3cfdc3793
 workflow-type: tm+mt
-source-wordcount: '2073'
-ht-degree: 100%
+source-wordcount: '2048'
+ht-degree: 98%
 
 ---
 
-# Componente Immagine   (v2) {#image-component}
+# Componente Immagine (v2) {#image-component}
 
 Il componente core Immagine è un componente immagine adattivo che offre funzioni di modifica diretta.
 
@@ -121,48 +121,48 @@ La finestra di dialogo per modifica consente all’autore di contenuto di ritagl
 
 * Avvia ritaglio
 
-   ![Icona Avvia ritaglio](/help/assets/image-start-crop.png)
+  ![Icona Avvia ritaglio](/help/assets/image-start-crop.png)
 
-   Selezionando questa opzione si apre un elenco a discesa per le proporzioni predefinite del ritaglio.
+  Selezionando questa opzione si apre un elenco a discesa per le proporzioni predefinite del ritaglio.
 
    * Scegli l’opzione **Free Hand** per definire il ritaglio desiderato.
    * Scegli l’opzione **Rimuovi Ritaglio** per visualizzare la risorsa originale.
 
-   Una volta selezionata un’opzione di ritaglio, utilizza le maniglie blu per dimensionare il ritaglio sull’immagine.
+  Una volta selezionata un’opzione di ritaglio, utilizza le maniglie blu per dimensionare il ritaglio sull’immagine.
 
-   ![Opzioni di ritaglio](/help/assets/image-crop-options.png)
+  ![Opzioni di ritaglio](/help/assets/image-crop-options.png)
 
 * Ruota a destra
 
-   ![Icona Ruota a destra](/help/assets/image-rotate-right.png)
+  ![Icona Ruota a destra](/help/assets/image-rotate-right.png)
 
-   Utilizza questa opzione per ruotare l’immagine di 90° verso destra (in senso orario).
+  Utilizza questa opzione per ruotare l’immagine di 90° verso destra (in senso orario).
 
 * Riflessione orizzontale
 
-   ![Icona Riflessione orizzontale](/help/assets/image-flip-horizontal.png)
+  ![Icona Riflessione orizzontale](/help/assets/image-flip-horizontal.png)
 
-   Utilizza questa opzione per capovolgere l’immagine orizzontalmente o ruotarla di 180° lungo l’asse y.
+  Utilizza questa opzione per capovolgere l’immagine orizzontalmente o ruotarla di 180° lungo l’asse y.
 
 * Riflessione verticale
 
-   ![Icona Riflessione verticale](/help/assets/image-flip-vertical.png)
+  ![Icona Riflessione verticale](/help/assets/image-flip-vertical.png)
 
-   Utilizza questa opzione per capovolgere l’immagine verticalmente o ruotarla 180° lungo l’asse x.
+  Utilizza questa opzione per capovolgere l’immagine verticalmente o ruotarla 180° lungo l’asse x.
 
 * Reimposta zoom
 
-   ![Icona Reimposta zoom](/help/assets/image-reset-zoom.png)
+  ![Icona Reimposta zoom](/help/assets/image-reset-zoom.png)
 
-   Se l’immagine è già stata ingrandita, utilizza questa opzione per reimpostare il livello di zoom.
+  Se l’immagine è già stata ingrandita, utilizza questa opzione per reimpostare il livello di zoom.
 
 * Apri cursore Zoom
 
-   ![Icona Apri cursore zoom](/help/assets/image-zoom.png)
+  ![Icona Apri cursore zoom](/help/assets/image-zoom.png)
 
-   Utilizza questa opzione per visualizzare un cursore che permette di controllare il livello di zoom dell’immagine.
+  Utilizza questa opzione per visualizzare un cursore che permette di controllare il livello di zoom dell’immagine.
 
-   ![Controllo cursore dello zoom](/help/assets/image-zoom-slider.png)
+  ![Controllo cursore dello zoom](/help/assets/image-zoom-slider.png)
 
 L’editor locale può essere utilizzato anche per modificare l’immagine. A causa di limiti di spazio, in linea sono disponibili solo opzioni di base. Per le opzioni di modifica completa, utilizza la modalità a schermo intero.
 
@@ -212,39 +212,37 @@ Nella scheda **Funzioni** è possibile definire le opzioni disponibili per gli a
 
 * Origine
 
-   ![Scheda Funzioni della finestra di dialogo per progettazione del componente Immagine](/help/assets/image-design-features-source.png)
+  ![Scheda Funzioni della finestra di dialogo per progettazione del componente Immagine](/help/assets/image-design-features-source.png)
 
-   Seleziona l’opzione **Consenti caricamento risorse dal file system** per consentire agli autori di contenuto di caricare immagini dal proprio computer locale. Per forzare gli autori di contenuto a selezionare solo le risorse da AEM, deseleziona questa opzione.
+  Seleziona l’opzione **Consenti caricamento risorse dal file system** per consentire agli autori di contenuto di caricare immagini dal proprio computer locale. Per forzare gli autori di contenuto a selezionare solo le risorse da AEM, deseleziona questa opzione.
 
 * Orientamento
 
-   ![Scheda Funzioni della finestra di dialogo per progettazione del componente Immagine](/help/assets/image-design-features-orientation.png)
+  ![Scheda Funzioni della finestra di dialogo per progettazione del componente Immagine](/help/assets/image-design-features-orientation.png)
 
-* **Rotazione**
-Seleziona questa opzione per consentire all’autore di contenuto di utilizzare l’opzione 
-**Ruota a destra**.
+* **Ruota**
+Utilizzare questa opzione per consentire all&#39;autore di contenuto di utilizzare l&#39;opzione **Ruota a destra**.
 * **Riflessione**
-Seleziona questa opzione per consentire all’autore di contenuto di utilizzare 
-le opzioni **Riflessione orizzontale** e **Riflessione verticale**.
+Utilizzare questa opzione per consentire all&#39;autore di contenuto di utilizzare le opzioni **Riflessione orizzontale** e **Riflessione verticale**.
 
-   >[!CAUTION]
-   >
-   >L’opzione **Riflessione** è disabilitata per impostazione predefinita. Attivando questa opzione, i pulsanti **Riflessione verticale** e **Riflessione orizzontale** vengono visualizzati nella finestra di dialogo per modifica del componente Immagine, ma questa funzione non è attualmente supportata da AEM e le modifiche effettuate utilizzando queste opzioni non verranno mantenute.
+  >[!CAUTION]
+  >
+  >L’opzione **Riflessione** è disabilitata per impostazione predefinita. Attivando questa opzione, i pulsanti **Riflessione verticale** e **Riflessione orizzontale** vengono visualizzati nella finestra di dialogo per modifica del componente Immagine, ma questa funzione non è attualmente supportata da AEM e le modifiche effettuate utilizzando queste opzioni non verranno mantenute.
 
 * Ritaglio
 
-   ![Scheda Funzioni della finestra di dialogo per progettazione del componente Immagine](/help/assets/image-design-features-cropping.png)
+  ![Scheda Funzioni della finestra di dialogo per progettazione del componente Immagine](/help/assets/image-design-features-cropping.png)
 
-   Seleziona l’opzione **Consenti ritaglio** per consentire all’autore di contenuto di ritagliare l’immagine nella finestra di dialogo per modifica del componente.
+  Seleziona l’opzione **Consenti ritaglio** per consentire all’autore di contenuto di ritagliare l’immagine nella finestra di dialogo per modifica del componente.
    * Fai clic su **Aggiungi** per aggiungere una proporzione predefinita per il ritaglio.
    * Immetti un nome descrittivo che verrà visualizzato nel menu a discesa **Avvia ritaglio**.
    * Immetti il rapporto numerico per la proporzione.
    * Utilizza le maniglie di trascinamento per modificare l’ordine delle proporzioni
    * Utilizza l’icona cestino per eliminare una proporzione.
 
-   >[!CAUTION]
-   >
-   >In AEM, i rapporti di proporzione del ritaglio sono definiti come **altezza/larghezza**. Ciò differisce dalla definizione tradizionale di larghezza/altezza e viene fatto per ragioni di compatibilità con le versioni precedenti. Gli autori di contenuto non noteranno alcuna differenza, purché venga fornito un nome chiaro per la proporzione, in quanto il nome viene visualizzato nell’interfaccia utente e non nella proporzione stessa.
+  >[!CAUTION]
+  >
+  >In AEM, i rapporti di proporzione del ritaglio sono definiti come **altezza/larghezza**. Ciò differisce dalla definizione tradizionale di larghezza/altezza e viene fatto per ragioni di compatibilità con le versioni precedenti. Gli autori di contenuto non noteranno alcuna differenza, purché venga fornito un nome chiaro per la proporzione, in quanto il nome viene visualizzato nell’interfaccia utente e non nella proporzione stessa.
 
 ### Scheda Stili {#styles-tab-1}
 

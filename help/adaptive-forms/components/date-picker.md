@@ -4,7 +4,7 @@ description: Utilizzo o personalizzazione del componente core del selettore data
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
 source-git-commit: b4a66a407e92398a98441c65ab588b9720777dfa
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2299'
 ht-degree: 100%
 
@@ -132,9 +132,9 @@ Puoi personalizzare facilmente l’esperienza del selettore data per gli utenti 
 
 - **Modifica formato**: rappresenta un formato di data in cui l’utente può modificare la data. L’opzione **Tipo** consente all’utente di selezionare il formato della data. È inoltre possibile personalizzare il formato della data utilizzando l’opzione **Personalizza** nel menu a discesa **Tipo**.
 - **Messaggio di errore di formattazione**: questa opzione consente di inserire il messaggio da visualizzare quando la data immessa non è nel formato corretto.
-- **Lingua**: questa funzione viene utilizzata per la formattazione del campo specifico. Quando un utente seleziona un’opzione di lingua dal menu a discesa **Tipo**, l’opzione **Tag lingua IETF BCP 47** viene visualizzato nel pannello. Puoi scegliere la lingua per la formattazione dei campi quando si traduce un modulo adattivo in una lingua specifica.
+- **Lingua**: questa funzione viene utilizzata per la formattazione del campo specifico. Quando un utente seleziona un’opzione di lingua dal menu a discesa **Tipo**, l’opzione **Tag lingua IETF BCP 47** viene visualizzata nel pannello. Puoi scegliere la lingua per la formattazione dei campi quando si traduce un modulo adattivo in una lingua specifica.
 
-Il set di lingue non è visibile per impostazione predefinita, ma gli utenti possono immettere un **Tag lingua IETF BCP 47** personalizzato aggiornando il criterio del modello:
+Il set di lingue non è visibile per impostazione predefinita, ma gli utenti possono immettere un **Tag lingua IETF BCP 47** aggiornando il criterio del modello:
 
 1. Apri il modello corrispondente associato a un modulo adattivo nell’editor di modelli.
 2. Seleziona il criterio esistente come `datepicker-default-policy` dal menu a discesa.

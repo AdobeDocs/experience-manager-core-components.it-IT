@@ -5,7 +5,7 @@ role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
 source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
 workflow-type: tm+mt
-source-wordcount: '2210'
+source-wordcount: '2180'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,7 @@ La tabella che segue descrive tutte le versioni supportate del componente, le ve
 
 | Versione del componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|---|
-| v2 | Compatibile  con<br>[versione 2.17.4](/help/versions.md) e precedenti | Compatibile | Compatibile |
+| v2 | Compatibile con la <br>[versione 2.17.4](/help/versions.md) e precedenti | Compatibile | Compatibile |
 | [v1](v1/text-v1.md) | Compatibile | Compatibile | Compatibile |
 
 Per ulteriori informazioni sulle versioni e sugli aggiornamenti dei Componenti core, vedi il documento [Versioni dei Componenti core](/help/versions.md).
@@ -133,7 +133,7 @@ Questa opzione consente di convertire il testo selezionato in un collegamento ip
    * Frame principale
    * Frame superiore
 
-   Tocca o fai clic sul segno di spunta per applicare il collegamento o sulla x per annullare.
+  Tocca o fai clic sul segno di spunta per applicare il collegamento o sulla x per annullare.
 
 ### Scollega
 

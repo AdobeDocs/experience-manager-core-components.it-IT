@@ -5,7 +5,7 @@ role: Architect, Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
 source-git-commit: 614bc5fd01a76a6888606faa4576e1695b77ba58
 workflow-type: tm+mt
-source-wordcount: '1559'
+source-wordcount: '1287'
 ht-degree: 100%
 
 ---
@@ -22,14 +22,13 @@ Pertanto, Adobe fornisce le seguenti raccomandazioni:
 Per i nuovi progetti si deve sempre tentare di utilizzare i Componenti core. Se i Componenti core non possono essere utilizzati direttamente o [nella versione estesa](customizing.md) per soddisfare i requisiti del progetto, si consiglia di creare un componente personalizzato seguendo l’architettura dei componenti impostata nei Componenti core. Ad eccezione dei casi in cui non esiste un’alternativa possibile, evita di utilizzare i [componenti di base](/help/versions.md#foundation-component-support).
 * **Progetti esistenti**
 Si raccomanda di continuare a utilizzare i [componenti di base](/help/versions.md#foundation-component-support), a meno che non sia pianificato il refactoring di un sito o di un componente.\
-   In quanto ampiamente utilizzati nella maggior parte dei progetti esistenti, i componenti di base [continueranno a essere supportati.](/help/versions.md#foundation-component-support)
+  In quanto ampiamente utilizzati nella maggior parte dei progetti esistenti, i componenti di base [continueranno a essere supportati.](/help/versions.md#foundation-component-support)
 * **Nuovi componenti personalizzati**
 Valuta se è possibile [personalizzare un componente core](customizing.md) esistente.\
-   In caso contrario, si consiglia di creare un nuovo componente personalizzato seguendo le [Linee guida per i componenti](guidelines.md).
+  In caso contrario, si consiglia di creare un nuovo componente personalizzato seguendo le [Linee guida per i componenti](guidelines.md).
 * **Componenti personalizzati esistenti**
-Se i componenti funzionano come previsto, mantienili così come sono.
-\
-   In caso contrario, vedi “Nuovi componenti personalizzati” sopra.
+Se i componenti funzionano come previsto, mantienili così come sono.\
+  In caso contrario, vedi “Nuovi componenti personalizzati” sopra.
 
 ## Come utilizzare in modo efficace i Componenti core {#how-to-succeed}
 

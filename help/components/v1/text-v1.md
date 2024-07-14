@@ -6,7 +6,7 @@ role: Architect, Developer, Admin, User
 exl-id: c9fe3052-a33d-412e-9456-52c9a0cea292
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '1657'
+source-wordcount: '1639'
 ht-degree: 100%
 
 ---
@@ -78,70 +78,71 @@ La finestra di dialogo per modifica offre gli strumenti di formattazione RTF sta
 
 * Grassetto
 
-   ![](/help/assets/chlimage_1-53.png)
+  ![](/help/assets/chlimage_1-53.png)
 
-   Consente di applicare il grassetto al testo selezionato o al testo immesso dopo il cursore.
+  Consente di applicare il grassetto al testo selezionato o al testo immesso dopo il cursore.
 
-   **Ctrl+B** può essere utilizzato come scelta rapida da tastiera.
+  **Ctrl+B** può essere utilizzato come scelta rapida da tastiera.
 
 * Corsivo
 
-   ![](/help/assets/chlimage_1-54.png)
+  ![](/help/assets/chlimage_1-54.png)
 
-   Consente di applicare il corsivo al testo selezionato o al testo immesso dopo il cursore.
+  Consente di applicare il corsivo al testo selezionato o al testo immesso dopo il cursore.
 
-   **Ctrl+I** può essere utilizzato come scelta rapida da tastiera.
+  **Ctrl+I** può essere utilizzato come scelta rapida da tastiera.
 
 * Sottolineato
 
-   ![](/help/assets/chlimage_1-55.png)
+  ![](/help/assets/chlimage_1-55.png)
 
-   Consente di applicare la sottolineatura al testo selezionato o al testo immesso dopo il cursore.
+  Consente di applicare la sottolineatura al testo selezionato o al testo immesso dopo il cursore.
 
-   **Ctrl+U** può essere utilizzato come scelta rapida da tastiera.
+  **Ctrl+U** può essere utilizzato come scelta rapida da tastiera.
 
 * Pedice
 
-   ![](/help/assets/chlimage_1-56.png)
+  ![](/help/assets/chlimage_1-56.png)
 
-   Consente di formattare come pedice il testo selezionato o il testo immesso dopo il cursore.
+  Consente di formattare come pedice il testo selezionato o il testo immesso dopo il cursore.
 
 * Apice
 
-   ![](/help/assets/chlimage_1-57.png)
+  ![](/help/assets/chlimage_1-57.png)
 
-   Consente di formattare come apice il testo selezionato o il testo immesso dopo il cursore.
+  Consente di formattare come apice il testo selezionato o il testo immesso dopo il cursore.
 
 * Incolla testo semplice
 
-   ![](/help/assets/chlimage_1-58.png)
+  ![](/help/assets/chlimage_1-58.png)
 
-   Incolla tutto il testo copiato come testo normale senza alcuna formattazione.
+  Incolla tutto il testo copiato come testo normale senza alcuna formattazione.
 
-   Quando si seleziona questa opzione, viene visualizzata una finestra in cui il testo copiato può essere incollato come testo normale senza formattazione in anteprima, prima di essere effettivamente inserito nel testo. Per accettare, tocca o fai clic sul segno di spunta, per annullare tocca o fai clic sulla x.
+  Quando si seleziona questa opzione, viene visualizzata una finestra in cui il testo copiato può essere incollato come testo normale senza formattazione in anteprima, prima di essere effettivamente inserito nel testo. Per accettare, tocca o fai clic sul segno di spunta, per annullare tocca o fai clic sulla x.
 
-   ![](/help/assets/chlimage_1-59.png)
+  ![](/help/assets/chlimage_1-59.png)
 
 * Incolla da Word
 
-   ![](/help/assets/chlimage_1-60.png)
+  ![](/help/assets/chlimage_1-60.png)
 
-   Quando si seleziona questa opzione, viene visualizzata una finestra in cui il testo copiato può essere incollato con la formattazione originale in anteprima, prima di essere effettivamente inserito nel testo. Per accettare, tocca o fai clic sul segno di spunta, per annullare tocca o fai clic sulla x.
+  Quando si seleziona questa opzione, viene visualizzata una finestra in cui il testo copiato può essere incollato con la formattazione originale in anteprima, prima di essere effettivamente inserito nel testo. Per accettare, tocca o fai clic sul segno di spunta, per annullare tocca o fai clic sulla x.
 
-   ![](/help/assets/chlimage_1-61.png)
+  ![](/help/assets/chlimage_1-61.png)
 
 * Collegamento ipertestuale
 
-   ![](/help/assets/chlimage_1-62.png)
+  ![](/help/assets/chlimage_1-62.png)
 
-   Questa opzione consente di convertire il testo selezionato in un collegamento ipertestuale o modificare un collegamento già definito. Questa opzione è attiva solo quando il testo è già selezionato e apre una finestra con opzioni aggiuntive per l’impostazione del collegamento.
+  Questa opzione consente di convertire il testo selezionato in un collegamento ipertestuale o modificare un collegamento già definito. Questa opzione è attiva solo quando il testo è già selezionato e apre una finestra con opzioni aggiuntive per l’impostazione del collegamento.
 
-   ![](/help/assets/chlimage_1-63.png)
+  ![](/help/assets/chlimage_1-63.png)
 
    * Immetti la posizione
 
       * La finestra di dialogo per selezione consente di scegliere un percorso in AEM
       * Se il collegamento non si trova all’interno di AEM, immetti l’URL assoluto (i percorsi non assoluti vengono interpretati come relativi ad AEM)
+
    * Immetti un testo descrittivo alternativo per il collegamento
    * Seleziona il comportamento del collegamento
 
@@ -151,107 +152,107 @@ La finestra di dialogo per modifica offre gli strumenti di formattazione RTF sta
       * Frame principale
       * Frame superiore
 
-   Tocca o fai clic sul segno di spunta per applicare il collegamento o sulla x per annullare.
+  Tocca o fai clic sul segno di spunta per applicare il collegamento o sulla x per annullare.
 
 * Scollega
 
-   ![](/help/assets/chlimage_1-64.png)
+  ![](/help/assets/chlimage_1-64.png)
 
-   Questa opzione consente di rimuovere un collegamento già applicato al testo selezionato. Questa opzione è attiva solo se è già selezionato un collegamento.
+  Questa opzione consente di rimuovere un collegamento già applicato al testo selezionato. Questa opzione è attiva solo se è già selezionato un collegamento.
 
 * Trova
 
-   ![](/help/assets/chlimage_1-65.png)
+  ![](/help/assets/chlimage_1-65.png)
 
-   Questa opzione consente di cercare nel testo le occorrenze di una stringa di testo specificata. Selezionando questa opzione, si apre una finestra per specificare le opzioni di ricerca.
+  Questa opzione consente di cercare nel testo le occorrenze di una stringa di testo specificata. Selezionando questa opzione, si apre una finestra per specificare le opzioni di ricerca.
 
-   ![](/help/assets/chlimage_1-66.png)
+  ![](/help/assets/chlimage_1-66.png)
 
-   Inserisci il testo da cercare e tocca o fai clic su **Trova** per iniziare la ricerca. Tocca o fai clic sulla x per annullare.
+  Inserisci il testo da cercare e tocca o fai clic su **Trova** per iniziare la ricerca. Tocca o fai clic sulla x per annullare.
 
-   Se vuoi avere una corrispondenza esatta di maiuscole/minuscole, seleziona l’opzione **Rispetta maiuscole/minuscole** prima di avviare la ricerca.
+  Se vuoi avere una corrispondenza esatta di maiuscole/minuscole, seleziona l’opzione **Rispetta maiuscole/minuscole** prima di avviare la ricerca.
 
-   Se viene trovata una corrispondenza, questa viene evidenziata e la finestra di dialogo di ricerca viene sfumata. Tocca o fai di nuovo clic sul pulsante **Trova** nella finestra di dialogo sfumata per cercare l’occorrenza successiva.
+  Se viene trovata una corrispondenza, questa viene evidenziata e la finestra di dialogo di ricerca viene sfumata. Tocca o fai di nuovo clic sul pulsante **Trova** nella finestra di dialogo sfumata per cercare l’occorrenza successiva.
 
-   ![](/help/assets/chlimage_1-67.png)
+  ![](/help/assets/chlimage_1-67.png)
 
-   Se non vengono trovate altre occorrenze, viene visualizzato un messaggio e la ricerca riparte dall’inizio del testo.
+  Se non vengono trovate altre occorrenze, viene visualizzato un messaggio e la ricerca riparte dall’inizio del testo.
 
-   ![](/help/assets/chlimage_1-68.png)
+  ![](/help/assets/chlimage_1-68.png)
 
 * Sostituisci
 
-   ![](/help/assets/chlimage_1-69.png)
+  ![](/help/assets/chlimage_1-69.png)
 
-   Questa opzione consente di cercare nel testo le occorrenze di una stringa di testo specificata e sostituire le corrispondenze con un’altra stringa. Selezionando questa opzione si apre una finestra per specificare le opzioni di ricerca e sostituzione.
+  Questa opzione consente di cercare nel testo le occorrenze di una stringa di testo specificata e sostituire le corrispondenze con un’altra stringa. Selezionando questa opzione si apre una finestra per specificare le opzioni di ricerca e sostituzione.
 
-   ![](/help/assets/chlimage_1-70.png)
+  ![](/help/assets/chlimage_1-70.png)
 
-   Immettere il testo da cercare e il testo con cui deve essere sostituito.
+  Immettere il testo da cercare e il testo con cui deve essere sostituito.
 
-   Tocca o fai clic su **Trova** per iniziare la ricerca. Tocca o fai clic sulla x per annullare.
+  Tocca o fai clic su **Trova** per iniziare la ricerca. Tocca o fai clic sulla x per annullare.
 
-   Se vuoi avere una corrispondenza esatta di maiuscole/minuscole, seleziona l’opzione **Rispetta maiuscole/minuscole** prima di avviare la ricerca.
+  Se vuoi avere una corrispondenza esatta di maiuscole/minuscole, seleziona l’opzione **Rispetta maiuscole/minuscole** prima di avviare la ricerca.
 
-   Se viene trovata una corrispondenza, questa viene evidenziata e la finestra di dialogo di ricerca viene sfumata. Fai nuovamente clic sul pulsante **Trova** nella finestra di dialogo sfumata per cercare l’occorrenza successiva oppure seleziona il pulsante **Sostituisci** per sostituire il testo evidenziato. Il pulsante **Sostituisci** è attivo solo una volta trovata una corrispondenza.
+  Se viene trovata una corrispondenza, questa viene evidenziata e la finestra di dialogo di ricerca viene sfumata. Fai nuovamente clic sul pulsante **Trova** nella finestra di dialogo sfumata per cercare l’occorrenza successiva oppure seleziona il pulsante **Sostituisci** per sostituire il testo evidenziato. Il pulsante **Sostituisci** è attivo solo una volta trovata una corrispondenza.
 
-   Seleziona **Sostituisci tutto** per sostituire tutte le occorrenze del testo contemporaneamente.
+  Seleziona **Sostituisci tutto** per sostituire tutte le occorrenze del testo contemporaneamente.
 
 * Allineato a sinistra
 
-   ![](/help/assets/chlimage_1-71.png)
+  ![](/help/assets/chlimage_1-71.png)
 
-   Consente di allineare il testo al margine sinistro.
+  Consente di allineare il testo al margine sinistro.
 
 * Centrato
 
-   ![](/help/assets/chlimage_1-72.png)
+  ![](/help/assets/chlimage_1-72.png)
 
-   Consente di centrare il testo.
+  Consente di centrare il testo.
 
 * Allineato a destra
 
-   ![](/help/assets/chlimage_1-73.png)
+  ![](/help/assets/chlimage_1-73.png)
 
-   Consente di allineare il testo al margine destro.
+  Consente di allineare il testo al margine destro.
 
 * Punto elenco
 
-   ![](/help/assets/chlimage_1-74.png)
+  ![](/help/assets/chlimage_1-74.png)
 
-   Consente di formattare il testo selezionato come elenco puntato o di iniziare l’inserimento di un elenco puntato dopo il cursore.
+  Consente di formattare il testo selezionato come elenco puntato o di iniziare l’inserimento di un elenco puntato dopo il cursore.
 
-   Per terminare un elenco puntato, tocca o fai clic nuovamente sul pulsante **Punto elenco** oppure immetti due ritorni a capo.
+  Per terminare un elenco puntato, tocca o fai clic nuovamente sul pulsante **Punto elenco** oppure immetti due ritorni a capo.
 
 * Numero
 
-   ![](/help/assets/chlimage_1-75.png)
+  ![](/help/assets/chlimage_1-75.png)
 
-   Consente di formattare il testo selezionato come elenco numerato o di iniziare l’inserimento di un elenco numerato dopo il cursore.
+  Consente di formattare il testo selezionato come elenco numerato o di iniziare l’inserimento di un elenco numerato dopo il cursore.
 
-   Per terminare un elenco numerato, tocca o fai clic nuovamente sul pulsante **Numero** oppure immetti due ritorni a capo.
+  Per terminare un elenco numerato, tocca o fai clic nuovamente sul pulsante **Numero** oppure immetti due ritorni a capo.
 
 * Riduci rientro
 
-   ![](/help/assets/chlimage_1-76.png)
+  ![](/help/assets/chlimage_1-76.png)
 
-   Consente di ridurre il livello di rientro del testo selezionato o del testo immesso dopo il cursore.
+  Consente di ridurre il livello di rientro del testo selezionato o del testo immesso dopo il cursore.
 
-   L’opzione è attiva solo se il testo selezionato o la posizione del cursore è già rientrata.
+  L’opzione è attiva solo se il testo selezionato o la posizione del cursore è già rientrata.
 
 * Rientro
 
-   ![](/help/assets/chlimage_1-77.png)
+  ![](/help/assets/chlimage_1-77.png)
 
-   Consente di aumentare il livello di rientro del testo selezionato o del testo immesso dopo il cursore.
+  Consente di aumentare il livello di rientro del testo selezionato o del testo immesso dopo il cursore.
 
 * Tabella
 
-   ![](/help/assets/chlimage_1-78.png)
+  ![](/help/assets/chlimage_1-78.png)
 
-   Consente di inserire una tabella nel testo. Selezionando questa opzione si apre una finestra per specificare i dettagli della tabella.
+  Consente di inserire una tabella nel testo. Selezionando questa opzione si apre una finestra per specificare i dettagli della tabella.
 
-   ![](/help/assets/chlimage_1-79.png)
+  ![](/help/assets/chlimage_1-79.png)
 
    * **Colonne**: il numero di colonne della tabella (obbligatorio)
    * **Righe**: il numero di righe della tabella (obbligatorio)
@@ -266,47 +267,47 @@ La finestra di dialogo per modifica offre gli strumenti di formattazione RTF sta
       * Utilizza la prima colonna
       * Utilizza la prima riga e la prima colonna
       * In alternativa, non utilizzare alcuna intestazione
-   * **Didascalia**: la didascalia della tabella
 
+   * **Didascalia**: la didascalia della tabella
 
 * Controllo ortografico
 
-   ![](/help/assets/chlimage_1-80.png)
+  ![](/help/assets/chlimage_1-80.png)
 
-   Consente di verificare l’ortografia del testo. Eventuali errori di ortografia appaiono sottolineati con linee tratteggiate rosse.
+  Consente di verificare l’ortografia del testo. Eventuali errori di ortografia appaiono sottolineati con linee tratteggiate rosse.
 
 * Caratteri speciali
 
-   ![](/help/assets/chlimage_1-81.png)
+  ![](/help/assets/chlimage_1-81.png)
 
-   Consente di inserire caratteri speciali nel testo. Selezionando questa opzione si apre una finestra in cui vengono visualizzati i caratteri disponibili.
+  Consente di inserire caratteri speciali nel testo. Selezionando questa opzione si apre una finestra in cui vengono visualizzati i caratteri disponibili.
 
-   ![](/help/assets/chlimage_1-82.png)
+  ![](/help/assets/chlimage_1-82.png)
 
-   Tocca o fai clic sul carattere desiderato per inserirlo nel testo dopo il cursore. Si possono inserire più caratteri. Tocca o fai clic sulla x per chiudere la finestra per selezione.
+  Tocca o fai clic sul carattere desiderato per inserirlo nel testo dopo il cursore. Si possono inserire più caratteri. Tocca o fai clic sulla x per chiudere la finestra per selezione.
 
 * Modifica origine
 
-   ![](/help/assets/chlimage_1-83.png)
+  ![](/help/assets/chlimage_1-83.png)
 
-   Consente di visualizzare e modificare l’origine HTML del testo.
+  Consente di visualizzare e modificare l’origine HTML del testo.
 
-   Per modificare il testo dalla vista formattata, tocca o fai clic sull’icona **Modifica origine** per visualizzare il codice HTML. In questa modalità, tutte le altre opzioni di formattazione sono disabilitate. Tocca o fai clic di nuovo sull’icona **Modifica origine** per tornare alla vista formattata.
+  Per modificare il testo dalla vista formattata, tocca o fai clic sull’icona **Modifica origine** per visualizzare il codice HTML. In questa modalità, tutte le altre opzioni di formattazione sono disabilitate. Tocca o fai clic di nuovo sull’icona **Modifica origine** per tornare alla vista formattata.
 
-   >[!CAUTION]
-   >
-   >Come sempre quando si accede al codice HTML, utilizza l’opzione **Modifica origine** con molta attenzione!
-   >
-   >
-   >Il codice HTML immesso tramite l’opzione **Modifica origine** viene analizzato per rilevare eventuali rischi XSS e tutti gli script inseriti vengono rimossi e non verranno visualizzati nella pagina risultante. Tuttavia, il codice HTML non corretto eventualmente immesso tramite **Modifica origine** può alterare il modello della pagina, causando formattazioni impreviste e rendendo inutilizzabile la pagina risultante.
+  >[!CAUTION]
+  >
+  >Come sempre quando si accede al codice HTML, utilizza l’opzione **Modifica origine** con molta attenzione!
+  >
+  >
+  >Il codice HTML immesso tramite l’opzione **Modifica origine** viene analizzato per rilevare eventuali rischi XSS e tutti gli script inseriti vengono rimossi e non verranno visualizzati nella pagina risultante. Tuttavia, il codice HTML non corretto eventualmente immesso tramite **Modifica origine** può alterare il modello della pagina, causando formattazioni impreviste e rendendo inutilizzabile la pagina risultante.
 
 * Formato paragrafo
 
-   ![](/help/assets/chlimage_1-84.png)
+  ![](/help/assets/chlimage_1-84.png)
 
-   Consente di formattare come paragrafo il testo selezionato o il testo inserito dopo il cursore. Selezionando questa opzione si apre un menu a discesa dal quale si può selezionare il formato del paragrafo.
+  Consente di formattare come paragrafo il testo selezionato o il testo inserito dopo il cursore. Selezionando questa opzione si apre un menu a discesa dal quale si può selezionare il formato del paragrafo.
 
-   ![](/help/assets/chlimage_1-85.png)
+  ![](/help/assets/chlimage_1-85.png)
 
 Il componente Testo può essere modificato anche in linea, ma in questo caso, a causa di limitazioni di spazio, non tutte le opzioni di formattazione sono disponibili. Per visualizzare tutte le opzioni, passa alla modalità a schermo intero.
 

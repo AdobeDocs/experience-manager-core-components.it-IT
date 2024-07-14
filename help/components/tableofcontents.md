@@ -5,7 +5,7 @@ role: Architect, Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
 source-git-commit: 8beae61676340e8aafaee469018d865ea7ed934e
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '758'
 ht-degree: 100%
 
 ---
@@ -62,7 +62,7 @@ La finestra di dialogo di modifica consente all’autore del contenuto di defini
    * Se l’ID viene specificato, è responsabilità dell’autore accertarsi che sia univoco.
    * La modifica dell’ID può avere un impatto sul tracciamento di CSS, JS e Data Layer.
 
-## Finestra di dialogo per progettazione {#design-dialog}
+## Finestra di dialogo per la progettazione {#design-dialog}
 
 Utilizzando la finestra di dialogo di progettazione, l’autore del modello può impostare il valore predefinito per la serie di titoli del componente Sommario e limitare i titoli da includere nel sommario in base a nomi di classi.
 

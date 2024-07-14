@@ -4,9 +4,9 @@ description: Scopri in che modo i componenti core sfruttano Adaptive Image Servl
 role: Architect, Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
 source-git-commit: 785aa82930e3bcf6ef16d7a1cdc614d230e8daa8
-workflow-type: ht
-source-wordcount: '410'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '397'
+ht-degree: 98%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 Scopri in che modo i componenti core sfruttano Adaptive Image Servlet per la consegna delle immagini e come ottimizzarne l’utilizzo.
 
-## Adaptive Image Servlet oppure consegna di immagini ottimizzate per il web? {#options}
+## Adaptive Image Servlet o consegna di immagini ottimizzate per il web? {#options}
 
 Il componente core Immagine può utilizzare due metodi per la consegna delle immagini.
 

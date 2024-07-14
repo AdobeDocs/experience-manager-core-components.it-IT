@@ -6,8 +6,8 @@ role: Architect, Developer, Admin, User
 exl-id: 625ce8de-5c4a-476d-b749-895493d169b1
 source-git-commit: 5f25aee6ebcb7a5c6b8db0df5b8b853f15af97d0
 workflow-type: tm+mt
-source-wordcount: '1323'
-ht-degree: 100%
+source-wordcount: '1293'
+ht-degree: 98%
 
 ---
 
@@ -104,28 +104,28 @@ La finestra di dialogo per modifica consente all’autore di contenuto di ritagl
 
 * Avvia ritaglio
 
-   ![](/help/assets/chlimage_1-9.png)
+  ![](/help/assets/chlimage_1-9.png)
 
-   Selezionando questa opzione si apre un elenco a discesa per le proporzioni predefinite del ritaglio.
+  Selezionando questa opzione si apre un elenco a discesa per le proporzioni predefinite del ritaglio.
 
    * Scegli l’opzione **Free Hand** per definire il ritaglio desiderato.
    * Scegli l’opzione **Rimuovi Ritaglio** per visualizzare la risorsa originale.
 
-   Una volta selezionata un’opzione di ritaglio, utilizza le maniglie blu per dimensionare il ritaglio sull’immagine.
+  Una volta selezionata un’opzione di ritaglio, utilizza le maniglie blu per dimensionare il ritaglio sull’immagine.
 
-   ![](/help/assets/chlimage_1-10.png)
+  ![](/help/assets/chlimage_1-10.png)
 
 * Ruota a destra
 
-   ![](/help/assets/chlimage_1-11.png)
+  ![](/help/assets/chlimage_1-11.png)
 
-   Utilizza questa opzione per ruotare l’immagine di 90° verso destra (in senso orario).
+  Utilizza questa opzione per ruotare l’immagine di 90° verso destra (in senso orario).
 
 * Mappa di lancio
 
-   ![](/help/assets/chlimage_1-12.png)
+  ![](/help/assets/chlimage_1-12.png)
 
-   Utilizza questa opzione per applicare una mappa di lancio all’immagine. Selezionando questa opzione si apre una nuova finestra che consente all’utente di selezionare la forma della mappa:
+  Utilizza questa opzione per applicare una mappa di lancio all’immagine. Selezionando questa opzione si apre una nuova finestra che consente all’utente di selezionare la forma della mappa:
 
    * **Aggiungi mappa rettangolare**
    * **Aggiungi mappa circolare**
@@ -133,11 +133,11 @@ La finestra di dialogo per modifica consente all’autore di contenuto di ritagl
 
       * Per impostazione predefinita, aggiunge una mappa triangolare. Fare doppio clic su una linea della forma per aggiungere una nuova maniglia di ridimensionamento blu su un nuovo lato.
 
-   Una volta selezionata, la forma della mappa viene sovrapposta all’immagine per consentire il ridimensionamento. Trascinare e rilasciare le maniglie di ridimensionamento blu per adattare la forma.
+  Una volta selezionata, la forma della mappa viene sovrapposta all’immagine per consentire il ridimensionamento. Trascinare e rilasciare le maniglie di ridimensionamento blu per adattare la forma.
 
-   ![](/help/assets/chlimage_1-13.png)
+  ![](/help/assets/chlimage_1-13.png)
 
-   Dopo aver ridimensionato la mappa di lancio, fai clic su di essa per aprire una barra degli strumenti mobile e definire il percorso del collegamento.
+  Dopo aver ridimensionato la mappa di lancio, fai clic su di essa per aprire una barra degli strumenti mobile e definire il percorso del collegamento.
 
    * **Percorso**
       * Utilizza l’opzione Selettore percorso per selezionare un percorso in AEM
@@ -151,23 +151,23 @@ Descrizione alternativa della destinazione del percorso
          * **Frame principale**
          * **Frame superiore**
 
-   Tocca o fai clic sul segno di spunta blu per salvare, sulla x nera per annullare e sul cestino rosso per eliminare la mappa.
+  Tocca o fai clic sul segno di spunta blu per salvare, sulla x nera per annullare e sul cestino rosso per eliminare la mappa.
 
-   ![](/help/assets/chlimage_1-14.png)
+  ![](/help/assets/chlimage_1-14.png)
 
 * Reimposta zoom
 
-   ![](/help/assets/chlimage_1-15.png)
+  ![](/help/assets/chlimage_1-15.png)
 
-   Se l’immagine è già stata ingrandita, utilizza questa opzione per reimpostare il livello di zoom.
+  Se l’immagine è già stata ingrandita, utilizza questa opzione per reimpostare il livello di zoom.
 
 * Apri cursore Zoom
 
-   ![](/help/assets/chlimage_1-16.png)
+  ![](/help/assets/chlimage_1-16.png)
 
-   Utilizza questa opzione per visualizzare un cursore che permette di controllare il livello di zoom dell’immagine.
+  Utilizza questa opzione per visualizzare un cursore che permette di controllare il livello di zoom dell’immagine.
 
-   ![](/help/assets/chlimage_1-17.png)
+  ![](/help/assets/chlimage_1-17.png)
 
 L’editor locale può essere utilizzato anche per modificare l’immagine. A causa di limiti di spazio, in linea sono disponibili solo opzioni di base. Per le opzioni di modifica completa, utilizza la modalità a schermo intero.
 
@@ -208,36 +208,36 @@ Nella scheda **Funzioni** è possibile definire le opzioni disponibili per gli a
 
 * Origine
 
-   ![](/help/assets/chlimage_1-19.png)
+  ![](/help/assets/chlimage_1-19.png)
 
-   Seleziona l’opzione **Consenti caricamento risorse dal file system** per consentire agli autori di contenuto di caricare immagini dal proprio computer locale. Per forzare gli autori di contenuto a selezionare solo le risorse da AEM, deseleziona questa opzione.
+  Seleziona l’opzione **Consenti caricamento risorse dal file system** per consentire agli autori di contenuto di caricare immagini dal proprio computer locale. Per forzare gli autori di contenuto a selezionare solo le risorse da AEM, deseleziona questa opzione.
 
 * Orientamento
 
-   ![](/help/assets/chlimage_1-20.png)
+  ![](/help/assets/chlimage_1-20.png)
 
    * **Rotazione**: utilizza questa opzione per consentire all’autore di contenuto di utilizzare l’opzione **Ruota a destra**.
    * **Riflessione**
-Seleziona questa opzione per consentire all’autore di contenuto di utilizzare 
-le opzioni **Riflessione orizzontale** e **Riflessione verticale**.
-   >[!CAUTION]
-   >
-   >L’opzione **Riflessione** è disabilitata per impostazione predefinita. Attivando questa opzione, i pulsanti **Riflessione verticale** e **Riflessione orizzontale** vengono visualizzati nella finestra di dialogo per modifica del componente Immagine, ma questa funzione non è attualmente supportata da AEM e le modifiche effettuate utilizzando queste opzioni non verranno mantenute.
+Utilizzare questa opzione per consentire all&#39;autore di contenuto di utilizzare le opzioni **Riflessione orizzontale** e **Riflessione verticale**.
+
+  >[!CAUTION]
+  >
+  >L’opzione **Riflessione** è disabilitata per impostazione predefinita. Attivando questa opzione, i pulsanti **Riflessione verticale** e **Riflessione orizzontale** vengono visualizzati nella finestra di dialogo per modifica del componente Immagine, ma questa funzione non è attualmente supportata da AEM e le modifiche effettuate utilizzando queste opzioni non verranno mantenute.
 
 * Ritaglio
 
-   ![](/help/assets/chlimage_1-21.png)
+  ![](/help/assets/chlimage_1-21.png)
 
-   Seleziona l’opzione **Consenti ritaglio** per consentire all’autore di contenuto di ritagliare l’immagine nella finestra di dialogo per modifica del componente.
+  Seleziona l’opzione **Consenti ritaglio** per consentire all’autore di contenuto di ritagliare l’immagine nella finestra di dialogo per modifica del componente.
    * Fai clic su **Aggiungi** per aggiungere una proporzione predefinita per il ritaglio.
    * Immetti un nome descrittivo che verrà visualizzato nel menu a discesa **Avvia ritaglio**.
    * Immetti il rapporto numerico per la proporzione.
    * Utilizza le maniglie di trascinamento per modificare l’ordine delle proporzioni
    * Utilizza l’icona cestino per eliminare una proporzione.
 
-   >[!CAUTION]
-   >
-   >In AEM, i rapporti di proporzione del ritaglio sono definiti come **altezza/larghezza**. Ciò differisce dalla definizione tradizionale di larghezza/altezza e viene fatto per ragioni di compatibilità con le versioni precedenti. Gli autori di contenuto non noteranno alcuna differenza, purché venga fornito un nome chiaro per la proporzione, in quanto il nome viene visualizzato nell’interfaccia utente e non nella proporzione stessa.
+  >[!CAUTION]
+  >
+  >In AEM, i rapporti di proporzione del ritaglio sono definiti come **altezza/larghezza**. Ciò differisce dalla definizione tradizionale di larghezza/altezza e viene fatto per ragioni di compatibilità con le versioni precedenti. Gli autori di contenuto non noteranno alcuna differenza, purché venga fornito un nome chiaro per la proporzione, in quanto il nome viene visualizzato nell’interfaccia utente e non nella proporzione stessa.
 
 ## Dettagli tecnici {#technical-details}
 

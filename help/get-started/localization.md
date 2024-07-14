@@ -5,7 +5,7 @@ role: Architect, Developer, Admin, User
 exl-id: 9140b65a-6dd7-4ec9-9095-6e8243ec8424
 source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '716'
 ht-degree: 100%
 
 ---
@@ -93,7 +93,7 @@ A questo modello aggiungeremo i componenti di base sui quali vogliamo basare le 
    * Il componente Frammento esperienza punta al percorso del frammento nella lingua di authoring del frammento che rappresenta il piè di pagina.
    * In base al percorso del frammento e alla struttura dei Frammenti esperienza che rispecchia la struttura della pagina localizzata, il componente può trovare automaticamente il contenuto localizzato corrispondente.
 
-   ![](/help/assets/screen-shot-2019-09-09-11.20.10.png)
+  ![](/help/assets/screen-shot-2019-09-09-11.20.10.png)
 
 ## Pagine {#pages}
 
