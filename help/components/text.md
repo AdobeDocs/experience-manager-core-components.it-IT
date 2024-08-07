@@ -3,10 +3,10 @@ title: Componente Testo
 description: Il componente Testo è un componente per la modifica e la composizione di testo RTF che supporta la modifica diretta.
 role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
-source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
+source-git-commit: 418f1b6c967760d801d0973a35e0a31343ddca6b
 workflow-type: tm+mt
-source-wordcount: '2180'
-ht-degree: 100%
+source-wordcount: '2181'
+ht-degree: 99%
 
 ---
 
@@ -302,9 +302,9 @@ Il componente Testo può essere modificato anche in linea, ma in questo caso, a 
 
 ![Esempio di modifica in linea](/help/assets/text-edit-inline-example.png)
 
-### Impostazione e ID {#setting-id}
+### Impostazione di un ID {#setting-id}
 
-Questa opzione consente di controllare l’identificatore univoco del componente nel codice HTML e nel [Data Layer](/help/developing/data-layer/overview.md).
+Questa opzione consente di controllare l&#39;identificatore univoco del componente in HTML e in [Data Layer.](/help/developing/data-layer/overview.md)
 
 * Se non specificato, viene generato automaticamente un ID univoco reperibile sulla pagina risultante.
 * Se l’ID viene specificato, è responsabilità dell’autore accertarsi che sia univoco.
