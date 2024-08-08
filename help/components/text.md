@@ -4,9 +4,9 @@ description: Il componente Testo è un componente per la modifica e la composizi
 role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
 source-git-commit: 418f1b6c967760d801d0973a35e0a31343ddca6b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2181'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -304,7 +304,7 @@ Il componente Testo può essere modificato anche in linea, ma in questo caso, a 
 
 ### Impostazione di un ID {#setting-id}
 
-Questa opzione consente di controllare l&#39;identificatore univoco del componente in HTML e in [Data Layer.](/help/developing/data-layer/overview.md)
+Questa opzione consente di controllare l’identificatore univoco del componente nel codice HTML e nel [livello dati.](/help/developing/data-layer/overview.md)
 
 * Se non specificato, viene generato automaticamente un ID univoco reperibile sulla pagina risultante.
 * Se l’ID viene specificato, è responsabilità dell’autore accertarsi che sia univoco.
