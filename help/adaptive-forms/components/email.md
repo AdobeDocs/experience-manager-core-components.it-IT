@@ -3,10 +3,10 @@ title: Componente core dei moduli adattivi - Inserimento e-mail
 description: Utilizzo o personalizzazione del componente core per l’inserimento e-mail dei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
 workflow-type: tm+mt
 source-wordcount: '2113'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -35,7 +35,7 @@ Ci sono diversi motivi per cui è utile includere un componente di input e-mail 
 
 ## Versione e compatibilità {#version-and-compatibility}
 
-Il componente core Pannello a soffietto moduli adattativi è stato rilasciato a febbraio 2023 come parte dei Componenti core 2.0.4 per Cloud Service e i Componenti core 1.1.12 per AEM Forms 6.5.16.0 o versioni successive. Di seguito è riportata una tabella che mostra tutte le versioni supportate, la compatibilità AEM e i collegamenti alla documentazione corrispondente:
+Il componente core E-mail Forms adattivo è stato rilasciato a febbraio 2023 come parte dei Componenti core 2.0.4 per Cloud Service AEM e Componenti core 1.1.12 per il Forms 6.5.16.0 o versione successiva di.0. Di seguito è riportata una tabella che mostra tutte le versioni supportate, la compatibilità AEM e i collegamenti alla documentazione corrispondente:
 
 | Versione del componente | AEM as a Cloud Service | AEM Forms 6.5.16.0 o versioni successive |
 |---|---|---|

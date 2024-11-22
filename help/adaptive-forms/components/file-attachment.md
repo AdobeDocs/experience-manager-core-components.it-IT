@@ -3,14 +3,16 @@ title: Componente core moduli adattivi - Allegato file
 description: Utilizzo o personalizzazione del componente core allegato file dei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: 724940e8fe7eb5cfe3dc4edf7568049c993b1255
 workflow-type: tm+mt
-source-wordcount: '1911'
-ht-degree: 100%
+source-wordcount: '2043'
+ht-degree: 93%
 
 ---
 
 # Componente allegato file {#file-attachment-adaptive-forms-core-component}
+
+<span class="preview"> Il tipo di dati **del valore inviato** è disponibile nel programma di adozione anticipata. Per partecipare al programma per i primi utilizzatori, richiedi l’accesso alla funzionalità inviando una e-mail dal tuo account ufficiale all’indirizzo aem-forms-ea@adobe.com. </span>
 
 Un componente allegato file in un modulo adattivo consente agli utenti di selezionare e caricare i file dal computer o dal dispositivo locale. Il componente allegato file può essere configurato per consentire tipi di file specifici, limiti di dimensione e allegati multipli.
 
@@ -35,7 +37,7 @@ Ci sono diversi motivi per cui è utile includere un componente allegato file in
 
 ## Versione e compatibilità {#version-and-compatibility}
 
-Il componente core Pannello a soffietto moduli adattativi è stato rilasciato a febbraio 2023 come parte dei Componenti core 2.0.4 per Cloud Service e i Componenti core 1.1.12 per AEM Forms 6.5.16.0 o versioni successive. Di seguito è riportata una tabella che mostra tutte le versioni supportate, la compatibilità AEM e i collegamenti alla documentazione corrispondente:
+Il componente core per l’allegato di file adattivo di Forms è stato rilasciato a febbraio 2023 come parte dei Componenti core 2.0.4 per Cloud Service AEM e Componenti core 1.1.12 per 6.5.16.0 Forms o versione successiva. Di seguito è riportata una tabella che mostra tutte le versioni supportate, la compatibilità AEM e i collegamenti alla documentazione corrispondente:
 
 | Versione del componente | AEM as a Cloud Service | AEM Forms 6.5.16.0 o versioni successive |
 |---|---|---|
@@ -57,7 +59,7 @@ Puoi personalizzare facilmente l’esperienza dell’allegato file per i visitat
 
 ### Scheda Base {#basic-tab}
 
-![Scheda Base](/help/adaptive-forms/assets/fileattachement_basictab.png)
+![Scheda Base](/help/adaptive-forms/assets/fileattachement_basictab1.png)
 
 - **Nome**: è possibile identificare facilmente un componente modulo con il suo nome univoco sia nel modulo che nell’editor di regole, ma il nome non deve contenere spazi o caratteri speciali.
 
@@ -72,6 +74,7 @@ Puoi personalizzare facilmente l’esperienza dell’allegato file per i visitat
 - **Titolo pulsante**: questa opzione viene utilizzata per impostare l’etichetta del pulsante visualizzato in un modulo adattivo.
 - **Riferimento di binding**: un riferimento di binding è un riferimento a un elemento dati memorizzato in un’origine dati esterna e utilizzato in un modulo. Il riferimento di binding consente di eseguire un binding dinamico dei dati ai campi del modulo, in modo che il modulo possa visualizzare i dati più aggiornati dell’origine dati. Ad esempio, è possibile utilizzare un riferimento di binding per visualizzare il nome e l’indirizzo di un cliente in un modulo, in base all’ID cliente immesso nel modulo. È inoltre possibile utilizzare il riferimento di binding per aggiornare l’origine dati con i dati immessi nel modulo. In questo modo, AEM Forms consente di creare moduli che interagiscono con origini dati esterne, fornendo un’esperienza utente fluida per la raccolta e la gestione dei dati.
 - **Contrassegna come elemento modulo non associato**: seleziona l’opzione per configurare un campo modulo non collegato ad alcun schema. Questa opzione consente di salvare i dati senza aggiornare l’origine dati. Consente inoltre di gestire i dati in modo personalizzato, separato dall’integrazione standard del database.
+- **Tipo di dati del valore inviato**: selezionare l&#39;opzione per determinare la modalità di invio del file allegato al server. Per inviare l&#39;allegato come dati binari, scegliere l&#39;opzione `File`. Per inviare l&#39;allegato come stringa con codifica Base64, scegliere l&#39;opzione `String`. Se è selezionato `String`, il file in formato binario viene inviato al server come URL di dati. Il server converte automaticamente l’URL dati in formato binario, garantendo la compatibilità con le azioni esistenti, ad esempio l’invio di e-mail e la generazione del documento di record, senza richiedere alcuna modifica da parte degli utenti. Per impostazione predefinita, l&#39;opzione `File` è selezionata.
 - **Nascondi componente**: seleziona questa opzione per nascondere il componente del modulo. Il componente rimane accessibile per altri scopi, ad esempio per i calcoli nell’editor di regole. Questa funzione è utile quando devi memorizzare informazioni che non devono essere viste o modificate direttamente dall’utente.
 - **Disattiva componente**: seleziona questa opzione per disabilitare il componente. Il componente disabilitato non è attivo o modificabile dall’utente finale. L’utente può visualizzare il valore del campo, ma non può modificarlo. Il componente rimane accessibile per altri scopi, ad esempio per i calcoli nell’editor di regole.
 - **Sola lettura**: seleziona questa opzione per rendere il componente non modificabile. L’utente può visualizzare il valore del campo, ma non può modificarlo. Il componente rimane accessibile per altri scopi, ad esempio per i calcoli nell’editor di regole.

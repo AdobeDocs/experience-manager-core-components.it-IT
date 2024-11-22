@@ -3,10 +3,10 @@ title: Componente core dei moduli adattivi - Testo
 description: Utilizzo o personalizzazione del componente core di testo dei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: b8de68e4-ca0d-4ae5-9a04-104cc617f1be
-source-git-commit: 8bba79956a04020647d5d04f9fe6fa674affedf1
+source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
 workflow-type: tm+mt
-source-wordcount: '996'
-ht-degree: 100%
+source-wordcount: '998'
+ht-degree: 96%
 
 ---
 
@@ -34,7 +34,7 @@ Esistono diversi motivi per utilizzare il testo in un modulo:
 
 ## Versione e compatibilità {#version-and-compatibility}
 
-Il componente core Pannello a soffietto moduli adattativi è stato rilasciato a febbraio 2023 come parte dei Componenti core 2.0.4 per Cloud Service e i Componenti core 1.1.12 per AEM Forms 6.5.16.0 o versioni successive. Di seguito è riportata una tabella che mostra tutte le versioni supportate, la compatibilità AEM e i collegamenti alla documentazione corrispondente:
+Il componente core Testo Forms adattivo è stato rilasciato a febbraio 2023 come parte dei Componenti core 2.0.4 per il Cloud Service e i Componenti core 1.1.12 per il Forms 6.5.16.0 o versione successiva di AEM. Di seguito è riportata una tabella che mostra tutte le versioni supportate, la compatibilità AEM e i collegamenti alla documentazione corrispondente:
 
 | Versione del componente | AEM as a Cloud Service | AEM Forms 6.5.16.0 o versioni successive |
 |---|---|---|
@@ -53,6 +53,8 @@ Per informazioni aggiornate sui componenti core per il testo di moduli adattivi,
 ## Finestra di dialogo per la configurazione {#configure-dialog}
 
 Puoi personalizzare facilmente l’esperienza di testo per i visitatori tramite la finestra di dialogo Configura. Puoi anche definire le opzioni di testo con facilità per un’esperienza utente fluida.
+
+### Scheda Base
 
 ![Scheda Base](/help/adaptive-forms/assets/text_properties.png)
 

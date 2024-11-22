@@ -3,10 +3,10 @@ title: 'Componente core dei moduli adattivi: casella di controllo'
 description: Utilizzo o personalizzazione del componente core della casella di controllo nei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
 workflow-type: tm+mt
-source-wordcount: '1836'
-ht-degree: 100%
+source-wordcount: '1838'
+ht-degree: 99%
 
 ---
 
@@ -55,6 +55,8 @@ Puoi trovare le informazioni più recenti sul componente core della casella di c
 ## Finestra di dialogo per la configurazione {#configure-dialog}
 
 Puoi personalizzare facilmente la tua esperienza con le caselle di controllo per i visitatori tramite la finestra di dialogo Configura. Puoi anche definire le opzioni delle caselle di controllo con facilità per un’esperienza utente ottimale.
+
+### Scheda Base
 
 ![Scheda Base](/help/adaptive-forms/assets/checkbox-basic.png)
 

@@ -3,10 +3,10 @@ title: Componente core moduli adattivi - Piè di pagina
 description: Utilizzo o personalizzazione del componente core piè di pagina dei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: c8e7d3fe-4b82-4a80-8da2-19f6cff1e3e9
-source-git-commit: e0ed415bd7f45fdca6fbbb8ba409604d9e82a647
+source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
 workflow-type: tm+mt
 source-wordcount: '769'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -34,7 +34,7 @@ Includere un componente piè di pagina in un modulo è utile per vari motivi, tr
 
 ## Versione e compatibilità {#version-and-compatibility}
 
-Il componente core Pannello a soffietto moduli adattativi è stato rilasciato a febbraio 2023 come parte dei Componenti core 2.0.4 per Cloud Service e i Componenti core 1.1.12 per AEM Forms 6.5.16.0 o versioni successive. Di seguito è riportata una tabella che mostra tutte le versioni supportate, la compatibilità AEM e i collegamenti alla documentazione corrispondente:
+Il componente core Piè di pagina adattivo di Forms è stato rilasciato a febbraio 2023 come parte dei Componenti core 2.0.4 per il Cloud Service AEM e i Componenti core 1.1.12 per il Forms 6.5.16.0 o versione successiva. Di seguito è riportata una tabella che mostra tutte le versioni supportate, la compatibilità AEM e i collegamenti alla documentazione corrispondente:
 
 | Versione del componente | AEM as a Cloud Service | AEM Forms 6.5.16.0 o versioni successive |
 |---|---|---|

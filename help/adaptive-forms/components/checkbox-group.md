@@ -3,10 +3,10 @@ title: Componente core dei moduli adattivi - Gruppo di caselle di controllo
 description: Utilizzo o personalizzazione del componente core del gruppo di caselle di controllo nei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
 workflow-type: tm+mt
-source-wordcount: '2102'
-ht-degree: 100%
+source-wordcount: '2103'
+ht-degree: 98%
 
 ---
 
@@ -44,7 +44,7 @@ Ci sono diversi motivi per cui è utile includere un gruppo di caselle di contro
 
 ## Versione e compatibilità {#version-and-compatibility}
 
-Il componente core Pannello a soffietto moduli adattativi è stato rilasciato a febbraio 2023 come parte dei Componenti core 2.0.4 per Cloud Service e i Componenti core 1.1.12 per AEM Forms 6.5.16.0 o versioni successive. Di seguito è riportata una tabella che mostra tutte le versioni supportate, la compatibilità AEM e i collegamenti alla documentazione corrispondente:
+Il componente core per gruppo di caselle di controllo adattive Forms è stato rilasciato a febbraio 2023 come parte dei Componenti core 2.0.4 per Forms Cloud Service AEM e Core Components 1.1.12 per 6.5.16.0 o versioni successive. Di seguito è riportata una tabella che mostra tutte le versioni supportate, la compatibilità AEM e i collegamenti alla documentazione corrispondente:
 
 | Versione del componente | AEM as a Cloud Service | AEM Forms 6.5.16.0 o versioni successive |
 |---|---|---|

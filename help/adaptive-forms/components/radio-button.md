@@ -3,10 +3,10 @@ title: Componente core dei moduli adattivi - Pulsante di scelta
 description: Utilizzo o personalizzazione del componente core del pulsante di scelta nei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
 workflow-type: tm+mt
-source-wordcount: '2134'
-ht-degree: 100%
+source-wordcount: '2137'
+ht-degree: 98%
 
 ---
 
@@ -42,7 +42,7 @@ Esistono diversi motivi per utilizzare i pulsanti di scelta in un modulo, tra cu
 
 ## Versione e compatibilità {#version-and-compatibility}
 
-Il componente core Pannello a soffietto moduli adattativi è stato rilasciato a febbraio 2023 come parte dei Componenti core 2.0.4 per Cloud Service e i Componenti core 1.1.12 per AEM Forms 6.5.16.0 o versioni successive. Di seguito è riportata una tabella che mostra tutte le versioni supportate, la compatibilità AEM e i collegamenti alla documentazione corrispondente:
+Il componente core pulsante di opzione adattivo Forms è stato rilasciato a febbraio 2023 come parte dei Componenti core 2.0.4 per Cloud Service AEM e Componenti core 1.1.12 per 6.5.16.0 Forms o versione successiva. Di seguito è riportata una tabella che mostra tutte le versioni supportate, la compatibilità AEM e i collegamenti alla documentazione corrispondente:
 
 | Versione del componente | AEM as a Cloud Service | AEM Forms 6.5.16.0 o versioni successive |
 |---|---|---|
@@ -61,6 +61,8 @@ Per informazioni aggiornate sul componente core del pulsante di scelta nei modul
 ## Finestra di dialogo per la configurazione {#configure-dialog}
 
 Puoi personalizzare facilmente l’esperienza del pulsante di scelta per i visitatori tramite la finestra di dialogo Configura. Puoi anche definire le opzioni dei pulsanti di scelta con facilità per un’esperienza utente fluida.
+
+### Scheda Base
 
 ![Scheda Base](/help/adaptive-forms/assets/radiobutton_basictab.png)
 

@@ -3,10 +3,10 @@ title: 'Componente core moduli adattivi: inserimento numero di telefono'
 description: Utilizzo o personalizzazione del componente core per l’inserimento del numero di telefono nei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
-source-git-commit: b4a66a407e92398a98441c65ab588b9720777dfa
+source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
 workflow-type: tm+mt
-source-wordcount: '2197'
-ht-degree: 100%
+source-wordcount: '2199'
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ I motivi comuni per cui si utilizza un campo per il numero di telefono in un mod
 
 ## Versione e compatibilità {#version-and-compatibility}
 
-Il componente core Pannello a soffietto moduli adattativi è stato rilasciato a febbraio 2023 come parte dei Componenti core 2.0.4 per Cloud Service e i Componenti core 1.1.12 per AEM Forms 6.5.16.0 o versioni successive. Di seguito è riportata una tabella che mostra tutte le versioni supportate, la compatibilità AEM e i collegamenti alla documentazione corrispondente:
+Il componente core telefono Forms adattivo è stato rilasciato a febbraio 2023 come parte dei Componenti core 2.0.4 per il Cloud Service e i Componenti core 1.1.12 per il Forms 6.5.16.0 o versioni successive di AEM. Di seguito è riportata una tabella che mostra tutte le versioni supportate, la compatibilità AEM e i collegamenti alla documentazione corrispondente:
 
 | Versione del componente | AEM as a Cloud Service | AEM Forms 6.5.16.0 o versioni successive |
 |---|---|---|
@@ -50,6 +50,8 @@ Per informazioni aggiornate sul componente core per l’immissione del numero di
 ## Finestra di dialogo per la configurazione {#configure-dialog}
 
 Puoi personalizzare facilmente l’esperienza di immissione del numero di telefono dei visitatori tramite la finestra di dialogo per la configurazione. È inoltre possibile definire le opzioni di immissione del numero di telefono in modo semplice per un’esperienza utente perfetta.
+
+### Scheda Base
 
 ![Scheda Base](/help/adaptive-forms/assets/telephoneinput_basictab.png)
 

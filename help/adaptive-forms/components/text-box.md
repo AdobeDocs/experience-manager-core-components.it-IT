@@ -3,10 +3,10 @@ title: Componente core dei moduli adattivi - Input di testo (casella di testo)
 description: Utilizzo o personalizzazione del componente core per l’input di testo dei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: 49d9fe69-0578-4489-beaa-a18cdb14add7
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
 workflow-type: tm+mt
-source-wordcount: '2121'
-ht-degree: 100%
+source-wordcount: '2124'
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ Esistono diversi motivi per utilizzare il componente input di testo in un modulo
 
 ## Versione e compatibilità {#version-and-compatibility}
 
-Il componente core Pannello a soffietto moduli adattativi è stato rilasciato a febbraio 2023 come parte dei Componenti core 2.0.4 per Cloud Service e i Componenti core 1.1.12 per AEM Forms 6.5.16.0 o versioni successive. Di seguito è riportata una tabella che mostra tutte le versioni supportate, la compatibilità AEM e i collegamenti alla documentazione corrispondente:
+Il componente core Casella di testo di Forms adattivo è stato rilasciato a febbraio 2023 come parte dei Componenti core 2.0.4 per Cloud Service AEM e Componenti core 1.1.12 per 6.5.16.0 Forms o versione successiva. Di seguito è riportata una tabella che mostra tutte le versioni supportate, la compatibilità AEM e i collegamenti alla documentazione corrispondente:
 
 | Versione del componente | AEM as a Cloud Service | AEM Forms 6.5.16.0 o versioni successive |
 |---|---|---|
@@ -50,6 +50,8 @@ Per informazioni aggiornate sulle schede dei moduli adattivi per i componenti co
 ## Finestra di dialogo per la configurazione {#configure-dialog}
 
 Puoi personalizzare facilmente l’esperienza di input di testo per i visitatori tramite la finestra di dialogo per la configurazione. Puoi anche definire le opzioni di input di testo facilmente per un’esperienza utente semplice.
+
+### Scheda Base
 
 ![Scheda Base](/help/adaptive-forms/assets/textinput_basictab.png)
 

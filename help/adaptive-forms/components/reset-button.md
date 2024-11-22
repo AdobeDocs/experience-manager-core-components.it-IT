@@ -3,10 +3,10 @@ title: Componente core moduli adattivi - Pulsante Ripristina
 description: Utilizzo o personalizzazione del componente core del pulsante Ripristina per moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: e5aa9d89-aece-491e-80a1-7fb9ea6c4b60
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
 workflow-type: tm+mt
-source-wordcount: '1550'
-ht-degree: 100%
+source-wordcount: '1551'
+ht-degree: 97%
 
 ---
 
@@ -32,7 +32,7 @@ I motivi per utilizzare un pulsante di ripristino in un modulo adattivo sono i s
 
 ## Versione e compatibilità {#version-and-compatibility}
 
-Il componente core Pannello a soffietto moduli adattativi è stato rilasciato a febbraio 2023 come parte dei Componenti core 2.0.4 per Cloud Service e i Componenti core 1.1.12 per AEM Forms 6.5.16.0 o versioni successive. Di seguito è riportata una tabella che mostra tutte le versioni supportate, la compatibilità AEM e i collegamenti alla documentazione corrispondente:
+Il componente core pulsante Reimposta adattivo Forms è stato rilasciato a febbraio 2023 come parte dei Componenti core 2.0.4 per il Cloud Service AEM e i Componenti core 1.1.12 per il Forms 6.5.16.0 o versioni successive di. Di seguito è riportata una tabella che mostra tutte le versioni supportate, la compatibilità AEM e i collegamenti alla documentazione corrispondente:
 
 | Versione del componente | AEM as a Cloud Service | AEM Forms 6.5.16.0 o versioni successive |
 |---|---|---|

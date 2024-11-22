@@ -3,9 +3,9 @@ title: Introduzione ai componenti core dei moduli adattivi in AEM
 description: Crea esperienze di iscrizione accattivanti (moduli) utilizzando la flessibilità dei componenti core dei moduli adattivi e forniscile con l’aiuto di Adobe Experience Manager.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: fd4debea8510b2ae415dd09847444ad96f3478d9
-workflow-type: ht
-source-wordcount: '2205'
+source-git-commit: 86a30bc396d89340106177deb08323bfc5640e0e
+workflow-type: tm+mt
+source-wordcount: '2198'
 ht-degree: 100%
 
 ---
@@ -24,7 +24,7 @@ Nel complesso, i componenti core sono uno strumento essenziale per la creazione 
 
 ## Componenti core dei moduli adattivi
 
-I componenti core dei moduli adattivi sono un set di 29 componenti open-source compatibili con BEM creati sulle basi dei componenti core WCM di Adobe Experience Manager. Sono progettati appositamente per la creazione di moduli adattivi, ossia moduli che si adattano al dispositivo, al browser e alle dimensioni dello schermo dell’utente.
+I componenti core dei moduli adattivi sono un set di 30 componenti open-source compatibili con BEM creati sulle basi dei componenti core WCM di Adobe Experience Manager. Sono progettati appositamente per la creazione di moduli adattivi, ossia moduli che si adattano al dispositivo, al browser e alle dimensioni dello schermo dell’utente.
 
 Questi componenti possono essere utilizzati per creare esperienze eccezionali di acquisizione e registrazione dei dati fornendo un’ampia gamma di opzioni per i campi modulo, compresi campi di testo, caselle di controllo, menu a discesa e altro ancora. Includono anche funzioni quali convalida, logica condizionale e progettazione reattiva, che possono essere utilizzate per creare moduli intuitivi e facili da usare.
 
@@ -97,12 +97,10 @@ La versione corrente di AEM Forms contiene i seguenti componenti core: [Componen
 | Intestazione | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/header.md)</span> | ✔️ | |
 | Schede orizzontali | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/horizontal-tabs.md)</span> | | Per i componenti base, puoi configurare le [schede con il layout in alto (schede orizzontali)](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) nelle proprietà dei componenti del pannello. |
 | Immagine | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/image.md)</span> | ✔️ | |
-| Scelta immagine | ✔️ | | | |
 | Pulsante Avanti | ✔️ | ✔️ | | Utilizza il [componente procedura guidata](/help/adaptive-forms/components/wizard.md) per i pulsanti Avanti e Indietro per spostarti tra più pannelli. |
 | Casella numerica | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/numeric-box.md)</span> | ✔️ | |
 | Stepper numerico | ✔️ | | | |
 | Pannello | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/panel.md)</span> | ✔️ | |
-| Casella password | ✔️ | | ✔️ | |
 | Telefono | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/phone.md)</span> | ✔️ | |
 | Pulsante Indietro | ✔️ | ✔️ | | Utilizza il [componente procedura guidata](/help/adaptive-forms/components/wizard.md) per i pulsanti Avanti e Indietro per spostarti tra più pannelli. |
 | Gruppo pulsanti di scelta | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/radio-button.md)</span> | ✔️ | |
@@ -120,7 +118,9 @@ La versione corrente di AEM Forms contiene i seguenti componenti core: [Componen
 | Schede verticali | ✔️ | ✔️ | | Per i componenti di base, puoi configurare [le schede con layout a di sinistra (schede verticali)](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) nelle proprietà dei componenti del pannello |
 | Procedura guidata | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/wizard.md)</span> | ✔️ | Per i componenti base, puoi configurare il [layout della procedura guidata](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) nelle proprietà dei componenti del pannello |
 
-
+<!--| Password Box | ✔️ | ✔️| ✔️ | |
+| Image Choice | ✔️ | | | |
+-->
 
 
 >[!NOTE]
