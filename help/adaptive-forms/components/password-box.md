@@ -1,35 +1,35 @@
 ---
-title: 'Componente core Forms adattivo: casella password'
-description: Utilizzo o personalizzazione del componente core Casella password di Forms adattivo.
+title: 'Componente core dei moduli adattivi: casella password'
+description: Utilizzo o personalizzazione del componente core casella password dei moduli adattivi.
 role: Architect, Developer, Admin, User
 hide: true
 hidefromtoc: true
 source-git-commit: 86a30bc396d89340106177deb08323bfc5640e0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1916'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 # Componente casella password
 
-<span class="preview"> Si tratta di una funzionalità preliminare accessibile tramite il [canale preliminare](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=it#new-features). </span>
+<span class="preview"> Si tratta di una funzionalità pre-release accessibile tramite il [canale pre-release](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=it#new-features). </span>
 
-Un componente casella password consente agli utenti di immettere e modificare informazioni riservate, in genere nascoste per la privacy. Il componente Password può essere configurato con diverse regole di convalida per garantire l’accuratezza dei dati. Comunemente utilizzati nei moduli, i campi della password sono semplici e migliorano la sicurezza dei dati.
+Un componente Casella password consente agli utenti di immettere e modificare informazioni sensibili, in genere nascoste per la privacy. Il componente Password può essere configurato con diverse regole di convalida per garantire l’accuratezza dei dati. Comunemente utilizzati nei moduli, i campi password sono semplici e migliorano la sicurezza dei dati.
 
 **Esempio**
 
-![esempio di passwordbox](/help/adaptive-forms/assets/password.png)
+![esempio di casella password](/help/adaptive-forms/assets/password.png)
 
-L&#39;utente può fare clic sull&#39;icona a forma di occhio per attivare o disattivare la visibilità del testo della password immesso. Migliora la sicurezza consentendo al tempo stesso agli utenti di inserire informazioni confidenziali in maniera accurata.
+L’utente può fare clic sull’icona a forma di occhio per attivare o disattivare la visibilità del testo della password immesso. Questo campo migliora la sicurezza e consente agli utenti di inserire informazioni confidenziali in maniera accurata.
 
 ## Utilizzo
 
-Esistono diversi motivi per utilizzare il componente casella Password in un modulo adattivo:
+Esistono diversi motivi per utilizzare il componente casella password in un modulo adattivo:
 
-- **Raccolta dati protetta**: il campo della casella della password viene utilizzato per raccogliere informazioni riservate, ad esempio password, PIN e altre voci riservate, visualizzando caratteri mascherati per la privacy.
+- **Raccolta dati protetta**: il campo casella password viene utilizzato per raccogliere informazioni riservate, ad esempio password, PIN e altre voci confidenziali, visualizzando caratteri mascherati per la privacy.
 
-- **Facile da usare**: il campo della casella della password consente agli utenti di inserire e modificare le informazioni in modo sicuro senza esporle sullo schermo.
+- **Facile da usare**: il campo casella password consente agli utenti di inserire e modificare le informazioni in modo sicuro senza esporle sullo schermo.
 
 - **Flessibilità**: il componente casella password può essere configurato in modo da soddisfare requisiti di sicurezza, quali la lunghezza minima dei caratteri, caratteri speciali o altre convalide personalizzate per garantire una protezione dei dati sicura e la precisione.
 

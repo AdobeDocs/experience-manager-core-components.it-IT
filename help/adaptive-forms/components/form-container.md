@@ -4,15 +4,15 @@ description: Aggiungere un modulo adattivo a una pagina web.
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
 source-git-commit: 86a30bc396d89340106177deb08323bfc5640e0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1526'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # Contenitore modulo {#form-container-adaptive-forms-core-component}
 
-<span class="preview"> In questo articolo viene illustrata la funzionalità **Bozze** <!--and **Hamburger Menu Support** -->, che è una funzionalità non definitiva. La funzione pre-release è accessibile solo tramite il [canale pre-release](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=it#new-features).</span>
+<span class="preview"> Questo articolo approfondisce la funzionalità **Bozze** <!--and **Hamburger Menu Support** -->, che è una funzione pre-release. La funzione pre-release è accessibile solo tramite il [canale pre-release](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=it#new-features).</span>
 
 I moduli consentono ai visitatori di un sito web di interagire con il sito web fornendo informazioni preziose, che possono aumentare il coinvolgimento e la soddisfazione degli utenti. Un contenitore di moduli adattivi in Adobe Experience Manager (AEM) Sites consente ai proprietari di siti web di aggiungere facilmente i moduli alle proprie pagine. Questo rende più facile la comunicazione tra i visitatori di un sito web e il proprietario o l’organizzazione del sito web, offrendo ai visitatori un modo semplificato per fornire feedback, rispondere ai sondaggi e completare altre azioni
 
@@ -66,10 +66,10 @@ Per informazioni aggiornate sul componente core contenitore di moduli adattivi, 
 
 - **Servizi di precompilazione**: questa opzione consente all’utente di selezionare un servizio di precompilazione per il recupero dei dati durante il rendering del modulo adattivo. Ulteriori informazioni su [come creare e configurare un servizio di precompilazione](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/prepopulate-adaptive-form-fields.html?lang=it#aem-forms-custom-prefill-service).
 
-- **Ruolo**: il ruolo è un attributo HTML utilizzato per specificare lo scopo di un elemento HTML per le tecnologie per l&#39;accessibilità, ad esempio gli assistenti vocali. L’attributo ruolo viene utilizzato per fornire ulteriore contesto e significato semantico a un elemento, facilitando l’interpretazione e la lettura del contenuto da parte delle utilità per la lettura dello schermo per l’utente. Ad esempio, in AEM Forms, l’etichetta di un campo modulo potrebbe avere il ruolo di “etichetta” e il relativo campo di input potrebbe avere il ruolo di “casella di testo”. Questo permette all’assistente vocale di comprendere la relazione tra l’etichetta e il campo di input, e di leggerli in modo corretto all’utente.
+- **Ruolo**: il ruolo è un attributo HTML utilizzato per specificare lo scopo di un elemento HTML per tecnologie di assistenza come le utilità per la lettura dello schermo. L’attributo ruolo viene utilizzato per fornire ulteriore contesto e significato semantico a un elemento, facilitando l’interpretazione e la lettura del contenuto da parte delle utilità per la lettura dello schermo per l’utente. Ad esempio, in AEM Forms, l’etichetta di un campo modulo potrebbe avere il ruolo di “etichetta” e il relativo campo di input potrebbe avere il ruolo di “casella di testo”. Questo permette all’assistente vocale di comprendere la relazione tra l’etichetta e il campo di input, e di leggerli in modo corretto all’utente.
 
 - **Categoria Libreria client**: l’utente può configurare una libreria JavaScript personalizzata per un modulo adattivo. Si consiglia di mantenere solo le funzioni riutilizzabili nella libreria, che dipendono dalle librerie di terze parti jquery e underscore.js.
-A volte, se sono presenti **regole di convalida complesse**, lo script di convalida esatto si trova nelle funzioni personalizzate e gli utenti chiamano tali funzioni personalizzate dall’espressione di convalida del campo. Per rendere nota e disponibile questa libreria di funzioni personalizzata durante l&#39;esecuzione delle convalide lato server, l&#39;utente del modulo può configurare il nome della libreria client AEM nella scheda **[!UICONTROL Base]** delle proprietà del contenitore di moduli adattivi.
+A volte, se sono presenti **regole di convalida complesse**, lo script di convalida esatto si trova nelle funzioni personalizzate e gli utenti chiamano tali funzioni personalizzate dall’espressione di convalida del campo. Per rendere nota e disponibile questa libreria di funzioni personalizzata durante l’esecuzione delle convalide lato server, l’utente del modulo può configurare il nome della libreria client AEM nella scheda **[!UICONTROL Base]** delle proprietà del contenitore per modulo adattivo.
 L’utente può configurare una libreria JavaScript personalizzata per modulo adattivo. Si consiglia di mantenere solo le funzioni riutilizzabili nella libreria, che dipendono dalle librerie di terze parti jquery e underscore.js.
 
 <!--
@@ -88,9 +88,9 @@ L’utente può configurare una libreria JavaScript personalizzata per modulo ad
 
 ![Scheda Invio](/help/adaptive-forms/assets/formcontainer_autosavetab.png)
 
-- **Salvataggio automatico delle bozze**: selezionare la casella di controllo **Salvataggio automatico delle bozze** per abilitare il salvataggio dei moduli come bozze.
+- **Salvataggio automatico delle bozze**: seleziona la casella di controllo **Salvataggio automatico delle bozze** per abilitare il salvataggio dei moduli come bozze.
 - **Salva preferenza**: configura **Salva preferenza** come **Salva bozze a intervalli regolari**, per salvare automaticamente il modulo dopo un intervallo di tempo specifico.
-  **Frequenza di salvataggio intervallo (secondi)**: specificare l&#39;intervallo di tempo (in secondi) per impostare la durata che attiva il salvataggio automatico del modulo nell&#39;intervallo definito.
+  **Salva intervallo di frequenza (secondi)**: specifica l’intervallo di tempo (in secondi) per impostare la durata di tempo che deve trascorrere tra ogni salvataggio automatico del modulo, pari all’intervallo definito.
 
 ### Scheda Invio {#submission-tab}
 

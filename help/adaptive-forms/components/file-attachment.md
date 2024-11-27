@@ -4,15 +4,15 @@ description: Utilizzo o personalizzazione del componente core allegato file dei 
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
 source-git-commit: 724940e8fe7eb5cfe3dc4edf7568049c993b1255
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2043'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # Componente allegato file {#file-attachment-adaptive-forms-core-component}
 
-<span class="preview"> Il tipo di dati **del valore inviato** è disponibile nel programma di adozione anticipata. Per partecipare al programma per i primi utilizzatori, richiedi l’accesso alla funzionalità inviando una e-mail dal tuo account ufficiale all’indirizzo aem-forms-ea@adobe.com. </span>
+<span class="preview"> Il **tipo di dati del valore inviato** è disponibile nel programma per i primi utilizzatori. Per partecipare al programma per i primi utilizzatori, richiedi l’accesso alla funzionalità inviando una e-mail dal tuo account ufficiale all’indirizzo aem-forms-ea@adobe.com. </span>
 
 Un componente allegato file in un modulo adattivo consente agli utenti di selezionare e caricare i file dal computer o dal dispositivo locale. Il componente allegato file può essere configurato per consentire tipi di file specifici, limiti di dimensione e allegati multipli.
 
@@ -37,7 +37,7 @@ Ci sono diversi motivi per cui è utile includere un componente allegato file in
 
 ## Versione e compatibilità {#version-and-compatibility}
 
-Il componente core per l’allegato di file adattivo di Forms è stato rilasciato a febbraio 2023 come parte dei Componenti core 2.0.4 per Cloud Service AEM e Componenti core 1.1.12 per 6.5.16.0 Forms o versione successiva. Di seguito è riportata una tabella che mostra tutte le versioni supportate, la compatibilità AEM e i collegamenti alla documentazione corrispondente:
+Il componente core Pannello allegato file dei moduli adattivi è stato rilasciato a febbraio 2023 come parte dei Componenti core 2.0.4 per Cloud Service e dei Componenti core 1.1.12 per AEM Forms 6.5.16.0 o versioni successive. Di seguito è riportata una tabella che mostra tutte le versioni supportate, la compatibilità AEM e i collegamenti alla documentazione corrispondente:
 
 | Versione del componente | AEM as a Cloud Service | AEM Forms 6.5.16.0 o versioni successive |
 |---|---|---|
@@ -74,7 +74,7 @@ Puoi personalizzare facilmente l’esperienza dell’allegato file per i visitat
 - **Titolo pulsante**: questa opzione viene utilizzata per impostare l’etichetta del pulsante visualizzato in un modulo adattivo.
 - **Riferimento di binding**: un riferimento di binding è un riferimento a un elemento dati memorizzato in un’origine dati esterna e utilizzato in un modulo. Il riferimento di binding consente di eseguire un binding dinamico dei dati ai campi del modulo, in modo che il modulo possa visualizzare i dati più aggiornati dell’origine dati. Ad esempio, è possibile utilizzare un riferimento di binding per visualizzare il nome e l’indirizzo di un cliente in un modulo, in base all’ID cliente immesso nel modulo. È inoltre possibile utilizzare il riferimento di binding per aggiornare l’origine dati con i dati immessi nel modulo. In questo modo, AEM Forms consente di creare moduli che interagiscono con origini dati esterne, fornendo un’esperienza utente fluida per la raccolta e la gestione dei dati.
 - **Contrassegna come elemento modulo non associato**: seleziona l’opzione per configurare un campo modulo non collegato ad alcun schema. Questa opzione consente di salvare i dati senza aggiornare l’origine dati. Consente inoltre di gestire i dati in modo personalizzato, separato dall’integrazione standard del database.
-- **Tipo di dati del valore inviato**: selezionare l&#39;opzione per determinare la modalità di invio del file allegato al server. Per inviare l&#39;allegato come dati binari, scegliere l&#39;opzione `File`. Per inviare l&#39;allegato come stringa con codifica Base64, scegliere l&#39;opzione `String`. Se è selezionato `String`, il file in formato binario viene inviato al server come URL di dati. Il server converte automaticamente l’URL dati in formato binario, garantendo la compatibilità con le azioni esistenti, ad esempio l’invio di e-mail e la generazione del documento di record, senza richiedere alcuna modifica da parte degli utenti. Per impostazione predefinita, l&#39;opzione `File` è selezionata.
+- **Tipo di dati del valore inviato**: seleziona l’opzione per determinare la modalità di invio del file allegato al server. Per inviare l’allegato come dati binari, scegli l’opzione `File`. Per inviare l’allegato come stringa con codifica Base64, scegli l’opzione `String`. Se è selezionato `String`, il file in formato binario viene inviato al server come URL dati. Il server riconverte automaticamente l’URL dati in formato binario, garantendo la compatibilità con le azioni esistenti, ad esempio l’invio di e-mail e la generazione del documento di record, senza richiedere alcuna modifica da parte degli utenti. Per impostazione predefinita, è selezionata l’opzione `File`.
 - **Nascondi componente**: seleziona questa opzione per nascondere il componente del modulo. Il componente rimane accessibile per altri scopi, ad esempio per i calcoli nell’editor di regole. Questa funzione è utile quando devi memorizzare informazioni che non devono essere viste o modificate direttamente dall’utente.
 - **Disattiva componente**: seleziona questa opzione per disabilitare il componente. Il componente disabilitato non è attivo o modificabile dall’utente finale. L’utente può visualizzare il valore del campo, ma non può modificarlo. Il componente rimane accessibile per altri scopi, ad esempio per i calcoli nell’editor di regole.
 - **Sola lettura**: seleziona questa opzione per rendere il componente non modificabile. L’utente può visualizzare il valore del campo, ma non può modificarlo. Il componente rimane accessibile per altri scopi, ad esempio per i calcoli nell’editor di regole.
@@ -138,7 +138,7 @@ Il componente core Allegato file dei moduli adattivi supporta il [Sistema di sti
 
 - **Classi CSS predefinite**: puoi fornire una classe CSS predefinita per il componente core Allegato file dei moduli adattivi.
 
-- **Stili consentiti**: puoi definire gli stili fornendo un nome e la classe CSS che rappresenta lo stile. Ad esempio, puoi creare uno stile denominato “testo in grassetto” e fornire la classe CSS “spessore carattere: grassetto”. Puoi utilizzare o applicare questi stili a un modulo adattivo nell’editor di moduli adattivi. Per applicare uno stile, nell’editor dei moduli adattivi, seleziona il componente a cui applicare lo stile, passa alla finestra di dialogo delle proprietà e seleziona lo stile desiderato dall’elenco a discesa **Stili**. Per aggiornare o modificare gli stili, è sufficiente tornare alla finestra di dialogo per la progettazione, aggiornare gli stili nella scheda Stili e salvare le modifiche.
+- **Stili consentiti**: è possibile definire gli stili fornendo un nome e la classe CSS che rappresenta lo stile. Ad esempio, puoi creare uno stile denominato “testo in grassetto” e fornire la classe CSS “spessore carattere: grassetto”. Puoi utilizzare o applicare questi stili a un modulo adattivo nell’editor di moduli adattivi. Per applicare uno stile, nell’editor dei moduli adattivi, seleziona il componente a cui applicare lo stile, passa alla finestra di dialogo delle proprietà e seleziona lo stile desiderato dall’elenco a discesa **Stili**. Per aggiornare o modificare gli stili, è sufficiente tornare alla finestra di dialogo per la progettazione, aggiornare gli stili nella scheda Stili e salvare le modifiche.
 
 ### Proprietà personalizzate
 

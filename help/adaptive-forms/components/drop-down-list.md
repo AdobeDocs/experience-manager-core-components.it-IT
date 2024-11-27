@@ -4,9 +4,9 @@ description: Utilizzo o personalizzazione del componente core dell’elenco a di
 role: Architect, Developer, Admin, User
 exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
 source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2188'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Inoltre, l’elenco a discesa può essere configurato in modo da avere valori di
 
 ## Versione e compatibilità {#version-and-compatibility}
 
-Il componente core per l’elenco a discesa di Forms adattivo è stato rilasciato a febbraio 2023 come parte dei Componenti core 2.0.4 per Forms Cloud Service AEM e Core Components 1.1.12 per 6.5.16.0 o versioni successive. Di seguito è riportata una tabella che mostra tutte le versioni supportate, la compatibilità AEM e i collegamenti alla documentazione corrispondente:
+Il componente core Elenco a discesa per moduli adattivi è stato rilasciato a febbraio 2023 come parte dei Componenti core 2.0.4 per Cloud Service e dei Componenti core 1.1.12 per AEM Forms 6.5.16.0 o versioni successive. Di seguito è riportata una tabella che mostra tutte le versioni supportate, la compatibilità AEM e i collegamenti alla documentazione corrispondente:
 
 | Versione del componente | AEM as a Cloud Service | AEM Forms 6.5.16.0 o versioni successive |
 |---|---|---|

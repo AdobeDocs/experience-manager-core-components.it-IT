@@ -4,9 +4,9 @@ description: Utilizzo o personalizzazione del componente core di inserimento num
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
 source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2284'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Esistono diversi motivi per cui è utile includere un componente di inserimento 
 
 ## Versione e compatibilità {#version-and-compatibility}
 
-Il componente core Box Numerico di Forms adattivo è stato rilasciato a febbraio 2023 come parte dei Componenti core 2.0.4 per il Cloud Service AEM e i Componenti core 1.1.12 per il Forms 6.5.16.0 o versioni successive. Di seguito è riportata una tabella che mostra tutte le versioni supportate, la compatibilità AEM e i collegamenti alla documentazione corrispondente:
+Il componente core Casella numerica per moduli adattivi è stato rilasciato a febbraio 2023 come parte dei Componenti core 2.0.4 per Cloud Service e dei Componenti core 1.1.12 per AEM Forms 6.5.16.0 o versioni successive. Di seguito è riportata una tabella che mostra tutte le versioni supportate, la compatibilità AEM e i collegamenti alla documentazione corrispondente:
 
 | Versione del componente | AEM as a Cloud Service | AEM Forms 6.5.16.0 o versioni successive |
 |---|---|---|
@@ -120,7 +120,7 @@ Puoi personalizzare facilmente l’esperienza di inserimento numerico per i visi
    - **Descrizione**: seleziona questa opzione per utilizzare la descrizione per le etichette di accessibilità ARIA.
    - **Titolo**: seleziona questa opzione per utilizzare il titolo per le etichette di accessibilità ARIA.
    - **Nome**: seleziona questa opzione per utilizzare il nome per le etichette di accessibilità ARIA.
-   - **Nessuno**: Seleziona questa opzione se non desideri aggiungere le etichette di accessibilità ARIA.
+   - **Nessuno**: seleziona questa opzione in caso tu non voglia aggiungere etichette di accessibilità ARIA.
 
 ### Scheda Formati {#formats-configure-tab}
 
