@@ -3,16 +3,22 @@ title: Adaptive Image Servlet
 description: Scopri in che modo i componenti core sfruttano Adaptive Image Servlet per la consegna delle immagini e come ottimizzarne l’utilizzo.
 role: Architect, Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
-source-git-commit: 785aa82930e3bcf6ef16d7a1cdc614d230e8daa8
+source-git-commit: 87a96c1c9476b9d66fdc94d6c24123cdf24b9d91
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 98%
+source-wordcount: '457'
+ht-degree: 85%
 
 ---
 
 # Adaptive Image Servlet {#adaptive-image-servlet}
 
 Scopri in che modo i componenti core sfruttano Adaptive Image Servlet per la consegna delle immagini e come ottimizzarne l’utilizzo.
+
+>[!WARNING]
+>
+>Per motivi di prestazioni, si consiglia vivamente di archiviare le immagini in DAM e utilizzare la consegna di immagini ottimizzate per il web.
+>
+>L’archiviazione delle immagini direttamente sotto il nodo del componente è destinata a un utilizzo occasionale. Non sfrutta le rappresentazioni DAM per ridurre l’elaborazione in Adaptive Image Servlet e non consente i vantaggi in termini di prestazioni della consegna di immagini ottimizzate per il web, causando possibili problemi di prestazioni.
 
 ## Adaptive Image Servlet o consegna di immagini ottimizzate per il web? {#options}
 
