@@ -3,10 +3,10 @@ title: Adaptive Image Servlet
 description: Scopri in che modo i componenti core sfruttano Adaptive Image Servlet per la consegna delle immagini e come ottimizzarne l’utilizzo.
 role: Architect, Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
-source-git-commit: 87a96c1c9476b9d66fdc94d6c24123cdf24b9d91
-workflow-type: ht
-source-wordcount: '457'
-ht-degree: 100%
+source-git-commit: 3f6e40c4dbfbd1287213d9d16d96183d24f2ad0a
+workflow-type: tm+mt
+source-wordcount: '456'
+ht-degree: 97%
 
 ---
 
@@ -41,9 +41,9 @@ Adaptive Image Servlet selezionerà automaticamente la rappresentazione più app
 1. Seleziona solo quelle con lo stesso mime/tipo della risorsa di riferimento originale.
    * Ad esempio, se la risorsa originale era un file PNG, considererà solo le rappresentazioni PNG.
 1. Di quelle rappresentazioni considera le dimensioni e le confronta con le dimensioni del contenitore in cui deve essere visualizzata l’immagine.
-   1. Se la rappresentazione è >= alla dimensione del contenitore, viene aggiunta a un elenco di rappresentazioni candidate.
-   1. Se la rappresentazione è &lt; alla dimensione del contenitore, viene ignorata.
-   1. Questi criteri garantiscono che la rappresentazione non subisca un processo di upscaling, con un conseguente impatto sulla qualità delle immagini.
+1. Se la rappresentazione è >= alla dimensione del contenitore, viene aggiunta a un elenco di rappresentazioni candidate.
+1. Se la rappresentazione è &lt; alla dimensione del contenitore, viene ignorata.
+1. Questi criteri garantiscono che la rappresentazione non subisca un processo di upscaling, con un conseguente impatto sulla qualità delle immagini.
 1. Adaptive Image Servlet seleziona quindi la rappresentazione con le dimensioni di file più piccole dall’elenco delle candidate.
 
 ## Ottimizzazione della selezione della rappresentazione {#optimizing-rendition-selection}
@@ -56,4 +56,4 @@ Ciò migliora le prestazioni ed evita che alcune immagini non vengano elaborate 
 
 Le richieste condizionali tramite l’intestazione `Last-Modified` sono supportate dall’Adaptive Image Servlet, ma il caching dell’intestazione `Last-Modified` [deve essere abilitato in Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=it#caching-http-response-headers).
 
-L’esempio di configurazione di Dispatcher in [Archetipo progetto AEM](/help/developing/archetype/overview.md) già include questa configurazione.
+[La configurazione Dispatcher di esempio di Archetipo progetto AEM](/help/developing/archetype/overview.md) contiene già questa configurazione.
