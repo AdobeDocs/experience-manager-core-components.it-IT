@@ -4,9 +4,9 @@ description: Scopri in che modo i componenti core sfruttano Adaptive Image Servl
 role: Architect, Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
 source-git-commit: 3f6e40c4dbfbd1287213d9d16d96183d24f2ad0a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '456'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -54,6 +54,6 @@ Ciò migliora le prestazioni ed evita che alcune immagini non vengano elaborate 
 
 ## Utilizzo delle ultime intestazioni modificate {#last-modified}
 
-Le richieste condizionali tramite l’intestazione `Last-Modified` sono supportate dall’Adaptive Image Servlet, ma il caching dell’intestazione `Last-Modified` [deve essere abilitato in Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=it#caching-http-response-headers).
+Le richieste condizionali tramite l’intestazione `Last-Modified` sono supportate dall’Adaptive Image Servlet, ma la memorizzazione in cache dell’intestazione `Last-Modified` [deve essere abilitata in Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=it#caching-http-response-headers).
 
-[La configurazione Dispatcher di esempio di Archetipo progetto AEM](/help/developing/archetype/overview.md) contiene già questa configurazione.
+L’esempio di configurazione di Dispatcher in [Archetipo progetto AEM](/help/developing/archetype/overview.md) già include questa configurazione.
