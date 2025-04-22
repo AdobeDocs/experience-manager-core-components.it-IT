@@ -3,10 +3,10 @@ title: Componente Immagine
 description: Il componente core Immagine è un componente immagine adattivo.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: 5d2d79c96dc934efd7cccefb1a6a343813376483
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '1957'
-ht-degree: 100%
+source-wordcount: '1961'
+ht-degree: 99%
 
 ---
 
@@ -29,11 +29,11 @@ La versione corrente del componente Immagine è la v3, introdotta con la version
 
 La tabella che segue descrive tutte le versioni supportate del componente, le versioni di AEM con cui le versioni del componente sono compatibili e i collegamenti alla documentazione delle versioni precedenti.
 
-| Versione del componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|
-| v3 | - | Compatibile | Compatibile |
-| [v2](v2/image.md) | Compatibile | Compatibile | Compatibile |
-| [v1](v1/image-v1.md) | Compatibile | Compatibile | Compatibile |
+| Versione del componente | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|--- |--- |--- |---|---|
+| v3 | - | Compatibile | Compatibile | Compatibile |
+| [v2](v2/image.md) | Compatibile | Compatibile | - | Compatibile |
+| [v1](v1/image-v1.md) | Compatibile | Compatibile | - | Compatibile |
 
 Per ulteriori informazioni sulle versioni e sugli aggiornamenti dei Componenti core, vedi il documento [Versioni dei Componenti core](/help/versions.md).
 

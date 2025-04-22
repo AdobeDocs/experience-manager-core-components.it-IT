@@ -3,10 +3,10 @@ title: Componente Testo e-mail
 description: Il componente Testo e-mail è un componente per la modifica e la composizione come testo formattato che offre funzioni di modifica diretta.
 role: Architect, Developer, Admin, User
 exl-id: 4aa192f6-8314-40e7-8732-c6626d647986
-source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '2261'
-ht-degree: 100%
+source-wordcount: '2265'
+ht-degree: 99%
 
 ---
 
@@ -28,9 +28,9 @@ La versione corrente del componente Testo e-mail è la v1, introdotta con la ver
 
 La tabella che segue descrive tutte le versioni supportate del componente, le versioni di AEM con cui le versioni del componente sono compatibili e i collegamenti alla documentazione delle versioni precedenti.
 
-| Versione del componente | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|
-| v1 | Compatibile | - |
+| Versione del componente | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|
+| v1 | Compatibile | Compatibile | - |
 
 Per ulteriori informazioni sulle versioni e sugli aggiornamenti dei Componenti core, consulta il documento [Versioni dei componenti core E-mail.](/help/email/versions.md)
 

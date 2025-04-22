@@ -3,10 +3,10 @@ title: Componente Navigazione
 description: Il componente Navigazione consente agli utenti di navigare facilmente nella struttura globalizzata di un sito.
 role: Architect, Developer, Admin, User
 exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
-source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '1540'
-ht-degree: 100%
+source-wordcount: '1544'
+ht-degree: 99%
 
 ---
 
@@ -28,10 +28,10 @@ La versione corrente del componente Navigazione è la v2, introdotta con la vers
 
 La tabella che segue descrive tutte le versioni supportate del componente, le versioni di AEM con cui le versioni del componente sono compatibili e i collegamenti alla documentazione delle versioni precedenti.
 
-| Versione del componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|
-| v2 | - | Compatibile | Compatibile |
-| [v1](v1/navigation.md) | Compatibile | Compatibile | Compatibile |
+| Versione del componente | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|--- |--- |--- |---|---|
+| v2 | - | Compatibile | Compatibile | Compatibile |
+| [v1](v1/navigation.md) | Compatibile | Compatibile | - | Compatibile |
 
 Per ulteriori informazioni sulle versioni e sugli aggiornamenti dei Componenti core, vedi il documento [Versioni dei Componenti core](/help/versions.md).
 
@@ -143,10 +143,10 @@ Nella finestra di dialogo per modifica, l’autore di contenuto può definire la
 * **Raccogli tutte le pagine figlie**: raccoglie tutte le pagine discendenti della directory principale di navigazione.
 * **Annidamento struttura di navigazione**: definisce il numero di livelli sotto la struttura di navigazione che il componente deve visualizzare rispetto alla directory principale di navigazione (disponibile solo quando non è selezionata l’opzione **Raccogli tutte le pagine figlie**).
 * **Disattiva ombreggiatura**: se la pagina nella gerarchia è reindirizzata, viene visualizzato il nome della pagina di reindirizzamento al posto della pagina di destinazione. Per ulteriori informazioni, vedi [Supporto per la struttura del sito ombra](#shadow-structure).
-* **ID**: questa opzione consente di controllare l’identificatore univoco del componente nel codice HTML e in [Data Layer](/help/developing/data-layer/overview.md).
+* **ID**: questa opzione consente di controllare l’identificatore univoco del componente nel codice HTML e nel [livello dati](/help/developing/data-layer/overview.md).
    * Se non specificato, viene generato automaticamente un ID univoco reperibile sulla pagina risultante.
    * Se l’ID viene specificato, è responsabilità dell’autore accertarsi che sia univoco.
-   * La modifica dell’ID può avere un impatto sul tracciamento di CSS, JS e Data Layer.
+   * La modifica dell’ID può avere un impatto sul tracciamento di CSS, JS e livello dati.
 
 ### Scheda Accessibilità {#accessibility-tab}
 

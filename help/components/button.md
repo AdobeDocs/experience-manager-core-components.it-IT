@@ -3,10 +3,10 @@ title: Componente Pulsante
 description: Il componente core Pulsante consente di creare e visualizzare un pulsante.
 role: Architect, Developer, Admin, User
 exl-id: e17efd1d-90d4-497a-9e7d-45934d81bc28
-source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 100%
+source-wordcount: '533'
+ht-degree: 99%
 
 ---
 
@@ -27,10 +27,10 @@ La versione corrente del componente Pulsante è la v2, introdotta con la version
 
 La tabella che segue descrive tutte le versioni supportate del componente, le versioni di AEM con cui le versioni del componente sono compatibili e i collegamenti alla documentazione delle versioni precedenti.
 
-| Versione del componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |---|---|
-| v2 | - | Compatibile | Compatibile |
-| [v1](v1/button.md) | Compatibile | Compatibile | Compatibile |
+| Versione del componente | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|--- |--- |---|---|---|
+| v2 | - | Compatibile | Compatibile | Compatibile |
+| [v1](v1/button.md) | Compatibile | Compatibile | - | Compatibile |
 
 Per ulteriori informazioni sulle versioni e sugli aggiornamenti dei Componenti core, vedi il documento [Versioni dei Componenti core](/help/versions.md).
 
@@ -57,10 +57,10 @@ La finestra di dialogo per configurazione consente all’autore di contenuto di 
    * Utilizza la **finestra di dialogo per selezione** per scegliere un percorso all’interno di AEM.
 * **Apri collegamento in una nuova scheda** - Se questa opzione è selezionata, il collegamento verrà aperto in una nuova scheda del browser.
 * **Icona**: identificatore per la visualizzazione di un’icona nel pulsante
-* **ID**: questa opzione consente di controllare l’identificatore univoco del componente nel codice HTML e in [Data Layer](/help/developing/data-layer/overview.md).
+* **ID**: questa opzione consente di controllare l’identificatore univoco del componente nel codice HTML e nel [livello dati](/help/developing/data-layer/overview.md).
    * Se non specificato, viene generato automaticamente un ID univoco reperibile sulla pagina risultante.
    * Se l’ID viene specificato, è responsabilità dell’autore accertarsi che sia univoco.
-   * La modifica dell’ID può avere un impatto sul tracciamento di CSS, JS e Data Layer.
+   * La modifica dell’ID può avere un impatto sul tracciamento di CSS, JS e livello dati.
 
 ### Scheda Accessibilità {#accessibility-tab}
 

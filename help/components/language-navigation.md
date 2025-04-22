@@ -3,10 +3,10 @@ title: Componente Navigazione lingua
 description: Il componente Navigazione lingua fornisce una navigazione per lingua/paese in un sito, consentendo ai visitatori di visualizzare la stessa pagina in una lingua diversa.
 role: Architect, Developer, Admin, User
 exl-id: 10b218b4-c439-4a0f-a46f-0b15d78b0360
-source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '949'
-ht-degree: 100%
+source-wordcount: '953'
+ht-degree: 99%
 
 ---
 
@@ -29,10 +29,10 @@ La versione corrente del componente Navigazione lingua è la versione 2, introdo
 
 La tabella che segue descrive tutte le versioni supportate del componente, le versioni di AEM con cui le versioni del componente sono compatibili e i collegamenti alla documentazione delle versioni precedenti.
 
-| Versione del componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|
-| v2 | - | Compatibile | Compatibile |
-| [v1](v1/language-navigation.md) | Compatibile | Compatibile | Compatibile |
+| Versione del componente | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|--- |--- |--- |---|---|
+| v2 | - | Compatibile | Compatibile | Compatibile |
+| [v1](v1/language-navigation.md) | Compatibile | Compatibile | - | Compatibile |
 
 Per ulteriori informazioni sulle versioni e sugli aggiornamenti dei Componenti core, vedi il documento [Versioni dei Componenti core](/help/versions.md).
 
@@ -100,11 +100,11 @@ Il componente Navigazione lingua supporta il [sistema di stili](/help/get-starte
 
 In genere il componente Navigazione lingua deve essere aggiunto e configurato solo nei modelli di pagina di un sito. Tuttavia, se è necessario aggiungere il componente Navigazione lingua a una singola pagina di contenuto, la finestra di dialogo per modifica consente all’autore di contenuto di configurare gli stessi valori come descritto nella [finestra di dialogo per progettazione](#design-dialog)
 
-Inoltre, si può anche impostare un **ID**. Questa opzione consente di controllare l’identificatore univoco del componente nel codice HTML e nel [Data Layer](/help/developing/data-layer/overview.md).
+Inoltre, si può anche impostare un **ID**. Questa opzione consente di controllare l’identificatore univoco del componente nel codice HTML e nel [livello dati](/help/developing/data-layer/overview.md).
 
 * Se non specificato, viene generato automaticamente un ID univoco reperibile sulla pagina risultante.
 * Se l’ID viene specificato, è responsabilità dell’autore accertarsi che sia univoco.
-* La modifica dell’ID può avere un impatto sul tracciamento di CSS, JS e Data Layer.
+* La modifica dell’ID può avere un impatto sul tracciamento di CSS, JS e livello dati.
 
 ![Finestra di dialogo per modifica del componente Navigazione lingua](/help/assets/language-navigation-edit.png)
 

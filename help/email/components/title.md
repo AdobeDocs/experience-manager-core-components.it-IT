@@ -3,10 +3,10 @@ title: Componente Titolo e-mail
 description: Il componente Titolo e-mail è un componente di intestazione sezione per le e-mail che presenta funzioni di modifica diretta.
 role: Architect, Developer, Admin, User
 exl-id: f65b6973-bb36-406f-bbea-f85a23f5340b
-source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '593'
-ht-degree: 100%
+source-wordcount: '597'
+ht-degree: 99%
 
 ---
 
@@ -30,9 +30,9 @@ La versione corrente del componente Titolo e-mail è la v1, introdotta con la ve
 
 La tabella che segue descrive tutte le versioni supportate del componente, le versioni di AEM con cui le versioni del componente sono compatibili e i collegamenti alla documentazione delle versioni precedenti.
 
-| Versione del componente | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|
-| v1 | Compatibile | - |
+| Versione del componente | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|
+| v1 | Compatibile | Compatibile | - |
 
 Per ulteriori informazioni sulle versioni e sugli aggiornamenti dei Componenti core, consulta il documento [Versioni dei componenti core E-mail](/help/versions.md).
 

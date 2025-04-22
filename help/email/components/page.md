@@ -3,10 +3,10 @@ title: Componente Pagina e-mail
 description: Il componente Pagina e-mail
 role: Architect, Developer, Admin, User
 exl-id: 17fd0f5e-2b85-41a1-abaf-8ad190a5341a
-source-git-commit: c16dd8696e89f89c7b178ece11f57a565d73588b
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 100%
+source-wordcount: '781'
+ht-degree: 99%
 
 ---
 
@@ -28,9 +28,9 @@ La versione corrente del componente Pagina e-mail è la v1, introdotta con la ve
 
 La tabella che segue descrive tutte le versioni supportate del componente, le versioni di AEM con cui le versioni del componente sono compatibili e i collegamenti alla documentazione delle versioni precedenti.
 
-| Versione del componente | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|
-| v1 | Compatibile | - |
+| Versione del componente | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|
+| v1 | Compatibile | Compatibile | - |
 
 Per ulteriori informazioni sulle versioni e sugli aggiornamenti dei componenti core E-mail, vedi il documento [Versioni dei Componenti core E-mail](/help/email/versions.md)
 

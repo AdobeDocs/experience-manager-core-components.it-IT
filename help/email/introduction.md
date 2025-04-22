@@ -3,10 +3,10 @@ title: Introduzione ai Componenti core E-mail
 description: Crea contenuti e-mail coinvolgenti utilizzando la flessibilità dei componenti core E-mail e distribuiscili con la potenza di Adobe Campaign.
 role: Architect, Developer, Admin, User
 exl-id: 0a411f28-bd6a-4bad-b473-6bc27c1d1055
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 99%
+source-wordcount: '382'
+ht-degree: 97%
 
 ---
 
@@ -42,7 +42,7 @@ Di seguito sono riportati i requisiti dei componenti core E-mail.
 
 | AEM | Adobe Campaign | Componenti core  |
 |---|---|---|
-| AEM 6.5.14.0+<br>On-premise o AMS | Adobe Campaign Classic<br>Adobe Campaign Standard | [Versione 2.21.2](/help/versions.md)+ |
+| AEM 6.5.14.0+ o AEM 6.5 LTS GA<br>On-Premise o AMS | Adobe Campaign Classic<br>Adobe Campaign Standard | [Versione 2.21.2](/help/versions.md)+ |
 
 >[!NOTE]
 >

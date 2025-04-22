@@ -3,10 +3,10 @@ title: Componente Incorpora
 description: Il componente Incorpora consente di incorporare contenuto esterno in una pagina di contenuto AEM.
 role: Architect, Developer, Admin, User
 exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
-source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '1339'
-ht-degree: 100%
+source-wordcount: '1343'
+ht-degree: 99%
 
 ---
 
@@ -27,10 +27,10 @@ La versione corrente del componente Incorpora è la v2, introdotta con la versio
 
 La tabella che segue descrive tutte le versioni supportate del componente, le versioni di AEM con cui le versioni del componente sono compatibili e i collegamenti alla documentazione delle versioni precedenti.
 
-| Versione del componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |---|---|
-| v2 | - | Compatibile | Compatibile |
-| [v1](v1/embed.md) | Compatibile | Compatibile | Compatibile |
+| Versione del componente | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|--- |--- |---|---|---|
+| v2 | - | Compatibile | Compatibile | Compatibile |
+| [v1](v1/embed.md) | Compatibile | Compatibile | - | Compatibile |
 
 Per ulteriori informazioni sulle versioni e sugli aggiornamenti dei Componenti core, vedi il documento [Versioni dei Componenti core](/help/versions.md).
 
@@ -56,11 +56,11 @@ Scegli innanzitutto il tipo di risorsa da incorporare:
 * [Contenuto incorporabile](#embeddable)
 * [HTML](#html)
 
-Per ogni tipo di risorsa incorporabile, puoi definire un **ID**. Questa opzione consente di controllare l’identificatore univoco del componente nel codice HTML e nel [Data Layer](/help/developing/data-layer/overview.md).
+Per ogni tipo di risorsa incorporabile, puoi definire un **ID**. Questa opzione consente di controllare l’identificatore univoco del componente nel codice HTML e nel [livello dati](/help/developing/data-layer/overview.md).
 
 * Se non specificato, viene generato automaticamente un ID univoco reperibile sulla pagina risultante.
 * Se l’ID viene specificato, è responsabilità dell’autore accertarsi che sia univoco.
-* La modifica dell’ID può avere un impatto sul tracciamento di CSS, JS e Data Layer.
+* La modifica dell’ID può avere un impatto sul tracciamento di CSS, JS e livello dati.
 
 #### URL {#url}
 
@@ -73,7 +73,7 @@ Il componente Incorpora viene fornito con i relativi processori per i seguenti t
 
 Gli sviluppatori possono aggiungere processori URL aggiuntivi [seguendo la documentazione per gli sviluppatori del componente Incorpora.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
 
-![Opzione URL nella finestra di dialogo per modifica del componente Incorpora](/help/assets/embed-url.png)
+![Opzione URL nella finestra di dialogo per la modifica del componente Incorpora](/help/assets/embed-url.png)
 
 #### Contenuto incorporabile {#embeddable}
 
@@ -102,7 +102,7 @@ Altre risorse incorporabili potrebbero offrire campi simili, che possono essere 
 
 Puoi aggiungere alla pagina codice HTML in formato libero utilizzando il componente Incorpora.
 
-![Opzione HTML nella finestra di dialogo per modifica del componente Incorpora](/help/assets/embed-html.png)
+Opzione HTML nella finestra di dialogo per la modifica del componente Incorpora![](/help/assets/embed-html.png)
 
 >[!NOTE]
 >Eventuali tag non sicuri, come gli script, verranno filtrati dal codice HTML inserito e non ne verrà eseguito il rendering nella pagina risultante.
