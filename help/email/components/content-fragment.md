@@ -3,9 +3,9 @@ title: Componente Frammento di contenuto e-mail
 description: Il componente Frammento di contenuto e-mail consente di visualizzare un frammento di contenuto nel contenuto.
 role: Architect, Developer, Admin, User
 exl-id: 9bc6b730-0d2a-4e5b-891c-d2f67f600bcc
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '607'
 ht-degree: 99%
 
 ---
@@ -31,7 +31,7 @@ La tabella che segue descrive tutte le versioni supportate del componente, le ve
 
 | Versione del componente | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |---|---|---|---|
-| v1 | Compatibile | Compatibile | - |
+| v1 | Compatibile | - | - |
 
 Per ulteriori informazioni sulle versioni e sugli aggiornamenti dei componenti core E-mail, consulta il documento [Versioni dei componenti core E-mail.](/help/email/versions.md)
 
