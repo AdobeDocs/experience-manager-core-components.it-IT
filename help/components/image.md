@@ -3,10 +3,10 @@ title: Componente Immagine
 description: Il componente core Immagine è un componente immagine adattivo.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: ad911040d7e47fc3884071005c17accf8edd0a62
 workflow-type: tm+mt
-source-wordcount: '1961'
-ht-degree: 99%
+source-wordcount: '2062'
+ht-degree: 94%
 
 ---
 
@@ -46,6 +46,14 @@ Inoltre, il componente Immagine supporta il caricamento lento per posticipare il
 >[!TIP]
 >
 >Per impostazione predefinita, il componente immagine è alimentato da Adaptive Image Servlet. Per informazioni dettagliate su come funziona, consulta il documento [Adaptive Image Servlet](/help/developing/adaptive-image-servlet.md).
+
+### Differenze con v2 {#v2-differences}
+
+A differenza della versione 2 del componente Immagine, la versione 3 utilizza la reattività nativa per il browser. Questo significa che fornisce al browser un set di sorgenti per un’immagine per larghezze diverse e il browser sceglierà il migliore.
+
+Nella maggior parte dei casi, i browser preferiscono ridimensionare localmente una larghezza maggiore per adattarla a un riquadro di visualizzazione più piccolo invece di recuperare l’immagine di larghezza inferiore dal server. Ciò è previsto e il motivo per cui il componente Immagine non deve essere utilizzato per la direzione dell’immagine (immagini/ritagli diversi per riquadri di visualizzazione diversi).
+
+[Per ulteriori informazioni, vedere la documentazione tecnica del componente Immagine](https://github.com/adobe/aem-core-wcm-components/tree/main/content/src/content/jcr_root/apps/core/wcm/components/image/v3/image#javascript-data-attribute-bindings).
 
 ## Supporto di Dynamic Media {#dynamic-media}
 
