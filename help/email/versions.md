@@ -3,7 +3,7 @@ title: Versioni dei componenti core E-mail
 description: I componenti core E-mail vengono pubblicati come versioni.
 role: Architect, Developer, Admin, User
 exl-id: 9733659a-641c-4a98-8d10-84e93e0e0a5d
-source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
+source-git-commit: 91cf78d4c6622bbdec5ac7d22954c9c081c839d2
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 87%
@@ -13,7 +13,7 @@ ht-degree: 87%
 
 # Versioni dei componenti core E-mail {#core-components-versions}
 
-La versione corrente dei componenti core E-mail è la 1.3.0 ed è compatibile con AEM 6.5 e AEM 6.5 LTS.
+La versione corrente dei componenti core E-mail è la 1.3.0 ed è compatibile con AEM 6.5, sia on-premise che AMS.
 
 Consulta la [Sezione Requisiti](/help/email/introduction.md#requirements) del documento introduttivo sui componenti core E-mail e la [Sezione Installazione](/help/email/using.md#installing-the-email-core-components) del documento Utilizzo dei componenti core E-mail per ulteriori informazioni, rispettivamente, sui requisiti e sull’installazione.
 
