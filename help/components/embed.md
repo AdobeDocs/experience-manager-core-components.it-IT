@@ -4,9 +4,9 @@ description: Il componente Incorpora consente di incorporare contenuto esterno i
 role: Architect, Developer, Admin, User
 exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
 source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1343'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -102,7 +102,7 @@ Altre risorse incorporabili potrebbero offrire campi simili, che possono essere 
 
 Puoi aggiungere alla pagina codice HTML in formato libero utilizzando il componente Incorpora.
 
-Opzione HTML nella finestra di dialogo per la modifica del componente Incorpora![](/help/assets/embed-html.png)
+![Opzione HTML nella finestra di dialogo per la modifica del componente Incorpora](/help/assets/embed-html.png)
 
 >[!NOTE]
 >Eventuali tag non sicuri, come gli script, verranno filtrati dal codice HTML inserito e non ne verrà eseguito il rendering nella pagina risultante.
