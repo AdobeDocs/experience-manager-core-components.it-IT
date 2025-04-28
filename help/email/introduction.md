@@ -40,7 +40,7 @@ Le e-mail fanno parte della brand experience e del percorso del cliente. Con i c
 
 Di seguito sono riportati i requisiti dei componenti core E-mail.
 
-| AEM | Adobe Campaign | Componenti core  |
+| AEM | Adobe Campaign | Componenti core |
 |---|---|---|
 | AEM 6.5.14.0+<br>On-premise o AMS | Adobe Campaign Classic<br>Adobe Campaign Standard | [Versione 2.21.2](/help/versions.md)+ |
 
