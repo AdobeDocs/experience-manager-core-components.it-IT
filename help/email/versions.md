@@ -4,9 +4,9 @@ description: I componenti core E-mail vengono pubblicati come versioni.
 role: Architect, Developer, Admin, User
 exl-id: 9733659a-641c-4a98-8d10-84e93e0e0a5d
 source-git-commit: 91cf78d4c6622bbdec5ac7d22954c9c081c839d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '444'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 

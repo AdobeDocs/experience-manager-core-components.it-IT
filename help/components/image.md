@@ -4,9 +4,9 @@ description: Il componente core Immagine è un componente immagine adattivo.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 source-git-commit: ad911040d7e47fc3884071005c17accf8edd0a62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2062'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -47,13 +47,13 @@ Inoltre, il componente Immagine supporta il caricamento lento per posticipare il
 >
 >Per impostazione predefinita, il componente immagine è alimentato da Adaptive Image Servlet. Per informazioni dettagliate su come funziona, consulta il documento [Adaptive Image Servlet](/help/developing/adaptive-image-servlet.md).
 
-### Differenze con v2 {#v2-differences}
+### Differenze con la versione 2 {#v2-differences}
 
-A differenza della versione 2 del componente Immagine, la versione 3 utilizza la reattività nativa per il browser. Questo significa che fornisce al browser un set di sorgenti per un’immagine per larghezze diverse e il browser sceglierà il migliore.
+A differenza della versione 2 del componente Immagine, la versione 3 utilizza la reattività nativa del browser. Questo significa che al browser viene fornito un set di origini di un’immagine con diverse larghezze e il browser sceglierà quella più appropriata.
 
-Nella maggior parte dei casi, i browser preferiscono ridimensionare localmente una larghezza maggiore per adattarla a un riquadro di visualizzazione più piccolo invece di recuperare l’immagine di larghezza inferiore dal server. Ciò è previsto e il motivo per cui il componente Immagine non deve essere utilizzato per la direzione dell’immagine (immagini/ritagli diversi per riquadri di visualizzazione diversi).
+Nella maggior parte dei casi, i browser preferiscono ridimensionare localmente una larghezza maggiore per adattarla a un riquadro di visualizzazione più piccolo, invece di recuperare l’immagine con larghezza inferiore dal server. Ciò è previsto, ed è il motivo per cui il componente Immagine non dovrebbe essere utilizzato per la direzione artistica (immagini/ritagli diversi per riquadri di visualizzazione diversi).
 
-[Per ulteriori informazioni, vedere la documentazione tecnica del componente Immagine](https://github.com/adobe/aem-core-wcm-components/tree/main/content/src/content/jcr_root/apps/core/wcm/components/image/v3/image#javascript-data-attribute-bindings).
+Per ulteriori informazioni, [consulta la documentazione tecnica del componente Immagine](https://github.com/adobe/aem-core-wcm-components/tree/main/content/src/content/jcr_root/apps/core/wcm/components/image/v3/image#javascript-data-attribute-bindings).
 
 ## Supporto di Dynamic Media {#dynamic-media}
 
