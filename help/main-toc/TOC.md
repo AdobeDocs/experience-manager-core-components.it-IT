@@ -5,10 +5,10 @@ breadcrumb-title: Guida dei Componenti core
 feature: Core Components
 user-guide-description: Utilizza i Componenti core estensibili per consentire agli autori di creare facilmente contenuto.
 feature-set: Experience Manager Sites, Experience Manager Forms
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: ht
-source-wordcount: '381'
-ht-degree: 100%
+source-git-commit: 9f151ae26c9d2006b74656ec5086f1a5e9fc4b30
+workflow-type: tm+mt
+source-wordcount: '384'
+ht-degree: 96%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 100%
    + [Schede](/help/components/tabs.md)
    + [Teaser](/help/components/teaser.md)
    + [Titolo](/help/components/title.md)
-   + Componenti del modulo {#forms}
+   + Componenti dei moduli {#forms}
       + [Pulsante modulo](/help/components/forms/form-button.md)
       + [Contenitore modulo](/help/components/forms/form-container.md)
       + [Campo nascosto modulo](/help/components/forms/form-hidden.md)
@@ -72,7 +72,7 @@ ht-degree: 100%
       + [Ricerca rapida (v1)](/help/components/v1/quick-search.md)
       + [Testo (v1)](/help/components/v1/text-v1.md)
       + [Titolo (v1)](/help/components/v1/title-v1.md)
-      + Componenti del modulo v1 {#v1-forms}
+      + Componenti per moduli v1 {#v1-forms}
          + [Pulsante modulo (v1)](/help/components/v1/form-button-v1.md)
          + [Contenitore modulo (v1)](/help/components/v1/form-container-v1.md)
          + [Campo nascosto modulo (v1)](/help/components/v1/form-hidden-v1.md)
@@ -91,7 +91,7 @@ ht-degree: 100%
    + [Utilizzo dei componenti core E-mail](/help/email/using.md)
    + [Variabili di Campaign](/help/email/campaign-variables.md)
    + [Versioni](/help/email/versions.md)
-   + Componenti E-mail {#components}
+   + I componenti E-mail {#components}
       + [Pagina](/help/email/components/page.md)
       + [Contenitore](/help/email/components/container.md)
       + [Titolo](/help/email/components/title.md)
@@ -105,7 +105,7 @@ ht-degree: 100%
 + Moduli adattivi {#adaptive-forms}
    + [Introduzione](/help/adaptive-forms/introduction.md)
    + [Cronologia delle versioni](/help/adaptive-forms/version.md)
-   + Componenti moduli adattivi {#adaptive-forms-components}
+   + Componenti Forms adattivi {#adaptive-forms-components}
       + [Pannello a soffietto moduli adattivi](/help/adaptive-forms/components/accordion.md)
       + [Pulsante moduli adattivi](/help/adaptive-forms/components/button.md)
       + [Casella di controllo per modulo adattivo](/help/adaptive-forms/components/checkbox.md)
@@ -126,6 +126,7 @@ ht-degree: 100%
       + [CAPTCHA dei moduli adattivi](/help/adaptive-forms/components/adaptive-form-recaptcha.md)
       + [Pulsante di scelta moduli adattivi](/help/adaptive-forms/components/radio-button.md)
       + [Pulsante reimpostazione moduli adattivi](/help/adaptive-forms/components/reset-button.md)
+      + [Revisione per modulo adattivo](/help/adaptive-forms/components/review.md)
       + [Pulsante di invio moduli adattivi](/help/adaptive-forms/components/submit-button.md)
       + [Interruttore moduli adattivi](/help/adaptive-forms/components/adaptive-form-switch.md)
       + [Telefono moduli adattivi](/help/adaptive-forms/components/phone.md)
@@ -151,10 +152,10 @@ ht-degree: 100%
    + [Consegna delle immagini ottimizzate per il web](/help/developing/web-optimized-image-delivery.md)
    + [Supporto risorse remote](/help/developing/remote-assets.md)
    + Adobe Client Data Layer {#data-layer}
-      + [Panoramica di Data Layer](/help/developing/data-layer/overview.md)
-      + [Integrazioni con Data Layer](/help/developing/data-layer/integrations.md)
-      + [Estensione di Data Layer](/help/developing/data-layer/extending.md)
-   + Archetipo Progetto AEM {#archetype}
+      + [Panoramica del livello dati](/help/developing/data-layer/overview.md)
+      + [Integrazioni con il livello dati](/help/developing/data-layer/integrations.md)
+      + [Estensione del livello dati](/help/developing/data-layer/extending.md)
+   + Archetipo di progetto AEM {#archetype}
       + [Panoramica di Archetipo](/help/developing/archetype/overview.md)
       + [Utilizzo di Archetipo](/help/developing/archetype/using.md)
       + [Sviluppo front-end](/help/developing/archetype/front-end.md)

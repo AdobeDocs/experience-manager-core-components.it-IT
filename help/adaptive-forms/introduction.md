@@ -3,9 +3,9 @@ title: Introduzione ai componenti core dei moduli adattivi in AEM
 description: Crea esperienze di iscrizione accattivanti (moduli) utilizzando la flessibilità dei componenti core dei moduli adattivi e forniscile con l’aiuto di Adobe Experience Manager.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: b37b6315312ecee0a74d8830d96a72f8a5a04e43
-workflow-type: ht
-source-wordcount: '2215'
+source-git-commit: 12a829c164839fdcb2c98d52e409ec3ac2079c41
+workflow-type: tm+mt
+source-wordcount: '2123'
 ht-degree: 100%
 
 ---
@@ -105,6 +105,7 @@ La versione corrente di AEM Forms contiene i seguenti componenti core: [Componen
 | Pulsante Indietro | ✔️ | ✔️ | | Utilizza il [componente procedura guidata](/help/adaptive-forms/components/wizard.md) per i pulsanti Avanti e Indietro per spostarti tra più pannelli. |
 | Gruppo pulsanti di scelta | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/radio-button.md)</span> | ✔️ | |
 | Pulsante Ripristina | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/reset-button.md)</span> | ✔️ | |
+| Rivedi |  | <span style="color:blue">[✔️](/help/adaptive-forms/components/reset-button.md)</span> |  | |
 | Firma a mano | ✔️ | | | |
 | Separatore | ✔️ | | | Usa componente WCM [Separatore](/help/components/separator.md) |
 | Pulsante Invia | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/submit-button.md)</span> | ✔️ | |
@@ -166,7 +167,7 @@ L’editor per moduli adattivi basati su Componenti core è simile a quello già
 
 * **Elementi e impostazioni familiari dell’interfaccia utente**: quando configuri le proprietà per i componenti modulo, la finestra di dialogo delle proprietà ha l’aspetto di quella utilizzata per i componenti core WCM. Questo consente di trovare più rapidamente le opzioni necessarie. Come i componenti core WCM, per i componenti modulo la finestra di dialogo delle proprietà viene visualizzata al centro dell’editor con schede chiare che separano le opzioni di base e avanzate, il testo guida e le informazioni di accessibilità, il tutto in un formato a schede di facile navigazione.
 
-* **[Editor regole](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/rule-editor-core-components)**: è possibile aggiungere funzionalità logiche e dinamiche ai moduli senza la scrittura di codice. Puoi utilizzare l’editor di regole integrato per:
+* **[Editor regole](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/rule-editor-core-components)**: è possibile aggiungere funzionalità logiche e dinamiche ai moduli senza la scrittura di codice. Puoi utilizzare l’editor di regole incorporato per:
    * Mostrare o nascondere i campi in base alle scelte dell’utente
    * Attivare o disattivare un oggetto
    * Impostare un valore per un oggetto
@@ -174,7 +175,7 @@ L’editor per moduli adattivi basati su Componenti core è simile a quello già
    * Impostare la proprietà di un oggetto
    * Convalidare l’immissione di dati
    * Richiamare un servizio (richiamare funzionalità esterna)
-   * Utilizzare funzioni integrate (funzioni predefinite per le attività comuni)
+   * Utilizzare funzioni incorporate (funzioni predefinite per le attività comuni)
    * Utilizzare funzioni personalizzate (codice personalizzato per esigenze specifiche)
    * Convalidare campi e pannelli (verificare che i dati soddisfino i requisiti)
    * Convalidare il valore di un oggetto
