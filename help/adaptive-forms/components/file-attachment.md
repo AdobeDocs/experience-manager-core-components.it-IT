@@ -6,7 +6,7 @@ exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
 source-git-commit: b6ed89048065830171b70f105e755f2279dd7b01
 workflow-type: tm+mt
 source-wordcount: '2061'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -37,9 +37,9 @@ Ci sono diversi motivi per cui è utile includere un componente allegato file in
 
 ## Versione e compatibilità {#version-and-compatibility}
 
-Il componente core per l’allegato di file adattivo di Forms è stato rilasciato a febbraio 2023 come parte dei Componenti core 2.0.4 per Cloud Service e dei Componenti core 1.1.12 per AEM 6.5.16.0 Forms o versione successiva. Di seguito è riportata una tabella che mostra tutte le versioni supportate, la compatibilità AEM e i collegamenti alla documentazione corrispondente:
+Il componente core file allegato dei moduli adattivi è stato rilasciato a febbraio 2023 come parte dei Componenti core 2.0.4 per Cloud Service e dei Componenti core 1.1.12 per AEM 6.5.16.0 Forms o versioni successive. Di seguito è riportata una tabella che mostra tutte le versioni supportate, la compatibilità AEM e i collegamenti alla documentazione corrispondente:
 
-| Versione del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o versione successiva |
+| Versione del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o versioni successive |
 |---|---|---|
 | v1 | Compatibile con <br>[versione 2.0.4](/help/adaptive-forms/version.md) e successive | Compatibile con <br>[versione 1.1.12](/help/adaptive-forms/version.md) e successive, ma precedenti a 2.0.0. |
 
@@ -47,7 +47,7 @@ Per informazioni sulle versioni dei componenti core, consulta il documento [Vers
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_it). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Dettagli tecnici {#technical-details}
 
@@ -101,7 +101,7 @@ Puoi personalizzare facilmente l’esperienza dell’allegato file per i visitat
    - **Elimina**: tocca o fai clic per rimuovere tipi di file specifici.
    - **Ridisponi**: tocca o fai clic e trascina per modificare l’ordine dei tipi di file consentiti.
 
-  Quando si invia un file modificandone il tipo in un formato di tipi di file consentito, viene generato un errore durante l’invio del modulo.
+  Quando si invia un file modificandone il tipo in un formato di file consentito, viene generato un errore durante l’invio del modulo.
 - **Messaggio di errore tipo di file**: questa opzione consente di inserire un messaggio di errore visualizzato quando si caricano i formati di file diversi da quelli elencati nell’opzione **Tipi di file consentiti**.
 
 ### Scheda Contenuto Guida {#help-content-tab}
@@ -158,7 +158,7 @@ Le proprietà personalizzate consentono di associare attributi personalizzati (c
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=it)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

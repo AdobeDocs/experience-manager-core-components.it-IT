@@ -8,7 +8,7 @@ feature-set: Experience Manager Sites, Experience Manager Forms
 source-git-commit: 5c4c72b2f52806cbcc889b676dfa2b2b65b08562
 workflow-type: tm+mt
 source-wordcount: '388'
-ht-degree: 92%
+ht-degree: 96%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 92%
       + [Ricerca rapida (v1)](/help/components/v1/quick-search.md)
       + [Testo (v1)](/help/components/v1/text-v1.md)
       + [Titolo (v1)](/help/components/v1/title-v1.md)
-      + Componenti per moduli v1 {#v1-forms}
+      + Componenti per modulo v1 {#v1-forms}
          + [Pulsante modulo (v1)](/help/components/v1/form-button-v1.md)
          + [Contenitore modulo (v1)](/help/components/v1/form-container-v1.md)
          + [Campo nascosto modulo (v1)](/help/components/v1/form-hidden-v1.md)
@@ -86,12 +86,12 @@ ht-degree: 92%
       + [Titolo (v2)](/help/components/v2/title.md)
    + Componenti v3 {#v3-components}
       + [Elenco (v3)](/help/components/v3/list.md)
-+ Componenti E-mail {#email}
++ Componenti e-mail {#email}
    + [Introduzione](/help/email/introduction.md)
    + [Utilizzo dei componenti core E-mail](/help/email/using.md)
    + [Variabili di Campaign](/help/email/campaign-variables.md)
    + [Versioni](/help/email/versions.md)
-   + I componenti E-mail {#components}
+   + Componenti e-mail {#components}
       + [Pagina](/help/email/components/page.md)
       + [Contenitore](/help/email/components/container.md)
       + [Titolo](/help/email/components/title.md)
@@ -105,7 +105,7 @@ ht-degree: 92%
 + Moduli adattivi {#adaptive-forms}
    + [Introduzione](/help/adaptive-forms/introduction.md)
    + [Cronologia delle versioni](/help/adaptive-forms/version.md)
-   + Componenti Forms adattivi {#adaptive-forms-components}
+   + Componenti moduli adattivi {#adaptive-forms-components}
       + [Pannello a soffietto moduli adattivi](/help/adaptive-forms/components/accordion.md)
       + [Pulsante moduli adattivi](/help/adaptive-forms/components/button.md)
       + [Casella di controllo per modulo adattivo](/help/adaptive-forms/components/checkbox.md)
@@ -151,7 +151,7 @@ ht-degree: 92%
    + [Adaptive Image Servlet](/help/developing/adaptive-image-servlet.md)
    + [Consegna delle immagini ottimizzate per il web](/help/developing/web-optimized-image-delivery.md)
    + [Supporto risorse remote](/help/developing/remote-assets.md)
-   + Adobe Client Data Layer {#data-layer}
+   + Livello dati client Adobe {#data-layer}
       + [Panoramica del livello dati](/help/developing/data-layer/overview.md)
       + [Integrazioni con il livello dati](/help/developing/data-layer/integrations.md)
       + [Estensione del livello dati](/help/developing/data-layer/extending.md)
