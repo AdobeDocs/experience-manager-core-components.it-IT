@@ -3,7 +3,7 @@ title: Personalizzare i componenti core dei moduli adattivi
 description: Scopri come estendere o creare un componente core dei moduli adattivi per implementare funzionalità personalizzate per la tua organizzazione.
 role: Architect, Developer, Admin
 exl-id: f3ab12aa-d48d-47e9-a965-15052cac6f18
-source-git-commit: 79cedf7099e2dc267a4cb1c25c06d4f0460367b2
+source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
 workflow-type: tm+mt
 source-wordcount: '562'
 ht-degree: 100%
@@ -13,6 +13,8 @@ ht-degree: 100%
 # Personalizzare i componenti core dei moduli adattivi
 
 La personalizzazione dei componenti core dei moduli adattivi consente di personalizzare le funzionalità predefinite in base alle proprie esigenze specifiche. Questa guida illustra come personalizzare tali componenti, per creare un’esperienza più personale.
+
+{{traditional-aem}}
 
 ## Prerequisito
 

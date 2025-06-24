@@ -3,12 +3,14 @@ title: Componente Breadcrumb (v2)
 description: Il componente core Breadcrumb è un componente di navigazione che crea una breadcrumb di collegamenti in base alla posizione della pagina nella gerarchia del contenuto.
 role: Architect, Developer, Admin, User
 exl-id: 5f2e6fef-e2f6-48e2-8dac-008db3131044
-source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 99%
 
 ---
+
 
 # Componente Breadcrumb (v2) {#breadcrumb-component}
 
@@ -59,10 +61,10 @@ La finestra di dialogo per modifica consente all’autore di contenuto di elimin
 * **Mostra elementi di navigazione nascosti**: mostra le pagine contrassegnate come nascoste nella breadcrumb (per impostazione predefinita non verranno visualizzate)
 * **Nascondi pagina corrente**: consente di eliminare la pagina corrente nella breadcrumb (per impostazione predefinita verrà visualizzata)
 * **Disattiva ombreggiatura**: se la pagina nella gerarchia è reindirizzata, viene visualizzato il nome della pagina di reindirizzamento al posto della pagina di destinazione. Per ulteriori informazioni, vedi [Supporto per la struttura del sito ombra](../v1/navigation.md#shadow-structure) del componente Navigazione.
-* **ID**: questa opzione consente di controllare l’identificatore univoco del componente nel codice HTML e in [Data Layer](/help/developing/data-layer/overview.md).
+* **ID**: questa opzione consente di controllare l’identificatore univoco del componente nel codice HTML e nel [livello dati](/help/developing/data-layer/overview.md).
    * Se non specificato, viene generato automaticamente un ID univoco reperibile sulla pagina risultante.
    * Se l’ID viene specificato, è responsabilità dell’autore accertarsi che sia univoco.
-   * La modifica dell’ID può avere un impatto sul tracciamento di CSS, JS e Data Layer.
+   * La modifica dell’ID può avere un impatto sul tracciamento di CSS, JS e livello dati.
 
 ## Finestra di dialogo per progettazione {#design-dialog}
 

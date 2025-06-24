@@ -3,12 +3,14 @@ title: Componente Pagina (v2)
 description: Il componente Pagina è una pagina estensibile concepita per funzionare con l’editor di modelli e consentire l’assemblaggio di intestazione/piè di pagina e altri componenti della struttura della pagina.
 role: Architect, Developer, Admin, User
 exl-id: e85fe4db-6de4-4a84-a54c-bd07a67efed3
-source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 99%
 
 ---
+
 
 # Componente Pagina (v2) {#page-component}
 
@@ -32,7 +34,7 @@ Questo documento descrive la versione 2 del componente Pagina, originariamente i
 
 ## Supporto di Progressive Web App {#pwa-support}
 
-La versione 2.15.0 dei Componenti core ha introdotto il supporto delle [funzionalità di Progressive Web App (PWA) integrato in AEM as a Cloud Service.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=it)Con una semplice configurazione a livello di sito, puoi trasformare la tua esperienza AEM in un’esperienza PWA.
+La versione 2.15.0 dei Componenti core ha introdotto il supporto delle [funzionalità Progressive Web App (PWA) incorporate in AEM as a Cloud Service.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=it)Con una semplice configurazione a livello di sito, puoi trasformare la tua esperienza AEM in un’esperienza PWA.
 
 ### Dettagli tecnici {#technical-details}
 

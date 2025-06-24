@@ -3,16 +3,19 @@ title: Componente core moduli adattivi - Piè di pagina
 description: Utilizzo o personalizzazione del componente core piè di pagina dei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: c8e7d3fe-4b82-4a80-8da2-19f6cff1e3e9
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: ht
-source-wordcount: '769'
-ht-degree: 100%
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
+source-wordcount: '767'
+ht-degree: 95%
 
 ---
+
 
 # Piè di pagina {#footer-adaptive-forms-core-component}
 
 Un componente piè di pagina in un modulo adattivo è un’area che in genere viene visualizzata nella parte inferiore del modulo e contiene informazioni quali un avviso di copyright, collegamenti a risorse correlate o informazioni di contatto. Un piè di pagina può fornire informazioni aggiuntive, come la data dell’ultimo aggiornamento, che possono essere utili per gli utenti con esigenze di accessibilità.
+
+{{traditional-aem}}
 
 **Esempio**
 
@@ -34,9 +37,9 @@ Includere un componente piè di pagina in un modulo è utile per vari motivi, tr
 
 ## Versione e compatibilità {#version-and-compatibility}
 
-Il componente core Piè di pagina per moduli adattivi è stato rilasciato a febbraio 2023 come parte dei Componenti core 2.0.4 per Cloud Service e i Componenti core 1.1.12 per AEM Forms 6.5.16.0 o versioni successive. Di seguito è riportata una tabella che mostra tutte le versioni supportate, la compatibilità AEM e i collegamenti alla documentazione corrispondente:
+Il componente core Piè di pagina adattivo di Forms è stato rilasciato a febbraio 2023 come parte dei Componenti core 2.0.4 per Cloud Service e dei Componenti core 1.1.12 per AEM 6.5.16.0 Forms o versione successiva. Di seguito è riportata una tabella che mostra tutte le versioni supportate, la compatibilità AEM e i collegamenti alla documentazione corrispondente:
 
-| Versione del componente | AEM as a Cloud Service | AEM Forms 6.5.16.0 o versioni successive |
+| Versione del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o versioni successive |
 |---|---|---|
 | v1 | Compatibile con <br>[versione 2.0.4](/help/adaptive-forms/version.md) e successive | Compatibile con <br>[versione 1.1.12](/help/adaptive-forms/version.md) e successive, ma precedenti a 2.0.0. |
 
@@ -44,7 +47,7 @@ Per informazioni sulle versioni dei componenti core, consulta il documento [Vers
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_it). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Dettagli tecnici {#technical-details}
 
@@ -103,13 +106,13 @@ La finestra di dialogo Modifica fornisce strumenti di formattazione rich text st
 
    - Se non specificato, viene generato automaticamente un ID univoco reperibile sulla pagina risultante.
    - Se l’ID viene specificato, è responsabilità dell’autore accertarsi che sia univoco.
-   - La modifica dell’ID può avere un impatto sul tracciamento di CSS, JS e Data Layer.
+   - La modifica dell’ID può avere un impatto sul tracciamento di CSS, JS e livello dati.
 
 <!--
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=it)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

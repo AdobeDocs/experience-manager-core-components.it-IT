@@ -3,12 +3,14 @@ title: Componente teaser (v1)
 description: Il componente Teaser può mostrare un’immagine, un titolo, un testo formattato e opzionalmente un collegamento verso altri contenuti.
 role: Architect, Developer, Admin, User
 exl-id: 48e56938-660a-43e7-9e62-8069283ae73f
-source-git-commit: 84e09fa64b3a7ae40ff3ff1a04ea1c7504db29d2
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '722'
 ht-degree: 100%
 
 ---
+
 
 # Componente teaser (v1) {#teaser-component}
 
@@ -66,10 +68,10 @@ L’autore di contenuti può utilizzare la finestra di dialogo per la configuraz
    * **Ottieni titolo da pagina collegata**: se questa opzione è selezionata, viene utilizzato il titolo della pagina collegata.
 * **Descrizione**: è una descrizione da visualizzare come sottotitolo del teaser.
    * **Ottieni descrizione da pagina collegata**: se questa opzione è selezionata, viene utilizzata la descrizione della pagina collegata.
-* **ID**: questa opzione consente di controllare l’identificatore univoco del componente nel codice HTML e nel [Data Layer](/help/developing/data-layer/overview.md).
+* **ID**: questa opzione consente di controllare l’identificatore univoco del componente nel codice HTML e nel [livello dati](/help/developing/data-layer/overview.md).
    * Se non specificato, viene generato automaticamente un ID univoco reperibile sulla pagina risultante.
    * Se l’ID viene specificato, è responsabilità dell’autore accertarsi che sia univoco.
-   * La modifica dell’ID può avere un impatto sul tracciamento di CSS, JS e Data Layer.
+   * La modifica dell’ID può avere un impatto sul tracciamento di CSS, JS e livello dati.
 
 ### Collegamento e azioni {#links-actions}
 

@@ -3,7 +3,7 @@ title: Personalizzazione dei Componenti core
 description: I Componenti core implementano diversi modelli che consentono una facile personalizzazione, dalla semplice assegnazione di uno stile al riutilizzo di funzionalità avanzate.
 role: Architect, Developer, Admin
 exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
-source-git-commit: bd688d422a072a9d5627c27817ac67f95829de4f
+source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
 workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 100%
@@ -13,6 +13,8 @@ ht-degree: 100%
 # Personalizzazione dei Componenti core{#customizing-core-components}
 
 I [Componenti core](overview.md) implementano diversi modelli che consentono una facile personalizzazione, dalla semplice assegnazione di uno stile al riutilizzo di funzionalità avanzate.
+
+{{traditional-aem}}
 
 ## Architettura flessibile {#flexible-architecture}
 

@@ -3,18 +3,21 @@ title: 'Componente core dei moduli adattivi: Google reCAPTCHA'
 description: Migliora facilmente la sicurezza dei moduli con il servizio Google reCAPTCHA con AEM Forms. Spiegare le proprietà di reCAPTCHA per modulo adattivo
 role: Architect, Developer, Admin, User
 exl-id: 2d986b90-e596-4e8f-9a32-0ebced5461c8
-source-git-commit: b97687e7f7437af57e2a8b9f442d4e0c8322a3d2
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
 source-wordcount: '1325'
 ht-degree: 100%
 
 ---
 
+
 # reCAPTCHA per modulo adattivo {#google-recaptcha}
 
 Il CAPTCHA (Completely Automated Public Turing test to tell Computers and Humans Apart) è un programma comunemente utilizzato nelle transazioni online per distinguere tra esseri umani e programmi o bot automatizzati. Rappresenta una sfida e valuta la risposta dell’utente per determinare se si tratta di un essere umano o di un bot che interagisce con il sito. Impedisce all’utente di procedere se il test non riesce e contribuisce a rendere sicure le transazioni online impedendo ai bot di pubblicare spam o avere scopi dannosi.
 
 AEM Forms as a Cloud Service supporta il reCAPTCHA di Google v2 nei Moduli adattivi. Puoi utilizzarlo per presentare una sfida CAPTCHA all’invio del modulo
+
+{{traditional-aem}}
 
 ## Utilizzo {#reasons-to-use-google-recaptcha}
 

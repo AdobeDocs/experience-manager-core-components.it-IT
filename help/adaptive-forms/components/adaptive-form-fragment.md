@@ -3,12 +3,13 @@ title: Frammento di modulo adattivo
 description: Utilizza i frammenti di modulo per creare segmenti di modulo o gruppi di campi e riutilizzarli nei moduli adattivi per migliorarne l’efficienza e la riutilizzabilità.
 role: Architect, Developer, Admin, User
 exl-id: bde4a416-1d6b-4e9e-ac74-70fccef473cb
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
-source-wordcount: '1954'
-ht-degree: 100%
+source-wordcount: '1952'
+ht-degree: 98%
 
 ---
+
 
 # Componente frammento di modulo adattivo {#form-fragment-component-adaptive-forms-core-component}
 
@@ -25,6 +26,8 @@ Puoi utilizzare le [opzioni di ripetibilità](https://experienceleague.adobe.com
 >
 > Puoi [creare un frammento di modulo adattivo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html?lang=it#create-a-fragment) da zero o salvare un pannello in un modulo adattivo esistente come frammento.
 
+{{traditional-aem}}
+
 ## Utilizzo {#usage}
 
 - **Riutilizzabilità**: la possibilità di riutilizzare i frammenti di modulo su più moduli adattivi è il vantaggio principale dell’utilizzo dei frammenti di modulo. Aiuta a mantenere coerenza a livello di progettazione e funzionalità, in quanto le modifiche apportate a un frammento si riflettono in tutte le istanze in cui viene utilizzato.
@@ -37,9 +40,9 @@ Puoi utilizzare le [opzioni di ripetibilità](https://experienceleague.adobe.com
 
 ## Versione e compatibilità {#version-and-compatibility}
 
-Il componente core del frammento dei moduli adattivi è stato rilasciato come parte dei Componenti core 2.0.50 per Cloud Service e dei Componenti core 1.1.26 per i moduli AEM 6.5.16.0 o versioni successive. Di seguito è riportata una tabella che mostra tutte le versioni supportate, la compatibilità AEM e i collegamenti alla documentazione corrispondente:
+Il componente core Frammento Forms adattivo è stato rilasciato come parte dei Componenti core 2.0.50 per Cloud Service e Componenti core 1.1.26 per AEM 6.5.16.0 Forms o versione successiva. Di seguito è riportata una tabella che mostra tutte le versioni supportate, la compatibilità AEM e i collegamenti alla documentazione corrispondente:
 
-| Versione del componente | AEM as a Cloud Service | AEM Forms 6.5.16.0 o versioni successive |
+| Versione del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o versioni successive |
 |---|---|---|
 | v1 | Compatibile con <br>[versione 2.0.50](/help/adaptive-forms/version.md) e successive | Compatibile con <br>[versione 1.1.26](/help/adaptive-forms/version.md) e successive, ma precedenti a 2.0.0. |
 
@@ -66,7 +69,7 @@ Puoi personalizzare facilmente la tua esperienza con i frammenti per i visitator
   ![Supporto testo RTF](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **Nascondi titolo**: seleziona l’opzione per nascondere il titolo del componente.
-- **Raggruppa dati dei componenti secondari all’invio del modulo (racchiudi dati nell’oggetto)**: quando questa opzione è selezionata, i dati dei relativi componenti secondari sono nidificati all’interno dell’oggetto JSON del componente principale. Tuttavia, se l’opzione non è selezionata, i dati JSON inviati hanno una struttura semplice, senza alcun oggetto per il componente principale. Ad esempio:
+- **Raggruppa i dati dei componenti secondari all’invio del modulo (racchiudi dati nell’oggetto)**: quando questa opzione è selezionata, i dati dei relativi componenti secondari sono nidificati all’interno dell’oggetto JSON del componente principale. Tuttavia, se l’opzione non è selezionata, i dati JSON inviati hanno una struttura semplice, senza alcun oggetto per il componente principale. Ad esempio:
 
    - Quando l’opzione è selezionata, i dati dei componenti secondari (ad esempio, Via, Città e CAP) vengono nidificati all’interno del componente principale (Indirizzo) come oggetto JSON. In questo modo viene creata una struttura gerarchica e i dati vengono organizzati sotto il componente principale.
 

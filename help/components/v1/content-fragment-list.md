@@ -3,12 +3,14 @@ title: Componente Elenco frammenti di contenuto (v1)
 description: Il componente core Elenco frammenti di contenuto consente la visualizzazione di un elenco di frammenti di contenuto.
 role: Architect, Developer, Admin, User
 exl-id: 37d6632d-360d-4081-8279-8efbb369a82e
-source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 98%
 
 ---
+
 
 # Componente Elenco frammenti di contenuto (v1) {#content-fragment-list-component}
 
@@ -65,10 +67,10 @@ La scheda **Proprietà** definisce quali Frammenti di contenuto sono inclusi nel
    * Crescente o Decrescente
 * **Max. elementi**: numero massimo di elementi da visualizzare nell’elenco
    * Se non specificato, vengono visualizzati tutti gli elementi.
-* **ID**: questa opzione consente di controllare l’identificatore univoco del componente nel codice HTML e in [Data Layer](/help/developing/data-layer/overview.md).
+* **ID**: questa opzione consente di controllare l’identificatore univoco del componente nel codice HTML e nel [livello dati](/help/developing/data-layer/overview.md).
    * Se non specificato, viene generato automaticamente un ID univoco reperibile sulla pagina risultante.
    * Se l’ID viene specificato, è responsabilità dell’autore accertarsi che sia univoco.
-   * La modifica dell’ID può avere un impatto sul tracciamento di CSS, JS e Data Layer.
+   * La modifica dell’ID può avere un impatto sul tracciamento di CSS, JS e livello dati.
 
 >[!NOTE]
 >Le opzioni **Ordina per**, **Ordinamento** e **Max. elementi** sono state introdotte con la versione 2.7.0 dei Componenti core.

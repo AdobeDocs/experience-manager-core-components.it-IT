@@ -3,32 +3,18 @@ title: Sviluppo di Componenti core
 description: I Componenti core forniscono componenti di base affidabili ed estensibili che offrono funzionalità avanzate, distribuzione continua, controllo delle versioni dei componenti, implementazione moderna, markup snello ed esportazione JSON di contenuto.
 role: Architect, Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
-source-git-commit: 614bc5fd01a76a6888606faa4576e1695b77ba58
+source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1130'
 ht-degree: 100%
 
 ---
 
 # Sviluppo di Componenti core {#developing-core-components}
 
-## Quando utilizzare i Componenti core? {#when-to-use-the-core-components}
+I Componenti core forniscono componenti di base affidabili ed estensibili che offrono funzionalità avanzate, distribuzione continua, controllo delle versioni dei componenti, implementazione moderna, markup snello ed esportazione JSON di contenuto.
 
-Poiché i Componenti core sono completamente nuovi e offrono molteplici vantaggi, si consiglia di utilizzarli nei nuovi progetti AEM. Per i progetti esistenti, è consigliabile prevedere una migrazione dei componenti solo nell’ambito di una sostanziale rilavorazione di un progetto, ad esempio in caso di rebranding o refactoring globale.
-
-Pertanto, Adobe fornisce le seguenti raccomandazioni:
-
-* **Nuovi progetti**
-Per i nuovi progetti si deve sempre tentare di utilizzare i Componenti core. Se i Componenti core non possono essere utilizzati direttamente o [nella versione estesa](customizing.md) per soddisfare i requisiti del progetto, si consiglia di creare un componente personalizzato seguendo l’architettura dei componenti impostata nei Componenti core. Ad eccezione dei casi in cui non esiste un’alternativa possibile, evita di utilizzare i [componenti di base](/help/versions.md#foundation-component-support).
-* **Progetti esistenti**
-Si raccomanda di continuare a utilizzare i [componenti di base](/help/versions.md#foundation-component-support), a meno che non sia pianificato il refactoring di un sito o di un componente.\
-  In quanto ampiamente utilizzati nella maggior parte dei progetti esistenti, i componenti di base [continueranno a essere supportati.](/help/versions.md#foundation-component-support)
-* **Nuovi componenti personalizzati**
-Valuta se è possibile [personalizzare un componente core](customizing.md) esistente.\
-  In caso contrario, si consiglia di creare un nuovo componente personalizzato seguendo le [Linee guida per i componenti](guidelines.md).
-* **Componenti personalizzati esistenti**
-Se i componenti funzionano come previsto, mantienili così come sono.\
-  In caso contrario, vedi “Nuovi componenti personalizzati” sopra.
+{{traditional-aem}}
 
 ## Come utilizzare in modo efficace i Componenti core {#how-to-succeed}
 
@@ -131,12 +117,12 @@ La tabella che segue riporta i Componenti core disponibili, il collegamento alle
 | [Frammento di contenuto](https://adobe.com/go/aem_cmp_tech_cf_v1_it) | Consente la visualizzazione di un frammento di contenuto | `-` |
 | [Elenco di frammenti di contenuto](https://adobe.com/go/aem_cmp_tech_cflist_v1_it) | Consente la visualizzazione di un elenco di frammenti di contenuto | `-` |
 | [Separatore](https://adobe.com/go/aem_cmp_tech_separator_v1_it) | Separa il contenuto su una pagina | `-` |
-| [Pannello a soffietto](https://adobe.com/go/aem_cmp_tech_accordion_v1_it) | Organizza i pannelli di contenuto in un pannello a soffietto comprimibile | `-` |
+| [Pannello a soffietto](https://adobe.com/go/aem_cmp_tech_accordion_v1) | Organizza i pannelli di contenuto in un pannello a soffietto comprimibile | `-` |
 | [Contenitore](https://adobe.com/go/aem_cmp_tech_container_v1_it) | Organizza i componenti all’interno di un contenitore | `-` |
-| [Pulsante](https://adobe.com/go/aem_cmp_tech_button_v1_it) | Crea un pulsante su una pagina | `-` |
-| [Scarica](https://adobe.com/go/aem_cmp_tech_download_v1_it) | Aggiunge una risorsa scaricabile a una pagina | `-` |
-| [Frammento esperienza](https://adobe.com/go/aem_cmp_tech_xf_v1_it) | Aggiunge un frammento esperienza a una pagina | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
-| [Incorpora](https://adobe.com/go/aem_cmp_tech_embed_v1_it) | Incorpora una risorsa esterna all’interno di una pagina | - |
+| [Pulsante](https://adobe.com/go/aem_cmp_tech_button_v1) | Crea un pulsante su una pagina | `-` |
+| [Scarica](https://adobe.com/go/aem_cmp_tech_download_v1) | Aggiunge una risorsa scaricabile a una pagina | `-` |
+| [Frammento esperienza](https://adobe.com/go/aem_cmp_tech_xf_v1) | Aggiunge un frammento esperienza a una pagina | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
+| [Incorpora](https://adobe.com/go/aem_cmp_tech_embed_v1) | Incorpora una risorsa esterna all’interno di una pagina | - |
 | [Barra di avanzamento](https://adobe.com/go/aem_cmp_tech_progress_v1) | Fornisce una rappresentazione visiva del progresso verso un obiettivo | - |
 | [Visualizzatore PDF](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1_it) | Visualizza un documento PDF su una pagina | - |
 

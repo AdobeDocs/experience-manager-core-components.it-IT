@@ -3,12 +3,13 @@ title: Componente core dei moduli adattivi - Pulsante
 description: Utilizzo o personalizzazione del componente core del pulsante per moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: cb75929b-8c86-49d1-b51a-368f5b80b1a9
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: ht
-source-wordcount: '1660'
-ht-degree: 100%
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
+source-wordcount: '1658'
+ht-degree: 98%
 
 ---
+
 
 # Componente Pulsante {#button-component-adaptive-forms-core-component}
 
@@ -19,6 +20,8 @@ L’editor di regole per moduli adattivi consente agli utenti di impostare varie
 I moduli adattivi presentano componenti separati per il [Pulsante Invia](/help/adaptive-forms/components/submit-button.md) e il [Pulsante Ripristina](/help/adaptive-forms/components/reset-button.md), che consentono agli utenti di inviare o ripristinare un modulo in modo opportuno. Il componente Pulsante può essere configurato in modo flessibile per eseguire queste azioni in base alle esigenze specifiche.
 
 Gli utenti possono accedere all’elenco completo delle azioni supportate per il componente pulsante utilizzando l’editor di regole per moduli adattivi. L’editor di regole consente agli utenti di creare regole attivate da vari eventi, ad esempio quando si fa clic su un pulsante, quando si carica un modulo o si modifica il valore di un campo. Queste regole possono quindi essere utilizzate per eseguire varie azioni, ad esempio per mostrare o nascondere i componenti, impostare i valori dei campi o inviare il modulo.
+
+{{traditional-aem}}
 
 **Esempio**
 
@@ -40,9 +43,9 @@ Ci sono diversi motivi per cui è utile includere un pulsante in un modulo adatt
 
 ## Versione e compatibilità {#version-and-compatibility}
 
-Il componente core Pulsante per moduli adattivi è stato rilasciato a febbraio 2023 come parte dei Componenti core 2.0.4 per Cloud Service e dei Componenti core 1.1.12 per AEM Forms 6.5.16.0 o versioni successive. Di seguito è riportata una tabella che mostra tutte le versioni supportate, la compatibilità AEM e i collegamenti alla documentazione corrispondente:
+Il componente core Pulsante Forms adattivo è stato rilasciato a febbraio 2023 come parte dei Componenti core 2.0.4 per Cloud Service e dei Componenti core 1.1.12 per AEM 6.5.16.0 Forms o versione successiva. Di seguito è riportata una tabella che mostra tutte le versioni supportate, la compatibilità AEM e i collegamenti alla documentazione corrispondente:
 
-| Versione del componente | AEM as a Cloud Service | AEM Forms 6.5.16.0 o versioni successive |
+| Versione del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o versioni successive |
 |---|---|---|
 | v1 | Compatibile con <br>[versione 2.0.4](/help/adaptive-forms/version.md) e successive | Compatibile con <br>[versione 1.1.12](/help/adaptive-forms/version.md) e successive, ma precedenti a 2.0.0. |
 
@@ -51,7 +54,7 @@ Per informazioni sulle versioni dei componenti core, consulta il documento [Vers
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_it). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Dettagli tecnici {#technical-details}
 

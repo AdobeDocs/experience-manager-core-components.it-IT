@@ -3,16 +3,19 @@ title: Componente core dei moduli adattivi - Input di testo (casella di testo)
 description: Utilizzo o personalizzazione del componente core per l’input di testo dei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: 49d9fe69-0578-4489-beaa-a18cdb14add7
-source-git-commit: 9f151ae26c9d2006b74656ec5086f1a5e9fc4b30
-workflow-type: ht
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
 source-wordcount: '2120'
 ht-degree: 100%
 
 ---
 
+
 # Componente casella di testo{#text-input-adaptive-forms-core-component}
 
 Un componente di input di testo (casella di testo) consente all’utente di immettere e modificare una o più righe di testo, a seconda dell’attributo di tipo dell’elemento di input. Il componente input di testo può essere posizionato all’interno di un modulo ed è solitamente contrassegnato con un testo utile che ne identifica facilmente lo scopo. Si tratta di un elemento fondamentale di qualsiasi modulo, ampiamente utilizzato per raccogliere diversi tipi di dati dagli utenti. Si tratta di un testo semplice, flessibile e configurabile per convalidare gli input e migliorare la precisione della raccolta dei dati.
+
+{{traditional-aem}}
 
 **Esempio**
 
@@ -41,7 +44,7 @@ Per informazioni sulle versioni dei componenti core, consulta il documento [Vers
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_it). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Dettagli tecnici {#technical-details}
 
@@ -164,7 +167,7 @@ La scheda dei formati consente di specificare i formati di data predefiniti e pe
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=it)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

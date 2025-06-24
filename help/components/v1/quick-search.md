@@ -3,12 +3,14 @@ title: Componente Ricerca rapida (v1)
 description: Il componente Ricerca rapida fornisce funzionalità di ricerca in un sito web e visualizzazione dei risultati della ricerca, in modo che i visitatori possano effettuare ricerche nel sito e filtrare i risultati.
 role: Architect, Developer, Admin, User
 exl-id: 60a043b7-d82c-4bc1-b91a-b77f748f7bc2
-source-git-commit: ae2e1d0aaadbc0ad04847ce9aecb382e10cbedf1
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 98%
 
 ---
+
 
 # Componente Ricerca rapida (v1) {#quick-search-component}
 
@@ -33,7 +35,7 @@ La tabella che segue descrive tutte le versioni supportate del componente, le ve
 >[!CAUTION]
 >
 >Questo documento descrive la versione 1 del componente Ricerca rapida.
->Per informazioni dettagliate sulla versione corrente del componente Ricerca rapida, consulta il documento [Componente Ricerca rapida](/help/components/quick-search.md).
+>>Per informazioni dettagliate sulla versione corrente del componente Ricerca rapida, consulta il documento [Componente Ricerca rapida](/help/components/quick-search.md).
 
 Per ulteriori informazioni sulle versioni e sugli aggiornamenti dei Componenti core, vedi il documento [Versioni dei Componenti core](/help/versions.md).
 
@@ -54,10 +56,10 @@ La finestra di dialogo per modifica consente all’autore di contenuto di defini
 ![Finestra di dialogo per modifica del componente Ricerca rapida](/help/assets/quick-search-edit.png)
 
 **Pagina iniziale ricerca**: la pagina da cui avviare la ricerca. La pagina iniziale della ricerca può essere una pagina master blueprint, master lingua o normale.
-* **ID**: questa opzione consente di controllare l’identificatore univoco del componente nel codice HTML e nel [Data Layer.](/help/developing/data-layer/overview.md)
+* **ID**: questa opzione consente di controllare l’identificatore univoco del componente nel codice HTML e nel [livello dati.](/help/developing/data-layer/overview.md)
    * Se non specificato, viene generato automaticamente un ID univoco reperibile sulla pagina risultante.
    * Se l’ID viene specificato, è responsabilità dell’autore accertarsi che sia univoco.
-   * La modifica dell’ID può avere un impatto sul tracciamento di CSS, JS e Data Layer.
+   * La modifica dell’ID può avere un impatto sul tracciamento di CSS, JS e livello dati.
 
 >[!NOTE]
 >

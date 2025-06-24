@@ -3,18 +3,21 @@ title: Componente core dei moduli adattivi - Testo
 description: Utilizzo o personalizzazione del componente core di testo dei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: b8de68e4-ca0d-4ae5-9a04-104cc617f1be
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: ht
-source-wordcount: '998'
-ht-degree: 100%
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
+source-wordcount: '996'
+ht-degree: 96%
 
 ---
+
 
 # Componente testo {#text-adaptive-forms-core-component}
 
 In un modulo adattivo, testo si riferisce al contenuto visualizzato sul modulo che l’utente può leggere. Ciò può includere il testo utilizzato per etichettare un gruppo di elementi del modulo, come i campi di testo, nonché tutte le istruzioni o informazioni aggiuntive fornite all’utente.
 
 Questo consente anche di suddividere la struttura di un modulo in sezioni logiche, facilitando agli utenti la comprensione e la compilazione del modulo. Inoltre, può essere utilizzato a scopo di accessibilità per fornire una breve descrizione dell’elemento a cui è associato. Tale campo di testo viene generalmente visualizzato vicino ai componenti del modulo, ad esempio prima o dopo di esso.
+
+{{traditional-aem}}
 
 **Esempio**
 
@@ -34,9 +37,9 @@ Esistono diversi motivi per utilizzare il testo in un modulo:
 
 ## Versione e compatibilità {#version-and-compatibility}
 
-Il componente core Testo per moduli adattativi è stato rilasciato a febbraio 2023 come parte dei Componenti core 2.0.4 per Cloud Service e dei Componenti core 1.1.12 per AEM Forms 6.5.16.0 o versioni successive. Di seguito è riportata una tabella che mostra tutte le versioni supportate, la compatibilità AEM e i collegamenti alla documentazione corrispondente:
+Il componente core Testo Forms adattivo è stato rilasciato a febbraio 2023 come parte dei Componenti core 2.0.4 per Cloud Service e dei Componenti core 1.1.12 per AEM 6.5.16.0 Forms o versione successiva. Di seguito è riportata una tabella che mostra tutte le versioni supportate, la compatibilità AEM e i collegamenti alla documentazione corrispondente:
 
-| Versione del componente | AEM as a Cloud Service | AEM Forms 6.5.16.0 o versioni successive |
+| Versione del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o versioni successive |
 |---|---|---|
 | v1 | Compatibile con <br>[versione 2.0.4](/help/adaptive-forms/version.md) e successive | Compatibile con <br>[versione 1.1.12](/help/adaptive-forms/version.md) e successive, ma precedenti a 2.0.0. |
 
@@ -44,7 +47,7 @@ Per informazioni sulle versioni dei componenti core, consulta il documento [Vers
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_it). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Dettagli tecnici {#technical-details}
 

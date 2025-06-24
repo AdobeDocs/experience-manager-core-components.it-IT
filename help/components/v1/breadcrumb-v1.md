@@ -4,12 +4,13 @@ description: Il componente core Breadcrumb è un componente di navigazione che c
 index: n
 role: Architect, Developer, Admin, User
 exl-id: 4845e649-033a-43a8-b5ee-892a3f2a8b98
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 100%
 
 ---
+
 
 # Componente Breadcrumb (v1) {#breadcrumb-component-v}
 
@@ -35,7 +36,7 @@ La tabella che segue riporta la compatibilità della versione 1 del componente B
 >[!CAUTION]
 >
 >Questo documento descrive la versione 1 del componente Breadcrumb.
->Per informazioni dettagliate sulla versione corrente del componente Breadcrumb, vedi il documento [Componente Breadcrumb](/help/components/breadcrumb.md).
+>>Per informazioni dettagliate sulla versione corrente del componente Breadcrumb, vedi il documento [Componente Breadcrumb](/help/components/breadcrumb.md).
 
 ## Esempio di output del componente {#sample-component-output}
 

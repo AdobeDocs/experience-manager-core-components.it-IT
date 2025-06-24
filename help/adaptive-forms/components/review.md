@@ -4,8 +4,9 @@ description: Utilizzo o personalizzazione del componente core di revisione dei m
 role: Architect, Developer, Admin, User
 hide: true
 hidefromtoc: true
-source-git-commit: 04a685cfa2616839f4fec715847bf0821808bd59
-workflow-type: ht
+exl-id: acd230ed-284b-4df2-98e0-a0090cd73611
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
 source-wordcount: '742'
 ht-degree: 100%
 
@@ -15,6 +16,8 @@ ht-degree: 100%
 # Componente revisione
 
 Il componente revisione nei moduli adattivi consente agli utenti di rivedere e verificare le informazioni immesse prima di inviare il modulo. Funge da pagina di riepilogo e fornisce una visualizzazione in sola lettura di tutti i campi e dei relativi valori in un formato strutturato e intuitivo. Questa funzione garantisce che gli utenti possano identificare e correggere eventuali errori o omissioni prima di finalizzare l’invio, migliorando l’esperienza complessiva del modulo. Facendo clic sull’icona di modifica, possono modificare le informazioni immesse prima dell’invio del modulo.
+
+{{traditional-aem}}
 
 **Esempio**
 
@@ -76,4 +79,3 @@ Il video seguente illustra come configurare il componente di **revisione** in mo
 ## Consulta anche {#see-also}
 
 {{see-also}}
-

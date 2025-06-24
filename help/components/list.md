@@ -3,20 +3,23 @@ title: Componente Elenco
 description: Il componente core Elenco consente di creare facilmente elenchi dinamici e statici.
 role: Architect, Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: ht
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
+workflow-type: tm+mt
 source-wordcount: '1204'
 ht-degree: 100%
 
 ---
 
+
 # Componente Elenco{#list-component}
 
 Il componente core Elenco consente di creare facilmente elenchi dinamici e statici.
 
+{{traditional-aem}}
+
 ## Utilizzo {#usage}
 
-Il componente Elenco può essere utilizzato per creare, ad esempio, un elenco dinamico di pagine figlie o un elenco statico di elementi definiti arbitrariamente. Il tipo di elenchi disponibili e le opzioni di formattazione possono essere definiti dall’autore del modello nella [finestra di dialogo per progettazione](#design-dialog). L’editor di contenuto può scegliere tra i tipi di elenchi disponibili e come formattare gli elementi dell’elenco nella [finestra di dialogo per modifica](#edit-dialog).
+Il componente Elenco può essere utilizzato per creare, ad esempio, un elenco dinamico di pagine secondarie o un elenco statico di elementi definiti arbitrariamente. Il tipo di elenchi disponibili e le opzioni di formattazione possono essere definiti dall’autore del modello nella [finestra di dialogo per progettazione](#design-dialog). L’editor di contenuto può scegliere tra i tipi di elenchi disponibili e come formattare gli elementi dell’elenco nella [finestra di dialogo per modifica](#edit-dialog).
 
 ## Versione e compatibilità {#version-and-compatibility}
 
@@ -62,7 +65,7 @@ La finestra di dialogo per modifica consente all’autore di contenuto di config
 
 L’elenco può essere creato in diversi modi.
 
-* [Pagine figlie](#child-pages)
+* [Pagine secondarie](#child-pages)
 * [Elenco fisso](#fixed-list)
 * [Ricerca](#search-options)
 * [Tag](#tags)
@@ -73,17 +76,17 @@ Indipendentemente dalla modalità di creazione dell’elenco, è sempre possibil
 
 A seconda di come l’autore del contenuto sceglie di creare l’elenco, le opzioni di configurazione aggiuntive cambiano.
 
-#### Pagine figlie {#child-pages}
+#### Pagine secondarie {#child-pages}
 
-L’elenco può essere costituito dalle pagine figlie della pagina corrente o di un’altra pagina.
+L’elenco può essere costituito dalle pagine secondarie della pagina corrente o di un’altra pagina.
 
-![Opzioni per le pagine figlie](/help/assets/list-edit-child-pages.png)
+![Opzioni per le pagine secondarie](/help/assets/list-edit-child-pages.png)
 
 * **Pagina padre**
-   * Pagina da cui creare l’elenco di pagine figlie
+   * Pagina da cui creare l’elenco di pagine secondarie
    * Lascia il campo vuoto per usare la pagina corrente
 
-* **Profondità elementi figlio**
+* **Profondità elementi secondari**
 Quanti livelli della gerarchia devono essere utilizzati
 
 #### Elenco fisso {#fixed-list}
@@ -192,8 +195,8 @@ Nella scheda **Impostazioni elenco**, è possibile definire il formato della dat
 
 * **Formato data**
 Il formato da utilizzare per visualizzare la data dell’ultima modifica
-* **Disabilita elementi figlio**
-Disabilita il tipo di elenco figlio nel componente
+* **Disabilita elementi secondari**
+Disabilita il tipo di elenco secondario nel componente
 * **Disabilita statico**
 Disabilita il tipo di elenco statico nel componente
 * **Disabilita ricerca**

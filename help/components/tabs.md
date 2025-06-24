@@ -3,8 +3,8 @@ title: Componente Schede
 description: Il componente Schede consente di creare più schede per disporre il contenuto di una pagina.
 role: Architect, Developer, Admin, User
 exl-id: 0031c5f3-447c-4932-898f-2f453801e492
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: ht
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
+workflow-type: tm+mt
 source-wordcount: '1038'
 ht-degree: 100%
 
@@ -14,6 +14,8 @@ ht-degree: 100%
 # Componente Schede {#tabs-component}
 
 Il componente core Schede consente di organizzare il contenuto in più schede.
+
+{{traditional-aem}}
 
 ## Utilizzo {#usage}
 

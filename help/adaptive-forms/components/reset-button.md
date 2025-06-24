@@ -3,18 +3,21 @@ title: Componente core moduli adattivi - Pulsante Ripristina
 description: Utilizzo o personalizzazione del componente core del pulsante Ripristina per moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: e5aa9d89-aece-491e-80a1-7fb9ea6c4b60
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: ht
-source-wordcount: '1551'
-ht-degree: 100%
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
+source-wordcount: '1549'
+ht-degree: 97%
 
 ---
+
 
 # Componente pulsante Ripristina {#reset-button}
 
 Un pulsante di ripristino in un modulo adattivo è un pulsante che consente agli utenti di cancellare o ripristinare tutti i campi del modulo sui valori predefiniti. Quando si fa clic sul pulsante di ripristino, tutti i dati immessi nei campi del modulo vengono eliminati e i campi tornano allo stato originale. In genere, il pulsante di ripristino viene utilizzato come alternativa al pulsante di invio e consente agli utenti di ricominciare se nel modulo sono stati inseriti dati errati o indesiderati.
 
 ![esempio](/help/adaptive-forms/assets/example-reset.png)
+
+{{traditional-aem}}
 
 ## Utilizzo {#reasons-to-use-reset-button}
 
@@ -32,9 +35,9 @@ I motivi per utilizzare un pulsante di ripristino in un modulo adattivo sono i s
 
 ## Versione e compatibilità {#version-and-compatibility}
 
-Il componente core Pulsante Ripristina per moduli adattivi è stato rilasciato a febbraio 2023 come parte dei Componenti core 2.0.4 per Cloud Service e i Componenti core 1.1.12 per AEM Forms 6.5.16.0 o versioni successive. Di seguito è riportata una tabella che mostra tutte le versioni supportate, la compatibilità AEM e i collegamenti alla documentazione corrispondente:
+Il componente core pulsante Ripristino Forms adattivo è stato rilasciato a febbraio 2023 come parte dei Componenti core 2.0.4 per Cloud Service e dei Componenti core 1.1.12 per AEM 6.5.16.0 Forms o versione successiva. Di seguito è riportata una tabella che mostra tutte le versioni supportate, la compatibilità AEM e i collegamenti alla documentazione corrispondente:
 
-| Versione del componente | AEM as a Cloud Service | AEM Forms 6.5.16.0 o versioni successive |
+| Versione del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o versioni successive |
 |---|---|---|
 | v1 | Compatibile con <br>[versione 2.0.4](/help/adaptive-forms/version.md) e successive | Compatibile con <br>[versione 1.1.12](/help/adaptive-forms/version.md) e successive, ma precedenti a 2.0.0. |
 
@@ -42,7 +45,7 @@ Per informazioni sulle versioni dei componenti core, consulta il documento [Vers
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_it). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Dettagli tecnici {#technical-details}
 

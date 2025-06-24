@@ -3,16 +3,19 @@ title: Componente Sommario
 description: Il componente Sommario crea un sommario basato sui titoli nel contenuto della pagina, consentendo ai lettori di navigare rapidamente all'interno della pagina.
 role: Architect, Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: ht
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
+workflow-type: tm+mt
 source-wordcount: '762'
 ht-degree: 100%
 
 ---
 
+
 # Componente Sommario {#table-of-contents-component}
 
 Il componente Sommario crea un sommario basato sui titoli nel contenuto della pagina, consentendo ai lettori di navigare rapidamente all&#39;interno della pagina.
+
+{{traditional-aem}}
 
 ## Utilizzo {#usage}
 
@@ -40,11 +43,11 @@ Per ulteriori informazioni sulle versioni e sugli aggiornamenti dei Componenti c
 >
 >In AEM as a Cloud Service, l’amministratore deve abilitare un filtro per il componente affinché possa essere eseguito il rendering dei contenuti del componente.
 >
->Per ulteriori informazioni, [consulta la documentazione GitHub del componente](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_it).
+>Per ulteriori informazioni, [consulta la documentazione GitHub del componente](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1).
 
 ### Dettagli tecnici {#technical-details}
 
-La documentazione tecnica più recente sul componente Sommario [è disponibile su GitHub](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_it).
+La documentazione tecnica più recente sul componente Sommario [è disponibile su GitHub](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1).
 
 Per ulteriori informazioni sullo sviluppo di Componenti core, vedi la [documentazione per gli sviluppatori di Componenti core](/help/developing/overview.md).
 

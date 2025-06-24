@@ -3,8 +3,9 @@ title: Componente Frammento esperienza e-mail
 description: Il componente Frammento esperienza e-mail consente all’autore del contenuto di inserire in esso una variante del Frammento esperienza e al contempo supporta una struttura per contenuti localizzati.
 role: Architect, Developer, Admin, User
 exl-id: 861c1fd1-6d6d-426c-a338-a558326fe16e
-source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
-workflow-type: ht
+index: false
+source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
+workflow-type: tm+mt
 source-wordcount: '865'
 ht-degree: 100%
 

@@ -3,12 +3,13 @@ title: 'Componente core dei moduli adattivi: componente Interruttore'
 description: Utilizzo o personalizzazione del componente core interruttore nei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: 6ff2ca76-1514-42eb-bde3-60259af2d187
-source-git-commit: 04a89892aafe26fda253bcc5971c03eda27237f9
-workflow-type: ht
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
 source-wordcount: '1922'
 ht-degree: 100%
 
 ---
+
 
 # Componente interruttore moduli adattivi{#switch-adaptive-forms-core-component}
 
@@ -17,6 +18,8 @@ Il componente Interruttore è un’interfaccia utente grafica utilizzata nei mod
 Il componente Interruttore è un elemento di controllo booleano che imposta il valore su true o false. Ad esempio, viene utilizzato per attivare o disattivare una funzione, ad esempio l’audio, o per abilitare o disabilitare il Bluetooth o il WiFi.
 
 ![Esempio di componente Interruttore](/help/adaptive-forms/assets/switch-example.png)
+
+{{traditional-aem}}
 
 ## Utilizzo {#reasons-to-use-switch}
 

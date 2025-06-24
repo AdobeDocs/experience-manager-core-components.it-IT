@@ -3,8 +3,8 @@ title: Componente Carosello
 description: Il componente Carosello consente all’autore di contenuto di presentare il contenuto in un carosello rotante.
 role: Architect, Developer, Admin, User
 exl-id: 3331214c-a05c-47e1-b54c-fbfd1045bd60
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: ht
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
+workflow-type: tm+mt
 source-wordcount: '1317'
 ht-degree: 100%
 
@@ -14,6 +14,8 @@ ht-degree: 100%
 # Componente Carosello{#carousel-component}
 
 Il componente core Carosello consente all’autore di contenuto di presentare il contenuto in un carosello navigabile.
+
+{{traditional-aem}}
 
 ## Utilizzo {#usage}
 
@@ -91,7 +93,7 @@ Nella scheda **Proprietà**, l’autore di contenuto può impostare la transizio
 * **Elemento attivo**: l’autore di contenuto può definire quale scheda è attiva al caricamento della pagina.
 * **Transizione automatica diapositive**: se selezionata, il componente avanza automaticamente alla diapositiva successiva dopo un tempo di ritardo specificato.
 * **Ritardo transizione**: se è selezionata l’opzione Transizione automatica diapositive, questo valore viene utilizzato per definire il ritardo tra le transizioni (espresso in millisecondi).
-* **Disabilita pausa automatica al passaggio del mouse**: se è selezionata l’opzione **Transizione automatica diapositive**, la transizione del carosello si interrompe automaticamente ogni volta che il cursore passa sopra il carosello. Seleziona questa opzione per evitare che la transizione venga sospesa.
+* **Disabilita pausa automatica al passaggio del puntatore**: se è selezionata l’opzione **Transizione automatica diapositive**, la transizione del carosello si interrompe automaticamente ogni volta che il puntatore passa sul carosello. Seleziona questa opzione per evitare che la transizione venga sospesa.
 * **ID**: questa opzione consente di controllare l’identificatore univoco del componente nel codice HTML e nel [livello dati](/help/developing/data-layer/overview.md).
    * Se non specificato, viene generato automaticamente un ID univoco reperibile sulla pagina risultante.
    * Se l’ID viene specificato, è responsabilità dell’autore accertarsi che sia univoco.

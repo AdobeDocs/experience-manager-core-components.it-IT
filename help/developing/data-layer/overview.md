@@ -1,35 +1,38 @@
 ---
-title: Utilizzo di Adobe Client Data Layer con i Componenti core
-description: Utilizzo di Adobe Client Data Layer con i Componenti core
+title: Utilizzo di Adobe Client Data Layer con i componenti core
+description: Utilizzo di Adobe Client Data Layer con i componenti core
 feature: Core Components, Adobe Client Data Layer
 role: Architect, Developer, Admin
 exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
-source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
+source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 100%
 
 ---
 
-# Utilizzo di Adobe Client Data Layer con i Componenti core {#data-layer-core-components}
+
+# Utilizzo di Adobe Client Data Layer con i componenti core {#data-layer-core-components}
 
 L’obiettivo di Adobe Client Data Layer è semplificare l’organizzazione di siti web fornendo un metodo standardizzato per visualizzare e accedere a qualsiasi tipo di dati per qualsiasi script.
 
-Adobe Client Data Layer è indipendente dalla piattaforma, ma è completamente integrato nei Componenti core per l’utilizzo con AEM.
+Adobe Client Data Layer è indipendente dalla piattaforma, ma è completamente integrato nei iomponenti core per l’utilizzo con AEM.
 
-Come i Componenti core, il codice di Adobe Client Data Layer è disponibile su GitHub, insieme alla relativa documentazione per gli sviluppatori. Questo documento fornisce una panoramica dell’interazione dei Componenti core con Data Layer, ma per tutti i dettagli tecnici completi si rimanda alla documentazione su GitHub.
+Come i iomponenti core, il codice di Adobe Client Data Layer è disponibile su GitHub, insieme alla relativa documentazione per gli sviluppatori. Questo documento fornisce una panoramica dell’interazione dei componenti core con il livellod ati, ma per tutti i dettagli tecnici completi si rimanda alla documentazione su GitHub.
 
 >[!TIP]
 >
 >Per ulteriori informazioni su Adobe Client Data Layer, [vedi le risorse contenuto nel relativo archivio su GitHub.](https://github.com/adobe/adobe-client-data-layer)
 >
->Per ulteriori dettagli tecnici sull’integrazione di Adobe Client Data Layer con i Componenti core, vedi il file [`DATA_LAYER_INTEGRATION.md`](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md) nell’archivio dei Componenti core.
+>Per ulteriori dettagli tecnici sull’integrazione di Adobe Client Data Layer con i componenti core, vedi il file [`DATA_LAYER_INTEGRATION.md`](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md) nell’archivio dei componenti core.
+
+{{traditional-aem}}
 
 ## Installazione e attivazione {#installation-activation}
 
-A partire dalla versione 2.9.0 dei Componenti core, Data Layer viene distribuito con i Componenti core come libreria client di AEM e non è necessaria alcuna installazione. Tutti i progetti generati da [Archetipo progetto AEM v. 24+](/help/developing/archetype/overview.md) includono Data Layer attivato per impostazione predefinita.
+A partire dalla versione 2.9.0 dei componenti core, il livello dati viene distribuito con i componenti core come libreria client di AEM e non è necessaria alcuna installazione. Tutti i progetti generati da [Archetipo progetto AEM v. 24+](/help/developing/archetype/overview.md) includono un livello dati attivato per impostazione predefinita.
 
-Per attivare manualmente Data Layer è necessario creare una specifica [configurazione in base al contesto](/help/developing/context-aware-configs.md):
+Per attivare manualmente il livello dati è necessario creare una specifica [configurazione in base al contesto](/help/developing/context-aware-configs.md):
 
 1. Crea la seguente struttura sotto la cartella `/conf/<mySite>`, dove `<mySite>` è il nome del progetto del sito:
    * `/conf/<mySite>/sling:configs/com.adobe.cq.wcm.core.components.internal.DataLayerConfig`
@@ -58,7 +61,7 @@ Per attivare manualmente Data Layer è necessario creare una specifica [configur
        </script>
    ```
 
-1. Puoi anche aprire gli strumenti di sviluppo del browser e nella console dovrebbe essere disponibile l’oggetto JavaScript `adobeDataLayer`. Immetti il seguente comando per ottenere lo stato di Data Layer nella pagina corrente:
+1. Puoi anche aprire gli strumenti di sviluppo del browser e nella console dovrebbe essere disponibile l’oggetto JavaScript `adobeDataLayer`. Immetti il seguente comando per ottenere lo stato del livello dati nella pagina corrente:
 
    ```javascript
    window.adobeDataLayer.getState();
@@ -66,7 +69,7 @@ Per attivare manualmente Data Layer è necessario creare una specifica [configur
 
 ## Componenti supportati {#supported-components}
 
-I seguenti componenti supportano Data Layer.
+I seguenti componenti supportano il livello dati.
 
 * [Pannello a soffietto](/help/components/accordion.md)
 * [Breadcrumb](/help/components/breadcrumb.md)
@@ -88,7 +91,7 @@ Vedi anche [eventi attivati dai componenti.](#events-components)
 
 ## Schemi di dati dei Componenti core {#data-schemas}
 
-Di seguito è riportato un elenco di schemi utilizzati dai Componenti core con Data Layer.
+Di seguito è riportato un elenco di schemi utilizzati dai componenti core con il livello dati.
 
 ### Schema Componente/Contenitore {#item}
 
@@ -145,7 +148,7 @@ id: {
 }
 ```
 
-Un evento `cmp:show` viene attivato al caricamento della pagina. Questo evento viene inviato da JavaScript in linea immediatamente sotto il tag di apertura `<body>`, rendendolo il primo evento nella coda eventi di Data Layer.
+Un evento `cmp:show` viene attivato al caricamento della pagina. Questo evento viene inviato da JavaScript in linea immediatamente sotto il tag di apertura `<body>`, rendendolo il primo evento nella coda eventi del livello dati.
 
 ### Schema Contenitore {#container}
 
@@ -251,13 +254,13 @@ Lo schema utilizzato per l’elemento Frammento di contenuto è il seguente.
 
 ## Eventi dei Componenti core {#events}
 
-I Componenti core attivano diversi eventi tramite Data Layer. La best practice per interagire con Data Layer è [registrare un listener di eventi](https://github.com/adobe/adobe-client-data-layer/wiki#addeventlistener), *quindi* eseguire un’azione in base al tipo di evento e/o al componente che ha attivato l’evento. In questo modo, si evitano potenziali condizioni di contesa con script asincroni.
+I componenti core attivano diversi eventi tramite il livello dati. La best practice per interagire con il livello dati è [registrare un listener di eventi](https://github.com/adobe/adobe-client-data-layer/wiki#addeventlistener), *quindi* eseguire un’azione in base al tipo di evento e/o al componente che ha attivato l’evento. In questo modo, si evitano potenziali condizioni di contesa con script asincroni.
 
 Di seguito sono riportati gli eventi predefiniti forniti dai Componenti core di AEM:
 
-* **`cmp:click`** - Facendo clic su un elemento cliccabile (un elemento che ha l’attributo `data-cmp-clickable`), Data Layer attiva un evento `cmp:click`.
-* **`cmp:show`** e **`cmp:hide`** - La manipolazione di Pannello a soffietto (espandi/comprimi), Carosello (pulsanti avanti/indietro) e Schede (selezione scheda) induce Data Layer ad attivare gli eventi `cmp:show` e `cmp:hide`, rispettivamente. Al caricamento della pagina, viene inviato anche un evento `cmp:show`, che deve essere il primo evento.
-* **`cmp:loaded`** - Non appena Data Layer viene popolato con i Componenti core nella pagina, attiva un evento `cmp:loaded`.
+* **`cmp:click`** - Facendo clic su un elemento cliccabile (un elemento che ha l’attributo `data-cmp-clickable`), il livello dati attiva un evento `cmp:click`.
+* **`cmp:show`** e **`cmp:hide`** - La manipolazione di Pannello a soffietto (espandi/comprimi), Carosello (pulsanti avanti/indietro) e Schede (selezione scheda) induce il livello dati ad attivare gli eventi `cmp:show` e `cmp:hide`, rispettivamente. Al caricamento della pagina, viene inviato anche un evento `cmp:show`, che deve essere il primo evento.
+* **`cmp:loaded`** - Non appena il livello dati viene popolato con i componenti core nella pagina, attiva un evento `cmp:loaded`.
 
 ### Eventi attivati dal componente {#events-components}
 
@@ -277,7 +280,7 @@ Le tabelle che seguono riportano i Componenti core standard che attivano altri e
 
 ### Informazioni sul percorso dell’evento {#event-path-info}
 
-Ogni evento di Data Layer attivato da un Componente core di AEM includerà un carico utile con il seguente oggetto JSON:
+Ogni evento del livello dati attivato da un Componente core di AEM includerà un payload con il seguente oggetto JSON:
 
 ```json
 eventInfo: {
@@ -285,7 +288,7 @@ eventInfo: {
 }
 ```
 
-Dove `<component-path>` è il percorso JSON del componente in Data Layer che ha attivato l’evento.  Il valore, disponibile tramite `event.eventInfo.path`, è importante in quanto può essere utilizzato come parametro per `adobeDataLayer.getState(<component-path>)` che recupera lo stato corrente del componente che ha attivato l’evento, consentendo al codice personalizzato di accedere a dati aggiuntivi e aggiungerli a Data Layer.
+Dove `<component-path>` è il percorso JSON del componente nel livello dati che ha attivato l’evento.  Il valore, disponibile tramite `event.eventInfo.path`, è importante in quanto può essere utilizzato come parametro per `adobeDataLayer.getState(<component-path>)` che recupera lo stato corrente del componente che ha attivato l’evento, consentendo al codice personalizzato di accedere a dati aggiuntivi e aggiungerli al livello dati.
 
 Esempio:
 
@@ -306,8 +309,8 @@ window.adobeDataLayer.push(function (dl) {
 
 ## Esercitazione
 
-Vuoi esplorare più dettagliatamente Data Layer e Componenti core? [Guarda questa esercitazione pratica](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html?lang=it).
+Vuoi saperne di più sul livello dati e i componenti core? [Guarda questa esercitazione pratica](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html?lang=it).
 
 >[!TIP]
 >
->Per saperne di più sulla flessibilità di Data Layer, vedi le opzioni di integrazione, tra cui come abilitare Data Layer per i tuoi componenti personalizzati.
+>Per saperne di più sulla flessibilità del livello dati, vedi le opzioni di integrazione, tra cui come abilitare il livello dati per i tuoi componenti personalizzati.

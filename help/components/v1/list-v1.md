@@ -4,12 +4,13 @@ description: Il componente core Elenco consente di creare facilmente elenchi din
 index: n
 role: Architect, Developer, Admin, User
 exl-id: 510d059c-e60a-40aa-9032-66a901109f6e
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 100%
 
 ---
+
 
 # Componente Elenco (v1) {#list-component-v}
 
@@ -17,7 +18,7 @@ Il componente core Elenco consente di creare facilmente elenchi dinamici e stati
 
 ## Utilizzo {#usage}
 
-Il componente Elenco può essere utilizzato per creare, ad esempio, un elenco dinamico di pagine figlie o un elenco statico di elementi definiti arbitrariamente.
+Il componente Elenco può essere utilizzato per creare, ad esempio, un elenco dinamico di pagine secondarie o un elenco statico di elementi definiti arbitrariamente.
 
 Il tipo di elenchi disponibili e le opzioni di formattazione possono essere definiti dall’autore del modello nella [finestra di dialogo per progettazione](#design-dialog). L’editor di contenuto può scegliere tra i tipi di elenchi disponibili e come formattare gli elementi dell’elenco nella [finestra di dialogo per modifica](#edit-dialog).
 
@@ -144,7 +145,7 @@ La finestra di dialogo per modifica consente all’autore di contenuto di config
 
 L’elenco può essere creato in diversi modi.
 
-* [Pagine figlie](#child-pages)
+* [Pagine secondarie](#child-pages)
 * [Elenco fisso](#fixed-list)
 * [Ricerca](#search-list)
 * [Tag](#tags)
@@ -155,16 +156,16 @@ Indipendentemente dalla modalità di creazione dell’elenco, è sempre possibil
 
 A seconda di come l’autore del contenuto sceglie di creare l’elenco, le opzioni di configurazione aggiuntive cambiano.
 
-#### Pagine figlie {#child-pages}
+#### Pagine secondarie {#child-pages}
 
-L’elenco può essere costituito dalle pagine figlie della pagina corrente o di un’altra pagina.
+L’elenco può essere costituito dalle pagine secondarie della pagina corrente o di un’altra pagina.
 
 ![](/help/assets/chlimage_1-39.png)
 
 * **Pagina padre**
-   * Pagina da cui creare l’elenco di pagine figlie
+   * Pagina da cui creare l’elenco di pagine secondarie
    * Lascia il campo vuoto per usare la pagina corrente
-* **Profondità elementi figlio**: quanti livelli di profondità gerarchica devono essere utilizzati
+* **Profondità elementi secondari**: quanti livelli di profondità gerarchica devono essere utilizzati
 
 #### Elenco fisso {#fixed-list}
 
@@ -243,7 +244,7 @@ Nella scheda **Impostazioni elenco**, è possibile definire il formato della dat
 ![](/help/assets/chlimage_1-45.png)
 
 * **Formato data**: il formato da utilizzare per visualizzare la data dell’ultima modifica
-* **Disabilita elementi figlio**: disabilita il tipo di elenco elementi figlio nel componente
+* **Disabilita elementi secondari**: disabilita il tipo di elenco elementi secondari nel componente
 * **Disabilita statico**: disabilita il tipo di elenco statico nel componente
 * **Disabilita ricerca**: disabilita il tipo di elenco ricerca nel componente
 * **Disabilita tag**: disabilita il tipo di elenco tag nel componente

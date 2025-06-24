@@ -3,12 +3,14 @@ title: Componente Navigazione (v1)
 description: Il componente Navigazione consente agli utenti di navigare facilmente nella struttura globalizzata di un sito.
 role: Architect, Developer, Admin, User
 exl-id: 0b7de79a-e0c7-4cf9-b5a9-c78cbc3ecd2f
-source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '1424'
 ht-degree: 99%
 
 ---
+
 
 # Componente Navigazione (v1) {#navigation-component}
 
@@ -137,13 +139,13 @@ Nella finestra di dialogo per modifica, l’autore di contenuto può definire la
    * 1 = esclude il livello principale
    * 2 = esclude il livello principale e 1 livello superiore
    * ecc.
-* **Raccogli tutte le pagine figlie**: raccoglie tutte le pagine discendenti della directory principale di navigazione.
-* **Annidamento struttura di navigazione**: definisce il numero di livelli sotto la struttura di navigazione che il componente deve visualizzare rispetto alla directory principale di navigazione (disponibile solo quando non è selezionata l’opzione **Raccogli tutte le pagine figlie**).
+* **Raccogli tutte le pagine secondarie**: raccoglie tutte le pagine discendenti della directory principale di navigazione.
+* **Annidamento struttura di navigazione**: definisce il numero di livelli sotto la struttura di navigazione che il componente deve visualizzare rispetto alla directory principale di navigazione (disponibile solo quando non è selezionata l’opzione **Raccogli tutte le pagine secondarie**).
 * **Disattiva ombreggiatura**: se la pagina nella gerarchia è reindirizzata, viene visualizzato il nome della pagina di reindirizzamento al posto della pagina di destinazione. Per ulteriori informazioni, vedi [Supporto per la struttura del sito ombra](#shadow-structure).
-* **ID**: questa opzione consente di controllare l’identificatore univoco del componente nel codice HTML e in [Data Layer](/help/developing/data-layer/overview.md).
+* **ID**: questa opzione consente di controllare l’identificatore univoco del componente nel codice HTML e nel [livello dati](/help/developing/data-layer/overview.md).
    * Se non specificato, viene generato automaticamente un ID univoco reperibile sulla pagina risultante.
    * Se l’ID viene specificato, è responsabilità dell’autore accertarsi che sia univoco.
-   * La modifica dell’ID può avere un impatto sul tracciamento di CSS, JS e Data Layer.
+   * La modifica dell’ID può avere un impatto sul tracciamento di CSS, JS e livello dati.
 
 ### Scheda Accessibilità {#accessibility-tab}
 
@@ -167,7 +169,7 @@ La finestra di dialogo per progettazione consente all’autore del modello di im
    * 1 = esclude il livello principale
    * 2 = esclude il livello principale e 1 livello superiore
    * ecc.
-* **Raccogli tutte le pagine figlie**: il valore predefinito dell’opzione che raccoglie tutte le pagine discendenti della directory principale di navigazione.
+* **Raccogli tutte le pagine secondarie**: il valore predefinito dell’opzione che raccoglie tutte le pagine discendenti della directory principale di navigazione.
 * **Annidamento struttura di navigazione**: valore predefinito dell’annidamento della struttura di navigazione.
 * **Disattiva ombreggiatura**: valore predefinito per l’attivazione/disattivazione dell’ombreggiatura quando si aggiunge un componente Navigazione
 

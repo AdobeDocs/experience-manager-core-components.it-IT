@@ -3,16 +3,19 @@ title: Componente Frammento esperienza
 description: Il componente Frammento esperienza consente all’autore di contenuto di aggiungere a una pagina una variante del Frammento esperienza.
 role: Architect, Developer, Admin, User
 exl-id: 103f729a-084d-4b6a-a239-d8ef8902eb95
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: ht
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
+workflow-type: tm+mt
 source-wordcount: '889'
 ht-degree: 100%
 
 ---
 
+
 # Componente Frammento esperienza{#experience-fragment-component}
 
 Il componente Frammento esperienza consente all’autore di contenuto di inserire una variante del Frammento esperienza in una pagina e al contempo di supportare una struttura localizzata del sito.
+
+{{traditional-aem}}
 
 ## Utilizzo {#usage}
 

@@ -3,12 +3,14 @@ title: Componente Titolo (v2)
 description: Il componente core Titolo è un componente di intestazione di sezione che offre funzioni di modifica diretta.
 role: Architect, Developer, Admin, User
 exl-id: f853ec46-19fd-4569-a9d3-5c376d2a2101
-source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 100%
 
 ---
+
 
 # Componente Titolo (v2) {#title-component}
 
@@ -45,10 +47,10 @@ La finestra di dialogo per modifica consente all’autore di contenuto di defini
 * **Titolo**: se questo campo viene lasciato vuoto, viene utilizzato il titolo della pagina
 * **Tipo/Dimensione**: definisce il livello di intestazione del titolo
 * **Collegamento**: definisce il contenuto a cui verrà collegato il titolo. Può essere un percorso che punta a una pagina di contenuto, un URL esterno o un ancoraggio di pagina.
-* **ID**: questa opzione consente di controllare l’identificatore univoco del componente nel codice HTML e in [Data Layer](/help/developing/data-layer/overview.md).
+* **ID**: questa opzione consente di controllare l’identificatore univoco del componente nel codice HTML e nel [livello dati](/help/developing/data-layer/overview.md).
    * Se non specificato, viene generato automaticamente un ID univoco reperibile sulla pagina risultante.
    * Se l’ID viene specificato, è responsabilità dell’autore accertarsi che sia univoco.
-   * La modifica dell’ID può avere un impatto sul tracciamento di CSS, JS e Data Layer.
+   * La modifica dell’ID può avere un impatto sul tracciamento di CSS, JS e livello dati.
 
 ![Finestra di dialogo per modifica del componente Titolo](/help/assets/title-edit.png)
 

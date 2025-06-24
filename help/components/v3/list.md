@@ -3,12 +3,14 @@ title: Componente Elenco (v3)
 description: Il componente Elenco (v3) del componente core consente di creare facilmente elenchi dinamici e statici.
 role: Architect, Developer, Admin, User
 exl-id: 4aefce2e-9c22-4c6d-869e-aaa8c246b073
-source-git-commit: d86cb826922330f9877a725b84eb1844e1d5c0b7
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '1168'
 ht-degree: 100%
 
 ---
+
 
 # Componente Elenco (v3) {#list-component}
 
@@ -16,7 +18,7 @@ Il componente Elenco (v3) del componente core consente di creare facilmente elen
 
 ## Utilizzo {#usage}
 
-Il componente Elenco (v3) può essere utilizzato per creare, ad esempio, un elenco dinamico di pagine figlie o un elenco statico di elementi definiti arbitrariamente. Il tipo di elenchi disponibili e le opzioni di formattazione possono essere definiti dall’autore del modello nella [finestra di dialogo per progettazione](#design-dialog). L’editor di contenuto può scegliere tra i tipi di elenchi disponibili e come formattare gli elementi dell’elenco nella [finestra di dialogo per modifica](#edit-dialog).
+Il componente Elenco (v3) può essere utilizzato per creare, ad esempio, un elenco dinamico di pagine secondarie o un elenco statico di elementi definiti arbitrariamente. Il tipo di elenchi disponibili e le opzioni di formattazione possono essere definiti dall’autore del modello nella [finestra di dialogo per progettazione](#design-dialog). L’editor di contenuto può scegliere tra i tipi di elenchi disponibili e come formattare gli elementi dell’elenco nella [finestra di dialogo per modifica](#edit-dialog).
 
 ## Versione e compatibilità {#version-and-compatibility}
 
@@ -68,7 +70,7 @@ La finestra di dialogo per modifica consente all’autore di contenuto di config
 
 L’elenco può essere creato in diversi modi.
 
-* [Pagine figlie](#child-pages)
+* [Pagine secondarie](#child-pages)
 * [Elenco fisso](#fixed-list)
 * [Ricerca](#search-options)
 * [Tag](#tags)
@@ -79,17 +81,17 @@ Indipendentemente dalla modalità di creazione dell’elenco, è sempre possibil
 
 A seconda di come l’autore del contenuto sceglie di creare l’elenco, le opzioni di configurazione aggiuntive cambiano.
 
-#### Pagine figlie {#child-pages}
+#### Pagine secondarie {#child-pages}
 
-L’elenco può essere costituito dalle pagine figlie della pagina corrente o di un’altra pagina.
+L’elenco può essere costituito dalle pagine secondarie della pagina corrente o di un’altra pagina.
 
-![Opzioni per le pagine figlie](/help/assets/v3/list-edit-child-pages.png)
+![Opzioni per le pagine secondarie](/help/assets/v3/list-edit-child-pages.png)
 
 * **Pagina padre**
-   * Pagina da cui creare l’elenco di pagine figlie
+   * Pagina da cui creare l’elenco di pagine secondarie
    * Lascia il campo vuoto per usare la pagina corrente
 
-* **Profondità elementi figlio**
+* **Profondità elementi secondari**
 Quanti livelli della gerarchia devono essere utilizzati
 
 #### Elenco fisso {#fixed-list}
@@ -152,10 +154,10 @@ L’ordine in cui devono essere disposti gli elementi
 * **Max. elementi**
 Il numero massimo di elementi da visualizzare nell’elenco.
    * Lascia vuoto il campo per restituire tutti gli elementi.
-* **ID**: questa opzione consente di controllare l’identificatore univoco del componente nel codice HTML e in [Data Layer](/help/developing/data-layer/overview.md).
+* **ID**: questa opzione consente di controllare l’identificatore univoco del componente nel codice HTML e nel [livello dati](/help/developing/data-layer/overview.md).
    * Se non specificato, viene generato automaticamente un ID univoco reperibile sulla pagina risultante.
    * Se l’ID viene specificato, è responsabilità dell’autore accertarsi che sia univoco.
-   * La modifica dell’ID può avere un impatto sul tracciamento di CSS, JS e Data Layer.
+   * La modifica dell’ID può avere un impatto sul tracciamento di CSS, JS e livello dati.
 
 ### Scheda Impostazioni elemento {#item-settings-tab}
 
@@ -190,8 +192,8 @@ Nella scheda **Impostazioni elenco**, è possibile definire il formato della dat
 
 * **Formato data**
 Il formato da utilizzare per visualizzare la data dell’ultima modifica
-* **Disabilita elementi figlio**
-Disabilita il tipo di elenco figlio nel componente
+* **Disabilita elementi secondari**
+Disabilita il tipo di elenco secondario nel componente
 * **Disabilita statico**
 Disabilita il tipo di elenco statico nel componente
 * **Disabilita ricerca**

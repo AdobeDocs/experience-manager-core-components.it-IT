@@ -3,16 +3,19 @@ title: Componente core moduli adattivi - Titolo
 description: Utilizzo o personalizzazione del componente core del titolo dei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: ht
-source-wordcount: '866'
-ht-degree: 100%
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
+source-wordcount: '864'
+ht-degree: 96%
 
 ---
+
 
 # Componente titolo modulo{#title-input-adaptive-forms-core-component}
 
 In un modulo adattivo, per “titolo” si intende il testo visualizzato nella parte superiore del modulo, in genere sotto l’intestazione. Il titolo viene specificato utilizzando il componente Titolo. Questo componente può essere aggiunto al layout del modulo e il relativo testo può essere modificato in base allo scopo o all’argomento del modulo. Il titolo funge da etichetta o breve descrizione del modulo per l’utente e consente di distinguere il modulo dagli altri.
+
+{{traditional-aem}}
 
 **Esempio**
 
@@ -38,9 +41,9 @@ Nel complesso, il titolo di un modulo è un aspetto importante dell’esperienza
 
 ## Versione e compatibilità {#version-and-compatibility}
 
-Il componente core Titolo per moduli adattivi è stato rilasciato a febbraio 2023 come parte dei Componenti core 2.0.4 per Cloud Service e dei Componenti core 1.1.12 per AEM Forms 6.5.16.0 o versioni successive. Di seguito è riportata una tabella che mostra tutte le versioni supportate, la compatibilità AEM e i collegamenti alla documentazione corrispondente:
+Il componente core Titolo Forms adattivo è stato rilasciato a febbraio 2023 come parte dei Componenti core 2.0.4 per Cloud Service e dei Componenti core 1.1.12 per AEM 6.5.16.0 Forms o versione successiva. Di seguito è riportata una tabella che mostra tutte le versioni supportate, la compatibilità AEM e i collegamenti alla documentazione corrispondente:
 
-| Versione del componente | AEM as a Cloud Service | AEM Forms 6.5.16.0 o versioni successive |
+| Versione del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o versioni successive |
 |---|---|---|
 | v1 | Compatibile con <br>[versione 2.0.4](/help/adaptive-forms/version.md) e successive | Compatibile con <br>[versione 1.1.12](/help/adaptive-forms/version.md) e successive, ma precedenti a 2.0.0. |
 
@@ -48,7 +51,7 @@ Per informazioni sulle versioni dei componenti core, consulta il documento [Vers
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_it). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 
 ## Dettagli tecnici {#technical-details}
@@ -68,7 +71,7 @@ La finestra di dialogo per modifica consente all’autore di contenuto di defini
 - **ID**: questa opzione consente di controllare l’identificatore univoco del componente nel codice HTML e nel livello dati.
    - Se non specificato, viene generato automaticamente un ID univoco reperibile sulla pagina risultante.
    - Se l’ID viene specificato, è responsabilità dell’autore accertarsi che sia univoco.
-   - La modifica dell’ID può avere un impatto sul tracciamento di CSS, JS e Data Layer.
+   - La modifica dell’ID può avere un impatto sul tracciamento di CSS, JS e livello dati.
 
 ## Finestra di dialogo per la progettazione {#design-dialog}
 
@@ -104,7 +107,7 @@ La scheda dei formati consente di specificare i formati di data predefiniti e pe
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=it)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

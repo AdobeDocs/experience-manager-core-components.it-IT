@@ -3,18 +3,21 @@ title: Componente core moduli adattivi - Pulsante Invia
 description: Utilizzo o personalizzazione del componente core del pulsante di invio dei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: e4b8e475-79b9-4c4d-9f11-a125a424d32b
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: ht
-source-wordcount: '1510'
-ht-degree: 100%
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
+source-wordcount: '1508'
+ht-degree: 97%
 
 ---
+
 
 # Componente pulsante di invio {#submit-button}
 
 Un pulsante di invio in un modulo adattivo è un pulsante che consente agli utenti di inviare i dati del modulo a un server per l’elaborazione. Facendo clic sul pulsante Invio, i dati del modulo vengono inviati al server, dove possono essere memorizzati, elaborati o utilizzati per vari scopi, ad esempio per l’invio di un’e-mail o l’aggiornamento di un database.
 
 Il pulsante Invia è in genere il passaggio finale del processo di compilazione del modulo e viene utilizzato per avviare il processo di invio dei dati del modulo al server.
+
+{{traditional-aem}}
 
 **Esempio**
 
@@ -32,9 +35,9 @@ I motivi per utilizzare un pulsante di invio in un modulo adattivo sono i seguen
 
 ## Versione e compatibilità {#version-and-compatibility}
 
-Il componente core Pulsante di invio per moduli adattivi è stato rilasciato a febbraio 2023 come parte dei Componenti core 2.0.4 per Cloud Service e dei Componenti core 1.1.12 per AEM Forms 6.5.16.0 o versioni successive. Di seguito è riportata una tabella che mostra tutte le versioni supportate, la compatibilità AEM e i collegamenti alla documentazione corrispondente:
+Il componente core pulsante di invio adattivo di Forms è stato rilasciato a febbraio 2023 come parte dei Componenti core 2.0.4 per Cloud Service e dei Componenti core 1.1.12 per AEM 6.5.16.0 Forms o versione successiva. Di seguito è riportata una tabella che mostra tutte le versioni supportate, la compatibilità AEM e i collegamenti alla documentazione corrispondente:
 
-| Versione del componente | AEM as a Cloud Service | AEM Forms 6.5.16.0 o versioni successive |
+| Versione del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o versioni successive |
 |---|---|---|
 | v1 | Compatibile con <br>[versione 2.0.4](/help/adaptive-forms/version.md) e successive | Compatibile con <br>[versione 1.1.12](/help/adaptive-forms/version.md) e successive, ma precedenti a 2.0.0. |
 
@@ -42,7 +45,7 @@ Per informazioni sulle versioni dei componenti core, consulta il documento [Vers
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_it). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Dettagli tecnici {#technical-details}
 

@@ -3,8 +3,9 @@ title: Componente Frammento di contenuto e-mail
 description: Il componente Frammento di contenuto e-mail consente di visualizzare un frammento di contenuto nel contenuto.
 role: Architect, Developer, Admin, User
 exl-id: 9bc6b730-0d2a-4e5b-891c-d2f67f600bcc
-source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
-workflow-type: ht
+index: false
+source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
+workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 100%
 

@@ -3,12 +3,14 @@ title: Componente Scarica (v1)
 description: Il componente core Scarica consente di creare un’opzione di scaricamento su una pagina.
 role: Architect, Developer, Admin, User
 exl-id: ebd63522-218d-4784-bea0-1627c64f5230
-source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '621'
 ht-degree: 100%
 
 ---
+
 
 # Componente Scarica (v1) {#download-component}
 
@@ -33,11 +35,11 @@ Questo documento descrive la versione 1 del componente Scarica, introdotto con l
 
 ## Esempio di output del componente {#sample-component-output}
 
-Per avere un’idea del componente Scarica e vedere esempi delle opzioni di configurazione e dell’output HTML e JSON, visita la [libreria dei componenti](https://adobe.com/go/aem_cmp_library_download_it).
+Per avere un’idea del componente Scarica e vedere esempi delle opzioni di configurazione e dell’output HTML e JSON, visita la [libreria dei componenti](https://adobe.com/go/aem_cmp_library_download).
 
 ## Dettagli tecnici {#technical-details}
 
-La documentazione tecnica più recente sul componente Scarica [è disponibile su GitHub](https://adobe.com/go/aem_cmp_tech_download_v1_it).
+La documentazione tecnica più recente sul componente Scarica [è disponibile su GitHub](https://adobe.com/go/aem_cmp_tech_download_v1).
 
 Per ulteriori informazioni sullo sviluppo di Componenti core, vedi la [documentazione per gli sviluppatori di Componenti core](/help/developing/overview.md).
 
@@ -67,10 +69,10 @@ La selezione di una risorsa da scaricare è molto simile alla funzionalità del 
 * **Testo azione**: il testo dell’azione per l’elemento da scaricare
    * Questo campo è necessario per caricare una risorsa dal file system.
    * **Visualizza in linea**: se selezionata, il testo specificato in **Testo azione** viene visualizzato in linea.
-* **ID**: questa opzione consente di controllare l’identificatore univoco del componente nel codice HTML e in [Data Layer](/help/developing/data-layer/overview.md).
+* **ID**: questa opzione consente di controllare l’identificatore univoco del componente nel codice HTML e nel [livello dati](/help/developing/data-layer/overview.md).
    * Se non specificato, viene generato automaticamente un ID univoco reperibile sulla pagina risultante.
    * Se l’ID viene specificato, è responsabilità dell’autore accertarsi che sia univoco.
-   * La modifica dell’ID può avere un impatto sul tracciamento di CSS, JS e Data Layer.
+   * La modifica dell’ID può avere un impatto sul tracciamento di CSS, JS e livello dati.
 
 ## Finestra di dialogo per progettazione {#design-dialog}
 

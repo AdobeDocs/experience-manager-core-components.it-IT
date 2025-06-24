@@ -3,8 +3,9 @@ title: Componente Testo e-mail
 description: Il componente Testo e-mail è un componente per la modifica e la composizione come testo formattato che offre funzioni di modifica diretta.
 role: Architect, Developer, Admin, User
 exl-id: 4aa192f6-8314-40e7-8732-c6626d647986
-source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
-workflow-type: ht
+index: false
+source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
+workflow-type: tm+mt
 source-wordcount: '2264'
 ht-degree: 100%
 
