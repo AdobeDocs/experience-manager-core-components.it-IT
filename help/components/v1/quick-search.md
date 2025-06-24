@@ -35,7 +35,7 @@ La tabella che segue descrive tutte le versioni supportate del componente, le ve
 >[!CAUTION]
 >
 >Questo documento descrive la versione 1 del componente Ricerca rapida.
->>Per informazioni dettagliate sulla versione corrente del componente Ricerca rapida, consulta il documento [Componente Ricerca rapida](/help/components/quick-search.md).
+>&#x200B;>Per informazioni dettagliate sulla versione corrente del componente Ricerca rapida, consulta il documento [Componente Ricerca rapida](/help/components/quick-search.md).
 
 Per ulteriori informazioni sulle versioni e sugli aggiornamenti dei Componenti core, vedi il documento [Versioni dei Componenti core](/help/versions.md).
 
