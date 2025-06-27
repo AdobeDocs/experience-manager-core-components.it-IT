@@ -5,9 +5,9 @@ index: n
 role: Architect, Developer, Admin, User
 exl-id: 625ce8de-5c4a-476d-b749-895493d169b1
 source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1293'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -218,8 +218,8 @@ Nella scheda **Funzioni** è possibile definire le opzioni disponibili per gli a
   ![](/help/assets/chlimage_1-20.png)
 
    * **Rotazione**: utilizza questa opzione per consentire all’autore di contenuto di utilizzare l’opzione **Ruota a destra**.
-   * **Riflessione**
-Utilizzare questa opzione per consentire all&#39;autore di contenuto di utilizzare le opzioni **Riflessione orizzontale** e **Riflessione verticale**.
+   * **Rifletti**
+Utilizza questa opzione per consentire all’autore del contenuto di utilizzare le opzioni **Rifletti in orizzontale** e **Rifletti in verticale**.
 
   >[!CAUTION]
   >

@@ -4,9 +4,9 @@ description: Utilizzo o personalizzazione del componente core della casella di c
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
 source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1837'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Una casella di controllo viene generalmente rappresentata come un piccolo quadra
 
 >[!NOTE]
 >
-> Per AEM 6.5 Forms, questo componente è stato introdotto con AEM 6.5 Forms Service Pack 19 (6.5.19.0). Per abilitare questo componente, accertati che siano installate le versioni necessarie dei componenti core di Forms e WCM. Per informazioni dettagliate sulle versioni dei componenti core dei moduli adattivi, consulta le [Versioni dei componenti core dei moduli adattivi](/help/adaptive-forms/version.md)
+> Per AEM 6.5 Forms, questo componente è stato introdotto con il Service Pack 19 di AEM 6.5 Forms (6.5.19.0). Per abilitare questo componente, accertati che siano installate le versioni necessarie dei componenti core di Forms e WCM. Per informazioni dettagliate sulle versioni dei componenti core dei moduli adattivi, consulta le [Versioni dei componenti core dei moduli adattivi](/help/adaptive-forms/version.md)
 
 {{traditional-aem}}
 

@@ -4,9 +4,9 @@ description: Utilizzo o personalizzazione del componente core immagine dei modul
 role: Architect, Developer, Admin, User
 exl-id: 9ee42d5d-16e3-4973-8364-5bc512ebe72e
 source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1056'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Ci sono diversi motivi per cui è utile includere un componente Immagine in un m
 
 ## Versione e compatibilità {#version-and-compatibility}
 
-Il componente core immagine Forms adattivo è stato rilasciato a febbraio 2023 come parte dei Componenti core 2.0.4 per Cloud Service e dei Componenti core 1.1.12 per AEM 6.5.16.0 Forms o versione successiva. Di seguito è riportata una tabella che mostra tutte le versioni supportate, la compatibilità AEM e i collegamenti alla documentazione corrispondente:
+Il componente core Immagine dei moduli adattivi è stato rilasciato a febbraio 2023 come parte dei Componenti core 2.0.4 per Cloud Service e dei Componenti core 1.1.12 per AEM Forms 6.5.16.0 o versioni successive. Di seguito è riportata una tabella che mostra tutte le versioni supportate, la compatibilità AEM e i collegamenti alla documentazione corrispondente:
 
 | Versione del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o versioni successive |
 |---|---|---|
@@ -49,7 +49,7 @@ Per informazioni sulle versioni dei componenti core, consulta il documento [Vers
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_it). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Dettagli tecnici {#technical-details}
 

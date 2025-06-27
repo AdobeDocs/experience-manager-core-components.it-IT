@@ -4,9 +4,9 @@ description: Utilizza i frammenti di modulo per creare segmenti di modulo o grup
 role: Architect, Developer, Admin, User
 exl-id: bde4a416-1d6b-4e9e-ac74-70fccef473cb
 source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1952'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Puoi utilizzare le [opzioni di ripetibilità](https://experienceleague.adobe.com
 
 ## Versione e compatibilità {#version-and-compatibility}
 
-Il componente core Frammento Forms adattivo è stato rilasciato come parte dei Componenti core 2.0.50 per Cloud Service e Componenti core 1.1.26 per AEM 6.5.16.0 Forms o versione successiva. Di seguito è riportata una tabella che mostra tutte le versioni supportate, la compatibilità AEM e i collegamenti alla documentazione corrispondente:
+Il componente core Frammento dei moduli adattivi è stato rilasciato come parte dei Componenti core 2.0.50 per Cloud Service e dei Componenti core 1.1.26 per AEM Forms 6.5.16.0 o versioni successive. Di seguito è riportata una tabella che mostra tutte le versioni supportate, la compatibilità AEM e i collegamenti alla documentazione corrispondente:
 
 | Versione del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o versioni successive |
 |---|---|---|

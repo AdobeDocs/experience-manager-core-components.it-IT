@@ -1,18 +1,18 @@
 ---
-title: Linee guida per i componenti
-description: I Componenti core seguono modelli di implementazione che sono molto diversi da quelli dei componenti di base.
+title: Linee guida componente
+description: I Componenti core seguono modelli di implementazione moderni che sono molto diversi da quelli dei componenti di base.
 role: Architect, Developer, Admin
 exl-id: e8c58fa5-c991-433c-8d38-575dacfc3433
 source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1225'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Linee guida per i componenti {#component-guidelines}
+# Linee guida componente {#component-guidelines}
 
-I [Componenti core](overview.md) seguono modelli di implementazione molto diversi da quelli dei componenti di base.
+I [Componenti core](overview.md) seguono modelli di implementazione moderni che sono molto diversi da quelli dei componenti di base.
 
 Questa pagina spiega i modelli e indica quando utilizzarli per creare componenti personalizzati. La prima sezione [Modelli generici dei componenti](#general-component-patterns) vale per qualsiasi tipo di componente, mentre la seconda sezione [Modelli di componenti riutilizzabili](#reusable-component-patterns) vale per i componenti destinati a essere riutilizzati per vari siti o progetti, come, ad esempio, i Componenti core.
 

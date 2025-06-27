@@ -4,7 +4,7 @@ description: Il componente core Pannello a soffietto consente di creare una racc
 role: Architect, Developer, Admin, User
 exl-id: 1deb570a-3d8d-409e-805f-8460c49cf9bb
 source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1102'
 ht-degree: 100%
 
@@ -43,7 +43,7 @@ Per avere un’idea del componente Pannello a soffietto e vedere esempi delle op
 
 ## Dettagli tecnici {#technical-details}
 
-La documentazione tecnica più recente sul componente Pannello a soffietto [è disponibile su GitHub](https://adobe.com/go/aem_cmp_tech_accordion_v1_it).
+La documentazione tecnica più recente sul componente Pannello a soffietto [è disponibile su GitHub](https://adobe.com/go/aem_cmp_tech_accordion_v1).
 
 Per ulteriori informazioni sullo sviluppo di Componenti core, vedi la [documentazione per gli sviluppatori di Componenti core](/help/developing/overview.md).
 

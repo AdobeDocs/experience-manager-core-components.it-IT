@@ -1,11 +1,11 @@
 ---
 title: Componente Scarica (v1)
-description: Il componente core Scarica consente di creare un’opzione di scaricamento su una pagina.
+description: Il componente core Scarica consente di creare un’opzione di download su una pagina.
 role: Architect, Developer, Admin, User
 exl-id: ebd63522-218d-4784-bea0-1627c64f5230
 index: n
 source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '621'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 # Componente Scarica (v1) {#download-component}
 
-Il componente core Scarica consente di creare un’opzione di scaricamento su una pagina.
+Il componente core Scarica consente di creare un’opzione di download su una pagina.
 
 ## Utilizzo {#usage}
 
@@ -35,11 +35,11 @@ Questo documento descrive la versione 1 del componente Scarica, introdotto con l
 
 ## Esempio di output del componente {#sample-component-output}
 
-Per avere un’idea del componente Scarica e vedere esempi delle opzioni di configurazione e dell’output HTML e JSON, visita la [libreria dei componenti](https://adobe.com/go/aem_cmp_library_download_it).
+Per avere un’idea del componente Scarica e vedere esempi delle opzioni di configurazione e dell’output HTML e JSON, visita la [libreria dei componenti](https://adobe.com/go/aem_cmp_library_download).
 
 ## Dettagli tecnici {#technical-details}
 
-La documentazione tecnica più recente sul componente Scarica [è disponibile su GitHub](https://adobe.com/go/aem_cmp_tech_download_v1_it).
+La documentazione tecnica più recente sul componente Scarica [è disponibile su GitHub](https://adobe.com/go/aem_cmp_tech_download_v1).
 
 Per ulteriori informazioni sullo sviluppo di Componenti core, vedi la [documentazione per gli sviluppatori di Componenti core](/help/developing/overview.md).
 

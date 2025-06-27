@@ -5,7 +5,7 @@ role: Architect, Developer, Admin, User
 exl-id: 6c88b8c5-189a-40c0-ab28-04d37dc5fbac
 index: false
 source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1089'
 ht-degree: 100%
 
@@ -136,6 +136,6 @@ Tocca o fai clic sul pulsante **Aggiungi** per creare nuove condizioni.
 * **Nome della condizione del segmento**: descrizione della condizione
 * **Condizione del segmento**: la condizione effettiva che deve essere soddisfatta, in base alle variabili di personalizzazione di Adobe Campaign
    * [Consulta qui per le risorse di personalizzazione di Adobe Campaign Standard.](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=it)
-   * [Consulta qui per le risorse di personalizzazione di Adobe Campaign Classic.]&#x200B;(https://experienceleague.adobe.com/docs/?lang=it
+   * [Consulta qui per le risorse di personalizzazione di Adobe Campaign Classic.]&#x200B;(https://experienceleague.adobe.com/docs/
 * **Rimuovi**: tocca o fai clic per rimuovere la condizione
 * **Ridisponi**: tocca o fai clic e trascina per modificare l’ordine delle condizioni

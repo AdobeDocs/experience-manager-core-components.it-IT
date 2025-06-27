@@ -5,7 +5,7 @@ role: Architect, Developer, Admin, User
 exl-id: 28a2d196-cc1f-4e29-a8e4-c2e0acba3bfc
 index: n
 source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1240'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ Per avere un’idea del componente Incorpora e vedere esempi delle opzioni di co
 
 ## Dettagli tecnici {#technical-details}
 
-La documentazione tecnica più recente sul componente Incorpora [è disponibile su GitHub](https://adobe.com/go/aem_cmp_tech_embed_v1_it).
+La documentazione tecnica più recente sul componente Incorpora [è disponibile su GitHub](https://adobe.com/go/aem_cmp_tech_embed_v1).
 
 Per ulteriori informazioni sullo sviluppo di Componenti core, vedi la [documentazione per gli sviluppatori di Componenti core](/help/developing/overview.md).
 

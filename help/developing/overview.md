@@ -4,7 +4,7 @@ description: I Componenti core forniscono componenti di base affidabili ed esten
 role: Architect, Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
 source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1130'
 ht-degree: 100%
 
@@ -117,12 +117,12 @@ La tabella che segue riporta i Componenti core disponibili, il collegamento alle
 | [Frammento di contenuto](https://adobe.com/go/aem_cmp_tech_cf_v1_it) | Consente la visualizzazione di un frammento di contenuto | `-` |
 | [Elenco di frammenti di contenuto](https://adobe.com/go/aem_cmp_tech_cflist_v1_it) | Consente la visualizzazione di un elenco di frammenti di contenuto | `-` |
 | [Separatore](https://adobe.com/go/aem_cmp_tech_separator_v1_it) | Separa il contenuto su una pagina | `-` |
-| [Pannello a soffietto](https://adobe.com/go/aem_cmp_tech_accordion_v1_it) | Organizza i pannelli di contenuto in un pannello a soffietto comprimibile | `-` |
+| [Pannello a soffietto](https://adobe.com/go/aem_cmp_tech_accordion_v1) | Organizza i pannelli di contenuto in un pannello a soffietto comprimibile | `-` |
 | [Contenitore](https://adobe.com/go/aem_cmp_tech_container_v1_it) | Organizza i componenti all’interno di un contenitore | `-` |
-| [Pulsante](https://adobe.com/go/aem_cmp_tech_button_v1_it) | Crea un pulsante su una pagina | `-` |
-| [Scarica](https://adobe.com/go/aem_cmp_tech_download_v1_it) | Aggiunge una risorsa scaricabile a una pagina | `-` |
-| [Frammento esperienza](https://adobe.com/go/aem_cmp_tech_xf_v1_it) | Aggiunge un frammento esperienza a una pagina | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
-| [Incorpora](https://adobe.com/go/aem_cmp_tech_embed_v1_it) | Incorpora una risorsa esterna all’interno di una pagina | - |
+| [Pulsante](https://adobe.com/go/aem_cmp_tech_button_v1) | Crea un pulsante su una pagina | `-` |
+| [Scarica](https://adobe.com/go/aem_cmp_tech_download_v1) | Aggiunge una risorsa scaricabile a una pagina | `-` |
+| [Frammento esperienza](https://adobe.com/go/aem_cmp_tech_xf_v1) | Aggiunge un frammento esperienza a una pagina | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
+| [Incorpora](https://adobe.com/go/aem_cmp_tech_embed_v1) | Incorpora una risorsa esterna all’interno di una pagina | - |
 | [Barra di avanzamento](https://adobe.com/go/aem_cmp_tech_progress_v1) | Fornisce una rappresentazione visiva del progresso verso un obiettivo | - |
 | [Visualizzatore PDF](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1_it) | Visualizza un documento PDF su una pagina | - |
 

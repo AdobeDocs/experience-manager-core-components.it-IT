@@ -1,13 +1,13 @@
 ---
 title: Componente Frammento esperienza (v1)
-description: Il componente Frammento esperienza consente all’autore di contenuto di aggiungere a una pagina una variante del Frammento esperienza.
+description: Il componente Frammento esperienza consente all’autore del contenuto di aggiungere a una pagina una variante del Frammento esperienza.
 role: Architect, Developer, Admin, User
 exl-id: 42230a7b-6feb-4535-baf9-b8fc06978d98
 index: n
 source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '770'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -108,7 +108,7 @@ Per avere un’idea del componente Frammento esperienza e vedere esempi delle op
 
 ## Dettagli tecnici {#technical-details}
 
-La documentazione tecnica più recente sul componente Frammento esperienza [è disponibile su GitHub](https://adobe.com/go/aem_cmp_tech_xf_v1_it).
+La documentazione tecnica più recente sul componente Frammento esperienza [è disponibile su GitHub](https://adobe.com/go/aem_cmp_tech_xf_v1).
 
 Per ulteriori informazioni sullo sviluppo di Componenti core, vedi la [documentazione per gli sviluppatori di Componenti core](/help/developing/overview.md).
 

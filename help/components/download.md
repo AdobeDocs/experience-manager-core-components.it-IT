@@ -4,7 +4,7 @@ description: Il componente core Scarica consente di creare un’opzione di scari
 role: Architect, Developer, Admin, User
 exl-id: 48e7ade0-b849-4d1f-b836-51196e5ac507
 source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '741'
 ht-degree: 100%
 
