@@ -136,6 +136,6 @@ Tocca o fai clic sul pulsante **Aggiungi** per creare nuove condizioni.
 * **Nome della condizione del segmento**: descrizione della condizione
 * **Condizione del segmento**: la condizione effettiva che deve essere soddisfatta, in base alle variabili di personalizzazione di Adobe Campaign
    * [Consulta qui per le risorse di personalizzazione di Adobe Campaign Standard.](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=it)
-   * [Consulta qui per le risorse di personalizzazione di Adobe Campaign Classic.]&#x200B;(https://experienceleague.adobe.com/docs/
+   * [Consulta qui per le risorse di personalizzazione di Adobe Campaign Classic.]&#x200B;(https://experienceleague.adobe.com/docs/?lang=it
 * **Rimuovi**: tocca o fai clic per rimuovere la condizione
 * **Ridisponi**: tocca o fai clic e trascina per modificare l’ordine delle condizioni
