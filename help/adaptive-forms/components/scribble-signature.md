@@ -2,15 +2,17 @@
 title: 'Componente core Forms adattivo: firma scarabocchio'
 description: Utilizzo o personalizzazione del componente core Firma a mano adattiva Forms.
 role: Architect, Developer, Admin, User
-source-git-commit: 4218af42d947e19a65efe8839ccd4eb102fe2f21
+source-git-commit: 246a608e4c23a9075813a64691d583584164578c
 workflow-type: tm+mt
-source-wordcount: '1732'
-ht-degree: 76%
+source-wordcount: '1761'
+ht-degree: 75%
 
 ---
 
 
 # Componente firma scarabocchio
+
+<span>Il componente Firma scarabocchio è in fase di adozione anticipata. Puoi scrivere a `aem-forms-ea@adobe.com` dal tuo ID e-mail ufficiale per partecipare al programma early adopter e richiedere l&#39;accesso alla funzionalità.</span>
 
 Un componente Firma scarabocchio in un modulo adattivo è un elemento dell&#39;interfaccia utente che consente agli utenti di disegnare la propria **firma** direttamente all&#39;interno del modulo utilizzando un mouse, uno stilo o un touchscreen. In questo modo è possibile acquisire in modo accurato il consenso scritto a mano, le approvazioni o la verifica nei flussi di lavoro digitali.
 
