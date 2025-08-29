@@ -1,65 +1,55 @@
 ---
-title: Componente core moduli adattivi - Selettore data
-description: Utilizzo o personalizzazione del componente core del selettore data dei moduli adattivi.
+title: Componente core Forms adattivo - Data e ora
+description: Utilizzo o personalizzazione del componente core Data e ora di Forms adattivo.
 role: Architect, Developer, Admin, User
-exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
 source-git-commit: daeabccaff39e255c111c6af2540ca4d5be0c709
 workflow-type: tm+mt
-source-wordcount: '2298'
-ht-degree: 100%
+source-wordcount: '1898'
+ht-degree: 74%
 
 ---
 
 
-# Componente selettore data{#date-picker-adaptive-forms-core-component}
+# Componente data e ora
 
-Un componente selettore di data in un modulo adattivo è un elemento dell’interfaccia utente che consente agli utenti di selezionare una data da un calendario o di inserire manualmente una data in un formato specifico. Il componente selettore di data può essere configurato in modo da avere diversi valori di formattazione, convalida e impostazione predefinita.
+Un componente Data e ora in un modulo adattivo è un elemento dell&#39;interfaccia utente che consente agli utenti di selezionare sia **data che ora** tramite un&#39;interfaccia calendario e orologio o immettendo manualmente i valori in un formato specifico. Garantisce un input accurato e standardizzato per i casi d’uso in cui sia la data che l’ora sono essenziali.
 
 **Esempio**
 
-![esempio](/help/adaptive-forms/assets/date-picker.png)
+![esempio](/help/adaptive-forms/assets/date-time-picker.png)
 
-## Utilizzo {#reasons-to-use-drop-date-picker}
+## Utilizzo {#reasons-to-use-date-time-picker}
 
-Ci sono diversi motivi per cui è utile includere un selettore di data in un modulo adattivo, tra cui:
+Ci sono diversi motivi per cui è utile includere un selettore data e ora in un modulo, tra cui:
 
-- **Comodità**: un componente selettore di data consente agli utenti di selezionare facilmente una data da un calendario senza doverla inserire manualmente in un campo di testo. In questo modo è possibile risparmiare tempo e ridurre gli errori.
-
-- **Esperienza utente**: il componente selettore di data può facilitare l’uso del modulo, fornendo agli utenti un modo chiaro e intuitivo per selezionare la data.
-
-- **Analisi dei dati**: il componente selettore di data può essere utilizzato per raccogliere dati da varie sorgenti e analizzarli oppure per utilizzarli come input per un’ulteriore elaborazione.
-
-- **Gestione eventi**: il componente selettore di data può essere utilizzato nei siti web di gestione eventi per selezionare la data dell’evento.
-
-- **Prenotazione**: il componente selettore di data può essere utilizzato nei siti web di prenotazione per selezionare le date di arrivo e partenza.
-
-- **Formato data**: il componente selettore di data può essere utilizzato per correggere il formato in cui la data viene visualizzata e inserita. Assicurati che il formato della data sia coerente in tutto il modulo per garantire un’esperienza utente coerente.
+- **Comodità**: consente agli utenti di scegliere facilmente una data e un&#39;ora senza dover digitare manualmente i valori.
+- **Coerenza**: applica un formato standard per gli input di data e ora nel modulo.
+- **Esperienza utente migliorata**: fornisce un&#39;interfaccia utente intuitiva con selettori di calendario e ora.
+- **Pianificazione eventi**: utile nei moduli di prenotazione appuntamenti, colloqui o pianificazione riunioni.
+- **Viaggi e prenotazioni**: consente agli utenti di selezionare date e ore di check-in/check-out.
+- **Precisione dei dati**: riduce gli errori di input rispetto all&#39;immissione di testo libero.
 
 ## Versione e compatibilità {#version-and-compatibility}
 
-Il componente core Selettore data dei moduli adattivi è stato rilasciato a febbraio 2023 come parte dei Componenti core 2.0.4 per Cloud Service e dei Componenti core 1.1.12 per AEM Forms 6.5.16.0 o versioni successive. Di seguito è riportata una tabella che mostra tutte le versioni supportate, la compatibilità AEM e i collegamenti alla documentazione corrispondente:
+Il componente core Data e ora Forms adattivo è stato rilasciato **agosto 2025** come parte di **Componenti core 2.24.6** per Cloud Service e versioni successive.
 
 | Versione del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o versioni successive |
 |---|---|---|
-| v1 | Compatibile con <br>[versione 2.0.4](/help/adaptive-forms/version.md) e successive | Compatibile con <br>[versione 1.1.12](/help/adaptive-forms/version.md) e successive, ma precedenti a 2.0.0. |
+| v1 | Compatibile con <br>[versione 2.24.6](/help/adaptive-forms/version.md) e successive | |
 
-Per informazioni sulle versioni dei componenti core, consulta il documento [Versioni dei componenti core](/help/adaptive-forms/version.md).
-
-<!-- ## Sample Component Output {#sample-component-output}
-
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
+Per informazioni dettagliate sulle versioni, consulta [Versioni dei Componenti core](/help/adaptive-forms/version.md).
 
 ## Dettagli tecnici {#technical-details}
 
-Ottieni le informazioni più recenti sul componente core del selettore data dei moduli adattivi nella documentazione tecnica su [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/datepicker/v1/datepicker). Per ulteriori informazioni sullo sviluppo dei componenti core, consulta la [Documentazione per gli sviluppatori di componenti core](/help/developing/overview.md).
+Ottieni i dettagli tecnici più recenti sul componente core data e ora di Forms adattivo su [GitHub](https://github.com/adobe/aem-core-forms-components). Per ulteriori informazioni sullo sviluppo di Componenti core, consulta la [documentazione per gli sviluppatori di Componenti core](/help/developing/overview.md).
 
 ## Finestra di dialogo per la configurazione {#configure-dialog}
 
-Puoi personalizzare facilmente l’esperienza del selettore data per gli utenti tramite la finestra di dialogo Configura. Puoi anche definire le opzioni del selettore data con facilità per un’esperienza di utilizzo semplice.
+La finestra di dialogo per configurazione consente di personalizzare la data e l’ora.
 
 ### Scheda Base {#basic-tab}
 
-![Scheda Base](/help/adaptive-forms/assets/datepicker_basictab.png)
+![Scheda Base](/help/adaptive-forms/assets/datetime_basictab.png)
 
 - **Nome**: il nome identifica il componente in modo univoco nell’editor di regole. I caratteri speciali e gli spazi non sono consentiti nelle stringhe dei nomi.
 
@@ -79,12 +69,11 @@ Puoi personalizzare facilmente l’esperienza del selettore data per gli utenti 
 - **Nascondi componente**: seleziona questa opzione per nascondere il componente del modulo. Il componente rimane accessibile per altri scopi, ad esempio per i calcoli nell’editor di regole. Questa funzione è utile quando devi memorizzare informazioni che non devono essere viste o modificate direttamente dall’utente.
 - **Disattiva componente**: seleziona questa opzione per disabilitare il componente. Il componente disabilitato non è attivo o modificabile dall’utente finale. L’utente può visualizzare il valore del campo, ma non può modificarlo. Il componente rimane accessibile per altri scopi, ad esempio per i calcoli nell’editor di regole.
 - **Sola lettura**: seleziona questa opzione per rendere il componente non modificabile. L’utente può visualizzare il valore del campo, ma non può modificarlo. Il componente rimane accessibile per altri scopi, ad esempio per i calcoli nell’editor di regole.
-- **Data predefinita**: questa opzione consente di aggiungere una data al campo del modulo. La data immessa viene visualizzata per impostazione predefinita nella posizione del componente. Se l’utente non immette alcuna data, questo valore viene inviato al momento dell’invio del modulo. Nel caso in cui **Componente disabilitato** o **Componente di sola lettura** sia selezionato, la data predefinita viene visualizzata sullo schermo e inviata al momento dell’inoltro del modulo.
-
+- **Data e ora predefinite** - Questa opzione consente di aggiungere una data e un&#39;ora al campo modulo. La data immessa viene visualizzata per impostazione predefinita nella posizione del componente. Se l&#39;utente non immette una data o un&#39;ora, questo valore viene inviato al momento dell&#39;invio del modulo. Se è selezionato **Componente disabilitato** o **Componente di sola lettura**, sullo schermo viene visualizzata la data e l&#39;ora predefinite e vengono inviate al momento dell&#39;invio del modulo.
 
 ### Scheda Convalida {#validation-tab}
 
-![Scheda Convalida](/help/adaptive-forms/assets/datepicker_validation.png)
+![Scheda Convalida](/help/adaptive-forms/assets/datetime_validation.png)
 
 - **Obbligatorio**: seleziona questa opzione se desideri visualizzare il componente in un modulo adattivo. Dopo aver selezionato l’opzione, è necessario effettuare una selezione prima di procedere con l’invio di un modulo. Non è possibile selezionare **Nascondi componente** o **Disattiva componente** nella scheda **Base** quando questa opzione è selezionata.
 
@@ -92,20 +81,17 @@ Puoi personalizzare facilmente l’esperienza del selettore data per gli utenti 
 
 - **Messaggio di convalida script**: questa opzione consente di inserire un messaggio da visualizzare in caso di errore di convalida dello script.
 
-- **Data minima**: questa opzione consente di inserire la data minima richiesta. Se immetti una data precedente alla data specificata in Data minima, sullo schermo viene visualizzato un messaggio di errore. La finestra di dialogo **Messaggio di errore minimo** consente di aggiungere un messaggio di errore personalizzato.
+- **Data minima**: questa opzione consente di inserire la data minima richiesta. Se si immette una data precedente a quella specificata in Data e ora minime, sullo schermo viene visualizzato un messaggio di errore. La finestra di dialogo **Messaggio di errore minimo** consente di aggiungere un messaggio di errore personalizzato.
 
-- **Messaggio di errore minimo**: la finestra di dialogo **Messaggio di errore minimo** permette di aggiungere un messaggio di errore personalizzato da mostrare se si inserisce una data precedente alla data specificata nell’opzione **Data minima**.
-- **Escludi data minima**: questa opzione consente di omettere la data minima in un determinato intervallo o set di date.
+- **Messaggio di errore minimo** - La finestra di dialogo **Messaggio di errore minimo** consente di aggiungere un messaggio di errore personalizzato da visualizzare, se si immette una data o un&#39;ora precedente alla data o all&#39;ora specificata nell&#39;opzione **Data minima**.
 
-- **Data massima**: questa opzione consente di inserire la data massima richiesta. Se immetti una data successiva alla data specificata in Data massima, sullo schermo viene visualizzato un messaggio di errore. La finestra di dialogo **Messaggio di errore massimo** consente di aggiungere un messaggio di errore personalizzato.
+- **Data massima** - Questa opzione consente di immettere la data e l&#39;ora massime richieste. Se si immette una data o un&#39;ora successiva alla data o all&#39;ora specificata in Data massima, sullo schermo viene visualizzato un messaggio di errore. La finestra di dialogo **Messaggio di errore massimo** consente di aggiungere un messaggio di errore personalizzato.
 
-- **Messaggio di errore massimo**: la finestra di dialogo **Messaggio di errore massimo** consente di aggiungere un messaggio di errore personalizzato da visualizzare, se si immette una data successiva alla data specificata nell’opzione **Data massima**.
-
-- **Escludi data massima**: questa opzione consente di omettere la data massima in un determinato intervallo o set di date.
+- **Messaggio di errore massimo** - La finestra di dialogo **Messaggio di errore massimo** consente di aggiungere un messaggio di errore personalizzato da visualizzare, se si immette una data o un&#39;ora successiva alla data o all&#39;ora specificata nell&#39;opzione **Data massima**.
 
 ### Scheda Contenuto Guida {#help-content-tab}
 
-![Scheda Contenuto Guida](/help/adaptive-forms/assets/datepicker_helptab.png)
+![Scheda Contenuto Guida](/help/adaptive-forms/assets/datetime_helptab.png)
 
 - **Breve descrizione**: una breve descrizione è una breve spiegazione testuale che fornisce informazioni aggiuntive o chiarimenti sullo scopo di un campo modulo specifico. Aiuta l’utente a capire quale tipo di dati deve essere immesso nel campo e può fornire linee guida o esempi per garantire che le informazioni immesse siano valide e soddisfino i criteri desiderati. Per impostazione predefinita, le descrizioni brevi rimangono nascoste. Seleziona l’opzione **Mostra sempre una breve descrizione** per visualizzarla sotto il componente.
 
@@ -116,7 +102,7 @@ Puoi personalizzare facilmente l’esperienza del selettore data per gli utenti 
 
 ### Scheda Accessibilità {#accessibility-tab}
 
-![Scheda Accessibilità](/help/adaptive-forms/assets/datepicker_accessibilitytab.png)
+![Scheda Accessibilità](/help/adaptive-forms/assets/datetime_accessibilitytab.png)
 
 - **Testo per utilità per la lettura dello schermo**: il testo per le utilità per la lettura dello schermo si riferisce al testo aggiuntivo destinato specificamente ad essere letto da tecnologie di assistenza, come le utilità per la lettura dello schermo, utilizzate da persone ipovedenti. Questo testo fornisce una descrizione audio dello scopo del campo modulo e può includere informazioni sul titolo, la descrizione, il nome del campo ed eventuali messaggi rilevanti (testo personalizzato). Il testo dell’assistente vocale consente di garantire l’accesso al modulo da parte di qualsiasi utente, comprese le persone ipovedenti, consentendo di comprendere appieno il campo del modulo e i relativi requisiti.
    - **Testo personalizzato**: seleziona questa opzione per utilizzare il testo personalizzato per le etichette di accessibilità ARIA. Selezionando questa opzione, viene visualizzata la finestra di dialogo Testo personalizzato. Puoi aggiungere informazioni rilevanti nella finestra di dialogo Testo personalizzato.
@@ -125,40 +111,42 @@ Puoi personalizzare facilmente l’esperienza del selettore data per gli utenti 
    - **Nome**: seleziona questa opzione per utilizzare il nome per le etichette di accessibilità ARIA.
    - **Nessuno**: seleziona questa opzione in caso tu non voglia aggiungere etichette di accessibilità ARIA.
 
-### Scheda Formati {#format-tab}
+<!--
+### Formats Tab {#format-tab}
 
-![Scheda Formati](/help/adaptive-forms/assets/datepicker_formattab.png)
+![Formats tab](/help/adaptive-forms/assets/datepicker_formattab.png)
 
-- **Formato visualizzato**: rappresenta il formato della data visualizzato dall’utente. L’opzione **Tipo** consente all’utente di selezionare il formato della data. È inoltre possibile personalizzare il formato della data utilizzando l’opzione **Personalizza** nel menu a discesa **Tipo**.
+-   **Display Format** - It represents the date format that is displayed to the user. The **Type** option allows the user to select the date format. You can also customize the date format using the **Custom** option in the **Type** dropdown menu.
 
-- **Modifica formato**: rappresenta un formato di data in cui l’utente può modificare la data. L’opzione **Tipo** consente all’utente di selezionare il formato della data. È inoltre possibile personalizzare il formato della data utilizzando l’opzione **Personalizza** nel menu a discesa **Tipo**.
-- **Messaggio di errore di formattazione**: questa opzione consente di inserire il messaggio da visualizzare quando la data immessa non è nel formato corretto.
-- **Lingua**: questa funzione viene utilizzata per la formattazione del campo specifico. Quando un utente seleziona un’opzione di lingua dal menu a discesa **Tipo**, l’opzione **Tag lingua IETF BCP 47** viene visualizzata nel pannello. Puoi scegliere la lingua per la formattazione dei campi quando si traduce un modulo adattivo in una lingua specifica.
+-   **Edit Format** - It represents a date format in which the user can edit the date. The **Type** option allows the user to select the date format. You can also customize the date format using the **Custom** option in the **Type** dropdown menu.
+-  **Format error message** - This option allows you to enter the message displayed on the screen when the entered date is not in the correct format.
+- **Language** - This feature is used for formatting the specific field. When a user selects any language option from the **Type** drop-down menu, the **IETF BCP 47 language tag** option appears in the panel. You can choose the language for field formatting when translating an Adaptive Form into a specific language.
+  
+The set of languages is not visible by default, but users can input a custom **IETF BCP 47 language tag** by updating the template policy:
 
-Il set di lingue non è visibile per impostazione predefinita, ma gli utenti possono immettere un **Tag lingua IETF BCP 47** aggiornando il criterio del modello:
+  1. Open the corresponding template associated with an Adaptive Form in the template editor.
+  2. Select the existing policy as `datepicker-default-policy` from the drop-down menu.
+   
+        ![Date Picker template Policy](/help/adaptive-forms/assets/date-picker-template-policy.png)
 
-1. Apri il modello corrispondente associato a un modulo adattivo nell’editor di modelli.
-2. Seleziona il criterio esistente come `datepicker-default-policy` dal menu a discesa.
+  3. Click **Done**.
 
-   ![Criterio modello selettore data](/help/adaptive-forms/assets/date-picker-template-policy.png)
-
-3. Fai clic su **Fine**.
-
-   >[!NOTE]
-   >
-   > Per ulteriori informazioni su come tradurre un modulo adattivo in una lingua specifica, [fai clic qui](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
+        >[!NOTE]
+        >
+        > For further information on how to translate an Adaptive Form to a specific locale, [click here](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
+-->
 
 ## Finestra di dialogo per la progettazione {#design-dialog}
 
-La finestra di dialogo per la progettazione consente di definire e gestire gli stili CSS per il componente Selettore data.
+La finestra di dialogo per progettazione viene utilizzata per definire e gestire gli stili CSS per il componente Data e ora.
 
 ### Scheda Stili {#styles-tab}
 
-La scheda è utilizzata per definire e gestire gli stili CSS per un componente. Il componente core selettore data dei moduli adattivi supporta il [Sistema di stili](/help/get-started/authoring.md#component-styling) di AEM.
+La scheda è utilizzata per definire e gestire gli stili CSS per un componente. Il componente core Data e ora di Forms adattivo supporta il [sistema di stili](/help/get-started/authoring.md#component-styling) di AEM.
 
 ![Scheda Stile](/help/adaptive-forms/assets/datepicker_styletab.png)
 
-- **Classi CSS predefinite**: è possibile fornire una classe CSS predefinita per il componente core selettore data dei moduli adattivi.
+- **Classi CSS predefinite**: è possibile fornire una classe CSS predefinita per il componente core data e ora di Forms adattivo.
 
 - **Stili consentiti**: è possibile definire gli stili fornendo un nome e la classe CSS che rappresenta lo stile. Ad esempio, puoi creare uno stile denominato “testo in grassetto” e fornire la classe CSS “spessore carattere: grassetto”. Puoi utilizzare o applicare questi stili a un modulo adattivo nell’editor di moduli adattivi. Per applicare uno stile, nell’editor dei moduli adattivi, seleziona il componente a cui applicare lo stile, passa alla finestra di dialogo delle proprietà e seleziona lo stile desiderato dall’elenco a discesa **Stili**. Per aggiornare o modificare gli stili, è sufficiente tornare alla finestra di dialogo per la progettazione, aggiornare gli stili nella scheda Stili e salvare le modifiche.
 
@@ -176,13 +164,14 @@ Le proprietà personalizzate consentono di associare attributi personalizzati (c
 
    - **Ridisponi**: tocca o fai clic e trascina per ridisporre l’ordine del nome e del valore della proprietà personalizzata.
 
-### Scheda Formati {#formats-tab}
-
-La scheda dei formati consente di specificare i formati di data predefiniti e personalizzati.
-
-![Scheda formato](/help/adaptive-forms/assets/datepicker_formatpolicy.png)
-
 <!--
+### Formats Tab {#formats-tab}
+
+The formats tab allows you to specify default and custom date formats.
+
+![Formattab](/help/adaptive-forms/assets/datepicker_formatpolicy.png)
+
+
 
 ## Related article {#related-article}
 
