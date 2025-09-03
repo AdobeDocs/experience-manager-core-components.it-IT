@@ -1,18 +1,18 @@
 ---
-title: Componente core Forms adattivo - Data e ora
-description: Utilizzo o personalizzazione del componente core Data e ora di Forms adattivo.
+title: Componente core Moduli adattivi - Data e ora
+description: Utilizzo o personalizzazione del componente core Data e ora per moduli adattivi.
 role: Architect, Developer, Admin, User
 source-git-commit: daeabccaff39e255c111c6af2540ca4d5be0c709
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1898'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
 
-# Componente data e ora
+# Componente Data e ora
 
-Un componente Data e ora in un modulo adattivo è un elemento dell&#39;interfaccia utente che consente agli utenti di selezionare sia **data che ora** tramite un&#39;interfaccia calendario e orologio o immettendo manualmente i valori in un formato specifico. Garantisce un input accurato e standardizzato per i casi d’uso in cui sia la data che l’ora sono essenziali.
+Un componente Data e ora in un modulo adattivo è un elemento di interfaccia utente che consente agli utenti di selezionare sia la **data che l’ora** utilizzando un’interfaccia con calendario e orologio, oppure inserendo manualmente i valori in un formato specifico. Garantisce un input accurato e standardizzato per i casi d’uso in cui specificare sia la data che l’ora.
 
 **Esempio**
 
@@ -20,28 +20,28 @@ Un componente Data e ora in un modulo adattivo è un elemento dell&#39;interfacc
 
 ## Utilizzo {#reasons-to-use-date-time-picker}
 
-Ci sono diversi motivi per cui è utile includere un selettore data e ora in un modulo, tra cui:
+Ci sono diversi motivi per cui è utile includere un selettore di data e ora in un modulo, tra cui:
 
-- **Comodità**: consente agli utenti di scegliere facilmente una data e un&#39;ora senza dover digitare manualmente i valori.
+- **Comodità**: consente agli utenti di scegliere facilmente una data e un’ora senza dover digitare manualmente i valori.
 - **Coerenza**: applica un formato standard per gli input di data e ora nel modulo.
-- **Esperienza utente migliorata**: fornisce un&#39;interfaccia utente intuitiva con selettori di calendario e ora.
+- **Esperienza utente migliorata**: fornisce un’interfaccia utente intuitiva con selettori di calendario e ora.
 - **Pianificazione eventi**: utile nei moduli di prenotazione appuntamenti, colloqui o pianificazione riunioni.
 - **Viaggi e prenotazioni**: consente agli utenti di selezionare date e ore di check-in/check-out.
-- **Precisione dei dati**: riduce gli errori di input rispetto all&#39;immissione di testo libero.
+- **Precisione dei dati**: riduce gli errori di input rispetto all’immissione di testo libero.
 
 ## Versione e compatibilità {#version-and-compatibility}
 
-Il componente core Data e ora Forms adattivo è stato rilasciato **agosto 2025** come parte di **Componenti core 2.24.6** per Cloud Service e versioni successive.
+Il componente core Data e ora per moduli adattivi è stato rilasciato ad **agosto 2025** come parte di **Componenti core 2.24.6** per Cloud Service e versioni successive.
 
 | Versione del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o versioni successive |
 |---|---|---|
-| v1 | Compatibile con <br>[versione 2.24.6](/help/adaptive-forms/version.md) e successive | |
+| v1 | Compatibile con<br>[versione 2.24.6](/help/adaptive-forms/version.md) e successive | |
 
 Per informazioni dettagliate sulle versioni, consulta [Versioni dei Componenti core](/help/adaptive-forms/version.md).
 
 ## Dettagli tecnici {#technical-details}
 
-Ottieni i dettagli tecnici più recenti sul componente core data e ora di Forms adattivo su [GitHub](https://github.com/adobe/aem-core-forms-components). Per ulteriori informazioni sullo sviluppo di Componenti core, consulta la [documentazione per gli sviluppatori di Componenti core](/help/developing/overview.md).
+Ottieni i dettagli tecnici più recenti sul componente core Data e ora per moduli adattivi su [GitHub](https://github.com/adobe/aem-core-forms-components). Per ulteriori informazioni sullo sviluppo dei componenti core, consulta [Documentazione per sviluppatori di componenti core](/help/developing/overview.md).
 
 ## Finestra di dialogo per la configurazione {#configure-dialog}
 
@@ -69,7 +69,7 @@ La finestra di dialogo per configurazione consente di personalizzare la data e l
 - **Nascondi componente**: seleziona questa opzione per nascondere il componente del modulo. Il componente rimane accessibile per altri scopi, ad esempio per i calcoli nell’editor di regole. Questa funzione è utile quando devi memorizzare informazioni che non devono essere viste o modificate direttamente dall’utente.
 - **Disattiva componente**: seleziona questa opzione per disabilitare il componente. Il componente disabilitato non è attivo o modificabile dall’utente finale. L’utente può visualizzare il valore del campo, ma non può modificarlo. Il componente rimane accessibile per altri scopi, ad esempio per i calcoli nell’editor di regole.
 - **Sola lettura**: seleziona questa opzione per rendere il componente non modificabile. L’utente può visualizzare il valore del campo, ma non può modificarlo. Il componente rimane accessibile per altri scopi, ad esempio per i calcoli nell’editor di regole.
-- **Data e ora predefinite** - Questa opzione consente di aggiungere una data e un&#39;ora al campo modulo. La data immessa viene visualizzata per impostazione predefinita nella posizione del componente. Se l&#39;utente non immette una data o un&#39;ora, questo valore viene inviato al momento dell&#39;invio del modulo. Se è selezionato **Componente disabilitato** o **Componente di sola lettura**, sullo schermo viene visualizzata la data e l&#39;ora predefinite e vengono inviate al momento dell&#39;invio del modulo.
+- **Data e ora predefinita**: questa opzione consente di aggiungere una data e un’ora al campo del modulo. La data immessa viene visualizzata per impostazione predefinita nella posizione del componente. Se l’utente non immette alcuna data od ora, questo valore viene inviato al momento dell’invio del modulo. Nel caso in cui **Componente disabilitato** o **Componente di sola lettura** sia selezionato, la data e l’ora predefinita viene visualizzata sullo schermo e inviata al momento dell’invio del modulo.
 
 ### Scheda Convalida {#validation-tab}
 
@@ -81,13 +81,13 @@ La finestra di dialogo per configurazione consente di personalizzare la data e l
 
 - **Messaggio di convalida script**: questa opzione consente di inserire un messaggio da visualizzare in caso di errore di convalida dello script.
 
-- **Data minima**: questa opzione consente di inserire la data minima richiesta. Se si immette una data precedente a quella specificata in Data e ora minime, sullo schermo viene visualizzato un messaggio di errore. La finestra di dialogo **Messaggio di errore minimo** consente di aggiungere un messaggio di errore personalizzato.
+- **Data minima**: questa opzione consente di inserire la data minima richiesta. Se immetti una data precedente a quella specificata in Data e ora minima, sullo schermo viene visualizzato un messaggio di errore. La finestra di dialogo **Messaggio di errore minimo** consente di aggiungere un messaggio di errore personalizzato.
 
-- **Messaggio di errore minimo** - La finestra di dialogo **Messaggio di errore minimo** consente di aggiungere un messaggio di errore personalizzato da visualizzare, se si immette una data o un&#39;ora precedente alla data o all&#39;ora specificata nell&#39;opzione **Data minima**.
+- **Messaggio di errore minimo**: la finestra di dialogo **Messaggio di errore minimo** permette di aggiungere un messaggio di errore personalizzato da mostrare se viene inserita una data o un’ora precedente a quella specificata nell’opzione **Data minima**.
 
-- **Data massima** - Questa opzione consente di immettere la data e l&#39;ora massime richieste. Se si immette una data o un&#39;ora successiva alla data o all&#39;ora specificata in Data massima, sullo schermo viene visualizzato un messaggio di errore. La finestra di dialogo **Messaggio di errore massimo** consente di aggiungere un messaggio di errore personalizzato.
+- **Data massima**: questa opzione consente di inserire la data e l’ora massima richiesta. Se immetti una data o un’ora successiva a quella specificata in Data massima, sullo schermo viene visualizzato un messaggio di errore. La finestra di dialogo **Messaggio di errore massimo** consente di aggiungere un messaggio di errore personalizzato.
 
-- **Messaggio di errore massimo** - La finestra di dialogo **Messaggio di errore massimo** consente di aggiungere un messaggio di errore personalizzato da visualizzare, se si immette una data o un&#39;ora successiva alla data o all&#39;ora specificata nell&#39;opzione **Data massima**.
+- **Messaggio di errore massimo**: la finestra di dialogo **Messaggio di errore massimo** consente di aggiungere un messaggio di errore personalizzato da visualizzare, se viene inserita una data o un’ora successiva a quella specificata nell’opzione **Data massima**.
 
 ### Scheda Contenuto Guida {#help-content-tab}
 
@@ -133,20 +133,20 @@ The set of languages is not visible by default, but users can input a custom **I
 
         >[!NOTE]
         >
-        > For further information on how to translate an Adaptive Form to a specific locale, [click here](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
+        > For further information on how to translate an Adaptive Form to a specific locale, [click here](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
 -->
 
 ## Finestra di dialogo per la progettazione {#design-dialog}
 
-La finestra di dialogo per progettazione viene utilizzata per definire e gestire gli stili CSS per il componente Data e ora.
+La finestra di dialogo per la progettazione è utilizzata per definire e gestire gli stili CSS per il componente Data e ora.
 
 ### Scheda Stili {#styles-tab}
 
-La scheda è utilizzata per definire e gestire gli stili CSS per un componente. Il componente core Data e ora di Forms adattivo supporta il [sistema di stili](/help/get-started/authoring.md#component-styling) di AEM.
+La scheda è utilizzata per definire e gestire gli stili CSS per un componente. Il componente core Data e ora per moduli adattivi supporta il [Sistema di stili](/help/get-started/authoring.md#component-styling) di AEM.
 
 ![Scheda Stile](/help/adaptive-forms/assets/datepicker_styletab.png)
 
-- **Classi CSS predefinite**: è possibile fornire una classe CSS predefinita per il componente core data e ora di Forms adattivo.
+- **Classi CSS predefinite**: è possibile fornire una classe CSS predefinita per il componente core Data e ora per moduli adattivi.
 
 - **Stili consentiti**: è possibile definire gli stili fornendo un nome e la classe CSS che rappresenta lo stile. Ad esempio, puoi creare uno stile denominato “testo in grassetto” e fornire la classe CSS “spessore carattere: grassetto”. Puoi utilizzare o applicare questi stili a un modulo adattivo nell’editor di moduli adattivi. Per applicare uno stile, nell’editor dei moduli adattivi, seleziona il componente a cui applicare lo stile, passa alla finestra di dialogo delle proprietà e seleziona lo stile desiderato dall’elenco a discesa **Stili**. Per aggiornare o modificare gli stili, è sufficiente tornare alla finestra di dialogo per la progettazione, aggiornare gli stili nella scheda Stili e salvare le modifiche.
 
@@ -175,7 +175,7 @@ The formats tab allows you to specify default and custom date formats.
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=it)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

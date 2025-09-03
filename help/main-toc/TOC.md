@@ -6,9 +6,9 @@ feature: Core Components
 user-guide-description: Per i progetti AEM tradizionali, utilizza i Componenti core estendibili per consentire agli autori di creare facilmente il contenuto.
 feature-set: Experience Manager Sites, Experience Manager Forms
 source-git-commit: bf6953f24388ed08cd5a66bb51011b3ac82fb58e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '397'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -111,7 +111,7 @@ ht-degree: 97%
       + [Casella di controllo per modulo adattivo](/help/adaptive-forms/components/checkbox.md)
       + [Gruppo di caselle di controllo dei moduli adattivi](/help/adaptive-forms/components/checkbox-group.md)
       + [Contenitore di moduli adattivi](/help/adaptive-forms/components/form-container.md)
-      + [Data e ora Forms adattivo](/help/adaptive-forms/components/date-time-component.md)
+      + [Data e ora per moduli adattivi](/help/adaptive-forms/components/date-time-component.md)
       + [Selettore data moduli adattivi](/help/adaptive-forms/components/date-picker.md)
       + [Elenco a discesa moduli adattivi](/help/adaptive-forms/components/drop-down-list.md)
       + [E-mail moduli adattivi](/help/adaptive-forms/components/email.md)
@@ -128,7 +128,7 @@ ht-degree: 97%
       + [Pulsante di scelta moduli adattivi](/help/adaptive-forms/components/radio-button.md)
       + [Pulsante reimpostazione moduli adattivi](/help/adaptive-forms/components/reset-button.md)
       + [Revisione per modulo adattivo](/help/adaptive-forms/components/review.md)
-      + [Firma scarabocchio Forms adattivo](/help/adaptive-forms/components/scribble-signature.md)
+      + [Firma a mano per moduli adattivi](/help/adaptive-forms/components/scribble-signature.md)
       + [Pulsante di invio moduli adattivi](/help/adaptive-forms/components/submit-button.md)
       + [Interruttore moduli adattivi](/help/adaptive-forms/components/adaptive-form-switch.md)
       + [Telefono moduli adattivi](/help/adaptive-forms/components/phone.md)
