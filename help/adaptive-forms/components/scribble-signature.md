@@ -4,15 +4,15 @@ description: Utilizzo o personalizzazione del componente core Firma a mano per m
 role: Architect, Developer, Admin, User
 exl-id: 608c4368-d539-4d05-a75c-c077ea822f93
 source-git-commit: 006f6c844ab9e7a784dabea026867939445479e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1761'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Componente Firma a mano
 
-<span>Il componente Firma scarabocchio è in fase di adozione anticipata. Puoi scrivere a `aem-forms-ea@adobe.com` dal tuo ID e-mail ufficiale per partecipare al programma early adopter e richiedere l&#39;accesso alla funzionalità.</span>
+<span>Il componente Firma a mano è nel programma per i primi utilizzatori. Per partecipare al programma per i primi utilizzatori e richiedere l’accesso alla funzionalità, puoi inviare una e-mail all’indirizzo `aem-forms-ea@adobe.com` dal tuo ID e-mail ufficiale.</span>
 
 Un componente Firma a mano in un modulo adattivo è un elemento di interfaccia utente che consente agli utenti di disegnare la propria **firma** direttamente nel modulo utilizzando un mouse, uno stilo o uno schermo tattile. In questo modo è possibile acquisire accuratamente il consenso scritto a mano, le approvazioni o la verifica nei flussi di lavoro digitali.
 
