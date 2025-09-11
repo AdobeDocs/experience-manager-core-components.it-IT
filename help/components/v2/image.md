@@ -4,7 +4,7 @@ description: Il componente core Immagine è un componente immagine adattivo che 
 role: Architect, Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
 index: n
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
+source-git-commit: 3908828cf62043483a74e908204c3e9bf540300b
 workflow-type: ht
 source-wordcount: '2048'
 ht-degree: 100%
@@ -40,7 +40,7 @@ Inoltre, il componente Immagine supporta il caricamento lento per posticipare il
 
 >[!TIP]
 >
->Il componente immagine è alimentato da Adaptive Image Servlet. Per informazioni dettagliate su come funziona, consulta il documento [Adaptive Image Servlet](#adaptive-image-servlet).
+>Il componente immagine è alimentato da Adaptive Image Servlet. Per informazioni dettagliate su come funziona, consulta il documento [Adaptive Image Servlet](/help/developing/adaptive-image-servlet.md).
 
 ## Supporto di Dynamic Media {#dynamic-media}
 
@@ -206,7 +206,7 @@ Inoltre, puoi definire quali opzioni generali del componente vengono automaticam
 
 >[!TIP]
 >
->Consulta il documento [Adaptive Image Servlet](#adaptive-image-servlet) per suggerimenti su come ottimizzare la selezione delle rappresentazioni definendone con attenzione le dimensioni.
+>Consulta il documento [Adaptive Image Servlet](/help/developing/adaptive-image-servlet.md) per suggerimenti su come ottimizzare la selezione delle rappresentazioni definendone con attenzione le dimensioni.
 
 ### Scheda Funzioni {#features-tab}
 
@@ -229,7 +229,7 @@ Utilizza questa opzione per consentire all’autore del contenuto di utilizzare 
 
   >[!CAUTION]
   >
-  >L’opzione **Riflessione** è disabilitata per impostazione predefinita. Attivando questa opzione, i pulsanti **Riflessione verticale** e **Riflessione orizzontale** vengono visualizzati nella finestra di dialogo per modifica del componente Immagine, ma questa funzione non è attualmente supportata da AEM e le modifiche effettuate utilizzando queste opzioni non verranno mantenute.
+  >L’opzione **Riflessione** è disabilitata per impostazione predefinita. Abilitando questa opzione, i pulsanti **Riflessione verticale** e **Riflessione orizzontale** vengono visualizzati nella finestra di dialogo per modifica del componente Immagine, ma questa funzione non è attualmente supportata da AEM e le modifiche effettuate utilizzando queste opzioni non verranno mantenute.
 
 * Ritaglio
 
