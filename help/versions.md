@@ -4,9 +4,9 @@ description: Le versioni dei Componenti core pubblicate possono contenere più d
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 source-git-commit: b6b850237bdab1cb59a81c3162182e5b25fbdb68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3087'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ La tabella che segue, il cui contenuto è [disponibile su GitHub con tutti i det
 
 | Versione | Descrizione | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service | Java | Data di pubblicazione |
 |---|---|---|---|---|---|---|---|
-| [2.30.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.0) | Questa versione risolve una serie di problemi relativi ad risorse e Dynamic Media, chiarisce il supporto delle LTS e risolve numerose correzioni di bug. | - | 6.5.21.0+ | 6.5 LTS GA | Continua | 8, 11 | 4 settembre 2025 |
+| [2.30.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.0) | Questa versione risolve alcuni problemi relativi a risorse e Dynamic Media, chiarisce il supporto delle LTS e risolve numerose correzioni di bug. | - | 6.5.21.0+ | 6.5 LTS GA | Continua | 8, 11 | 4 settembre 2025 |
 | [2.29.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.29.0) | Questa versione aggiunge il supporto per la creazione di versioni di anteprima delle risorse nel componente core Sites e include diverse correzioni di bug. | - | 6.5.21.0+ | 6.5 LTS GA | Continua | 8, 11 | 21 aprile 2025 |
 | [2.28.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.28.0) | Questa versione include diverse correzioni di bug. | - | 6.5.21.0+ | 6.5 LTS GA | Continua | 8, 11 | 17 marzo 2025 |
 | [2.27.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.27.0) | Questa versione include diverse correzioni di bug. | - | 6.5.21.0+ | - | Continua | 11 | 10 settembre 2024 |
