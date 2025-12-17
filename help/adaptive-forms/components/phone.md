@@ -3,10 +3,10 @@ title: 'Componente core moduli adattivi: inserimento numero di telefono'
 description: Utilizzo o personalizzazione del componente core per l’inserimento del numero di telefono nei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '2197'
-ht-degree: 100%
+source-git-commit: f0c4d6adf7266bdb6ebc7cde49656efaf3027624
+workflow-type: tm+mt
+source-wordcount: '2209'
+ht-degree: 98%
 
 ---
 
@@ -43,7 +43,7 @@ Per informazioni sulle versioni dei componenti core, consulta il documento [Vers
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_it). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Dettagli tecnici {#technical-details}
 
@@ -143,7 +143,7 @@ La scheda è utilizzata per definire e gestire gli stili CSS per un componente. 
 
 ![Finestra di dialogo Proprietà personalizzate](/help/adaptive-forms/assets/telephoneinput-customproperties.png)
 
-Le proprietà personalizzate consentono di associare attributi personalizzati (coppie chiave-valore) a un componente core del modulo adattivo utilizzando il modello di modulo. Le proprietà personalizzate vengono riflesse nella sezione delle proprietà della rappresentazione headless del componente. Consentono di creare un comportamento di modulo dinamico che si adatta in base ai valori degli attributi personalizzati. Ad esempio, gli sviluppatori possono progettare diverse rappresentazioni di un componente moduli headless su piattaforme mobili, desktop o web, migliorando in modo significativo l’esperienza utente su un’ampia gamma di dispositivi.
+Le proprietà personalizzate consentono di associare attributi personalizzati (coppie chiave-valore) a un componente core del modulo adattivo utilizzando il modello per moduli. Le proprietà personalizzate vengono riflesse nella sezione delle proprietà della rappresentazione headless del componente. Consentono di creare un comportamento di modulo dinamico che si adatta in base ai valori degli attributi personalizzati. Ad esempio, gli sviluppatori possono progettare diverse rappresentazioni di un componente moduli headless su piattaforme mobili, desktop o web, migliorando in modo significativo l’esperienza utente su un’ampia gamma di dispositivi.
 
 - **Nome gruppo**: puoi fornire un nome per identificare il gruppo di proprietà personalizzate. È possibile aggiungere, eliminare o ridisporre più gruppi di proprietà personalizzate. Dopo aver aggiunto il gruppo di proprietà personalizzate, puoi visualizzare le seguenti opzioni:
 
@@ -155,7 +155,7 @@ Le proprietà personalizzate consentono di associare attributi personalizzati (c
 
 ### Scheda Formati {#format-tab}
 
-La scheda dei formati consente di specificare i formati numerici predefiniti e personalizzati.
+La scheda Formati consente di specificare i formati numerici predefiniti e personalizzati.È inoltre possibile aggiungere un formato numerico personalizzato facendo clic sul pulsante **Aggiungi**.
 
 ![Scheda Formato](/help/adaptive-forms/assets/telephoneinput_format.png)
 
@@ -169,7 +169,7 @@ La scheda Modelli di convalida consente di immettere valori in un formato specif
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=it)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

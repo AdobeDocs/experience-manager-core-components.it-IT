@@ -3,10 +3,10 @@ title: Componente core moduli adattivi - Input numero
 description: Utilizzo o personalizzazione del componente core di inserimento numero dei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '2282'
-ht-degree: 100%
+source-git-commit: f0c4d6adf7266bdb6ebc7cde49656efaf3027624
+workflow-type: tm+mt
+source-wordcount: '2388'
+ht-degree: 95%
 
 ---
 
@@ -50,7 +50,7 @@ Per informazioni sulle versioni dei componenti core, consulta il documento [Vers
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_it). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Dettagli tecnici {#technical-details}
 
@@ -164,7 +164,7 @@ La scheda è utilizzata per definire e gestire gli stili CSS per un componente. 
 
 ![Finestra di dialogo Proprietà personalizzate](/help/adaptive-forms/assets/datepicker_customproperties.png)
 
-Le proprietà personalizzate consentono di associare attributi personalizzati (coppie chiave-valore) a un componente core del modulo adattivo utilizzando il modello di modulo. Le proprietà personalizzate vengono riflesse nella sezione delle proprietà della rappresentazione headless del componente. Consentono di creare un comportamento di modulo dinamico che si adatta in base ai valori degli attributi personalizzati. Ad esempio, gli sviluppatori possono progettare diverse rappresentazioni di un componente moduli headless su piattaforme mobili, desktop o web, migliorando in modo significativo l’esperienza utente su un’ampia gamma di dispositivi.
+Le proprietà personalizzate consentono di associare attributi personalizzati (coppie chiave-valore) a un componente core del modulo adattivo utilizzando il modello per moduli. Le proprietà personalizzate vengono riflesse nella sezione delle proprietà della rappresentazione headless del componente. Consentono di creare un comportamento di modulo dinamico che si adatta in base ai valori degli attributi personalizzati. Ad esempio, gli sviluppatori possono progettare diverse rappresentazioni di un componente moduli headless su piattaforme mobili, desktop o web, migliorando in modo significativo l’esperienza utente su un’ampia gamma di dispositivi.
 
 - **Nome gruppo**: puoi fornire un nome per identificare il gruppo di proprietà personalizzate. È possibile aggiungere, eliminare o ridisporre più gruppi di proprietà personalizzate. Dopo aver aggiunto il gruppo di proprietà personalizzate, puoi visualizzare le seguenti opzioni:
 
@@ -176,15 +176,31 @@ Le proprietà personalizzate consentono di associare attributi personalizzati (c
 
 ### Scheda Formati {#formats-tab}
 
-La scheda dei formati consente di specificare i formati di data predefiniti e personalizzati.
+La scheda Formati consente di specificare formati di data predefiniti e personalizzati. È inoltre possibile aggiungere un nuovo formato numerico personalizzato utilizzando il pulsante **Aggiungi**.
 
 ![Scheda formato](/help/adaptive-forms/assets/emailinput_formattab.png)
+
+#### Aggiungere formati nel criterio del modello del componente
+
+Per visualizzare i formati disponibili per il componente, devi aggiungerli al criterio del modello del componente.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3477976?quality=12&learn=on)
+
+Per aggiungere formati al criterio del modello:
+
+1. Apri il modello corrispondente associato a un modulo adattivo o a Sites nell’editor di modelli.
+2. Nella sezione **Componenti consentiti** selezionare il componente **[!UICONTROL Input numero]**.
+   ![Criterio modello selettore data](/help/adaptive-forms/assets/number-input-policy.png)
+3. Fai clic sull&#39;icona **[!UICONTROL Aggiungi]** per creare un nuovo criterio per il componente Input numero.
+4. Immettere un nome per il criterio e selezionare tutti i formati richiesti nella scheda **Formato**.
+   ![Crea criterio](/help/adaptive-forms/assets/date-picker-format-policy.png)
+5. Fai clic su **[!UICONTROL Fine]**.
 
 <!--
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=it)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

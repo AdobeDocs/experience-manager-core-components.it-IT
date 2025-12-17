@@ -3,10 +3,10 @@ title: Componente core moduli adattivi - Selettore data
 description: Utilizzo o personalizzazione del componente core del selettore data dei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
-source-git-commit: daeabccaff39e255c111c6af2540ca4d5be0c709
-workflow-type: ht
-source-wordcount: '2298'
-ht-degree: 100%
+source-git-commit: f0c4d6adf7266bdb6ebc7cde49656efaf3027624
+workflow-type: tm+mt
+source-wordcount: '2404'
+ht-degree: 95%
 
 ---
 
@@ -47,7 +47,7 @@ Per informazioni sulle versioni dei componenti core, consulta il documento [Vers
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_it). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Dettagli tecnici {#technical-details}
 
@@ -107,9 +107,9 @@ Puoi personalizzare facilmente l’esperienza del selettore data per gli utenti 
 
 ![Scheda Contenuto Guida](/help/adaptive-forms/assets/datepicker_helptab.png)
 
-- **Breve descrizione**: una breve descrizione è una breve spiegazione testuale che fornisce informazioni aggiuntive o chiarimenti sullo scopo di un campo modulo specifico. Aiuta l’utente a capire quale tipo di dati deve essere immesso nel campo e può fornire linee guida o esempi per garantire che le informazioni immesse siano valide e soddisfino i criteri desiderati. Per impostazione predefinita, le descrizioni brevi rimangono nascoste. Seleziona l’opzione **Mostra sempre una breve descrizione** per visualizzarla sotto il componente.
+- **Breve descrizione**: una breve descrizione è una breve spiegazione testuale che fornisce informazioni aggiuntive o chiarimenti sullo scopo di un campo modulo specifico. Aiuta l’utente a capire quale tipo di dati deve essere immesso nel campo e può fornire linee guida o esempi per garantire che le informazioni immesse siano valide e soddisfino i criteri desiderati. Per impostazione predefinita, le descrizioni brevi rimangono nascoste. Abilita l’opzione **Mostra sempre una breve descrizione** per visualizzarla sotto il componente.
 
-- **Mostra sempre una breve descrizione**: seleziona l’opzione per visualizzare la descrizione breve sotto il componente.
+- **Mostra sempre una breve descrizione**: abilita questa opzione per visualizzare la descrizione breve sotto il componente.
 
 - **Testo guida**: il testo guida si riferisce a informazioni o indicazioni aggiuntive fornite all’utente per aiutarlo a compilare correttamente un campo del modulo. Viene visualizzato quando l’utente fa clic sull’icona dell’aiuto (i) posta vicino al componente. Il testo guida fornisce informazioni più dettagliate rispetto all’etichetta o al testo segnaposto di un campo del modulo ed è progettato per consentire all’utente di comprendere i requisiti o i vincoli del campo. Può inoltre offrire suggerimenti o esempi per rendere più semplice e precisa la compilazione del modulo.
 
@@ -166,7 +166,7 @@ La scheda è utilizzata per definire e gestire gli stili CSS per un componente. 
 
 ![Finestra di dialogo Proprietà personalizzate](/help/adaptive-forms/assets/datepicker_customproperties.png)
 
-Le proprietà personalizzate consentono di associare attributi personalizzati (coppie chiave-valore) a un componente core del modulo adattivo utilizzando il modello di modulo. Le proprietà personalizzate vengono riflesse nella sezione delle proprietà della rappresentazione headless del componente. Consentono di creare un comportamento di modulo dinamico che si adatta in base ai valori degli attributi personalizzati. Ad esempio, gli sviluppatori possono progettare diverse rappresentazioni di un componente moduli headless su piattaforme mobili, desktop o web, migliorando in modo significativo l’esperienza utente su un’ampia gamma di dispositivi.
+Le proprietà personalizzate consentono di associare attributi personalizzati (coppie chiave-valore) a un componente core del modulo adattivo utilizzando il modello per moduli. Le proprietà personalizzate vengono riflesse nella sezione delle proprietà della rappresentazione headless del componente. Consentono di creare un comportamento di modulo dinamico che si adatta in base ai valori degli attributi personalizzati. Ad esempio, gli sviluppatori possono progettare diverse rappresentazioni di un componente moduli headless su piattaforme mobili, desktop o web, migliorando in modo significativo l’esperienza utente su un’ampia gamma di dispositivi.
 
 - **Nome gruppo**: puoi fornire un nome per identificare il gruppo di proprietà personalizzate. È possibile aggiungere, eliminare o ridisporre più gruppi di proprietà personalizzate. Dopo aver aggiunto il gruppo di proprietà personalizzate, puoi visualizzare le seguenti opzioni:
 
@@ -178,15 +178,31 @@ Le proprietà personalizzate consentono di associare attributi personalizzati (c
 
 ### Scheda Formati {#formats-tab}
 
-La scheda dei formati consente di specificare i formati di data predefiniti e personalizzati.
+La scheda Formati consente di specificare formati di data predefiniti e personalizzati. Inoltre, puoi anche aggiungere un nuovo formato data personalizzato utilizzando il pulsante **Aggiungi**.
 
 ![Scheda formato](/help/adaptive-forms/assets/datepicker_formatpolicy.png)
+
+#### Aggiungere formati nel criterio del modello del componente
+
+Per visualizzare i formati disponibili per il componente, devi aggiungerli al criterio del modello del componente.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3477975?quality=12&learn=on)
+
+Per aggiungere formati al criterio del modello:
+
+1. Apri il modello corrispondente associato a un modulo adattivo o a Sites nell’editor di modelli.
+2. Nella sezione **Componenti consentiti**, seleziona il componente **[!UICONTROL Selezione data]**.
+   ![Criterio modello selettore data](/help/adaptive-forms/assets/date-picker-policy.png)
+3. Fai clic sull&#39;icona **[!UICONTROL Aggiungi]** per creare un nuovo criterio per il componente Selezione data.
+4. Immettere un nome per il criterio e selezionare tutti i formati richiesti nella scheda **Formato**.
+   ![Crea criterio](/help/adaptive-forms/assets/number-input-format-policy.png)
+5. Fai clic su **[!UICONTROL Fine]**.
 
 <!--
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=it)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 
