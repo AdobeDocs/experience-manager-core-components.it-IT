@@ -37,7 +37,7 @@ La tabella che segue descrive tutte le versioni supportate del componente, le ve
 
 ### Dettagli tecnici {#technical-details}
 
-La documentazione tecnica più recente sul componente Teaser e-mail [è disponibile su GitHub.](https://adobe.com/go/aem_cmp_tech_email_segmentation_v1)
+La documentazione tecnica più recente sul componente Teaser e-mail [è disponibile su GitHub.](https://adobe.com/go/aem_cmp_tech_email_segmentation_v1_it)
 
 Per ulteriori informazioni sullo sviluppo di Componenti core, vedi la [documentazione per gli sviluppatori di Componenti core.](/help/developing/overview.md)
 

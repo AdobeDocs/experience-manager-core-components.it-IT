@@ -38,7 +38,7 @@ Per ulteriori informazioni sulle versioni e sugli aggiornamenti dei componenti c
 
 ## Dettagli tecnici {#technical-details}
 
-La documentazione tecnica più recente sul componente Frammento di contenuto e-mail [è disponibile su GitHub.](https://adobe.com/go/aem_cmp_tech_email_cf_v1)
+La documentazione tecnica più recente sul componente Frammento di contenuto e-mail [è disponibile su GitHub.](https://adobe.com/go/aem_cmp_tech_email_cf_v1_it)
 
 Per ulteriori informazioni sullo sviluppo di Componenti core, vedi la [documentazione per gli sviluppatori di Componenti core.](/help/developing/overview.md)
 

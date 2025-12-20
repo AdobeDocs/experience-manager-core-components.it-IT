@@ -123,7 +123,7 @@ La tabella che segue riporta i Componenti core disponibili, il collegamento alle
 | [Scarica](https://adobe.com/go/aem_cmp_tech_download_v1_it) | Aggiunge una risorsa scaricabile a una pagina | `-` |
 | [Frammento esperienza](https://adobe.com/go/aem_cmp_tech_xf_v1_it) | Aggiunge un frammento esperienza a una pagina | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
 | [Incorpora](https://adobe.com/go/aem_cmp_tech_embed_v1_it) | Incorpora una risorsa esterna all’interno di una pagina | - |
-| [Barra di avanzamento](https://adobe.com/go/aem_cmp_tech_progress_v1) | Fornisce una rappresentazione visiva del progresso verso un obiettivo | - |
+| [Barra di avanzamento](https://adobe.com/go/aem_cmp_tech_progress_v1_it) | Fornisce una rappresentazione visiva del progresso verso un obiettivo | - |
 | [Visualizzatore PDF](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1_it) | Visualizza un documento PDF su una pagina | - |
 
 ## Aggiornamento dei Componenti core {#upgrade-of-core-components}
