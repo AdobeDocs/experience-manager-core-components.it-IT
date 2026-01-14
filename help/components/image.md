@@ -3,10 +3,10 @@ title: Componente Immagine
 description: Il componente core Immagine è un componente immagine adattivo.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '2062'
-ht-degree: 100%
+source-git-commit: 8952f6c574fe1e21ff35e95bc0af6433f0363e77
+workflow-type: tm+mt
+source-wordcount: '2064'
+ht-degree: 99%
 
 ---
 
@@ -59,9 +59,9 @@ Per ulteriori informazioni, [consulta la documentazione tecnica del componente I
 
 ## Supporto di Dynamic Media {#dynamic-media}
 
-Il componente Immagine (a partire dalla [versione 2.13.0](/help/versions.md)) supporta le risorse di [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media.html?lang=it). [Se abilitate,](#design-dialog) queste funzioni consentono di aggiungere risorse immagine di Dynamic Media con una semplice azione di trascinamento e rilascio della selezione oppure tramite il browser delle risorse, esattamente come faresti con qualsiasi altra immagine. Sono inoltre supportati modificatori di immagini, immagini preimpostate e ritaglio avanzato.
+Il componente Immagine (a partire dalla [versione 2.13.0](/help/versions.md)) supporta le risorse di [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media.html?lang=it). [Se abilitate,](#design-dialog) queste funzioni consentono di aggiungere risorse immagine di Dynamic Media con una semplice azione di trascinamento e rilascio della selezione oppure tramite il browser delle risorse, esattamente come faresti con qualsiasi altra immagine. Sono inoltre supportati modificatori di immagini, predefiniti per immagini e ritaglio avanzato.
 
-La tua esperienza del web costruita con i Componenti core ora si arricchisce delle molte funzionalità per le immagini offerte da Dynamic Media, efficienti, performanti, multipiattaforma e con tecnologia Sensei.
+La tua esperienza web costruita con i Componenti core ora si arricchisce delle solide funzionalità per le immagini offerte da Dynamic Media, performanti, multipiattaforma e con tecnologia AI di Adobe.
 
 ## Supporto risorse remote {#remote-assets}
 
@@ -162,7 +162,7 @@ Il componente Immagine offre una finestra di dialogo di configurazione in cui l�
    * Trascina una risorsa dal [browser Risorse](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html?lang=it) o tocca l’opzione **Sfoglia** per caricarla da un file system locale.
    * Tocca o fai clic su **Cancella** per deselezionare l’immagine attualmente selezionata.
    * Tocca o fai clic su **Scegli** per aprire il [browser Risorse](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html?lang=it) e seleziona un’immagine.
-      * Se il [Supporto risorse remote](#remote-assets) è attivato, sono disponibili diverse opzioni per la scelta di una risorsa:
+      * Se il [Supporto risorse remote](#remote-assets) è abilitato, sono disponibili diverse opzioni per la scelta di una risorsa:
          * **Locale** sceglie la risorsa dalla libreria di risorse AEM locale.
          * **Remoto** sceglie la risorsa da una libreria Dynamic Media esterna all’istanza AEM.
    * Tocca o fai clic su **Modifica** per [gestire le rappresentazioni della risorsa](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=it) nell’Editor risorse.
@@ -177,7 +177,7 @@ Il componente Immagine offre una finestra di dialogo di configurazione in cui l�
 
 ![Scheda Metadati della finestra di dialogo per configurazione del componente Immagine](/help/assets/image-configure-metadata.png)
 
-* **Tipo di predefinito**: definisce i tipi di immagini preimpostate disponibili, **Predefinito immagine** o **Ritaglio avanzato**, ed è disponibile solo se [le funzioni di Dynamic Media](#dynamic-meida) sono abilitate.
+* **Tipo di predefinito**: definisce i tipi di predefiniti per immagini disponibili, **Predefinito immagine** o **Ritaglio avanzato**, ed è disponibile solo se [le funzioni di Dynamic Media](#dynamic-meida) sono abilitate.
    * **Predefinito immagine**: se per **Tipo di predefinito** è selezionata l’opzione **Predefinito immagine**, è disponibile l’elenco a discesa **Predefinito immagine** che consente di selezionare i predefiniti di Dynamic Media disponibili. Questa opzione è disponibile solo se per la risorsa selezionata esistono dei predefiniti.
    * **Ritaglio avanzato** : quando viene selezionato **Tipo di predefinito** di **Ritaglio avanzato**, è disponibile l’elenco a discesa **Rappresentazione** che consente di selezionare le rappresentazioni disponibili della risorsa selezionata. Questa opzione è disponibile solo se per la risorsa selezionata sono definiti rendering.
    * **Modificatori immagine**: qui si possono definire comandi Dynamic Media aggiuntivi per la gestione delle immagini, separati da `&`, indipendentemente da qualunque cosa sia selezionata per **Tipo di predefinito**.
@@ -195,7 +195,7 @@ Il componente Immagine offre una finestra di dialogo di configurazione in cui l�
 
 >[!TIP]
 >
->Le opzioni **Ritaglio avanzato** e **Predefinito immagine** si escludono a vicenda. Se un autore deve utilizzare un predefinito per immagine insieme a una rappresentazione di ritaglio avanzato, dovrà avvalersi dei **Modificatori immagine**, per aggiungere manualmente i predefiniti.
+>Le opzioni **Ritaglio avanzato** e **Predefinito immagine** si escludono a vicenda. Se è necessario utilizzare un predefinito per immagini insieme a una rappresentazione con ritaglio avanzato, si dovranno utilizzare i **Modificatori immagine** per aggiungere manualmente i predefiniti.
 
 ### Scheda Stili {#styles-tab-edit}
 

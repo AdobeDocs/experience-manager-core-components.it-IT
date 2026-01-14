@@ -4,10 +4,10 @@ description: Il componente Immagine e-mail è un componente immagine adattivo ch
 role: Architect, Developer, Admin, User
 exl-id: f5d40047-3082-4edd-a5f6-6ab3e33997f9
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '1624'
-ht-degree: 100%
+source-git-commit: 8952f6c574fe1e21ff35e95bc0af6433f0363e77
+workflow-type: tm+mt
+source-wordcount: '1626'
+ht-degree: 98%
 
 ---
 
@@ -47,9 +47,9 @@ Inoltre, il componente Immagine e-mail supporta il caricamento lazy, in modo che
 
 ## Supporto di Dynamic Media {#dynamic-media}
 
-Il componente Immagine e-mail supporta le risorse [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=it#dynamicmedia). [Se abilitate,](#design-dialog) queste funzioni consentono di aggiungere risorse immagine di Dynamic Media con una semplice azione di trascinamento e rilascio della selezione oppure tramite il browser delle risorse, esattamente come faresti con qualsiasi altra immagine. Sono inoltre supportati modificatori di immagini, immagini preimpostate e ritaglio avanzato.
+Il componente Immagine e-mail supporta le risorse [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=it#dynamicmedia). [Se abilitate,](#design-dialog) queste funzioni consentono di aggiungere risorse immagine di Dynamic Media con una semplice azione di trascinamento e rilascio della selezione oppure tramite il browser delle risorse, esattamente come faresti con qualsiasi altra immagine. Sono inoltre supportati modificatori di immagini, predefiniti per immagini e ritaglio avanzato.
 
-Le esperienze e-mail realizzate con i componenti core E-mail ora si arricchiscono delle solide funzionalità per immagini Dynamic Media, performanti, multipiattaforma e con tecnologia Sensei.
+La tua esperienza e-mail costruita con i componenti core E-mail ora si arricchisce delle solide funzionalità per le immagini offerte da Dynamic Media, performanti, multipiattaforma e con tecnologia AI di Adobe.
 
 ## Supporto di SVG {#svg-support}
 
@@ -65,7 +65,7 @@ Per motivi di sicurezza, il file SVG originale non viene mai richiamato direttam
 
 ### Dettagli tecnici {#technical-details}
 
-La documentazione tecnica più recente sul componente Immagine e-mail [è disponibile su GitHub.](https://adobe.com/go/aem_cmp_tech_email_image_v1_it)
+La documentazione tecnica più recente sul componente Immagine e-mail [è disponibile su GitHub.](https://adobe.com/go/aem_cmp_tech_email_image_v1)
 
 Per ulteriori informazioni sullo sviluppo di Componenti core, vedi la [documentazione per gli sviluppatori di Componenti core.](/help/developing/overview.md)
 
@@ -98,7 +98,7 @@ Il componente Immagine e-mail offre una finestra di dialogo di configurazione in
 
 ![Scheda Metadati della finestra di dialogo per configurazione del componente Immagine](/help/email/assets/email-image-configure-metadata.png)
 
-* **Tipo di predefinito**: definisce i tipi di immagini preimpostate disponibili, **Predefinito immagine** o **Ritaglio avanzato**, ed è disponibile solo se [le funzioni di Dynamic Media](#dynamic-meida) sono abilitate.
+* **Tipo di predefinito**: definisce i tipi di predefiniti per immagini disponibili, **Predefinito immagine** o **Ritaglio avanzato**, ed è disponibile solo se [le funzioni di Dynamic Media](#dynamic-meida) sono abilitate.
    * **Predefinito immagine**: se per **Tipo di predefinito** è selezionata l’opzione **Predefinito immagine**, è disponibile l’elenco a discesa **Predefinito immagine** che consente di selezionare i predefiniti di Dynamic Media disponibili. Questa opzione è disponibile solo se per la risorsa selezionata esistono dei predefiniti.
    * **Ritaglio avanzato**: quando viene selezionato **Tipo di predefinito** di **Ritaglio avanzato**, è disponibile l’elenco a discesa della **Rappresentazione** che consente di selezionare le rappresentazioni disponibili della risorsa selezionata. Questa opzione è disponibile solo se per la risorsa selezionata sono definiti rendering.
    * **Modificatori immagine**: qui è possibile definire comandi Dynamic Media aggiuntivi per la gestione delle immagini, separati da `&`, indipendentemente dal **Tipo di predefinito** selezionato.
@@ -118,7 +118,7 @@ Il componente Immagine e-mail offre una finestra di dialogo di configurazione in
 
 >[!TIP]
 >
->Le opzioni **Ritaglio avanzato** e **Predefinito immagine** si escludono a vicenda. Se un autore deve utilizzare un predefinito immagine insieme a al rendering di un ritaglio avanzato, deve utilizzare i **modificatori immagine** per aggiungere manualmente i predefiniti.
+>Le opzioni **Ritaglio avanzato** e **Predefinito immagine** si escludono a vicenda. Se è necessario utilizzare un predefinito per immagini insieme a una rappresentazione con ritaglio avanzato, si dovranno utilizzare i **modificatori immagine** per aggiungere manualmente i predefiniti.
 
 ### Scheda Stili {#styles-tab-edit}
 

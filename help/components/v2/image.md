@@ -4,10 +4,10 @@ description: Il componente core Immagine è un componente immagine adattivo che 
 role: Architect, Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
 index: n
-source-git-commit: 3908828cf62043483a74e908204c3e9bf540300b
+source-git-commit: 8952f6c574fe1e21ff35e95bc0af6433f0363e77
 workflow-type: tm+mt
-source-wordcount: '2048'
-ht-degree: 100%
+source-wordcount: '2050'
+ht-degree: 98%
 
 ---
 
@@ -44,9 +44,9 @@ Inoltre, il componente Immagine supporta il caricamento lento per posticipare il
 
 ## Supporto di Dynamic Media {#dynamic-media}
 
-Il componente Immagine (a partire dalla [versione 2.13.0](/help/versions.md)) supporta le risorse di [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=it#dynamicmedia). [Se abilitate,](#design-dialog) queste funzioni consentono di aggiungere risorse immagine di Dynamic Media con una semplice azione di trascinamento e rilascio della selezione oppure tramite il browser delle risorse, esattamente come faresti con qualsiasi altra immagine. Sono inoltre supportati modificatori di immagini, immagini preimpostate e ritaglio avanzato.
+Il componente Immagine (a partire dalla [versione 2.13.0](/help/versions.md)) supporta le risorse di [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=it#dynamicmedia). [Se abilitate,](#design-dialog) queste funzioni consentono di aggiungere risorse immagine di Dynamic Media con una semplice azione di trascinamento e rilascio della selezione oppure tramite il browser delle risorse, esattamente come faresti con qualsiasi altra immagine. Sono inoltre supportati modificatori di immagini, predefiniti per immagini e ritaglio avanzato.
 
-La tua esperienza del web costruita con i Componenti core ora si arricchisce delle molte funzionalità per le immagini offerte da Dynamic Media, efficienti, performanti, multipiattaforma e con tecnologia Sensei.
+La tua esperienza web costruita con i Componenti core non offre funzionalità avanzate, basate sull’intelligenza artificiale di Adobe, solide, ad alte prestazioni e multipiattaforma per le funzionalità di immagine di Dynamic Media.
 
 ## Supporto di SVG {#svg-support}
 
@@ -89,7 +89,7 @@ Oltre alla normale [finestra di dialogo per modifica](#edit-dialog) e [finestra 
 
 ![Scheda Metadati della finestra di dialogo per configurazione del componente Immagine](/help/assets/image-configure-metadata.png)
 
-* **Tipo di predefinito**: definisce i tipi di immagini preimpostate disponibili, **Predefinito immagine** o **Ritaglio avanzato**, ed è disponibile solo se [le funzioni di Dynamic Media](#dynamic-meida) sono abilitate.
+* **Tipo di predefinito**: definisce i tipi di predefiniti per immagini disponibili, **Predefinito immagine** o **Ritaglio avanzato**, ed è disponibile solo se [le funzioni di Dynamic Media](#dynamic-meida) sono abilitate.
    * **Predefinito immagine**: se per **Tipo di predefinito** è selezionata l’opzione **Predefinito immagine**, è disponibile l’elenco a discesa **Predefinito immagine** che consente di selezionare i predefiniti di Dynamic Media disponibili. Questa opzione è disponibile solo se per la risorsa selezionata esistono dei predefiniti.
    * **Ritaglio avanzato**: quando per **Tipo di predefinito** è selezionata l’opzione **Ritaglio avanzato**, avanzato, è disponibile l’elenco a discesa **Rendering** che consente di selezionare i rendering disponibili della risorsa selezionata. Questa opzione è disponibile solo se per la risorsa selezionata sono definiti rendering.
    * **Modificatori immagine**: qui si possono definire comandi Dynamic Media aggiuntivi per la gestione delle immagini, separati da `&`, indipendentemente da qualunque cosa sia selezionata per **Tipo di predefinito**.
@@ -109,7 +109,7 @@ Oltre alla normale [finestra di dialogo per modifica](#edit-dialog) e [finestra 
 
 >[!TIP]
 >
->Le opzioni **Ritaglio avanzato** e **Predefinito immagine** si escludono a vicenda. Se un autore deve utilizzare un predefinito immagine insieme a al rendering di un ritaglio avanzato, deve utilizzare i **modificatori immagine** per aggiungere manualmente i predefiniti.
+>Le opzioni **Ritaglio avanzato** e **Predefinito immagine** si escludono a vicenda. Se è necessario utilizzare un predefinito per immagini insieme a una rappresentazione con ritaglio avanzato, si dovranno utilizzare i **modificatori immagine** per aggiungere manualmente i predefiniti.
 
 ## Finestra di dialogo per modifica {#edit-dialog}
 
