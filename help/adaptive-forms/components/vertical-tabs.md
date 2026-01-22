@@ -3,9 +3,9 @@ title: 'Componente core moduli adattivi: schede verticali'
 description: Utilizzo o personalizzazione del componente core delle schede verticali dei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '2173'
+source-git-commit: 2be68aa708131486f7d89f33952153a7a90c3d0a
+workflow-type: tm+mt
+source-wordcount: '2153'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ Facendo clic su una scheda, il contenuto del modulo si aggiorna dinamicamente mo
 
 >[!NOTE]
 >
-> Per AEM 6.5 Forms, questo componente è stato introdotto con il Service Pack 19 di AEM 6.5 Forms (6.5.19.0). Per abilitare questo componente, accertati che siano installate le versioni necessarie dei componenti core di Forms e WCM. Per informazioni dettagliate sulle versioni dei componenti core dei moduli adattivi, consulta le [Versioni dei componenti core dei moduli adattivi](/help/adaptive-forms/version.md)
+> Per AEM 6.5 Forms, questo componente è stato introdotto con il Service Pack 19 di AEM 6.5 Forms (6.5.19.0). Per informazioni dettagliate sulle versioni dei componenti core dei moduli adattivi, consulta le [Versioni dei componenti core dei moduli adattivi](/help/adaptive-forms/version.md)
 
 ![esempio](/help/adaptive-forms/assets/horizontal-example.png)
 
@@ -34,7 +34,7 @@ I motivi comuni per utilizzare le schede verticali in un modulo adattivo sono i 
 
 - **Organizzazione migliore**: le schede forniscono una struttura chiara e organizzata per un modulo, semplificandone la comprensione e la compilazione.
 
-- **Maggiore coinvolgimento dell’utente**: le schede verticali possono rendere un modulo più accattivante e coinvolgente dal punto di vista visivo, migliorandone la frequenza di completamento.
+- **Maggiore coinvolgimento dell’utente**: le schede verticali possono rendere un modulo più accattivante e coinvolgente dal punto di vista visivo, migliorandone il tasso di completamento.
 
 ## Versione e compatibilità {#version-and-compatibility}
 
@@ -175,7 +175,7 @@ La finestra di dialogo per la progettazione consente di definire e gestire gli s
 
 ![Scheda Proprietà personalizzate](/help/adaptive-forms/assets/tabs-custom-properties.png)
 
-Le proprietà personalizzate consentono di associare attributi personalizzati (coppie chiave-valore) a un componente core del modulo adattivo utilizzando il modello di modulo. Le proprietà personalizzate vengono riflesse nella sezione delle proprietà della rappresentazione headless del componente. Consentono di creare un comportamento di modulo dinamico che si adatta in base ai valori degli attributi personalizzati. Ad esempio, gli sviluppatori possono progettare diverse rappresentazioni di un componente moduli headless su piattaforme mobili, desktop o web, migliorando in modo significativo l’esperienza utente su un’ampia gamma di dispositivi.
+Le proprietà personalizzate consentono di associare attributi personalizzati (coppie chiave-valore) a un componente core del modulo adattivo utilizzando il modello per moduli. Le proprietà personalizzate vengono riflesse nella sezione delle proprietà della rappresentazione headless del componente. Consentono di creare un comportamento di modulo dinamico che si adatta in base ai valori degli attributi personalizzati. Ad esempio, gli sviluppatori possono progettare diverse rappresentazioni di un componente moduli headless su piattaforme mobili, desktop o web, migliorando in modo significativo l’esperienza utente su un’ampia gamma di dispositivi.
 
 - **Nome gruppo**: puoi fornire un nome per identificare il gruppo di proprietà personalizzate. È possibile aggiungere, eliminare o ridisporre più gruppi di proprietà personalizzate. Dopo aver aggiunto il gruppo di proprietà personalizzate, puoi visualizzare le seguenti opzioni:
 

@@ -3,17 +3,17 @@ title: Introduzione ai componenti core dei moduli adattivi in AEM
 description: Le versioni dei Componenti core AEM pubblicate possono contenere più di una versione degli stessi Componenti core. Questo documento spiega cosa s’intende per versioni e come comprendere la compatibilità con i Componenti core e AEM.
 role: Architect, Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
+source-git-commit: 2be68aa708131486f7d89f33952153a7a90c3d0a
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 100%
+source-wordcount: '180'
+ht-degree: 92%
 
 ---
 
 
 # Versioni dei componenti core dei moduli adattivi {#core-components-versions}
 
-Identifica le versioni precise delle dipendenze dei moduli dei Componenti core e dei Componenti core WCM necessarie per attivare quelli dei moduli adattivi più recenti nell’ambiente. Acquisisci inoltre familiarità con i componenti e le funzioni abilitati in ogni versione dei Componenti core dei moduli adattivi.
+Identifica le versioni precise delle dipendenze dei Componenti core Forms e dei Componenti core WCM. Acquisisci inoltre familiarità con i componenti e le funzioni abilitati in ogni versione dei Componenti core dei moduli adattivi.
 
 ## Cronologia delle versioni di AEM Forms as Cloud Service {#aem-as-cs-version-history}
 

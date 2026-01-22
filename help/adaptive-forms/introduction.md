@@ -3,10 +3,10 @@ title: Introduzione ai componenti core dei moduli adattivi in AEM
 description: Crea esperienze di iscrizione accattivanti (moduli) utilizzando la flessibilità dei componenti core dei moduli adattivi e forniscile con l’aiuto di Adobe Experience Manager.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '2123'
-ht-degree: 100%
+source-git-commit: 2be68aa708131486f7d89f33952153a7a90c3d0a
+workflow-type: tm+mt
+source-wordcount: '1980'
+ht-degree: 98%
 
 ---
 
@@ -172,7 +172,7 @@ L’editor per moduli adattivi basati su Componenti core è simile a quello già
 
 * **[Editor regole](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/rule-editor-core-components)**: è possibile aggiungere funzionalità logiche e dinamiche ai moduli senza la scrittura di codice. Puoi utilizzare l’editor di regole incorporato per:
    * Mostrare o nascondere i campi in base alle scelte dell’utente
-   * Attivare o disattivare un oggetto
+   * Abilitare o disabilitare un oggetto
    * Impostare un valore per un oggetto
    * Eseguire calcoli
    * Impostare la proprietà di un oggetto
@@ -183,7 +183,7 @@ L’editor per moduli adattivi basati su Componenti core è simile a quello già
    * Convalidare campi e pannelli (verificare che i dati soddisfino i requisiti)
    * Convalidare il valore di un oggetto
    * Eseguire funzioni per calcolare il valore di un oggetto
-   * Richiamare un modello dati del modulo (FDM) ed eseguire un’operazione
+   * Richiamare un modello dati modulo (FDM) ed eseguire un’operazione
    * Aggiungere in modo dinamico stili (modificare l’aspetto in base alle condizioni)
    * Creare altre regole (azioni a catena e logica)
    * e altro ancora!
@@ -192,7 +192,7 @@ L’editor per moduli adattivi basati su Componenti core è simile a quello già
 
 
 
-* **Moduli precompilati**: puoi compilare automaticamente alcuni campi in un modulo con i dati esistenti quando un utente lo apre. In questo modo gli utenti possono risparmiare tempo e fatica in quanto non è necessario immettere manualmente informazioni che potrebbero essere già disponibili. L’editor dei Componenti core fornisce un servizio di precompilazione OOTB per compilare i campi del modulo con l’aiuto di un modello dati del modulo. Puoi anche creare servizi di precompilazione personalizzati per scenari più complessi.
+* **Moduli precompilati**: puoi compilare automaticamente alcuni campi in un modulo con i dati esistenti quando un utente lo apre. In questo modo gli utenti possono risparmiare tempo e fatica in quanto non è necessario immettere manualmente informazioni che potrebbero essere già disponibili. L’editor dei Componenti core fornisce un servizio di precompilazione OOTB per compilare i campi del modulo con l’aiuto di un modello dati modulo. Puoi anche creare servizi di precompilazione personalizzati per scenari più complessi.
 
 * **[Documento di record (DoR)](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/generate-document-of-record-core-components)**: un documento di record (DoR) fa riferimento a una rappresentazione formale e stampabile dei dati inviati tramite il modulo. Funge da record permanente delle informazioni immesse da un utente, fornendo un’istantanea dei dati inviati in un formato semplice, in genere un documento PDF. Puoi utilizzare l’editor per configurare facilmente un modello personalizzato o utilizzare un modello OOTB per generare un documento di record.
 
@@ -204,37 +204,38 @@ L’editor per moduli adattivi basati su Componenti core è simile a quello già
    * [Richiamare un flusso Power Automate](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/forms/integrate/services/forms-microsoft-power-automate-integration)
    * [Inviare a SharePoint](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-action-sharepoint)
    * [Richiamare uno scenario Workfront Fusion](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Invoke%20a%20Workfront%20Fusion)
-   * [Inviare mediante il modello di dati modulo (FDM)](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/using-form-data-model)
+   * [Inviare mediante il modello dati modulo (FDM)](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/using-form-data-model)
    * [Inviare ad archiviazione BLOB di Azure](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Submit%20to%20Azure%20Blob%20Storage)
    * [Inviare a un endpoint REST](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-action-restpoint)
    * [Inviare a OneDrive](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=to%20REST%20endpoint-,Submit%20to%20OneDrive,-Invoke%20an%20AEM)
    * [Richiamare un flusso di lavoro AEM](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Invoke%20an%20AEM%20Workflow)
 
 
-* [Componenti core per moduli adattivi nell’Editor pagina di Sites](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page): puoi abilitare e utilizzare i componenti core per moduli adattivi nell’Editor pagina di AEM e nei frammenti di esperienza di AEM per creare direttamente un’esperienza di acquisizione dati e una pagina Sites.
+* [Componenti core Forms adattivi nell&#39;editor di pagine Sites](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page): è possibile utilizzare i componenti core Forms adattivi nell&#39;editor di pagine AEM e i frammenti esperienza AEM per creare direttamente un&#39;esperienza di acquisizione dati e creare una pagina Sites.
 
   >[!VIDEO](https://video.tv.adobe.com/v/3419284?quality=12&learn=on)
 
 
 <!-- 
 * **Preview Forms**: You can use the editor to  simulates how the form would appear on various devices like desktops, tablets, and smartphones.
--->
 
 
 
-## Abilitare i componenti core per moduli adattivi
 
-Abilitando i componenti core dei moduli adattivi su AEM Forms as a Cloud Service, è possibile iniziare a creare, pubblicare e distribuire componenti core basati su moduli adattivi e moduli headless utilizzando le istanze del Cloud Service di AEM Forms su più canali. Per istruzioni dettagliate sull’abilitazione dei componenti core dei moduli adattivi, consulta [Abilita i componenti core dei moduli adattivi nell’ambiente di sviluppo locale di AEM Forms as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html?lang=it).
+## Enable Adaptive Forms Core Components
 
-Di seguito sono riportati i requisiti dei componenti core dei moduli adattivi.
+Enabling Adaptive Forms Core Components on AEM Forms as a Cloud Service, allows you to start creating, publishing, and delivering Core Components based Adaptive Forms and Headless Forms using your AEM Forms Cloud Service instances to multiple channels. For detailed instructions to enable Adaptive Form Core Components, see [Enable Adaptive Forms Core Components on AEM Forms as a Cloud Service and local development environment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html).
 
-| Versione di AEM | Componente aggiuntivo per AEM Forms | Componenti core dei moduli adattivi |
+The Adaptive Forms Core Components have the following requirements.
+
+|AEM Version|AEM Forms add-on|Adaptive Forms Core Components|
 |---|---|---|
-| AEM as a Cloud Service | Forms: registrazione digitale | [Versione 2.0.10](version.md)+ |
-| AEM 6.5 | Componente aggiuntivo Forms | [Versione 1.1.12](version.md)+ |
+|AEM as a Cloud Service|Forms - Digital Enrollment|[Release 2.0.10](version.md)+|
+|AEM 6.5 | Forms add-on |[Release 1.1.12](version.md)+|
 
-Se la versione dell’SDK del Cloud Service di AEM è precedente alla versione 2023.02.0, [assicurati di aver abilitato il flag `prerelease` nel tuo ambiente ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=it#new-features), poiché i componenti core dei moduli adattivi facevano parte della versione prerelease precedente alla versione 2023.02.0.
+If your AEM Cloud Service SDK version older than 2023.02.0, [ensure that you have `prerelease` flag enabled on your environment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=en#new-features) as Adaptive Forms Core Components were part of pre-prelease before the 2023.02.0 release.
 
+-->
 
 ## Creare componenti core basati sul modulo adattivo
 

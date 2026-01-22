@@ -1,14 +1,14 @@
 ---
 title: Come ottenere temi e modelli di esempio per i Componenti core di AEM Forms?
-description: I componenti core di AEM Forms forniscono esempi di temi per moduli adattivi, modelli e modelli di dati per i moduli.
+description: I componenti core di AEM Forms forniscono esempi di temi per moduli adattivi, modelli e modelli dati moduli.
 solution: Experience Manager Forms
 topic: Administration
 role: Admin, User
 level: Intermediate
 exl-id: aef6e88b-dcae-4777-9893-9257d7702f43
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '1239'
+source-git-commit: 2be68aa708131486f7d89f33952153a7a90c3d0a
+workflow-type: tm+mt
+source-wordcount: '1233'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 I Componenti core di [!DNL AEM Forms] forniscono temi di esempio, modelli e modelli dati modulo pronti all’uso per creare rapidamente moduli adattivi versatili. Questi consentono inoltre agli autori dei moduli di apprendere l’estensibilità, l’adattabilità e la reattività dei [Componenti core dei moduli adattivi](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=it) per creare moduli semplici in poco tempo e moduli complessi in modo semplice collegandosi direttamente al database.
 
-I temi, i modelli e i modelli dati modulo di esempio inclusi nel pacchetto di contenuti di riferimento sono:
+I temi, i modelli e i modelli di dati per moduli di esempio inclusi nel pacchetto di contenuti di riferimento sono:
 
 | Modelli | Temi | Modelli dati modulo |
 ---------|----------|---------
@@ -43,7 +43,7 @@ I temi di esempio di riferimento aiutano gli autori a utilizzare, definire e per
 **Come si ottengono questi temi?**
 Per ottenere questi temi, segui i passaggi indicati di seguito per l’ambiente **AEM as a Cloud Service**:
 
-1. [Abilita i Componenti core dei moduli adattivi](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html?lang=it)
+<!-- 1. [Enable Adaptive Form Core Components](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html) -->
 1. [Distribuisci un progetto basato sull’Archetipo 47 AEM o successivo nell’ambiente](https://github.com/adobe/aem-project-archetype)
 
 
@@ -57,11 +57,11 @@ Quando distribuisci un progetto basato sull’Archetipo AEM, è possibile utiliz
 
 1. **AEM 6.5**
 
-    1. [Enable Adaptive Form Core Components](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/enable-adaptive-forms-core-components.html?lang=it)
+    1. [Enable Adaptive Form Core Components](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/enable-adaptive-forms-core-components.html)
     1. [Deploy an AEM Archetype 47 or later project to your environment](https://github.com/adobe/aem-project-archetype)
 
 
-    When you deploy an AEM Archetype, you can only use the OOTB themes in your forms, To customize the themes as per your requirements, [Use the front-end pipeline](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html?lang=it) to deploy the themes.
+    When you deploy an AEM Archetype, you can only use the OOTB themes in your forms, To customize the themes as per your requirements, [Use the front-end pipeline](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html) to deploy the themes.
 
 -->
 
@@ -74,13 +74,13 @@ You can get these themes by deploying an [AEM Archetype 47 or later](https://git
 
 ### Enable core components and use front-end pipeline to deploy themes {#use-front-end-pipeline-to-deploy-themes}
 
-1. To get these themes on **Forms as a Cloud Service** environment, [enable Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html?lang=it) and use the [front-end pipeline](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html?lang=it) to deploy these themes.
+1. To get these themes on **Forms as a Cloud Service** environment, [enable Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html) and use the [front-end pipeline](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html) to deploy these themes.
     
-1. To get these themes on **AEM 6.5 Forms** environment, [enable Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/enable-adaptive-forms-core-components.html?lang=it) and use the [Package Manager](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html?lang=it) to deploy these themes.
+1. To get these themes on **AEM 6.5 Forms** environment, [enable Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/enable-adaptive-forms-core-components.html) and use the [Package Manager](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html) to deploy these themes.
 
-[Learn to use and customize themes in AEM Forms as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html?lang=it). 
+[Learn to use and customize themes in AEM Forms as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html). 
 
-[Learn to use and customize themes in AEM 6.5](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html?lang=it).
+[Learn to use and customize themes in AEM 6.5](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html).
 
 -->
 
@@ -147,7 +147,7 @@ I modelli **pronti all’uso** dei [Componenti core dei moduli adattivi](https:/
 
 ### Basic {#Basic}
 
-A basic template helps you quickly create an enrollment experience form. You can also use it to preview the functionality of [Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=it). It provides a wizard layout for section-by-section presentation of data.
+A basic template helps you quickly create an enrollment experience form. You can also use it to preview the functionality of [Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html). It provides a wizard layout for section-by-section presentation of data.
 
 ![Basic Template](/help/adaptive-forms/assets/Basic-template-desktop-view.png)
 
@@ -161,7 +161,7 @@ Un modello di area di lavoro vuoto consente di creare da zero una struttura, un 
 
 ### Contattaci {#Contact-Us}
 
-Il modello di modulo Contattaci viene utilizzato per creare un modulo per facilitare la comunicazione tra i visitatori del sito web e gli amministratori del modulo. Tramite questo modulo gli utenti possono inviare query, feedback o richieste di supporto.
+Il modello per moduli Contattaci viene utilizzato per creare un modulo per facilitare la comunicazione tra i visitatori del sito web e gli amministratori del modulo. Tramite questo modulo gli utenti possono inviare query, feedback o richieste di supporto.
 
 ![Modello Contattaci](/help/adaptive-forms/assets/Contact-us-desktop-view.png)
 
@@ -173,7 +173,7 @@ Il modello di aggiornamento dei dettagli di contatto consente agli autori di cre
 
 ### Modulo di consenso {#Consent-Form}
 
-Il modello del modulo di consenso viene utilizzato per creare un modulo per l’acquisizione di un documento legale da parte di partecipanti a un’attività specifica, a uno studio di ricerca, a una procedura medica o a qualsiasi situazione in cui possano essere coinvolti dati o diritti personali. Il modulo garantisce la trasparenza, tutela i diritti dei partecipanti e fornisce una spiegazione chiara di ciò che l’individuo sta accettando.
+Il modello per moduli di consenso viene utilizzato per creare un modulo per l’acquisizione di un documento legale da parte di partecipanti a un’attività specifica, a uno studio di ricerca, a una procedura medica o a qualsiasi situazione in cui possano essere coinvolti dati o diritti personali. Il modulo garantisce la trasparenza, tutela i diritti dei partecipanti e fornisce una spiegazione chiara di ciò che l’individuo sta accettando.
 
 ![Modulo di consenso](/help/adaptive-forms/assets/Consent-form-desktop-view.png)
 
@@ -186,21 +186,21 @@ Il modello di richiesta del servizio di registro consente di creare un modulo ch
 
 ### Invia feedback {#Give-Feedback}
 
-Il modello del modulo di feedback consente di creare un modulo per fornire un feedback costruttivo a un’altra persona o a un team. Il modulo contribuisce a garantire un feedback chiaro, specifico e utilizzabile, promuovendo una comunicazione aperta e miglioramenti.
+Il modello per moduli di feedback consente di creare un modulo per fornire un feedback costruttivo a un’altra persona o a un team. Il modulo contribuisce a garantire un feedback chiaro, specifico e utilizzabile, promuovendo una comunicazione aperta e miglioramenti.
 
 ![Modello invia feedback](/help/adaptive-forms/assets/Give-feedback-desktop-view.png)
 
 
 ### Iscrizione alle prestazioni {#Benefits-Enrollment}
 
-Il modello del modulo di iscrizione alle prestazioni viene utilizzato per creare un modulo per raccogliere informazioni essenziali dai dipendenti in merito alle prestazioni e alle opzioni di copertura preferiti. In genere è necessario nel periodo di iscrizione alle prestazioni annuali.
+Il modello per moduli di iscrizione alle prestazioni viene utilizzato per creare un modulo per raccogliere informazioni essenziali dai dipendenti in merito alle prestazioni e alle opzioni di copertura preferiti. In genere è necessario nel periodo di iscrizione alle prestazioni annuali.
 
 ![Modello iscrizione alle prestazioni](/help/adaptive-forms/assets/Benefits-enrollment-form-template.png)
 
 
 ### Riepilogo prestazioni dei dipendenti {#Employee-Benefits-Summary}
 
-Il modello del modulo Riepilogo prestazioni dei dipendenti consente di creare un modulo per raccogliere dettagli essenziali sulle prestazioni di un indivuduo. Consente di valutare la copertura in modo rapido e accurato, fornendo una panoramica completa per ottenere assistenza e supporto efficienti.
+Il modello per moduli Riepilogo prestazioni dei dipendenti consente di creare un modulo per raccogliere dettagli essenziali sulle prestazioni di un individuo. Consente di valutare la copertura in modo rapido e accurato, fornendo una panoramica completa per ottenere assistenza e supporto efficienti.
 ![Riepilogo prestazioni dei dipendenti](/help/adaptive-forms/assets/Employee-benefits-summary.png)
 
 
@@ -212,33 +212,33 @@ Il modello Richiesta di estratto conto consente di creare un modulo che avvia il
 
 ### Controllo di sicurezza {#Safety-Inspection}
 
-Il modello del modulo per il controllo di sicurezza consente di creare un modulo in cui inserire dettagli per garantire un ambiente di lavoro sicuro. Effettuando controlli regolari tramite questo modulo, è possibile identificare potenziali rischi. Il modulo copre vari aspetti come le uscite di emergenza, la prevenzione di incendi, la sicurezza elettrica, i materiali pericolosi, i dispositivi di protezione personale, l’ergonomia delle postazioni di lavoro per la sicurezza e il benessere di dipendenti, visitatori e clienti.
+Il modello per moduli per il controllo di sicurezza consente di creare un modulo in cui inserire dettagli per garantire un ambiente di lavoro sicuro. Effettuando controlli regolari tramite questo modulo, è possibile identificare potenziali rischi. Il modulo copre vari aspetti come le uscite di emergenza, la prevenzione di incendi, la sicurezza elettrica, i materiali pericolosi, i dispositivi di protezione personale, l’ergonomia delle postazioni di lavoro per la sicurezza e il benessere di dipendenti, visitatori e clienti.
 
 ![Modulo di controllo di sicurezza](/help/adaptive-forms/assets/Safety-inspection-form.png)
 
 ### Ispezione del controllo qualità {#Quality-Control-Inspection}
 
-Il modello del modulo per l’ispezione del controllo qualità consente di creare un modulo per valutare e documentare l’aspetto visivo, le dimensioni, la funzionalità, la documentazione, i risultati dei test e la qualità complessiva di un prodotto o di un elemento. Consente di identificare i difetti, le non conformità e le azioni correttive necessarie per garantire il rispetto degli standard di qualità.
+Il modello per moduli per l’ispezione del controllo qualità consente di creare un modulo per valutare e documentare l’aspetto visivo, le dimensioni, la funzionalità, la documentazione, i risultati dei test e la qualità complessiva di un prodotto o di un elemento. Consente di identificare i difetti, le non conformità e le azioni correttive necessarie per garantire il rispetto degli standard di qualità.
 
 ![Ispezione del controllo qualità](/help/adaptive-forms/assets/Quality-Control-Inspection.png)
 
 
 ### Richiesta di acquisto {#Purchase-Request}
 
-Il modello del modulo per la richiesta di acquisto consente di creare un modulo per avviare il processo di approvvigionamento e consentire ai dipendenti di richiedere formalmente l’acquisto di beni o servizi necessari per il proprio lavoro. Il modulo acquisisce dettagli essenziali come la descrizione dell’articolo, la quantità, il fornitore preferito (se applicabile), l’allocazione del budget, la giustificazione per l’acquisto, le informazioni di consegna e le approvazioni richieste.
+Il modello per moduli per la richiesta di acquisto consente di creare un modulo per avviare il processo di approvvigionamento e consentire ai dipendenti di richiedere formalmente l’acquisto di beni o servizi necessari per il proprio lavoro. Il modulo acquisisce dettagli essenziali come la descrizione dell’articolo, la quantità, il fornitore preferito (se applicabile), l’allocazione del budget, la giustificazione per l’acquisto, le informazioni di consegna e le approvazioni richieste.
 
 ![Modulo richiesta di acquisto](/help/adaptive-forms/assets/Purchase-request-form.png)
 
-## Modelli di dati modulo di riferimento {#reference-models}
+## Modelli dati modulo di riferimento {#reference-models}
 
 Dopo aver creato un modulo adattivo basato su un [Componente core](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=it), è possibile connettere il modulo con i server di database Microsoft® Dynamics 365 e Salesforce, per abilitare i flussi di lavoro aziendali. Ad esempio:
 
 * Scrivere i dati in Microsoft® Dynamics 365 e Salesforce all’invio del modulo adattivo.
-* Scrivere i dati in Microsoft® Dynamics 365 e Salesforce tramite entità personalizzate definite nel Modello di dati modulo e viceversa.
+* Scrivere i dati in Microsoft® Dynamics 365 e Salesforce tramite entità personalizzate definite nel Modello dati modulo e viceversa.
 * Effettuare query per i dati sui server Microsoft® Dynamics 365 e Salesforce e precompilare i moduli adattivi.
 * Leggere i dati dal server Microsoft® Dynamics 365 e Salesforce.
 
-È possibile ottenere i seguenti modelli dati del modulo installando il [Pacchetto contenuto di riferimento](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/it/details.html/content/dam/aemcloud/public/aem-forms-reference-content.ui.content-2.1.0.zip):
+È possibile ottenere i seguenti modelli dati del modulo installando il [Pacchetto di contenuti di riferimento](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/it/details.html/content/dam/aemcloud/public/aem-forms-reference-content.ui.content-2.1.0.zip):
 
 * Microsoft® Dynamics 365
 * Salesforce
