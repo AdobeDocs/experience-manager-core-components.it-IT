@@ -5,10 +5,10 @@ breadcrumb-title: Guida dei Componenti core
 feature: Core Components
 user-guide-description: Per i progetti AEM tradizionali, utilizza i Componenti core estendibili per consentire agli autori di creare facilmente il contenuto.
 feature-set: Experience Manager Sites, Experience Manager Forms
-source-git-commit: bf6953f24388ed08cd5a66bb51011b3ac82fb58e
+source-git-commit: 1ac3d987337f8279e762ab5357d32bb732dea0be
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 100%
+source-wordcount: '428'
+ht-degree: 98%
 
 ---
 
@@ -141,10 +141,11 @@ ht-degree: 100%
       + [Piè di pagina](/help/adaptive-forms/components/footer.md)
    + [Personalizzare i componenti core dei moduli adattivi](/help/developing/customize-adaptive-forms-core-components.md)
    + [Modelli e temi di esempio](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
+   + [Abilita modelli di convalida input testo](/help/adaptive-forms/enable-validation-patterns.md)
 + Sviluppo {#developing}
    + [Sviluppo di Componenti core](/help/developing/overview.md)
    + [Percorsi verso il successo](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=it)
-   + [Esercitazione per sviluppatori WKND](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=it)
+   + [Esercitazione per sviluppatori WKND](https://experienceleague.adobe.com/it/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview)
    + [Personalizzazione dei Componenti core](/help/developing/customizing.md)
    + [Linee guida per i componenti](/help/developing/guidelines.md)
    + [Supporto AMP](/help/developing/amp.md)
