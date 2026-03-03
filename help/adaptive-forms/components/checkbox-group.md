@@ -3,10 +3,10 @@ title: Componente core dei moduli adattivi - Gruppo di caselle di controllo
 description: Utilizzo o personalizzazione del componente core del gruppo di caselle di controllo nei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '2101'
-ht-degree: 100%
+source-git-commit: e9354f24e1f2f8cd1e899dbd999e80406b5ce2bc
+workflow-type: tm+mt
+source-wordcount: '2315'
+ht-degree: 91%
 
 ---
 
@@ -53,17 +53,22 @@ Il componente core Gruppo di caselle di controllo dei moduli adattivi è stato r
 
 | Versione del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o versioni successive |
 |---|---|---|
+| v2 | Compatibile con <br>[versione 3.0.142](/help/adaptive-forms/version.md) e successive | |
 | v1 | Compatibile con <br>[versione 2.0.4](/help/adaptive-forms/version.md) e successive | Compatibile con <br>[versione 1.1.12](/help/adaptive-forms/version.md) e successive, ma precedenti a 2.0.0. |
 
 Per informazioni sulle versioni dei componenti core, consulta il documento [Versioni dei componenti core](/help/adaptive-forms/version.md).
 
+>[!NOTE]
+>
+> La versione v1 del componente core Gruppo di caselle di controllo supporta WCAG 2.1, che mira a rendere il contenuto accessibile seguendo le best practice per l’usabilità e la leggibilità. La versione v2 supporta WCAG 2.2, che compie un ulteriore passo avanti sottolineando l’accessibilità chiara, prevedibile e inequivocabile attraverso il raggruppamento logico e semantico di campi correlati, rendendola un requisito fondamentale per la progettazione di moduli inclusivi.
+
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_it). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Dettagli tecnici {#technical-details}
 
-Puoi trovare le informazioni più recenti sul componente core di un gruppo di caselle di controllo nei moduli adattivi nella documentazione tecnica su [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/checkboxgroup/v1/checkboxgroup). Per ulteriori informazioni sullo sviluppo dei componenti core, consulta la [Documentazione per gli sviluppatori di componenti core](/help/developing/overview.md).
+Puoi trovare le informazioni più recenti sul componente core di un gruppo di caselle di controllo nei moduli adattivi nella documentazione tecnica su [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/checkboxgroup/v1/checkboxgroup). Per ulteriori informazioni sullo sviluppo dei componenti core, consulta la [Documentazione per gli sviluppatori dei componenti core](/help/developing/overview.md).
 
 ## Finestra di dialogo per la configurazione {#configure-dialog}
 
@@ -79,7 +84,7 @@ Puoi personalizzare facilmente la tua esperienza con le caselle di controllo per
 - **Titolo** : con il relativo titolo è possibile identificare facilmente un componente in un modulo e, per impostazione predefinita, il titolo viene visualizzato sopra il componente. Se non aggiungi un titolo, al posto del testo del titolo viene visualizzato il nome del componente.
 
 - **Consenti testo formattato per titolo**: questa funzione permette agli utenti di formattare i titoli in testo normale, incorporando opzioni come il grassetto, il corsivo, il testo sottolineato, vari font, dimensioni dei font, colori e altre opzioni per migliorare la presentazione visiva e la personalizzazione. Offre maggiore flessibilità e controllo creativo nel far risaltare i titoli all’interno di documenti, siti web o applicazioni.\
-  Dopo aver selezionato la casella di controllo per **Consenti formato RTF per il titolo**, le opzioni di formattazione diventano visibili per applicare lo stile al titolo del componente. Per accedere a tutte le opzioni di formattazione disponibili, puoi fare clic sulla scheda `Fullscreen` ![Icona schermo intero](/help/adaptive-forms/assets/fullscreen-icon.png).
+  Dopo aver selezionato la casella di controllo **Consenti testo formattato per titolo**, le opzioni di formattazione diventano visibili per applicare lo stile al titolo del componente. Per accedere a tutte le opzioni di formattazione disponibili, puoi fare clic sulla scheda `Fullscreen` ![Icona schermo intero](/help/adaptive-forms/assets/fullscreen-icon.png).
 
   ![Supporto testo RTF](/help/adaptive-forms/assets/richtext-support-title.png)
 
@@ -88,7 +93,7 @@ Puoi personalizzare facilmente la tua esperienza con le caselle di controllo per
 - **Opzioni**: puoi aggiungere valori dati e visualizzare coppie di testo utilizzando il pulsante **Aggiungi**.\
   Una volta aggiunta una nuova opzione, è possibile eseguire le azioni seguenti:
    - **Valore Dati**: questa opzione consente di immettere il contenuto da inviare quando viene selezionata un’opzione.
-   - **Testo visualizzato**: questa opzione consente di inserire il contenuto da visualizzare in un modulo adattivo.
+   - **Testo Visualizzato**: questa opzione consente di inserire il contenuto da visualizzare in un modulo adattivo.
    - **Elimina**: tocca o fai clic per eliminare l’opzione di una casella di controllo.
    - **Ridisponi**: tocca o fai clic e trascina per modificare l’ordine dei pannelli.
 
@@ -103,7 +108,7 @@ Puoi personalizzare facilmente la tua esperienza con le caselle di controllo per
 
 - **Contrassegna come elemento modulo non associato**: seleziona l’opzione per configurare un campo modulo non collegato ad alcun schema. Questa opzione consente di salvare i dati senza aggiornare l’origine dati. Consente inoltre di gestire i dati in modo personalizzato, separato dall’integrazione standard del database.
 
-- **Tipo di dati del valore inviato** - questa opzione specifica il tipo di dati del valore inviato quando viene selezionata un’opzione. Se il **tipo di dati del valore inviato** è impostato su `Number` e si aggiungono dati della stringa a **Valore dati** nella scheda **Opzioni**, nella schermata viene visualizzato un messaggio di errore `Value type mismatch`.
+- **Tipo di dati del valore inviato** - questa opzione specifica il tipo di dati del valore inviato quando viene selezionata un’opzione. Se il **tipo di dati del valore inviato** è impostato su `Number` e si aggiungono dati stringa al **Valore dati** nella scheda **Opzioni**, nella schermata viene visualizzato il messaggio di errore `Value type mismatch`.
 
 - **Opzioni visualizzate**: questa opzione viene utilizzata per impostare l’allineamento visivo delle caselle di controllo in un modulo adattivo. Le due opzioni supportate sono:
    - **Orizzontale**: quando questa opzione è selezionata, le caselle di controllo vengono visualizzate da sinistra a destra in un modulo adattivo.
@@ -163,7 +168,7 @@ Il componente core Gruppo di caselle di controllo dei moduli adattivi supporta i
 
 ![Finestra di dialogo Proprietà personalizzate](/help/adaptive-forms/assets/checkbox-customproperties.png)
 
-Le proprietà personalizzate consentono di associare attributi personalizzati (coppie chiave-valore) a un componente core del modulo adattivo utilizzando il modello di modulo. Le proprietà personalizzate vengono riflesse nella sezione delle proprietà della rappresentazione headless del componente. Consentono di creare un comportamento di modulo dinamico che si adatta in base ai valori degli attributi personalizzati. Ad esempio, gli sviluppatori possono progettare diverse rappresentazioni di un componente moduli headless su piattaforme mobili, desktop o web, migliorando in modo significativo l’esperienza utente su un’ampia gamma di dispositivi.
+Le proprietà personalizzate consentono di associare attributi personalizzati (coppie chiave-valore) a un componente core del modulo adattivo utilizzando il modello per moduli. Le proprietà personalizzate vengono riflesse nella sezione delle proprietà della rappresentazione headless del componente. Consentono di creare un comportamento di modulo dinamico che si adatta in base ai valori degli attributi personalizzati. Ad esempio, gli sviluppatori possono progettare diverse rappresentazioni di un componente moduli headless su piattaforme mobili, desktop o web, migliorando in modo significativo l’esperienza utente su un’ampia gamma di dispositivi.
 
 - **Nome gruppo**: puoi fornire un nome per identificare il gruppo di proprietà personalizzate. È possibile aggiungere, eliminare o ridisporre più gruppi di proprietà personalizzate. Dopo aver aggiunto il gruppo di proprietà personalizzate, puoi visualizzare le seguenti opzioni:
 
@@ -173,9 +178,19 @@ Le proprietà personalizzate consentono di associare attributi personalizzati (c
 
    - **Ridisponi**: tocca o fai clic e trascina per ridisporre l’ordine del nome e del valore della proprietà personalizzata.
 
+## Supporto di set di campi e legende per il gruppo di caselle di controllo (v2)
+
+<span class="preview"> Questa funzionalità è disponibile tramite il programma di accesso anticipato. Per richiedere l&#39;accesso, invia un&#39;e-mail dal tuo indirizzo ufficiale a [aem-forms-ea@adobe.com](mailto:aem-forms-ea@adobe.com). </span>
+
+I componenti core Forms adattivi utilizzano elementi HTML semantici `<fieldset>` e `<legend>` per migliorare l&#39;accessibilità per i gruppi di caselle di controllo. Questi elementi consentono agli assistenti vocali di interpretare con precisione la struttura del modulo e di comunicare le relazioni tra le etichette dei gruppi e le relative opzioni.
+
+Il rendering del componente del gruppo di caselle di controllo (v2) all&#39;interno di un elemento `<fieldset>`, con l&#39;etichetta del gruppo racchiusa in un `<legend>` come primo elemento figlio. Questa struttura assicura che gli assistenti vocali pubblichino l’etichetta del gruppo prima di leggere le singole opzioni delle caselle di controllo, semplificando la comprensione del contesto e dello scopo di ciascuna opzione da parte degli utenti che dispongono di tecnologie per l’accessibilità.
+
+![set di campi casella di controllo](/help/adaptive-forms/assets/checkbox-fieldset.png)
+
 ## Articoli correlati {#related-articles}
 
-{{more-like-this}})
+{{more-like-this}}
 
 ## Consulta anche {#see-also}
 

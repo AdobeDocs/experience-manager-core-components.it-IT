@@ -3,10 +3,10 @@ title: Componente core dei moduli adattivi - Pulsante di scelta
 description: Utilizzo o personalizzazione del componente core del pulsante di scelta nei moduli adattivi.
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '2135'
-ht-degree: 100%
+source-git-commit: e9354f24e1f2f8cd1e899dbd999e80406b5ce2bc
+workflow-type: tm+mt
+source-wordcount: '2349'
+ht-degree: 91%
 
 ---
 
@@ -49,17 +49,23 @@ Il componente core Pulsante di scelta dei moduli adattivi è stato rilasciato a 
 
 | Versione del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o versioni successive |
 |---|---|---|
+| v2 | Compatibile con <br>[versione 3.0.142](/help/adaptive-forms/version.md) e successive | |
 | v1 | Compatibile con <br>[versione 2.0.4](/help/adaptive-forms/version.md) e successive | Compatibile con <br>[versione 1.1.12](/help/adaptive-forms/version.md) e successive, ma precedenti a 2.0.0. |
+
 
 Per informazioni sulle versioni dei componenti core, consulta il documento [Versioni dei componenti core](/help/adaptive-forms/version.md).
 
+>[!NOTE]
+>
+> La versione v1 del componente core Gruppo di caselle di controllo supporta WCAG 2.1, che mira a rendere il contenuto accessibile seguendo le best practice per l’usabilità e la leggibilità. La versione v2 supporta WCAG 2.2, che compie un ulteriore passo avanti sottolineando l’accessibilità chiara, prevedibile e inequivocabile attraverso il raggruppamento logico e semantico di campi correlati, rendendola un requisito fondamentale per la progettazione di moduli inclusivi.
+
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_it). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Dettagli tecnici {#technical-details}
 
-Per informazioni aggiornate sul componente core del pulsante di scelta nei moduli adattivi, consulta la documentazione tecnica disponibile in [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/radiobutton/v1/radiobutton). Per ulteriori informazioni sullo sviluppo dei componenti core, consulta la [Documentazione per gli sviluppatori di componenti core](/help/developing/overview.md).
+Per informazioni aggiornate sul componente core del pulsante di scelta nei moduli adattivi, consulta la documentazione tecnica disponibile in [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/radiobutton/v1/radiobutton). Per ulteriori informazioni sullo sviluppo dei componenti core, consulta la [Documentazione per gli sviluppatori dei componenti core](/help/developing/overview.md).
 
 ## Finestra di dialogo per la configurazione {#configure-dialog}
 
@@ -84,7 +90,8 @@ Puoi personalizzare facilmente l’esperienza del pulsante di scelta per i visit
    - **Valore Dati**: questa opzione consente di immettere il contenuto da inviare quando viene selezionata un’opzione.
    - **Testo Visualizzato**: questa opzione consente di inserire il contenuto da visualizzare in un modulo adattivo.
    - **Elimina**: tocca o fai clic per eliminare l’opzione di un pulsante di scelta.
-   - **Ridisponi**: tocca o fai clic e trascina per riordinare le opzioni. Puoi anche formattare le opzioni per il gruppo di pulsanti di scelta utilizzando **Consenti formato RTF per le opzioni**.
+   - **Ridisponi**: tocca o fai clic e trascina per riordinare le opzioni.
+Puoi anche formattare le opzioni per il gruppo di pulsanti di scelta utilizzando **Consenti formato RTF per le opzioni**.
 
   ![Supporto testo RTF per le opzioni](/help/adaptive-forms/assets/richtext-for-options.png)
 
@@ -150,13 +157,13 @@ La scheda è utilizzata per definire e gestire gli stili CSS per un componente. 
 
 - **Classi CSS predefinite**: è possibile fornire una classe CSS predefinita per il componente core del pulsante di scelta nei moduli adattivi.
 
-- **Stili consentiti**: è possibile definire gli stili fornendo un nome e la classe CSS che rappresenta lo stile. Ad esempio, puoi creare uno stile denominato “testo in grassetto” e fornire la classe CSS “spessore carattere: grassetto”. Puoi utilizzare o applicare questi stili a un modulo adattivo nell’editor di moduli adattivi. Per applicare uno stile, nell’editor dei moduli adattivi, seleziona il componente a cui applicare lo stile, passa alla finestra di dialogo delle proprietà e seleziona lo stile desiderato dall’elenco a discesa **Stili**. Per aggiornare o modificare gli stili, è sufficiente tornare alla finestra di dialogo per la progettazione, aggiornare gli stili nella scheda Stili e salvare le modifiche.
+- **Stili consentiti**: puoi definire gli stili fornendo un nome e la classe CSS che rappresenta lo stile. Ad esempio, puoi creare uno stile denominato “testo in grassetto” e fornire la classe CSS “spessore carattere: grassetto”. Puoi utilizzare o applicare questi stili a un modulo adattivo nell’editor di moduli adattivi. Per applicare uno stile, nell’editor dei moduli adattivi, seleziona il componente a cui applicare lo stile, passa alla finestra di dialogo delle proprietà e seleziona lo stile desiderato dall’elenco a discesa **Stili**. Per aggiornare o modificare gli stili, è sufficiente tornare alla finestra di dialogo per la progettazione, aggiornare gli stili nella scheda Stili e salvare le modifiche.
 
 ### Proprietà personalizzate
 
 ![Finestra di dialogo Proprietà personalizzate](/help/adaptive-forms/assets/checkbox-customproperties.png)
 
-Le proprietà personalizzate consentono di associare attributi personalizzati (coppie chiave-valore) a un componente core del modulo adattivo utilizzando il modello di modulo. Le proprietà personalizzate vengono riflesse nella sezione delle proprietà della rappresentazione headless del componente. Consentono di creare un comportamento di modulo dinamico che si adatta in base ai valori degli attributi personalizzati. Ad esempio, gli sviluppatori possono progettare diverse rappresentazioni di un componente moduli headless su piattaforme mobili, desktop o web, migliorando in modo significativo l’esperienza utente su un’ampia gamma di dispositivi.
+Le proprietà personalizzate consentono di associare attributi personalizzati (coppie chiave-valore) a un componente core del modulo adattivo utilizzando il modello per moduli. Le proprietà personalizzate vengono riflesse nella sezione delle proprietà della rappresentazione headless del componente. Consentono di creare un comportamento di modulo dinamico che si adatta in base ai valori degli attributi personalizzati. Ad esempio, gli sviluppatori possono progettare diverse rappresentazioni di un componente moduli headless su piattaforme mobili, desktop o web, migliorando in modo significativo l’esperienza utente su un’ampia gamma di dispositivi.
 
 - **Nome gruppo**: puoi fornire un nome per identificare il gruppo di proprietà personalizzate. È possibile aggiungere, eliminare o ridisporre più gruppi di proprietà personalizzate. Dopo aver aggiunto il gruppo di proprietà personalizzate, puoi visualizzare le seguenti opzioni:
 
@@ -165,6 +172,16 @@ Le proprietà personalizzate consentono di associare attributi personalizzati (c
    - **Elimina**: tocca o fai clic per eliminare il nome e il valore della proprietà personalizzata.
 
    - **Ridisponi**: tocca o fai clic e trascina per ridisporre l’ordine del nome e del valore della proprietà personalizzata.
+
+## Supporto del set di campi e della legenda per il pulsante di opzione (v2)
+
+<span class="preview"> Questa funzionalità è disponibile tramite il programma di accesso anticipato. Per richiedere l&#39;accesso, invia un&#39;e-mail dal tuo indirizzo ufficiale a [aem-forms-ea@adobe.com](mailto:aem-forms-ea@adobe.com). </span>
+
+I componenti core Forms adattivi utilizzano elementi HTML semantici `<fieldset>` e `<legend>` per migliorare l&#39;accessibilità per i gruppi di pulsanti di scelta. Questi elementi consentono agli assistenti vocali di interpretare con precisione la struttura del modulo e di comunicare le relazioni tra le etichette dei gruppi e le relative opzioni.
+
+I componenti del pulsante di opzione (v2) eseguono il rendering all&#39;interno di un elemento `<fieldset>`, con l&#39;etichetta del gruppo racchiusa in un `<legend>` come primo elemento figlio. Gli attributi ARIA ridondanti o non validi vengono rimossi e le singole etichette sono correttamente associate ai rispettivi input. In questo modo gli assistenti vocali leggono chiaramente ogni etichetta di pulsante di opzione, insieme al relativo contesto di gruppo.
+
+![pulsante di opzione](/help/adaptive-forms/assets/radiobutton-fieldset.png)
 
 ## Articoli correlati {#related-articles}
 
