@@ -3,16 +3,16 @@ title: Versioni dei Componenti core
 description: Le versioni dei Componenti core pubblicate possono contenere più di una versione degli stessi Componenti core. Questo documento spiega cosa s’intende per versioni e come comprendere la compatibilità con i Componenti core e AEM.
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 684bdb4168be00f02bb306dd7ab183e8c439b9e7
+source-git-commit: 94341eb0f9caf1764aed71f152e75d27ccec0f5a
 workflow-type: tm+mt
-source-wordcount: '3110'
-ht-degree: 99%
+source-wordcount: '3875'
+ht-degree: 96%
 
 ---
 
 # Versioni dei Componenti core {#core-components-versions}
 
-I Componenti core sono compatibili con installazioni di [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=it) e [&#x200B; AEM on-premise](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=it).
+I Componenti core sono compatibili con installazioni di [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=it) e [ AEM on-premise](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=it).
 
 ## Cronologia delle versioni e compatibilità {#release-history-and-compatibility}
 
@@ -26,6 +26,8 @@ La tabella che segue, il cui contenuto è [disponibile su GitHub con tutti i det
 
 | Versione | Descrizione | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service | Java | Data di pubblicazione |
 |---|---|---|---|---|---|---|---|
+| [2.30.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.4) | Questa versione ha risolto un problema di convalida del percorso. | - | 6.5.21.0+ | 6.5 LTS GA | Continua | 8, 11 | 30 gennaio 2026 |
+| [2.30.3](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.3) | Questa versione corregge una regressione nella finestra di dialogo dei criteri del componente Titolo. | - | 6.5.21.0+ | 6.5 LTS GA | Continua | 8, 11 | 5 dicembre 2025 |
 | [2.30.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.2) | Questa versione corregge una stringa non localizzata correlata al visualizzatore PDF. | - | 6.5.21.0+ | 6.5 LTS GA | Continua | 8, 11 | 23 ottobre 2025 |
 | [2.30.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.0) | Questa versione risolve alcuni problemi relativi a risorse e Dynamic Media, chiarisce il supporto delle LTS e risolve numerose correzioni di bug. | - | 6.5.21.0+ | 6.5 LTS GA | Continua | 8, 11 | 4 settembre 2025 |
 | [2.29.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.29.0) | Questa versione aggiunge il supporto per la creazione di versioni di anteprima delle risorse nel componente core Sites e include diverse correzioni di bug. | - | 6.5.21.0+ | 6.5 LTS GA | Continua | 8, 11 | 21 aprile 2025 |
@@ -66,7 +68,7 @@ La tabella che segue, il cui contenuto è [disponibile su GitHub con tutti i det
 | [2.17.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.8) | Questa versione patch corregge una modifica non compatibile con le versioni precedenti introdotta in precedenza. | 6.4.8.4+ | 6.5.6.0+ | - | Continua | 8, 11 | 2 agosto 2021 |
 | [2.17.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.6) | Questa versione patch aggiunge il supporto delle mappe del sito per le pagine e include vari miglioramenti a livello di accessibilità. | 6.4.8.4+ | 6.5.6.0+ | - | Continua | 8, 11 | 29 luglio 2021 |
 | [2.17.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.2) | Questa versione della patch include una correzione per il [livello dati](/help/developing/data-layer/overview.md) che non funziona con AEMaaCS. | 6.4.8.4+ | 6.5.6.0+ | - | Continua | 8, 11 | 8 luglio 2021 |
-| [2.17.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.0) | Questa versione include anteprime tecniche di molte nuove versioni dei componenti che supportano funzioni di gestione dei collegamenti e un’anteprima tecnica di una nuova funzione per le immagini del [componente Pagina.](/help/components/page.md) Sono incluse anche diverse correzioni di bug. | 6.4.8.4+ | 6.5.6.0+ | - | Continua | 8, 11 | 16 giugno 2021 |
+| [2.17.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.0) | Questa versione include anteprime tecniche di molte nuove versioni dei componenti che supportano funzioni di gestione dei collegamenti e un&#39;anteprima tecnica di una nuova funzione per le immagini del [componente Pagina.](/help/components/page.md) Sono incluse anche diverse correzioni di bug. | 6.4.8.4+ | 6.5.6.0+ | - | Continua | 8, 11 | 16 giugno 2021 |
 | [2.16.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.4) | Questa è una versione di patch per risolvere un problema con la nuova gestione di collegamenti. | 6.4.8.1+ | 6.5.5.0+ | - | Continua | 8, 11 | 19 maggio 2021 |
 | [2.16.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.2) | Anche questa è una versione di patch che principalmente risolve un problema con la nuova gestione dei collegamenti e con in più un miglioramento per il supporto di applicazioni multipagina per [PWA.](/help/components/page.md#pwa-support) | 6.4.8.1+ | 6.5.5.0+ | - | Continua | 8, 11 | 15 maggio 2021 |
 | [2.16.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.0) | Questa versione si concentra sul miglioramento dell’accessibilità e sull’introduzione di una nuova gestione di collegamenti per i componenti esistenti. | 6.4.8.1+ | 6.5.5.0+ | - | Continua | 8, 11 | 22 aprile 2021 |
@@ -157,7 +159,7 @@ Per ulteriori dettagli sulle versioni dei componenti core, vedi la [documentazio
 
 ### Indicazione estesa delle versioni {#releases}
 
-I Componenti core vengono resi disponibili tramite le **versioni** e [rappresentano gli artefatti effettivamente pubblicati e disponibili su GitHub.](https://github.com/adobe/aem-core-wcm-components/releases) Le versioni estese sono identificate con un numero decimale di formato `X.Y.Z` e raccolgono tutti i Componenti core come singolo pacchetto erogabile.
+I Componenti core vengono resi disponibili tramite **release** e [rappresentano gli artefatti effettivamente pubblicati disponibili su GitHub.](https://github.com/adobe/aem-core-wcm-components/releases) Le versioni estese sono identificate con un numero decimale di formato `X.Y.Z` e raccolgono tutti i Componenti core come singolo pacchetto erogabile.
 
 * **Versioni principali** introduce componenti completamente nuovi, miglioramenti alla versione esistente dei componenti e correzioni di bug standard. Ciò viene rappresentato da un incremento nel componente `X` del numero di versione.
 * **Versioni minori** introducono nuovi componenti, nuove funzionalità alle versioni esistenti dei componenti e correzioni di bug. Ciò viene rappresentato da un incremento nel componente `Y` del numero di versione.

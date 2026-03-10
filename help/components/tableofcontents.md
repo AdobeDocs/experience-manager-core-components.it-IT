@@ -3,10 +3,10 @@ title: Componente Sommario
 description: Il componente Sommario crea un sommario basato sui titoli nel contenuto della pagina, consentendo ai lettori di navigare rapidamente all'interno della pagina.
 role: Architect, Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '762'
-ht-degree: 100%
+source-git-commit: 1987431c99a1e4b834c86ea731c52a19909b297b
+workflow-type: tm+mt
+source-wordcount: '753'
+ht-degree: 98%
 
 ---
 
@@ -43,11 +43,11 @@ Per ulteriori informazioni sulle versioni e sugli aggiornamenti dei Componenti c
 >
 >In AEM as a Cloud Service, l’amministratore deve abilitare un filtro per il componente affinché possa essere eseguito il rendering dei contenuti del componente.
 >
->Per ulteriori informazioni, [consulta la documentazione GitHub del componente](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_it).
+>Per ulteriori informazioni, [consulta la documentazione GitHub del componente](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1).
 
 ### Dettagli tecnici {#technical-details}
 
-La documentazione tecnica più recente sul componente Sommario [è disponibile su GitHub](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_it).
+La documentazione tecnica più recente sul componente Sommario [è disponibile su GitHub](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1).
 
 Per ulteriori informazioni sullo sviluppo di Componenti core, vedi la [documentazione per gli sviluppatori di Componenti core](/help/developing/overview.md).
 
@@ -65,7 +65,7 @@ La finestra di dialogo di modifica consente all’autore del contenuto di defini
    * Se l’ID viene specificato, è responsabilità dell’autore accertarsi che sia univoco.
    * La modifica dell’ID può avere un impatto sul tracciamento di CSS, JS e livello dati.
 
-## Finestra di dialogo per la progettazione {#design-dialog}
+## Finestra di dialogo per progettazione {#design-dialog}
 
 Utilizzando la finestra di dialogo di progettazione, l’autore del modello può impostare il valore predefinito per la serie di titoli del componente Sommario e limitare i titoli da includere nel sommario in base a nomi di classi.
 
@@ -81,12 +81,8 @@ Utilizzando la finestra di dialogo di progettazione, l’autore del modello può
    * Tocca o fai clic sull&#39;icona **Elimina** accanto al nome di una classe per eliminarla.
 * **Ignora nomi di classe**: se questa opzione è impostata, i titoli con i nomi di classe specificati o contenuti all&#39;interno di elementi con i nomi di classe specificati verranno ignorati dal componente Sommario.
    * Tocca o fai clic sull’icona **Aggiungi** per aggiungere uno o più nomi di classi.
-   * Tocca o fai clic sull’icona **Elimina** accanto al nome di una classe per eliminarla.
+   * Tocca o fai clic sull&#39;icona **Elimina** accanto al nome di una classe per eliminarla.
 
 ### Scheda Stili {#styles-tab}
 
-Il componente Sommario supporta il [Sistema di stili](/help/get-started/authoring.md#component-styling) di AEM.
-
-## Adobe Client Data Layer {#data-layer}
-
-Il componente Sommario supporta [Adobe Client Data Layer](/help/developing/data-layer/overview.md).
+Il componente Sommario supporta il [sistema di stili.](/help/get-started/authoring.md#component-styling) di AEM.
