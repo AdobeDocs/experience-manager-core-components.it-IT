@@ -43,11 +43,11 @@ Per ulteriori informazioni sulle versioni e sugli aggiornamenti dei Componenti c
 >
 >In AEM as a Cloud Service, l’amministratore deve abilitare un filtro per il componente affinché possa essere eseguito il rendering dei contenuti del componente.
 >
->Per ulteriori informazioni, [consulta la documentazione GitHub del componente](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1).
+>Per ulteriori informazioni, [consulta la documentazione GitHub del componente](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_it).
 
 ### Dettagli tecnici {#technical-details}
 
-La documentazione tecnica più recente sul componente Sommario [è disponibile su GitHub](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1).
+La documentazione tecnica più recente sul componente Sommario [è disponibile su GitHub](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_it).
 
 Per ulteriori informazioni sullo sviluppo di Componenti core, vedi la [documentazione per gli sviluppatori di Componenti core](/help/developing/overview.md).
 

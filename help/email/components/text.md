@@ -37,7 +37,7 @@ Per ulteriori informazioni sulle versioni e sugli aggiornamenti dei Componenti c
 
 ### Dettagli tecnici {#technical-details}
 
-La documentazione tecnica più recente sul componente Testo e-mail [è disponibile su GitHub](https://adobe.com/go/aem_cmp_tech_email_text_v1).
+La documentazione tecnica più recente sul componente Testo e-mail [è disponibile su GitHub](https://adobe.com/go/aem_cmp_tech_email_text_v1_it).
 
 Per ulteriori informazioni sullo sviluppo di Componenti core, vedi la [documentazione per gli sviluppatori di Componenti core](/help/developing/overview.md).
 

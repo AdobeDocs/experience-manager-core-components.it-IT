@@ -41,7 +41,7 @@ Considera l’utilizzo della [Libreria dei componenti](https://adobe.com/go/aem_
 
 ### Utilizza il kit di interfaccia utente per Adobe XD {#ui-kit}
 
-Non appena si determina la comprovata necessità di un componente personalizzato, utilizza il kit dell’interfaccia utente per Adobe XD, [scaricabile da qui](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd), in modo che i designer possano iniziare a creare wireframe e progetti con i Componenti core come elementi costitutivi.
+Non appena si determina la comprovata necessità di un componente personalizzato, utilizza il kit dell’interfaccia utente per Adobe XD, [scaricabile da qui](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd?lang=it), in modo che i designer possano iniziare a creare wireframe e progetti con i Componenti core come elementi costitutivi.
 
 ## Non trascurare le funzioni più efficaci {#powerful-features}
 
