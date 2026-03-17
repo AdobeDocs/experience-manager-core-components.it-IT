@@ -1,12 +1,12 @@
 ---
 title: Componente Pagina e-mail
 description: Il componente Pagina e-mail
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 17fd0f5e-2b85-41a1-abaf-8ad190a5341a
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '780'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '817'
 ht-degree: 100%
 
 ---
@@ -37,7 +37,7 @@ Per ulteriori informazioni sulle versioni e sugli aggiornamenti dei componenti c
 
 ### Dettagli tecnici {#technical-details}
 
-La documentazione tecnica più recente sul componente Pagina [è disponibile su GitHub.](https://adobe.com/go/aem_cmp_tech_email_page_v1_it)
+La documentazione tecnica più recente sul componente Pagina [è disponibile su GitHub.](https://adobe.com/go/aem_cmp_tech_email_page_v1)
 
 Per ulteriori informazioni sullo sviluppo di Componenti core, vedi la [documentazione per gli sviluppatori di Componenti core](/help/developing/overview.md).
 

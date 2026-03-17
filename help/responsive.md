@@ -1,11 +1,11 @@
 ---
 title: Progettazione reattiva dei Componenti core
 description: Scopri la progettazione reattiva dei Componenti core e come può influenzare il progetto.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: c0eff174-6803-4b44-aeb1-eae3bc8a36ea
-source-git-commit: 5f49fb45869d1721e16a787a2c6ff927b6ad49fe
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '178'
 ht-degree: 100%
 
 ---

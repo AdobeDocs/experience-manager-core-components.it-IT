@@ -1,13 +1,13 @@
 ---
 title: Componente Immagine e-mail
 description: Il componente Immagine e-mail è un componente immagine adattivo che offre funzioni di modifica diretta.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: f5d40047-3082-4edd-a5f6-6ab3e33997f9
 index: false
-source-git-commit: 8952f6c574fe1e21ff35e95bc0af6433f0363e77
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '1626'
-ht-degree: 98%
+source-wordcount: '1685'
+ht-degree: 96%
 
 ---
 
@@ -47,9 +47,9 @@ Inoltre, il componente Immagine e-mail supporta il caricamento lazy, in modo che
 
 ## Supporto di Dynamic Media {#dynamic-media}
 
-Il componente Immagine e-mail supporta le risorse [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=it#dynamicmedia). [Se abilitate,](#design-dialog) queste funzioni consentono di aggiungere risorse immagine di Dynamic Media con una semplice azione di trascinamento e rilascio della selezione oppure tramite il browser delle risorse, esattamente come faresti con qualsiasi altra immagine. Sono inoltre supportati modificatori di immagini, predefiniti per immagini e ritaglio avanzato.
+Il componente Immagine e-mail supporta [risorse Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=it#dynamicmedia). [Se abilitate,](#design-dialog) queste funzioni consentono di aggiungere risorse immagine Dynamic Media con una semplice azione di trascinamento e rilascio della selezione oppure tramite il browser delle risorse, esattamente come faresti con qualsiasi altra immagine. Sono inoltre supportati modificatori di immagini, predefiniti per immagini e ritaglio avanzato.
 
-La tua esperienza e-mail costruita con i componenti core E-mail ora si arricchisce delle solide funzionalità per le immagini offerte da Dynamic Media, performanti, multipiattaforma e con tecnologia AI di Adobe.
+La tua esperienza e-mail costruita con i componenti core E-mail ora si arricchisce delle solide funzionalità per le immagini offerte da Dynamic Media, performanti, multipiattaforma e con tecnologia Adobe AI.
 
 ## Supporto di SVG {#svg-support}
 
@@ -65,7 +65,7 @@ Per motivi di sicurezza, il file SVG originale non viene mai richiamato direttam
 
 ### Dettagli tecnici {#technical-details}
 
-La documentazione tecnica più recente sul componente Immagine e-mail [è disponibile su GitHub.](https://adobe.com/go/aem_cmp_tech_email_image_v1_it)
+La documentazione tecnica più recente sul componente Immagine e-mail [è disponibile su GitHub.](https://adobe.com/go/aem_cmp_tech_email_image_v1)
 
 Per ulteriori informazioni sullo sviluppo di Componenti core, vedi la [documentazione per gli sviluppatori di Componenti core.](/help/developing/overview.md)
 
@@ -83,7 +83,7 @@ Il componente Immagine e-mail offre una finestra di dialogo di configurazione in
 
 * **Testo alternativo per accessibilità**: Questo campo consente di definire una descrizione dell’immagine per gli utenti ipovedenti.
 
-   * **Eredita testo alternativo dalla pagina**: Questa opzione utilizza la descrizione alternativa del valore della risorsa collegata dei metadati `dc:description` in DAM o nella pagina corrente se non è collegata alcuna risorsa.
+   * **Eredita testo alternativo dalla pagina** - Questa opzione utilizza la descrizione alternativa del valore della risorsa collegata dei metadati `dc:description` in DAM o nella pagina corrente se non è collegata alcuna risorsa.
 
 * **Risorsa immagine**
    * Rilascia una risorsa dal [browser di risorse](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=it) oppure tocca l’opzione **Sfoglia** per caricarla da un file system locale.
@@ -128,7 +128,7 @@ Il componente Immagine e-mail supporta il [Sistema di stili](/help/get-started/a
 
 Utilizza il menu a discesa per selezionare gli stili da applicare al componente. Le selezioni effettuate nella finestra di dialogo di modifica hanno lo stesso effetto di quelle selezionate nella barra degli strumenti del componente.
 
-Gli stili devono essere configurati per questo componente nella [finestra di dialogo per la progettazione](#design-dialog) affinché la scheda sia disponibile.
+Gli stili devono essere configurati per questo componente nella [finestra di dialogo per progettazione](#design-dialog) affinché la scheda sia disponibile.
 
 ## Finestra di dialogo per la progettazione {#design-dialog}
 

@@ -1,9 +1,9 @@
 ---
 title: Componente core dei moduli adattivi - Gruppo di caselle di controllo
 description: Utilizzo o personalizzazione del componente core del gruppo di caselle di controllo nei moduli adattivi.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
-source-git-commit: e9354f24e1f2f8cd1e899dbd999e80406b5ce2bc
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
 source-wordcount: '2315'
 ht-degree: 91%
@@ -62,9 +62,11 @@ Per informazioni sulle versioni dei componenti core, consulta il documento [Vers
 >
 > La versione v1 del componente core Gruppo di caselle di controllo supporta WCAG 2.1, che mira a rendere il contenuto accessibile seguendo le best practice per l’usabilità e la leggibilità. La versione v2 supporta WCAG 2.2, che compie un ulteriore passo avanti sottolineando l’accessibilità chiara, prevedibile e inequivocabile attraverso il raggruppamento logico e semantico di campi correlati, rendendola un requisito fondamentale per la progettazione di moduli inclusivi.
 
-<!-- ## Sample Component Output {#sample-component-output}
+<!--
+## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_it). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
+-->
 
 ## Dettagli tecnici {#technical-details}
 

@@ -1,12 +1,12 @@
 ---
 title: Componente Teaser e-mail
 description: Il componente Teaser e-mail può mostrare un’immagine, un titolo, un testo formattato e, opzionalmente, un collegamento ad altro contenuto.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: d6123b22-7cba-406c-986d-b6f00322d135
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '1002'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1048'
 ht-degree: 100%
 
 ---
@@ -36,7 +36,7 @@ La tabella che segue descrive tutte le versioni supportate del componente, le ve
 
 ### Dettagli tecnici {#technical-details}
 
-La documentazione tecnica più recente sul componente Teaser e-mail [è disponibile su GitHub.](https://adobe.com/go/aem_cmp_tech_email_teaser_v1_it)
+La documentazione tecnica più recente sul componente Teaser e-mail [è disponibile su GitHub.](https://adobe.com/go/aem_cmp_tech_email_teaser_v1)
 
 Per ulteriori informazioni sullo sviluppo di Componenti core, vedi la [documentazione per gli sviluppatori di Componenti core.](/help/developing/overview.md)
 
@@ -94,7 +94,7 @@ Il componente Teaser e-mail supporta il [Sistema di stili](/help/get-started/aut
 
 Utilizza il menu a discesa per selezionare gli stili da applicare al componente. Le selezioni effettuate nella finestra di dialogo di modifica hanno lo stesso effetto di quelle selezionate nella barra degli strumenti del componente.
 
-Gli stili devono essere configurati per questo componente nella [finestra di dialogo per la progettazione](#design-dialog) affinché la scheda sia disponibile.
+Gli stili devono essere configurati per questo componente nella [finestra di dialogo per progettazione](#design-dialog) affinché la scheda sia disponibile.
 
 ## Finestra di dialogo per la modifica {#edit-dialog}
 

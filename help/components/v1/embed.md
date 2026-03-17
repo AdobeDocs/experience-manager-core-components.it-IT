@@ -1,12 +1,12 @@
 ---
 title: Componente Incorpora (v1)
 description: Il componente Incorpora consente di incorporare contenuto esterno in una pagina di contenuto AEM.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 28a2d196-cc1f-4e29-a8e4-c2e0acba3bfc
-index: n
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '1240'
+index: false
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1317'
 ht-degree: 100%
 
 ---
@@ -35,11 +35,11 @@ Questo documento descrive la versione 1 del componente Incorpora, introdotto con
 
 ## Esempio di output del componente {#sample-component-output}
 
-Per avere un’idea del componente Incorpora e vedere esempi delle opzioni di configurazione e dell’output HTML e JSON, visita la [libreria dei componenti](https://adobe.com/go/aem_cmp_library_embed_it).
+Per avere un’idea del componente Incorpora e vedere esempi delle opzioni di configurazione e dell’output HTML e JSON, visita la [libreria dei componenti](https://adobe.com/go/aem_cmp_library_embed).
 
 ## Dettagli tecnici {#technical-details}
 
-La documentazione tecnica più recente sul componente Incorpora [è disponibile su GitHub](https://adobe.com/go/aem_cmp_tech_embed_v1_it).
+La documentazione tecnica più recente sul componente Incorpora [è disponibile su GitHub](https://adobe.com/go/aem_cmp_tech_embed_v1).
 
 Per ulteriori informazioni sullo sviluppo di Componenti core, vedi la [documentazione per gli sviluppatori di Componenti core](/help/developing/overview.md).
 

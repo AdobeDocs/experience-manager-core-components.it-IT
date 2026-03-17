@@ -1,12 +1,12 @@
 ---
 title: Componente Immagine (v1)
 description: Il componente core Immagine è un componente immagine adattivo che offre funzioni di modifica diretta.
-index: n
-role: Architect, Developer, Admin, User
+index: false
+role: Developer, Admin, User
 exl-id: 625ce8de-5c4a-476d-b749-895493d169b1
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '1293'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1369'
 ht-degree: 100%
 
 ---
@@ -41,7 +41,7 @@ La tabella che segue riporta la compatibilità della versione 1 del componente I
 
 ## Esempio di output del componente {#sample-component-output}
 
-Di seguito è riportato un esempio tratto da [We.Retail](https://helpx.adobe.com/it/experience-manager/6-4/sites/developing/using/we-retail.html).
+Di seguito è riportato un esempio tratto da [We.Retail](https://experienceleague.adobe.com/docs/experience-manager-64/developing/bestpractices/we-retail/we-retail.html?lang=it).
 
 ### Schermata {#screenshot}
 
@@ -223,7 +223,7 @@ Utilizza questa opzione per consentire all’autore del contenuto di utilizzare 
 
   >[!CAUTION]
   >
-  >L’opzione **Riflessione** è disabilitata per impostazione predefinita. Attivando questa opzione, i pulsanti **Riflessione verticale** e **Riflessione orizzontale** vengono visualizzati nella finestra di dialogo per modifica del componente Immagine, ma questa funzione non è attualmente supportata da AEM e le modifiche effettuate utilizzando queste opzioni non verranno mantenute.
+  >L’opzione **Riflessione** è disabilitata per impostazione predefinita. Abilitando questa opzione, i pulsanti **Riflessione verticale** e **Riflessione orizzontale** vengono visualizzati nella finestra di dialogo per modifica del componente Immagine, ma questa funzione non è attualmente supportata da AEM e le modifiche effettuate utilizzando queste opzioni non verranno mantenute.
 
 * Ritaglio
 

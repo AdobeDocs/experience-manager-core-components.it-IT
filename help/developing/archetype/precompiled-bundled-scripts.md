@@ -2,12 +2,12 @@
 title: Script in bundle precompilati
 description: Scopri come distribuire gli script dei componenti tramite bundle OSGi in Adobe Experience Manager Cloud Service.
 feature: Core Components, AEM Project Archetype
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: 3edc388f-01b2-45cc-bd56-f22e5a5a8624
-source-git-commit: 554be9539428cd75462a38fc45f1bece04baf066
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 100%
+source-wordcount: '416'
+ht-degree: 93%
 
 ---
 
@@ -35,7 +35,7 @@ La distribuzione di script in bundle precompilati presenta i seguenti vantaggi:
 
 Il framework OSGi permette di definire [Requisiti e funzionalità](https://docs.osgi.org/specification/osgi.core/7.0.0/framework.module.html#framework.module.dependencies) per esprimere relazioni e vincoli tra vari componenti. Questi vengono descritti tramite metadati e applicati in fase di runtime. Gli script in bundle utilizzano questo meccanismo per esprimere sia le relazioni di ereditarietà (`sling:resourceSuperType`) che la delega (anche per altri tipi di risorse nel processo di rendering).
 
-Il plug-in `bnd` dal progetto [scriptingbundle-maven-plugin](https://sling.apache.org/components/scriptingbundle-maven-plugin/bnd.html) può essere utilizzato per estrarre i requisiti e le funzionalità in base agli script forniti dal pacchetto di contenuti [`ui.apps`.Pacchetto contenuti ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=it#code-packages-%2F-osgi-bundles)
+Il plug-in `bnd` dal progetto [scriptingbundle-maven-plugin](https://sling.apache.org/components/scriptingbundle-maven-plugin/bnd.html) può essere utilizzato per estrarre i requisiti e le funzionalità corrispondenti agli script forniti da [`ui.apps`.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=it#code-packages-%2F-osgi-bundles) pacchetto di contenuti
 
 ## Supporto di Archetipo progetto AEM {#support}
 

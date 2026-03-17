@@ -6,10 +6,10 @@ topic: Administration
 role: Admin, User
 level: Intermediate
 exl-id: aef6e88b-dcae-4777-9893-9257d7702f43
-source-git-commit: 2be68aa708131486f7d89f33952153a7a90c3d0a
+source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
 workflow-type: tm+mt
-source-wordcount: '1233'
-ht-degree: 100%
+source-wordcount: '1384'
+ht-degree: 96%
 
 ---
 
@@ -20,7 +20,7 @@ I Componenti core di [!DNL AEM Forms] forniscono temi di esempio, modelli e mode
 I temi, i modelli e i modelli di dati per moduli di esempio inclusi nel pacchetto di contenuti di riferimento sono:
 
 | Modelli | Temi | Modelli dati modulo |
----------|----------|---------
+|---------|----------|---------|
 | [Vuoto](#Blank) | [Area di lavoro](#Canvas) | Microsoft® Dynamics 365 |
 | [Contattaci](#Contact-Us) | [WKND](#WKND) | Salesforce |
 | [Aggiornamento dei dettagli di contatto](#Contact-Details-Update) | [Cavalletto](#Easel) |   |
@@ -40,11 +40,11 @@ I temi, i modelli e i modelli di dati per moduli di esempio inclusi nel pacchett
 
 I temi di esempio di riferimento aiutano gli autori a utilizzare, definire e personalizzare lo stile dei moduli; gli autori con conoscenze di base di CSS possono personalizzare il tema secondo le proprie esigenze.
 
-**Come si ottengono questi temi?**
-Per ottenere questi temi, segui i passaggi indicati di seguito per l’ambiente **AEM as a Cloud Service**:
+**Come ottenere questi temi?**
+Ottieni questi temi utilizzando i seguenti passaggi forniti di seguito per l&#39;ambiente **AEM as a Cloud Service**:
 
-<!-- 1. [Enable Adaptive Form Core Components](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html?lang=it) -->
-1. [Distribuisci un progetto basato sull’Archetipo 47 AEM o successivo nell’ambiente](https://github.com/adobe/aem-project-archetype)
+<!-- 1. [Enable Adaptive Form Core Components](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html) -->
+1. [Distribuire un progetto AEM Archetype 47 o successivo nell’ambiente](https://github.com/adobe/aem-project-archetype)
 
 
 Quando distribuisci un progetto basato sull’Archetipo AEM, è possibile utilizzare solo i temi predefiniti nei moduli. Per personalizzare i temi in base alle tue esigenze, [utilizza la pipeline front-end](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html?lang=it) per distribuire i temi.
@@ -57,11 +57,11 @@ Quando distribuisci un progetto basato sull’Archetipo AEM, è possibile utiliz
 
 1. **AEM 6.5**
 
-    1. [Enable Adaptive Form Core Components](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/enable-adaptive-forms-core-components.html?lang=it)
+    1. [Enable Adaptive Form Core Components](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/enable-adaptive-forms-core-components.html)
     1. [Deploy an AEM Archetype 47 or later project to your environment](https://github.com/adobe/aem-project-archetype)
 
 
-    When you deploy an AEM Archetype, you can only use the OOTB themes in your forms, To customize the themes as per your requirements, [Use the front-end pipeline](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html?lang=it) to deploy the themes.
+    When you deploy an AEM Archetype, you can only use the OOTB themes in your forms, To customize the themes as per your requirements, [Use the front-end pipeline](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html) to deploy the themes.
 
 -->
 
@@ -74,13 +74,13 @@ You can get these themes by deploying an [AEM Archetype 47 or later](https://git
 
 ### Enable core components and use front-end pipeline to deploy themes {#use-front-end-pipeline-to-deploy-themes}
 
-1. To get these themes on **Forms as a Cloud Service** environment, [enable Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html?lang=it) and use the [front-end pipeline](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html?lang=it) to deploy these themes.
+1. To get these themes on **Forms as a Cloud Service** environment, [enable Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html) and use the [front-end pipeline](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html) to deploy these themes.
     
-1. To get these themes on **AEM 6.5 Forms** environment, [enable Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/enable-adaptive-forms-core-components.html?lang=it) and use the [Package Manager](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html?lang=it) to deploy these themes.
+1. To get these themes on **AEM 6.5 Forms** environment, [enable Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/enable-adaptive-forms-core-components.html) and use the [Package Manager](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html) to deploy these themes.
 
-[Learn to use and customize themes in AEM Forms as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html?lang=it). 
+[Learn to use and customize themes in AEM Forms as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html). 
 
-[Learn to use and customize themes in AEM 6.5](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html?lang=it).
+[Learn to use and customize themes in AEM 6.5](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html).
 
 -->
 
@@ -147,7 +147,7 @@ I modelli **pronti all’uso** dei [Componenti core dei moduli adattivi](https:/
 
 ### Basic {#Basic}
 
-A basic template helps you quickly create an enrollment experience form. You can also use it to preview the functionality of [Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=it). It provides a wizard layout for section-by-section presentation of data.
+A basic template helps you quickly create an enrollment experience form. You can also use it to preview the functionality of [Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html). It provides a wizard layout for section-by-section presentation of data.
 
 ![Basic Template](/help/adaptive-forms/assets/Basic-template-desktop-view.png)
 
@@ -200,8 +200,8 @@ Il modello per moduli di iscrizione alle prestazioni viene utilizzato per creare
 
 ### Riepilogo prestazioni dei dipendenti {#Employee-Benefits-Summary}
 
-Il modello per moduli Riepilogo prestazioni dei dipendenti consente di creare un modulo per raccogliere dettagli essenziali sulle prestazioni di un individuo. Consente di valutare la copertura in modo rapido e accurato, fornendo una panoramica completa per ottenere assistenza e supporto efficienti.
-![Riepilogo prestazioni dei dipendenti](/help/adaptive-forms/assets/Employee-benefits-summary.png)
+Il modello per moduli Riepilogo prestazioni dei dipendenti consente di creare un modulo per raccogliere dettagli essenziali sulle prestazioni di un individuo. Consente di valutare la copertura in modo rapido e accurato, fornendo una panoramica completa per assistenza e supporto efficienti.
+![Sintetico benefit dipendenti](/help/adaptive-forms/assets/Employee-benefits-summary.png)
 
 
 ### Richiesta di estratto conto {#Request-for-Account-Statement}

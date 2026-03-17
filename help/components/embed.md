@@ -1,11 +1,11 @@
 ---
 title: Componente Incorpora
 description: Il componente Incorpora consente di incorporare contenuto esterno in una pagina di contenuto AEM.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '1343'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1421'
 ht-degree: 100%
 
 ---
@@ -39,7 +39,7 @@ Per ulteriori informazioni sulle versioni e sugli aggiornamenti dei Componenti c
 
 ## Esempio di output del componente {#sample-component-output}
 
-Per avere un’idea del componente Incorpora e vedere esempi delle opzioni di configurazione e dell’output HTML e JSON, visita la [libreria dei componenti](https://adobe.com/go/aem_cmp_library_embed_it).
+Per avere un’idea del componente Incorpora e vedere esempi delle opzioni di configurazione e dell’output HTML e JSON, visita la [libreria dei componenti](https://adobe.com/go/aem_cmp_library_embed).
 
 ## Dettagli tecnici {#technical-details}
 
@@ -47,7 +47,7 @@ La documentazione tecnica più recente sul componente Incorpora [è disponibile 
 
 Per ulteriori informazioni sullo sviluppo di Componenti core, vedi la [documentazione per gli sviluppatori di Componenti core](/help/developing/overview.md).
 
-## Finestra di dialogo per la configurazione {#configure-dialog}
+## Finestra di dialogo per configurazione {#configure-dialog}
 
 La finestra di dialogo per configurazione consente all’autore di contenuto di definire la risorsa esterna da incorporare nella pagina.
 

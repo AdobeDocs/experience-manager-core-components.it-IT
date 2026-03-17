@@ -1,11 +1,11 @@
 ---
 title: Componente Elenco frammenti di contenuto
 description: Il componente core Elenco frammenti di contenuto consente la visualizzazione di un elenco di frammenti di contenuto.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 0f2295b1-d287-4f72-8ee4-fa98c4850e53
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '806'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '851'
 ht-degree: 100%
 
 ---
@@ -94,7 +94,7 @@ Per impostazione predefinita, tutti gli elementi del Modello del Frammento di co
 
 ![Scheda Stili della finestra di dialogo per modifica del componente Elenco frammenti di contenuto](/help/assets/content-fragment-list-styles.png)
 
-Il componente Frammento esperienza supporta il [sistema di stili di AEM](/help/get-started/authoring.md#component-styling).
+Il componente Elenco frammenti di contenuto supporta il [sistema di stili di AEM](/help/get-started/authoring.md#component-styling).
 
 Utilizza il menu a discesa per selezionare gli stili da applicare al componente. Le selezioni effettuate nella finestra di dialogo di modifica hanno lo stesso effetto di quelle selezionate nella barra degli strumenti del componente.
 
@@ -104,4 +104,4 @@ Gli stili devono essere configurati per questo componente nella [finestra di dia
 
 ### Scheda Stili {#styles-tab}
 
-Il componente Frammento esperienza supporta il [sistema di stili di AEM.](/help/get-started/authoring.md#component-styling)
+Il componente Elenco frammenti di contenuto supporta il [sistema di stili di AEM.](/help/get-started/authoring.md#component-styling)

@@ -1,13 +1,13 @@
 ---
 title: Componente segmentazione e-mail
 description: Il componente Segmentazione e-mail
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 6c88b8c5-189a-40c0-ab28-04d37dc5fbac
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '1089'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1156'
+ht-degree: 96%
 
 ---
 
@@ -37,7 +37,7 @@ La tabella che segue descrive tutte le versioni supportate del componente, le ve
 
 ### Dettagli tecnici {#technical-details}
 
-La documentazione tecnica più recente sul componente Teaser e-mail [è disponibile su GitHub.](https://adobe.com/go/aem_cmp_tech_email_segmentation_v1_it)
+La documentazione tecnica più recente sul componente Teaser e-mail [è disponibile su GitHub.](https://adobe.com/go/aem_cmp_tech_email_segmentation_v1)
 
 Per ulteriori informazioni sullo sviluppo di Componenti core, vedi la [documentazione per gli sviluppatori di Componenti core.](/help/developing/overview.md)
 
@@ -136,6 +136,6 @@ Tocca o fai clic sul pulsante **Aggiungi** per creare nuove condizioni.
 * **Nome della condizione del segmento**: descrizione della condizione
 * **Condizione del segmento**: la condizione effettiva che deve essere soddisfatta, in base alle variabili di personalizzazione di Adobe Campaign
    * [Consulta qui per le risorse di personalizzazione di Adobe Campaign Standard.](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=it)
-   * [Consulta qui per le risorse di personalizzazione di Adobe Campaign Classic.]&#x200B;(https://experienceleague.adobe.com/docs/?lang=it
+   * [Consulta qui per le risorse di personalizzazione di Adobe Campaign Classic.]&#x200B;(https://experienceleague.adobe.com/docs/
 * **Rimuovi**: tocca o fai clic per rimuovere la condizione
 * **Ridisponi**: tocca o fai clic e trascina per modificare l’ordine delle condizioni

@@ -1,17 +1,17 @@
 ---
 title: Componente Pagina
 description: Il componente Pagina è una pagina estensibile concepita per funzionare con l’editor di modelli e consentire l’assemblaggio di intestazione/piè di pagina e altri componenti della struttura della pagina.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 2503e067-abed-427d-8a54-8b79e3451487
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '695'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '739'
+ht-degree: 95%
 
 ---
 
 
-# Componente Pagina {#page-component}
+# Componente Pagina{#page-component}
 
 Il componente Pagina è una pagina estensibile concepita per funzionare con l’[editor di modelli](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=it) e consentire l’assemblaggio di intestazione/piè di pagina e altri componenti della struttura della pagina.
 
@@ -39,7 +39,7 @@ Per ulteriori informazioni sulle versioni e sugli aggiornamenti dei Componenti c
 
 ## Supporto di Progressive Web App {#pwa-support}
 
-La versione 2.15.0 dei Componenti core ha introdotto il supporto delle [funzionalità Progressive Web App (PWA) incorporate in AEM as a Cloud Service.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=it)Con una semplice configurazione a livello di sito, puoi trasformare la tua esperienza AEM in un’esperienza PWA.
+La versione 2.15.0 dei Componenti core ha introdotto il supporto delle funzionalità integrate di AEM as a Cloud Service [Progressive Web Apps (PWA).](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=it) Con una semplice configurazione a livello di sito, puoi trasformare la tua esperienza AEM in un’esperienza PWA.
 
 ### Dettagli tecnici {#technical-details}
 
@@ -74,7 +74,7 @@ La finestra per progettazione della pagina consente di definire le librerie clie
 
 * **Selettore per passare all’elemento del contenuto principale**: utilizzato come funzione di accessibilità per passare direttamente al contenuto principale della pagina
 
-* **Collegamenti di lingue alternative del rendering** - Se questa opzione è attivata, i collegamenti alle versioni in lingua alternativa della pagina nello stesso sito verranno aggiunti all’intestazione della pagina.
+* **Collegamenti di lingue alternative del rendering** - Se questa opzione è abilitata, i collegamenti alle versioni in lingua alternativa della pagina nello stesso sito verranno aggiunti all’intestazione della pagina.
 
 ![Finestra di dialogo per progettazione del componente Pagina](/help/assets/page-design.png)
 

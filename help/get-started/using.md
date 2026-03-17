@@ -1,12 +1,12 @@
 ---
 title: Utilizzo dei Componenti core
 description: 'Per iniziare a utilizzare i Componenti core nel tuo progetto, segui questi tre passaggi: scarica e installa, crea componenti proxy, carica gli stili core e consenti i componenti sui tuoi modelli.'
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: ee2d25e4-e2b8-4ecc-a62c-f0066de2bf2d
-source-git-commit: 8beae61676340e8aafaee469018d865ea7ed934e
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 96%
+source-wordcount: '1043'
+ht-degree: 92%
 
 ---
 
@@ -26,7 +26,7 @@ Per iniziare a utilizzare i Componenti core nel tuo progetto, segui i quattro pa
 
 >[!TIP]
 >
->Se utilizzi [Archetipo progetto AEM,](/help/developing/archetype/overview.md) i Componenti core vengono inclusi automaticamente nel progetto in base alle raccomandazioni sulle best practice di Adobe.
+>Se utilizzi [Archetipo progetto AEM,](/help/developing/archetype/overview.md) i Componenti core vengono inclusi automaticamente nel progetto in base ali consigli sulle best practice di Adobe.
 
 ## Scaricamento e installazione {#download-and-install}
 
@@ -44,15 +44,15 @@ Alcuni punti da tenere presenti quando utilizzi i Componenti core su AEMaaCS:
 * La pipeline di creazione del progetto genera avvisi nel registro, se include nuovamente i Componenti core come parte di `/apps`, e ignora la versione incorporata nel progetto.
    * In una prossima versione, includere nuovamente i Componenti core non permetterà di generare la pipeline.
 * Se il progetto già includeva i Componenti core in `/apps`, [potrebbe essere necessario adeguare il progetto.](/help/developing/overview.md#via-aemaacs)
-* Anche se i Componenti core sono ora inclusi in `/libs`, si sconsiglia di creare sovrapposizioni dello stesso percorso in `/apps`. Va invece utilizzato [il modello di componente proxy](/help/developing/guidelines.md#proxy-component-pattern), se è necessario personalizzare un qualunque aspetto dei componenti.
+* Anche se i Componenti core si trovano ora in `/libs`, non è consigliabile creare sovrapposizioni dello stesso percorso in `/apps`. [Utilizzare il modello di componente proxy](/help/developing/guidelines.md#proxy-component-pattern) se è necessario personalizzare un aspetto qualsiasi dei componenti.
 * Per eseguire il rendering del contenuto del [componente Sommario](/help/components/tableofcontents.md), è necessario configurare un filtro in OSGi.
-   * Per ulteriori informazioni, [consulta la documentazione GitHub del componente](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_it).
+   * Per ulteriori informazioni, [consulta la documentazione GitHub del componente](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1).
 
 ### AEM 6.5 e versioni precedenti {#aem-65}
 
 I Componenti core non fanno parte dell’avvio rapido, quando si inizia in modalità di produzione (senza esempi di contenuto). Pertanto, il primo passaggio è quello di [scaricare l’ultimo pacchetto dei contenuti rilasciato da GitHub](https://github.com/adobe/aem-core-wcm-components/releases/latest) e installarlo nei tuoi ambienti AEM.
 
-Esistono diversi modi per automatizzare questo processo, ma il modo più semplice per installare rapidamente un pacchetto dei contenuti su un’istanza è quello di utilizzare Gestione pacchetti; vedi [Installazione di pacchetti](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=it#installing-packages). Inoltre, una volta che avrai in esecuzione anche un’istanza Publish, dovrai replicare quel pacchetto nell’editore; vedi [Replica di pacchetti](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=it#replicating-packages).
+Esistono diversi modi per automatizzare questo processo, ma il modo più semplice per installare rapidamente un pacchetto di contenuti su un’istanza è quello di utilizzare il gestore di pacchetti; vedi [Installazione di pacchetti](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=it#installing-packages). Inoltre, una volta che avrai in esecuzione anche un’istanza Publish, dovrai replicare quel pacchetto nell’editore; vedi [Replica di pacchetti](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=it#replicating-packages).
 
 ## Creazione di componenti proxy {#create-proxy-components}
 

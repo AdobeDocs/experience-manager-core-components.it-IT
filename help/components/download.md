@@ -1,17 +1,17 @@
 ---
-title: 'Componente Scarica '
+title: Componente Scarica
 description: Il componente core Scarica consente di creare un’opzione di scaricamento su una pagina.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 48e7ade0-b849-4d1f-b836-51196e5ac507
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '741'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '770'
 ht-degree: 100%
 
 ---
 
 
-# Componente Scarica {#download-component}
+# Componente Scarica{#download-component}
 
 Il componente core Scarica consente di creare un’opzione di scaricamento su una pagina.
 
@@ -68,9 +68,9 @@ La selezione di una risorsa da scaricare è molto simile alla funzionalità del 
 
 * **Titolo**: viene visualizzato come titolo dell’elemento da scaricare
    * **Ottieni titolo da risorsa DAM**: se selezionata, viene inserito automaticamente il titolo della risorsa DAM.
-* **Descrizione**: il sottotitolo descrittivo dell’elemento da scaricare
+* **Descrizione**: sottotitolo descrittivo dell’elemento da scaricare
    * **Ottieni descrizione da risorsa DAM**: se selezionata, viene inserita automaticamente la descrizione della risorsa DAM.
-* **Testo azione**: il testo dell’azione per l’elemento da scaricare
+* **Testo azione**: testo dell’azione per l’elemento da scaricare
    * Questo campo è necessario per caricare una risorsa dal file system.
    * **Visualizza in linea**: se selezionata, il testo specificato in **Testo azione** viene visualizzato in linea.
 * **ID**: questa opzione consente di controllare l’identificatore univoco del componente nel codice HTML e nel [livello dati](/help/developing/data-layer/overview.md).

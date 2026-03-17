@@ -1,11 +1,11 @@
 ---
 title: Authoring con i Componenti core
 description: 'In AEM, i componenti sono gli elementi strutturali che costituiscono il contenuto delle pagine che vengono create: i Componenti core offrono funzionalità flessibili e avanzate per l’authoring.'
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 56e58303-a178-45ab-b59d-e374c9cf90cf
-source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '792'
 ht-degree: 100%
 
 ---

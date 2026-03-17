@@ -1,12 +1,12 @@
 ---
 title: Componente Teaser (v1)
 description: Il componente Teaser può mostrare un’immagine, un titolo, un testo formattato e opzionalmente un collegamento verso altri contenuti.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 48e56938-660a-43e7-9e62-8069283ae73f
-index: n
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '722'
+index: false
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '766'
 ht-degree: 100%
 
 ---
@@ -42,7 +42,7 @@ La documentazione tecnica più recente sul componente Teaser [è disponibile su 
 
 Per ulteriori informazioni sullo sviluppo di Componenti core, vedi la [documentazione per gli sviluppatori di Componenti core](/help/developing/overview.md).
 
-## Finestra di dialogo per la configurazione {#configure-dialog}
+## Finestra di dialogo per configurazione {#configure-dialog}
 
 L’autore di contenuti può utilizzare la finestra di dialogo per la configurazione per definire le proprietà del singolo teaser. È inoltre disponibile una [finestra di dialogo per la modifica](#edit-dialog) che consente di modificare l’immagine del teaser, se ne è stata selezionata una.
 
@@ -53,7 +53,7 @@ L’autore di contenuti può utilizzare la finestra di dialogo per la configuraz
 * **Risorsa immagine**
    * Rilascia una risorsa dal [browser di risorse](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=it) oppure tocca l’opzione **Sfoglia** per caricarla da un file system locale.
    * Tocca o fai clic su **Cancella** per deselezionare l’immagine attualmente selezionata.
-   * Tocca o fai clic su **Modifica** per [gestire le rappresentazioni della risorsa](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=it) nell’Editor risorse.
+   * Tocca o fai clic su **Modifica** per [gestire i rendering della risorsa](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=it) nell’editor risorse.
 
 >[!NOTE]
 >

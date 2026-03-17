@@ -1,13 +1,13 @@
 ---
 title: Componente Frammento esperienza e-mail
 description: Il componente Frammento esperienza e-mail consente all’autore del contenuto di inserire in esso una variante del Frammento esperienza e al contempo supporta una struttura per contenuti localizzati.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 861c1fd1-6d6d-426c-a338-a558326fe16e
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '865'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '894'
+ht-degree: 94%
 
 ---
 
@@ -120,7 +120,7 @@ La finestra di dialogo per configurazione consente all’autore di contenuti di 
 
 Utilizza il pulsante **Apri finestra di dialogo per selezione** per aprire il selettore di componenti e scegliere la variante del componente Frammento esperienza da aggiungere alla pagina di contenuto.
 
-Se aggiungi il componente Frammento esperienza e-mail a un modello, noterai che verrà automaticamente localizzato, a condizione che i frammenti esperienza siano localizzati, pertanto ciò che viene renderizzato sulla pagina può variare in base al componente esplicitamente selezionato. Per ulteriori informazioni, [vedi l’esempio precedente](#example).
+Se aggiungi il componente Frammento esperienza e-mail a un modello, verrà automaticamente localizzato, a condizione che i Frammenti esperienza siano localizzati, pertanto ciò che viene renderizzato sulla pagina può variare in base al componente esplicitamente selezionato. [Per ulteriori informazioni, vedi l&#39;esempio precedente](#example).
 
 Puoi anche definire un **ID**. Questa opzione consente di controllare l’identificatore univoco del componente nell’HTM.
 
@@ -134,7 +134,7 @@ Il componente Frammento esperienza e-mail supporta il [sistema di stili](/help/g
 
 Utilizza il menu a discesa per selezionare gli stili da applicare al componente. Le selezioni effettuate nella finestra di dialogo di modifica hanno lo stesso effetto di quelle selezionate nella barra degli strumenti del componente.
 
-Gli stili devono essere configurati per questo componente nella [finestra di dialogo per la progettazione](#design-dialog) affinché la scheda sia disponibile.
+Gli stili devono essere configurati per questo componente nella [finestra di dialogo per progettazione](#design-dialog) affinché la scheda sia disponibile.
 
 ## Finestra di dialogo per la progettazione {#design-dialog}
 

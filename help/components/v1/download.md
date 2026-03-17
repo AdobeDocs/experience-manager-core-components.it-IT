@@ -1,12 +1,12 @@
 ---
 title: Componente Scarica (v1)
 description: Il componente core Scarica consente di creare un’opzione di download su una pagina.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: ebd63522-218d-4784-bea0-1627c64f5230
-index: n
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '621'
+index: false
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '649'
 ht-degree: 100%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 # Componente Scarica (v1) {#download-component}
 
-Il componente core Scarica consente di creare un’opzione di download su una pagina.
+Il componente core Scarica consente di creare un’opzione di scaricamento su una pagina.
 
 ## Utilizzo {#usage}
 
@@ -39,7 +39,7 @@ Per avere un’idea del componente Scarica e vedere esempi delle opzioni di conf
 
 ## Dettagli tecnici {#technical-details}
 
-La documentazione tecnica più recente sul componente Scarica [è disponibile su GitHub](https://adobe.com/go/aem_cmp_tech_download_v1_it).
+La documentazione tecnica più recente sul componente Scarica [è disponibile su GitHub](https://adobe.com/go/aem_cmp_tech_download_v1).
 
 Per ulteriori informazioni sullo sviluppo di Componenti core, vedi la [documentazione per gli sviluppatori di Componenti core](/help/developing/overview.md).
 
@@ -64,9 +64,9 @@ La selezione di una risorsa da scaricare è molto simile alla funzionalità del 
 
 * **Titolo**: viene visualizzato come titolo dell’elemento da scaricare
    * **Ottieni titolo da risorsa DAM**: se selezionata, viene inserito automaticamente il titolo della risorsa DAM.
-* **Descrizione**: il sottotitolo descrittivo dell’elemento da scaricare
+* **Descrizione**: sottotitolo descrittivo dell’elemento da scaricare
    * **Ottieni descrizione da risorsa DAM**: se selezionata, viene inserita automaticamente la descrizione della risorsa DAM.
-* **Testo azione**: il testo dell’azione per l’elemento da scaricare
+* **Testo azione**: testo dell’azione per l’elemento da scaricare
    * Questo campo è necessario per caricare una risorsa dal file system.
    * **Visualizza in linea**: se selezionata, il testo specificato in **Testo azione** viene visualizzato in linea.
 * **ID**: questa opzione consente di controllare l’identificatore univoco del componente nel codice HTML e nel [livello dati](/help/developing/data-layer/overview.md).

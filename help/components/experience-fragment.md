@@ -1,12 +1,12 @@
 ---
 title: Componente Frammento esperienza
 description: Il componente Frammento esperienza consente all’autore di contenuto di aggiungere a una pagina una variante del Frammento esperienza.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 103f729a-084d-4b6a-a239-d8ef8902eb95
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '889'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '895'
+ht-degree: 94%
 
 ---
 
@@ -124,7 +124,7 @@ La finestra di dialogo per configurazione consente all’autore di contenuto di 
 
 Utilizza il pulsante **Apri finestra di dialogo per selezione** per aprire il selettore di componenti e scegliere la variante del componente Frammento esperienza da aggiungere alla pagina di contenuto.
 
-Se aggiungi il componente Frammento esperienza a un modello, noterai che verrà automaticamente localizzato, a condizione che i Frammenti esperienza siano localizzati, pertanto ciò che viene rappresentato sulla pagina può variare in base al componente esplicitamente selezionato. Per ulteriori informazioni, [vedi l’esempio precedente](#example).
+Se aggiungi il componente Frammento esperienza a un modello, noterai che verrà automaticamente localizzato, a condizione che i Frammenti esperienza siano localizzati, pertanto ciò che viene renderizzato sulla pagina può variare in base al componente esplicitamente selezionato. [Per ulteriori informazioni, vedi l&#39;esempio precedente](#example).
 
 Puoi anche definire un **ID**. Questa opzione consente di controllare l’identificatore univoco del componente nel codice HTML e nel [livello dati](/help/developing/data-layer/overview.md).
 

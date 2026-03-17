@@ -1,12 +1,12 @@
 ---
 title: Componente core moduli adattivi - Piè di pagina
 description: Utilizzo o personalizzazione del componente core piè di pagina dei moduli adattivi.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: c8e7d3fe-4b82-4a80-8da2-19f6cff1e3e9
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '767'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '783'
+ht-degree: 94%
 
 ---
 
@@ -45,9 +45,11 @@ Il componente core Piè di pagina dei moduli adattivi è stato rilasciato a febb
 
 Per informazioni sulle versioni dei componenti core, consulta il documento [Versioni dei componenti core](/help/adaptive-forms/version.md).
 
-<!-- ## Sample Component Output {#sample-component-output}
+<!--
+## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_it). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
+-->
 
 ## Dettagli tecnici {#technical-details}
 
@@ -63,9 +65,9 @@ Puoi personalizzare facilmente l’esperienza del piè di pagina per i visitator
 - **Finestra di dialogo Modifica**
 La finestra di dialogo Modifica fornisce strumenti di formattazione rich text standard che consentono all’utente di creare un testo per il piè di pagina.
 
-- **Grassetto**: consente di applicare il grassetto al testo selezionato o al testo inserito dopo il cursore. `Ctrl+B` è una scelta rapida della tastiera.
+- **Grassetto** - Questa opzione applica il formato grassetto al testo selezionato o al testo in grassetto   formattare il testo immesso dopo il cursore. `Ctrl+B` è una scelta rapida da tastiera.
 
-- **Corsivo**: questa opzione applica la formattazione in corsivo al testo selezionato o al testo in corsivo inserito dopo il cursore. `Ctrl+I` è una scelta rapida della tastiera.
+- **Corsivo** - Questa opzione applica la formattazione in corsivo al testo selezionato o   testo in corsivo immesso dopo il cursore. `Ctrl+I` è una scelta rapida da tastiera.
 
 ![Opzioni punto elenco](/help/adaptive-forms/assets/footer_bullet.png)
 
@@ -112,7 +114,7 @@ La finestra di dialogo Modifica fornisce strumenti di formattazione rich text st
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=it)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

@@ -1,11 +1,11 @@
 ---
 title: Componente Visualizzatore PDF
 description: Il componente Visualizzatore PDF consente la visualizzazione di un documento PDF.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: deb635f5-2b73-4e7a-9838-3a941e39e898
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '685'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '716'
 ht-degree: 100%
 
 ---
@@ -78,11 +78,11 @@ L’area di visualizzazione occupa l’intera finestra del browser. Questa soluz
 * **Modalità di visualizzazione predefinita**: il visualizzatore si adatta alla pagina in cui viene visualizzato
    * Adatta pagina
    * Adatta larghezza
-* **Schermo intero**: se selezionata, il visualizzatore occuperà l’intera altezza/larghezza del riquadro di visualizzazione.
-* **Strumenti di annotazione**: se selezionata, sono disponibili gli strumenti di annotazione.
-* **Pannello a sinistra**: se selezionata, viene visualizzato il pannello a sinistra.
-* **Scarica PDF**: se selezionata, viene visualizzato il pulsante Scarica.
-* **Stampa PDF**: se selezionata, viene visualizzato il pulsante Stampa.
+* **Schermo intero**: se questa opzione è abilitata, il visualizzatore occuperà l’intera altezza/larghezza del riquadro di visualizzazione.
+* **Strumenti di annotazione**: se questa opzione è abilitata, sono disponibili gli strumenti di annotazione.
+* **Pannello a sinistra**: se questa opzione è abilitata, viene visualizzato il pannello a sinistra.
+* **Scarica PDF**: se questa opzione è abilitata, viene visualizzato il pulsante Scarica.
+* **Stampa PDF**: se questa opzione è abilitata, viene visualizzato il pulsante Stampa.
 * **Controlli pagina**: consente di attivare o disattivare i controlli della pagina.
    * Àncora
    * Disancora
@@ -93,9 +93,9 @@ L’area di visualizzazione occupa l’intera finestra del browser. Questa soluz
 
 ![Scheda Personalizza con l’opzione Contenitore selezionato nella finestra di dialogo per modifica del componente Visualizzatore PDF](/help/assets/pdf-viewer-edit-customize-sized-container.png)
 
-* **Schermo intero**: se selezionata, il visualizzatore occuperà l’intera altezza/larghezza del riquadro di visualizzazione.
-* **Scarica PDF**: se selezionata, viene visualizzato il pulsante Scarica.
-* **Stampa PDF**: se selezionata, viene visualizzato il pulsante Stampa.
+* **Schermo intero**: se questa opzione è abilitata, il visualizzatore occuperà l’intera altezza/larghezza del riquadro di visualizzazione.
+* **Scarica PDF**: se questa opzione è abilitata, viene visualizzato il pulsante Scarica.
+* **Stampa PDF**: se questa opzione è abilitata, viene visualizzato il pulsante Stampa.
 * **Controlli pagina**: consente di attivare o disattivare i controlli della pagina.
    * Àncora
    * Disancora
@@ -106,8 +106,8 @@ Tutte le pagine del PDF compaiono in linea in una pagina web. Questa funzione è
 
 ![Scheda Personalizza con l’opzione Contenitore selezionato nella finestra di dialogo per modifica del componente Visualizzatore PDF](/help/assets/pdf-viewer-edit-customize-inline.png)
 
-* **Scarica PDF**: se selezionata, viene visualizzato il pulsante Scarica.
-* **Stampa PDF**: se selezionata, viene visualizzato il pulsante Stampa.
+* **Scarica PDF**: se questa opzione è abilitata, viene visualizzato il pulsante Scarica.
+* **Stampa PDF**: se questa opzione è abilitata, viene visualizzato il pulsante Stampa.
 
 ## Finestra di dialogo per progettazione {#design-dialog}
 

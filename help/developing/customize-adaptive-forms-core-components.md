@@ -1,11 +1,11 @@
 ---
 title: Personalizzare i componenti core dei moduli adattivi
 description: Scopri come estendere o creare un componente core dei moduli adattivi per implementare funzionalità personalizzate per la tua organizzazione.
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: f3ab12aa-d48d-47e9-a965-15052cac6f18
-source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
-workflow-type: ht
-source-wordcount: '562'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '754'
 ht-degree: 100%
 
 ---
@@ -58,4 +58,4 @@ Segui i passaggi seguenti per modificare l’aspetto, il comportamento e la funz
 
 1. **Distribuire il componente personalizzato nell’ambiente di produzione**
 
-   Dopo aver testato il componente nell’ambiente di sviluppo locale, distribuiscilo negli ambienti di produzione.
+   Dopo aver testato il componente nell’ambiente di sviluppo locale, implementalo negli ambienti di produzione.

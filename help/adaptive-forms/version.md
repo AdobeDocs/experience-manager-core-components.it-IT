@@ -1,12 +1,12 @@
 ---
 title: Introduzione ai componenti core dei moduli adattivi in AEM
 description: Le versioni dei Componenti core AEM pubblicate possono contenere più di una versione degli stessi Componenti core. Questo documento spiega cosa s’intende per versioni e come comprendere la compatibilità con i Componenti core e AEM.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
-source-git-commit: 2be68aa708131486f7d89f33952153a7a90c3d0a
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 92%
+source-wordcount: '213'
+ht-degree: 93%
 
 ---
 

@@ -1,11 +1,11 @@
 ---
 title: Supporto per risorse remote
 description: Scopri come configurare i Componenti core Immagine e Teaser per supportare le risorse remote utilizzando Dynamic Media con OpenAPI.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: b462c1f3-a6c8-4a2a-abf4-d08ec82d4371
-source-git-commit: 36ef19d5b29fe21f86309719d1e3f6588e31a93b
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '523'
 ht-degree: 100%
 
 ---
@@ -24,13 +24,13 @@ Scopri come configurare i Componenti core Immagine e Teaser per supportare le ri
 Il supporto per le risorse remote che utilizzano Dynamic Media con OpenAPI richiede:
 
 * AEM 6.5 SP 18+ o AEM as a Cloud Service
-* Componenti Core versione 2.23.2 o successiva
+* Componenti core versione 2.23.2 o successiva
 
 ## Configurare HTTPS {#https}
 
 In genere si consiglia di eseguire tutte le istanze di produzione AEM utilizzando HTTP. Tuttavia, gli ambienti di sviluppo locali potrebbero non essere configurati come tali. In ogni caso, le risorse remote di Dynamic Media cion OpenAPI richiedono HTTPS per funzionare.
 
-Per configurare HTTPS ovunque desideri utilizzare le risorse remote, inclusi gli ambienti di sviluppo, [utilizza questa guida](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/security/use-the-ssl-wizard.html?lang=it).
+Per configurare HTTPS ovunque desideri utilizzare le risorse remote, inclusi gli ambienti di sviluppo, [utilizza questa guida](https://experienceleague.adobe.com/it/docs/experience-manager-learn/foundation/security/use-the-ssl-wizard).
 
 ## Configurare OSGi {#osgi}
 

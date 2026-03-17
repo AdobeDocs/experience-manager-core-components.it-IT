@@ -1,16 +1,16 @@
 ---
 title: Componente Testo Modulo
 description: Il componente core Testo modulo consente l’inserimento di testo del modulo per l’invio.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: e8fa3881-51fb-4726-9654-8f93acfb7464
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: ht
-source-wordcount: '578'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '581'
 ht-degree: 100%
 
 ---
 
-# Componente Testo Modulo {#form-text-component}
+# Componente Testo Modulo{#form-text-component}
 
 Il componente core Testo modulo consente l’inserimento di testo del modulo per l’invio.
 

@@ -1,12 +1,12 @@
 ---
 title: Introduzione ai Componenti core E-mail
 description: Crea contenuti e-mail coinvolgenti utilizzando la flessibilità dei componenti core E-mail e distribuiscili con la potenza di Adobe Campaign.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 0a411f28-bd6a-4bad-b473-6bc27c1d1055
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '376'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '439'
 ht-degree: 100%
 
 ---

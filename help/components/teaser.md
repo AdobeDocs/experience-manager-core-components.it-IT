@@ -1,12 +1,12 @@
 ---
 title: Componente Teaser
 description: Il componente Teaser può mostrare un’immagine, un titolo, un testo RTF e opzionalmente un collegamento ad altro contenuto.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '1046'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1101'
+ht-degree: 93%
 
 ---
 
@@ -36,7 +36,7 @@ La tabella che segue descrive tutte le versioni supportate del componente, le ve
 
 ## Supporto risorse remote {#remote-assets}
 
-Il componente Teaser (a partire dalla [versione 2.23.2](/help/versions.md)) supporta le risorse remote. [Una volta configurato](/help/developing/remote-assets.md), puoi selezionare le risorse da un servizio remoto per il componente Teaser.
+Il componente Teaser (a partire dalla [versione 2.23.2](/help/versions.md)) supporta le risorse remote. [Una volta configurata,](/help/developing/remote-assets.md) puoi selezionare le risorse da un servizio remoto per il componente teaser.
 
 ## Esempio di output del componente {#sample-component-output}
 
@@ -48,7 +48,7 @@ La documentazione tecnica più recente sul componente Teaser [è disponibile su 
 
 Per ulteriori informazioni sullo sviluppo di Componenti core, vedi la [documentazione per gli sviluppatori di Componenti core](/help/developing/overview.md).
 
-## Finestra di dialogo per la configurazione {#configure-dialog}
+## Finestra di dialogo per configurazione {#configure-dialog}
 
 L’autore di contenuti può utilizzare la finestra di dialogo per la configurazione per definire le proprietà del singolo teaser. È inoltre disponibile una [finestra di dialogo per la modifica](#edit-dialog) che consente di modificare l’immagine del teaser, se ne è stata selezionata una.
 
@@ -56,11 +56,11 @@ L’autore di contenuti può utilizzare la finestra di dialogo per la configuraz
 
 ![Scheda collegamento della finestra di dialogo per modifica del componente Teaser](/help/assets/teaser-edit-links.png)
 
-Il titolo, la descrizione e l’immagine del teaser possono essere ereditati dalla pagina collegata oppure dalla pagina collegata del primo invito all’azione. In assenza di un collegamento e di un invito all’azione, verranno ereditati dalla pagina corrente.
+Il titolo, la descrizione e l’immagine del teaser possono essere ereditati dalla pagina collegata o dalla pagina collegata nel primo call to action. Se non viene specificato né un collegamento né un call to action, il titolo, la descrizione e l’immagine verranno ereditati dalla pagina corrente.
 
 * **Collegamento** - Questo file collega a una pagina di contenuti, un URL esterno o un ancoraggio pagina.
-* **Apri collegamento in una nuova scheda** - Se attivato, il collegamento si aprirà in una nuova scheda del browser.
-* **Invito all’azione** - Questa opzione consente il collegamento a più destinazioni.
+* **Apri collegamento in una nuova scheda** - Se abilitato, il collegamento si aprirà in una nuova scheda del browser.
+* **Inviti all’azione** - Questa opzione consente il collegamento a più destinazioni.
    * La pagina collegata nella prima chiamata all’azione viene utilizzata per ereditare il titolo, la descrizione o l’immagine del teaser.
 
 ### Scheda Testo {#text-tab}
@@ -85,11 +85,11 @@ Il titolo, la descrizione e l’immagine del teaser possono essere ereditati dal
 * **Risorsa immagine** - Rilascia una risorsa dal [browser di risorse](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=it) oppure tocca l’opzione **Sfoglia** per caricarla da un file system locale.
    * Tocca o fai clic su **Cancella** per deselezionare l’immagine attualmente selezionata.
    * Tocca o fai clic su **Scegli** per aprire il [browser Risorse](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=it) e selezionare un’immagine.
-      * Se il [Supporto risorse remote](#remote-assets) è attivato, sono disponibili diverse opzioni per la scelta di una risorsa:
+      * Se il [Supporto risorse remote](#remote-assets) è abilitato, sono disponibili diverse opzioni per la scelta di una risorsa:
          * **Locale** sceglie la risorsa dalla libreria di risorse AEM locale.
          * **Remoto** sceglie la risorsa da una libreria Dynamic Media esterna all’istanza AEM.
    * Tocca o fai clic su **Modifica** per [gestire le rappresentazioni della risorsa](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=it) nell’Editor risorse.
-* **Testo alternativo per l’accessibilità** - Questo campo consente di definire una descrizione dell’immagine per gli utenti ipovedenti.
+* **Testo alternativo per accessibilità**: Questo campo consente di definire una descrizione dell’immagine per gli utenti ipovedenti.
    * **Eredita testo alternativo dalla pagina** - Questa opzione utilizza la descrizione alternativa del valore della risorsa collegata dei metadati `dc:description` in DAM o nella pagina corrente se non è collegata alcuna risorsa.
 * **Non fornire testo alternativo** - Questa opzione contrassegna l’immagine da ignorare da tecnologie per l’accessibilità, come gli assistenti vocali, nei casi in cui l’immagine sia puramente decorativa o in altro modo non trasmetta informazioni aggiuntive alla pagina.
 
@@ -107,7 +107,7 @@ Gli stili devono essere configurati per questo componente nella [finestra di dia
 
 Il componente Teaser delega il rendering dell’immagine al [componente Immagine](image.md). Pertanto, la [finestra di dialogo per modifica]&#x200B;(image.md#edit-dialog) del componente Immagine è disponibile per consentire all’autore di contenuto di manipolare l’immagine del teaser.
 
-## Finestra di dialogo per progettazione {#design-dialog}
+## Finestra di dialogo per la progettazione {#design-dialog}
 
 La finestra di dialogo per la progettazione consente all’autore di modelli di definire le opzioni del teaser disponibili per l’autore di contenuti quando utilizza questo componente.
 

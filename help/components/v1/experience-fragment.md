@@ -1,13 +1,13 @@
 ---
 title: Componente Frammento esperienza (v1)
 description: Il componente Frammento esperienza consente all’autore del contenuto di aggiungere a una pagina una variante del Frammento esperienza.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 42230a7b-6feb-4535-baf9-b8fc06978d98
-index: n
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '770'
-ht-degree: 100%
+index: false
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '775'
+ht-degree: 94%
 
 ---
 
@@ -108,7 +108,7 @@ Per avere un’idea del componente Frammento esperienza e vedere esempi delle op
 
 ## Dettagli tecnici {#technical-details}
 
-La documentazione tecnica più recente sul componente Frammento esperienza [è disponibile su GitHub](https://adobe.com/go/aem_cmp_tech_xf_v1_it).
+La documentazione tecnica più recente sul componente Frammento esperienza [è disponibile su GitHub](https://adobe.com/go/aem_cmp_tech_xf_v1).
 
 Per ulteriori informazioni sullo sviluppo di Componenti core, vedi la [documentazione per gli sviluppatori di Componenti core](/help/developing/overview.md).
 
@@ -120,7 +120,7 @@ La finestra di dialogo per configurazione consente all’autore di contenuto di 
 
 Utilizza il pulsante **Apri finestra di dialogo per selezione** per aprire il selettore di componenti e scegliere la variante del componente Frammento esperienza da aggiungere alla pagina di contenuto.
 
-Se aggiungi il componente Frammento esperienza a un modello, noterai che verrà automaticamente localizzato, a condizione che i Frammenti esperienza siano localizzati, pertanto ciò che viene rappresentato sulla pagina può variare in base al componente esplicitamente selezionato. Per ulteriori informazioni, [vedi l’esempio precedente](#example).
+Se aggiungi il componente Frammento esperienza a un modello, noterai che verrà automaticamente localizzato, a condizione che i Frammenti esperienza siano localizzati, pertanto ciò che viene renderizzato sulla pagina può variare in base al componente esplicitamente selezionato. [Per ulteriori informazioni, vedi l&#39;esempio precedente](#example).
 
 Puoi anche definire un **ID**. Questa opzione consente di controllare l’identificatore univoco del componente nel codice HTML e nel [livello dati](/help/developing/data-layer/overview.md).
 

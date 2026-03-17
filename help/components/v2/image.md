@@ -1,13 +1,13 @@
 ---
 title: Componente Immagine (v2)
 description: Il componente core Immagine è un componente immagine adattivo che offre funzioni di modifica diretta.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
-index: n
-source-git-commit: 8952f6c574fe1e21ff35e95bc0af6433f0363e77
+index: false
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '2050'
-ht-degree: 98%
+source-wordcount: '2119'
+ht-degree: 96%
 
 ---
 
@@ -44,9 +44,9 @@ Inoltre, il componente Immagine supporta il caricamento lento per posticipare il
 
 ## Supporto di Dynamic Media {#dynamic-media}
 
-Il componente Immagine (a partire dalla [versione 2.13.0](/help/versions.md)) supporta le risorse di [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=it#dynamicmedia). [Se abilitate,](#design-dialog) queste funzioni consentono di aggiungere risorse immagine di Dynamic Media con una semplice azione di trascinamento e rilascio della selezione oppure tramite il browser delle risorse, esattamente come faresti con qualsiasi altra immagine. Sono inoltre supportati modificatori di immagini, predefiniti per immagini e ritaglio avanzato.
+Il componente Immagine (a partire dalla [versione 2.13.0](/help/versions.md)) supporta [risorse Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=it#dynamicmedia). [Se abilitate,](#design-dialog) queste funzioni consentono di aggiungere risorse immagine Dynamic Media con una semplice azione di trascinamento e rilascio della selezione oppure tramite il browser delle risorse, esattamente come faresti con qualsiasi altra immagine. Sono inoltre supportati modificatori di immagini, predefiniti per immagini e ritaglio avanzato.
 
-La tua esperienza web costruita con i Componenti core non offre funzionalità avanzate, basate sull’intelligenza artificiale di Adobe, solide, ad alte prestazioni e multipiattaforma per le funzionalità di immagine di Dynamic Media.
+La tua esperienza web costruita con i Componenti core non offre funzionalità avanzate, basate su Adobe AI, solide, ad alte prestazioni e multipiattaforma per le immagini Dynamic Media.
 
 ## Supporto di SVG {#svg-support}
 

@@ -2,12 +2,12 @@
 title: Utilizzo di Archetipo progetto AEM
 description: L’Archetipo progetto AEM crea un progetto AEM minimo basato sulle best practice di Adobe Experience Manager come punto di partenza per i tuoi progetti AEM.
 feature: Core Components, AEM Project Archetype
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: a3978d8b-4904-42aa-9ee2-9c1f884327bb
-source-git-commit: bd92a5d1884056ca7b44ea28e5817d8bde10a4d9
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '1092'
-ht-degree: 100%
+source-wordcount: '1326'
+ht-degree: 92%
 
 ---
 
@@ -28,7 +28,7 @@ L’archetipo del progetto rende facile iniziare a sviluppare in AEM. Puoi inizi
 
 * **Tutorial WKND**: per un’ottima introduzione allo sviluppo in AEM, incluso il modo di utilizzare l’archetipo, consulta la [Guida introduttiva ai AEM Sites: tutorial WKND](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=it) per un esempio pratico che illustra come utilizzare l’archetipo per implementare un semplice progetto.
 * **Tutorial eventi WKND**: se sei particolarmente interessato allo sviluppo di applicazioni a pagina singola (SPA) in AEM, consulta [tutorial dedicato sugli eventi WKND.](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html?lang=it)
-* **Inizia da solo!**: puoi scaricare facilmente [l’archetipo del progetto corrente disponibile su GitHub](https://github.com/adobe/aem-project-archetype) e creare il tuo primo progetto da solo.
+* **Inizia da solo!** - Puoi scaricare facilmente l&#39;[archetipo di progetto corrente disponibile su GitHub](https://github.com/adobe/aem-project-archetype) e creare il tuo primo progetto autonomamente.
 
 ## Come utilizzare l’archetipo {#how-to-use-the-archetype}
 
@@ -38,7 +38,7 @@ Il primo passaggio utilizzando l’archetipo è la creazione di un progetto, che
 >
 >Ogni volta che crei l’archetipo, questo genera anche una serie di riferimenti, fornendo i dettagli tecnici e l’utilizzo di ciascun modulo come nel [collegamento qui sotto.](#what-you-get)
 
-Lo sviluppo del progetto con Maven crea gli artefatti (pacchetti e bundle OSGi) che possono essere distribuiti ad AEM. Ulteriori comandi e profili Maven possono essere utilizzati per distribuire gli artefatti del progetto s un’istanza di AEM.
+Lo sviluppo del progetto con Maven crea gli artefatti (pacchetti e bundle OSGi) che possono essere implementati in AEM. Ulteriori comandi e profili Maven possono essere utilizzati per implementare gli artefatti del progetto in un’istanza di AEM.
 
 ## Informazioni sull’utilizzo dell’archetipo {#what-you-get}
 
@@ -59,7 +59,7 @@ L’archetipo è costituito da moduli, tutti creati automaticamente quando si ut
 
 ![Organizzazione del pacchetto di contenuti](/help/assets/content-package-organization.png)
 
-I moduli dell’archetipo rappresentati in Maven vengono distribuiti su AEM come pacchetti di contenuto che rappresentano l’applicazione, il contenuto e i bundle OSGi necessari.
+I moduli dell’archetipo rappresentati in Maven vengono implementati in AEM come pacchetti di contenuti che rappresentano l’applicazione, il contenuto e i bundle OSGi necessari.
 
 ## POM (Project Object Model) padre {#parent-pom}
 
@@ -69,7 +69,7 @@ Il file `pom.xml` nella directory principale del progetto (`<src-directory>/<pro
 
 La sezione `<properties>` del POM padre definisce diverse proprietà globali importanti per la distribuzione del progetto a un’istanza di AEM, come nome utente/password, nome host/porta, ecc.
 
-Queste proprietà sono configurate per la distribuzione a un’istanza di AEM locale, in quanto si tratta dello sviluppo più comune utilizzato dagli sviluppatori. Tieni presente che esistono anche proprietà configurate per la distribuzione a un’istanza Autore e un’istanza Publish. Qui vengono impostate anche le credenziali per l’autenticazione nell’istanza di AEM. Vengono utilizzate le credenziali `admin:admin` predefinite.
+Queste proprietà sono configurate per la distribuzione a un’istanza di AEM locale, in quanto si tratta dello sviluppo più comune utilizzato dagli sviluppatori. Tieni presente che vi sono proprietà da implementare in un’istanza di authoring oltre che in un’istanza di pubblicazione. Qui vengono impostate anche le credenziali per l’autenticazione nell’istanza di AEM. Vengono utilizzate le credenziali `admin:admin` predefinite.
 
 Queste proprietà sono configurate in modo che possano essere ignorate durante la distribuzione in ambienti di livello superiore. In questo modo, i file POM non devono essere modificati, ma le variabili come `aem.host` e `sling.password` possono essere ignorate inserendo argomenti nella riga di comando:
 
@@ -79,7 +79,7 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
 
 ### Struttura modulare {#module-structure}
 
-La sezione `<modules>` del POM padre definisce i moduli che verranno sviluppati nel progetto. Per impostazione predefinita, il progetto genera [i moduli standard precedentemente definiti.](#what-you-get) Man mano che un progetto evolve, si possono sempre aggiungere altri moduli.
+La sezione `<modules>` del POM padre definisce i moduli che verranno sviluppati nel progetto. Per impostazione predefinita, il progetto genera [i moduli standard precedentemente definiti.](#what-you-get) Man mano che un progetto si evolve, è sempre possibile aggiungere altri moduli.
 
 ### Dipendenze {#dependencies}
 
@@ -87,7 +87,7 @@ La sezione `<dependencyManagement>` del POM padre definisce tutte le dipendenze 
 
 #### Uber-Jar {#uber-jar}
 
-Una delle dipendenze chiave è [AEM Java API Jar.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html?lang=it) Ciò includerà tutte le API di AEM con un’unica voce di dipendenza per la versione di AEM.
+Una delle dipendenze chiave è [AEM Java API Jar.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html?lang=it) Questo includerà tutte le API di AEM con una sola voce di dipendenza per la versione di AEM.
 
 >[!NOTE]
 >
@@ -95,7 +95,7 @@ Una delle dipendenze chiave è [AEM Java API Jar.](https://experienceleague.adob
 
 #### Componenti core {#core-components}
 
-L’archetipo ovviamente utilizza i componenti core[.](/help/introduction.md) Pertanto, per sfruttare i componenti core in tutte le implementazioni, è consigliabile includerli come parte del progetto Maven.
+L&#39;archetipo sfrutta naturalmente i [Componenti core.](/help/introduction.md) Pertanto, per sfruttare i Componenti core in tutte le distribuzioni, è consigliabile includerli come parte del progetto Maven.
 
 I core.wcm.components.examples sono un set di esempi di pagine che illustrano esempi di Componenti core. Come best practice, quando distribuisci un progetto per la produzione, dovresti rimuovere questa dipendenza e l’inclusione di pacchetti secondari.
 

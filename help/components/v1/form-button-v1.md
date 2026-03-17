@@ -1,12 +1,12 @@
 ---
 title: Componente Pulsante modulo (v1)
 description: Il componente core Campo nascosto modulo consente di includere un campo nascosto in un modulo.
-index: n
-role: Architect, Developer, Admin, User
+index: false
+role: Developer, Admin, User
 exl-id: 2c06a942-7ac5-4847-9d11-7bbcd0ea51bd
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '323'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '351'
 ht-degree: 100%
 
 ---

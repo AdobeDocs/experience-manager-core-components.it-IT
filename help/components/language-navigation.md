@@ -1,11 +1,11 @@
 ---
 title: Componente Navigazione lingua
 description: Il componente Navigazione lingua fornisce una navigazione per lingua/paese in un sito, consentendo ai visitatori di visualizzare la stessa pagina in una lingua diversa.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 10b218b4-c439-4a0f-a46f-0b15d78b0360
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '953'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '959'
 ht-degree: 100%
 
 ---

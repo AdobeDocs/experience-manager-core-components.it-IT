@@ -1,11 +1,11 @@
 ---
 title: Funzioni di localizzazione dei Componenti core
 description: Funzioni di localizzazione dei Componenti core
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 9140b65a-6dd7-4ec9-9095-6e8243ec8424
-source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '727'
 ht-degree: 100%
 
 ---
@@ -16,7 +16,7 @@ Molti siti web richiedono la distribuzione di contenuto in più lingue per diver
 
 ## Esempio: pagina localizzata con navigazione e piè di pagina {#example}
 
-La maggior parte dei siti richiede che un piè di pagina sia presente in tutte le pagine. Questi piè di pagina sono generalmente coerenti per tutto il contenuto della pagina. Tuttavia, per una pagina di contenuto localizzato, è necessario che anche l’intestazione o il piè di pagina compaiano nella versione localizzata.
+La maggior parte dei siti richiede che un piè di pagina sia presente in tutte le pagine. Questi piè di pagina sono generalmente coerenti per tutto il contenuto della pagina. Tuttavia, per una pagina con contenuti localizzati, è necessario visualizzare un versione localizzata dell’intestazione o del piè di pagina.
 
 Analogamente, un componente di navigazione in genere deve essere visualizzato su tutte le pagine. Tuttavia, dovrà riflettere anche il contenuto delle pagine localizzate.
 

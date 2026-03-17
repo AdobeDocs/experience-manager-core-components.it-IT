@@ -1,12 +1,12 @@
 ---
 title: Consegna delle immagini ottimizzate per il web
 description: Scopri in che modo i componenti core possono sfruttare le funzionalità di AEM as a Cloud Service per la consegna delle immagini ottimizzate per il web, per fornire le immagini in modo più efficiente.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
-source-git-commit: eb1822cb41a849695afb5125745ed5f78e3e70a4
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 100%
+source-wordcount: '1130'
+ht-degree: 89%
 
 ---
 
@@ -16,13 +16,13 @@ Scopri in che modo i componenti core possono sfruttare le funzionalità di AEM a
 
 ## Panoramica {#overview}
 
-La funzione di AEM as a Cloud Service per la consegna delle immagini ottimizzate per il web offre risorse immagine da DAM in [Formato WebP.](https://developers.google.com/speed/webp) WebP può ridurre la dimensione di download di un’immagine di circa il 25% in media, velocizzando così il caricamento delle pagine.
+La funzione di AEM as a Cloud Service per la consegna delle immagini ottimizzate per il web offre risorse immagine da DAM in [formato WebP.](https://developers.google.com/speed/webp) WebP può ridurre la dimensione di download di un’immagine di circa il 25% in media, velocizzando così il caricamento delle pagine.
 
 La consegna di immagini ottimizzate per il web nei componenti core è semplice da attivare e, poiché tutti i browser più comuni supportano WebP, offre all’utente finale un’esperienza trasparente. L’unica differenza che noteranno, infatti, sarà che il contenuto viene caricato più velocemente.
 
 ## Attivazione della consegna di immagini ottimizzate per il web per i componenti core {#activating}
 
-Per abilitare la consegna di immagini ottimizzate per il web, modifica un modello di pagina e attiva semplicemente l’opzione **Abilita immagini ottimizzate per il web** nella finestra di dialogo di progettazione del [componente Immagine.](/help/components/image.md#design-dialog) Questa opzione è disponibile per le versioni v1, v2 e v3 del componente Immagine.
+Per abilitare la consegna di immagini ottimizzate per il web, modifica un modello di pagina e attiva semplicemente l&#39;opzione **Abilita immagini ottimizzate per il web** nella finestra di dialogo di progettazione del [componente immagine.](/help/components/image.md#design-dialog) Questa opzione è disponibile per le versioni v1, v2 e v3 del componente Immagine.
 
 Se non hai familiarità con le finestre di dialogo di progettazione e i modelli di pagina AEM, [consulta questo documento.](/help/get-started/authoring.md#pre-configuring-core-components)
 
@@ -71,7 +71,7 @@ Per mantenere la fedeltà dell’output, il servizio per le immagini non aumenta
 
 ### L’URL delle mie immagini termina ancora con .JPG o .PNG, non con .WEBP, e non c&#39;è un attributo SRCSET o un elemento PICTURE. Il servizio utilizza effettivamente formati web ottimizzati? {#content-negotiation}
 
-Per fornire formati WebP, il servizio di consegna delle immagini ottimizzate per il web utilizza una tecnica chiamata “negoziazione dei contenuti”[.](https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation#server-driven_content_negotiation) Questo consente di selezionare il formato di output ottimale per l’immagine in base alle funzionalità annunciate dal cliente, consentendo al servizio di consegna delle immagini di ignorare l’estensione del file.
+Per distribuire i formati WebP, il servizio di consegna delle immagini ottimizzate per il Web esegue [la negoziazione dei contenuti guidata dal server.](https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation#server-driven_content_negotiation) Questo consente di selezionare il formato di output ottimale per l’immagine in base alle funzionalità annunciate dal cliente, consentendo al servizio di consegna delle immagini di ignorare l’estensione del file.
 
 Il vantaggio di sfruttare la negoziazione dei contenuti consiste nel fatto che i browser che non pubblicizzano il supporto per WebP riceveranno comunque il formato di file JPG o PNG senza apportare alcuna modifica necessaria nel markup della pagina. Questo offre una compatibilità ottimale per i siti esistenti e garantisce il percorso più fluido possibile per la transizione verso la consegna di immagini ottimizzate per il web.
 

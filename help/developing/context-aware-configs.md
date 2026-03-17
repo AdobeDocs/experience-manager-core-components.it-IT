@@ -1,11 +1,11 @@
 ---
 title: Configurazioni in base al contesto di Sling e Componenti core
 description: I Componenti core utilizzano le configurazioni in base al contesto di Sling per alcune funzioni
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: d35210f7-a65d-4768-ab9e-f12ec406da2d
-source-git-commit: b72defe1bbe6cb286730ac3f508f7d6c14b3fc33
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '257'
 ht-degree: 100%
 
 ---
@@ -30,5 +30,5 @@ Le singole configurazioni dipendono dal componente o dalla funzione specifica. L
 
 * [Il componente Pagina](https://github.com/adobe/aem-core-wcm-components/tree/main/content/src/content/jcr_root/apps/core/wcm/components/page/v3/page#loading-of-context-aware-cssjs) si basa sulla configurazione che tiene conto del contesto durante il rendering dei tag `link`, `script` e `meta`.
 * [Componente Visualizzatore PDF](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/pdfviewer/v1/pdfviewer#context-aware-config)
-* [Adobe Client Data Layer](/help/developing/data-layer/overview.md#installation-activation)
+* [Livello dati client Adobe](/help/developing/data-layer/overview.md#installation-activation)
 * [Supporto AMP](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp)

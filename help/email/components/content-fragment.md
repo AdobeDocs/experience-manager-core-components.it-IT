@@ -1,12 +1,12 @@
 ---
 title: Componente Frammento di contenuto e-mail
 description: Il componente Frammento di contenuto e-mail consente di visualizzare un frammento di contenuto nel contenuto.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 9bc6b730-0d2a-4e5b-891c-d2f67f600bcc
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '607'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '645'
 ht-degree: 100%
 
 ---
@@ -38,7 +38,7 @@ Per ulteriori informazioni sulle versioni e sugli aggiornamenti dei componenti c
 
 ## Dettagli tecnici {#technical-details}
 
-La documentazione tecnica più recente sul componente Frammento di contenuto e-mail [è disponibile su GitHub.](https://adobe.com/go/aem_cmp_tech_email_cf_v1_it)
+La documentazione tecnica più recente sul componente Frammento di contenuto e-mail [è disponibile su GitHub.](https://adobe.com/go/aem_cmp_tech_email_cf_v1)
 
 Per ulteriori informazioni sullo sviluppo di Componenti core, vedi la [documentazione per gli sviluppatori di Componenti core.](/help/developing/overview.md)
 
@@ -69,7 +69,7 @@ La finestra di dialogo per la configurazione consente all’autore del contenuto
 ![Componente Frammento di contenuto e-mail](/help/assets/content-fragment-edit-paragraph.png)
 
 * **Paragrafi**: consente di selezionare tutti o un intervallo di paragrafi
-   * **Tutto**: visualizza tutti i paragrafi
+   * **Tutti**: visualizza tutti i paragrafi
    * **Intervallo**
       * Specificare gli intervalli di paragrafi da visualizzare, separati da punto e virgola
       * Per esempio `1;3-5;7;9-*` per includere il primo, dal terzo al quinto, il settimo e dal nono ai paragrafi finali

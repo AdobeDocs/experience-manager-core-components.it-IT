@@ -1,12 +1,12 @@
 ---
 title: Componente Elenco (v1)
 description: Il componente core Elenco consente di creare facilmente elenchi dinamici e statici.
-index: n
-role: Architect, Developer, Admin, User
+index: false
+role: Developer, Admin, User
 exl-id: 510d059c-e60a-40aa-9032-66a901109f6e
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '836'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '866'
 ht-degree: 100%
 
 ---

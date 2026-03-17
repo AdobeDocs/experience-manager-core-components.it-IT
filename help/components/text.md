@@ -1,11 +1,11 @@
 ---
 title: Componente Testo
 description: Il componente Testo è un componente per la modifica e la composizione di testo RTF che supporta la modifica diretta.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '2185'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '2265'
 ht-degree: 100%
 
 ---
@@ -158,7 +158,7 @@ Se viene trovata una corrispondenza, questa viene evidenziata e la finestra di d
 
 ![Esempio di occorrenza trovata](/help/assets/text-find-example-found.png)
 
-Se non vengono trovate altre occorrenze, viene visualizzato un messaggio e la ricerca riparte dall’inizio del testo.
+Se non vengono trovate altre occorrenze, viene visualizzato un messaggio e la ricerca viene riavviata dall’inizio del testo.
 
 ![Esempio di nessun’altra occorrenza trovata](/help/assets/text-find-example-found-end.png)
 

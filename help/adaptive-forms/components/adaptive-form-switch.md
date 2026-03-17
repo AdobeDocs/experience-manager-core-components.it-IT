@@ -1,21 +1,21 @@
 ---
 title: 'Componente core dei moduli adattivi: componente Interruttore'
 description: Utilizzo o personalizzazione del componente core interruttore nei moduli adattivi.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 6ff2ca76-1514-42eb-bde3-60259af2d187
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '1922'
-ht-degree: 100%
+source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
+workflow-type: tm+mt
+source-wordcount: '1948'
+ht-degree: 98%
 
 ---
 
 
 # Componente interruttore moduli adattivi{#switch-adaptive-forms-core-component}
 
-Il componente Interruttore è un’interfaccia utente grafica utilizzata nei moduli che consente agli utenti di scegliere tra due opzioni. In genere si tratta di un interruttore a due stati che consente agli utenti di scegliere tra due stati, per abilitare o disabilitare una funzione, un’impostazione o una funzionalità. Il componente Interruttore è progettato per rappresentare visivamente lo stato corrente e indicare se una particolare funzione è attivata o disattivata.
+Il componente Interruttore è un’interfaccia utente grafica utilizzata nei moduli che consente agli utenti di scegliere tra due opzioni. In genere si tratta di un pulsante di attivazione a due stati che consente agli utenti di scegliere tra due stati, per abilitare o disabilitare una funzione, un’impostazione o una funzionalità. Il componente Interruttore è progettato per rappresentare visivamente lo stato corrente e indicare se una particolare funzione è attivata o disattivata.
 
-Il componente Interruttore è un elemento di controllo booleano che imposta il valore su true o false. Ad esempio, viene utilizzato per attivare o disattivare una funzione, ad esempio l’audio, o per abilitare o disabilitare il Bluetooth o il WiFi.
+Il componente Interruttore è un elemento di controllo booleano che imposta il valore su true o false. Ad esempio, viene utilizzato per attivare o disattivare una funzione, come l’audio, o per abilitare o disabilitare il Bluetooth o il WiFi.
 
 ![Esempio di componente Interruttore](/help/adaptive-forms/assets/switch-example.png)
 
@@ -35,19 +35,19 @@ I motivi comuni per utilizzare l’Interruttore in un modulo adattivo sono i seg
 
 ## Versione e compatibilità {#version-and-compatibility}
 
-Il componente core interruttore nei moduli adattivi è stato rilasciato come parte dei componenti core 2.0.64. Questa tabella mostra tutte le versioni supportate, la compatibilità con AEM e i collegamenti alla documentazione corrispondente:
+Il componente core Switch Forms adattivo è stato rilasciato come parte dei Componenti core 2.0.64. Di seguito è riportata una tabella che mostra tutte le versioni supportate, la compatibilità AEM e i collegamenti alla documentazione corrispondente:
 
 |  |  |
 |---|---|
 | Versione del componente | AEM as a Cloud Service |
 | --- | --- |
-| v1 | Compatibile con <br>[versione 2.0.64](/help/adaptive-forms/version.md) e successive | Compatibile | Compatibile |
+| v1 | Compatibile con <br>[versione 2.0.64](/help/adaptive-forms/version.md) e successive\|Compatibile\|Compatibile |
 
 Per informazioni sulle versioni dei componenti core, consulta il documento [Versioni dei componenti core](/help/adaptive-forms/version.md).
 
 ## Dettagli tecnici {#technical-details}
 
-Per informazioni aggiornate sul componente core interruttore per moduli adattivi, consulta la documentazione tecnica disponibile su [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/switch/v1/switch). Per ulteriori informazioni sullo sviluppo dei componenti core, consulta la [Documentazione per gli sviluppatori di componenti core](/help/developing/overview.md).
+Per informazioni aggiornate sul componente core interruttore per moduli adattivi, consulta la documentazione tecnica disponibile su [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/switch/v1/switch). Per ulteriori informazioni sullo sviluppo dei componenti core, consulta la [Documentazione per gli sviluppatori dei componenti core](/help/developing/overview.md).
 
 ## Finestra di dialogo per la configurazione {#configure-dialog}
 
@@ -71,14 +71,14 @@ Puoi personalizzare facilmente l’esperienza del componente Interruttore per i 
 - **Opzioni**: specifica il valore dei dati e mostra il testo per ciascuna opzione.
    - **Valore dati attivato**: specifica il valore da inviare quando l’interruttore è abilitato in un modulo adattivo.
    - **Testo visualizzato attivato**: specifica il testo da visualizzare come etichetta quando l’interruttore è abilitato in un modulo adattivo.
-   - **Valore dati disattivato**: specifica il valore da inviare quando l’interruttore non è abilitato in un modulo adattivo. Questa opzione è visibile solo se è attivata l’opzione **Mantieni valore stato deselezionato**.
-   - **Testo visualizzato disattivato**: specifica il testo da visualizzare come etichetta quando l’interruttore non è abilitato in un modulo adattivo. Questa opzione è visibile solo se è attivata l’opzione **Mantieni valore stato deselezionato**.
+   - **Valore dati disattivato**: specifica il valore da inviare quando l’interruttore non è abilitato in un modulo adattivo. Questa opzione è visibile solo se è abilitata l’opzione **Mantieni valore stato deselezionato**.
+   - **Testo visualizzato disattivato**: specifica il testo da visualizzare come etichetta quando l’interruttore non è abilitato in un modulo adattivo. Questa opzione è visibile solo se è abilitata l’opzione **Mantieni valore stato deselezionato**.
 
   È inoltre possibile formattare le opzioni per cambiare componente utilizzando **Consenti testo formattato per opzioni**.
 
   ![Supporto testo RTF per le opzioni](/help/adaptive-forms/assets/switch-optipn-rich-text.png)
 
-  Dopo aver selezionato la casella di controllo **Consenti testo formattato per opzioni** le opzioni di formattazione diventano visibili per applicare lo stile alle opzioni del componente. Per accedere a tutte le opzioni di formattazione disponibili, fai clic sulla scheda `Fullscreen` ![Icona schermo intero](/help/adaptive-forms/assets/fullscreen-icon.png).
+  Dopo aver selezionato la casella di controllo **Consenti testo formattato per opzioni** le opzioni di formattazione diventano visibili per applicare lo stile alle opzioni del componente. Per accedere a tutte le opzioni di formattazione disponibili, puoi fare clic sulla scheda `Fullscreen` ![Icona schermo intero](/help/adaptive-forms/assets/fullscreen-icon.png).
 
   ![Supporto testo RTF per le opzioni](/help/adaptive-forms/assets/switch-richtext-for-display.png)
 
@@ -89,7 +89,7 @@ Puoi personalizzare facilmente l’esperienza del componente Interruttore per i 
 
 - **Disattiva componente**: seleziona l’opzione per disabilitare o bloccare il componente. Il componente disabilitato non è attivo o modificabile dall’utente finale. L’utente può visualizzare il valore del campo, ma non può modificarlo. Il componente rimane accessibile per altri scopi, ad esempio per i calcoli nell’editor di regole.
 
-- **Valore predefinito**: questa opzione consente di aggiungere un valore predefinito in un campo del modulo. Se sono selezionati il **Componente disabilitato** o il **Componente di sola lettura**, il valore predefinito viene visualizzato sullo schermo. Se l’utente non immette alcun valore nel campo modulo, questo valore viene inviato al momento dell’invio del modulo.
+- **Valore predefinito**: questa opzione consente di aggiungere un valore predefinito in un campo del modulo. Se **Componente disabilitato** o **Componente di sola lettura** è selezionato, il valore predefinito viene visualizzato sullo schermo. Se l’utente non immette alcun valore nel campo modulo, questo valore viene inviato al momento dell’invio del modulo.
 
 ### Scheda Convalida {#validation-tab}
 
@@ -142,13 +142,13 @@ Il componente core interruttore per i moduli adattivi supporta il [Sistema di st
 
 - **Classi CSS predefinite**: è possibile fornire una classe CSS predefinita per il componente core interruttore per i moduli adattivi.
 
-- **Stili consentiti**: è possibile definire gli stili fornendo un nome e la classe CSS che rappresenta lo stile. Ad esempio, puoi creare uno stile denominato “testo in grassetto” e fornire la classe CSS “spessore carattere: grassetto”. Puoi utilizzare o applicare questi stili a un modulo adattivo nell’editor di moduli adattivi. Per applicare uno stile, nell’editor dei moduli adattivi, seleziona il componente a cui applicare lo stile, passa alla finestra di dialogo delle proprietà e seleziona lo stile desiderato dall’elenco a discesa **Stili**. Per aggiornare o modificare gli stili, è sufficiente tornare alla finestra di dialogo per la progettazione, aggiornare gli stili nella scheda Stili e salvare le modifiche.
+- **Stili consentiti**: puoi definire gli stili fornendo un nome e la classe CSS che rappresenta lo stile. Ad esempio, puoi creare uno stile denominato “testo in grassetto” e fornire la classe CSS “spessore carattere: grassetto”. Puoi utilizzare o applicare questi stili a un modulo adattivo nell’editor di moduli adattivi. Per applicare uno stile, nell’editor dei moduli adattivi, seleziona il componente a cui applicare lo stile, passa alla finestra di dialogo delle proprietà e seleziona lo stile desiderato dall’elenco a discesa **Stili**. Per aggiornare o modificare gli stili, è sufficiente tornare alla finestra di dialogo per la progettazione, aggiornare gli stili nella scheda Stili e salvare le modifiche.
 
 ### Proprietà personalizzate
 
 ![Finestra di dialogo Proprietà personalizzate](/help/adaptive-forms/assets/checkbox-customproperties.png)
 
-Le proprietà personalizzate consentono di associare attributi personalizzati (coppie chiave-valore) a un componente core del modulo adattivo utilizzando il modello di modulo. Le proprietà personalizzate vengono riflesse nella sezione delle proprietà della rappresentazione headless del componente. Consentono di creare un comportamento di modulo dinamico che si adatta in base ai valori degli attributi personalizzati. Ad esempio, gli sviluppatori possono progettare diverse rappresentazioni di un componente moduli headless su piattaforme mobili, desktop o web, migliorando in modo significativo l’esperienza utente su un’ampia gamma di dispositivi.
+Le proprietà personalizzate consentono di associare attributi personalizzati (coppie chiave-valore) a un componente core del modulo adattivo utilizzando il modello per moduli. Le proprietà personalizzate vengono riflesse nella sezione delle proprietà della rappresentazione headless del componente. Consentono di creare un comportamento di modulo dinamico che si adatta in base ai valori degli attributi personalizzati. Ad esempio, gli sviluppatori possono progettare diverse rappresentazioni di un componente moduli headless su piattaforme mobili, desktop o web, migliorando in modo significativo l’esperienza utente su un’ampia gamma di dispositivi.
 - **Nome gruppo**: puoi fornire un nome per identificare il gruppo di proprietà personalizzate. È possibile aggiungere, eliminare o ridisporre più gruppi di proprietà personalizzate. Dopo aver aggiunto il gruppo di proprietà personalizzate, puoi visualizzare le seguenti opzioni:
 
    - **Coppie chiave-valore**: puoi aggiungere più nomi e valori della proprietà personalizzata facendo clic sul pulsante **Aggiungi** per ogni gruppo di proprietà personalizzate.

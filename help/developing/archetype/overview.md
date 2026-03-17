@@ -2,11 +2,11 @@
 title: Archetipo progetto AEM
 description: Scopri l’Archetipo progetto AEM, che funge da modello per le applicazioni basate su AEM.
 feature: Core Components, AEM Project Archetype
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
-workflow-type: ht
-source-wordcount: '527'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '705'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ L’Archetipo progetto AEM è un modello Maven che crea un progetto AEM minimo b
 
 >[!TIP]
 >
-> La versione più recente dell’Archetipo progetto AEM [è disponibile su GitHub.](https://github.com/adobe/aem-project-archetype)
+>La versione più recente dell’Archetipo progetto AEM [è disponibile su GitHub.](https://github.com/adobe/aem-project-archetype)
 
 {{traditional-aem}}
 
@@ -42,7 +42,7 @@ Naturalmente, ci sono molti elementi che entrano in [un progetto di AEM riuscito
 * **Sistema di stili:** evita di creare componenti personalizzati consentendo agli autori di [applicare loro stili diversi](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/style-system.html?lang=it).
 * **Sviluppo front-end:** gli sviluppatori front-end possono [simulare pagine AEM](front-end.md) e creare librerie client con Webpack, TypeScript e SASS.
 * **Predisposto per WebApp:** per i siti che utilizzano React o Angular, utilizza l’[SDK SPA](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/hybrid/developing.html?lang=it) per mantenere [l’authoring nel contesto dell’app](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html?lang=it).
-* **Predisposto per l’e-Commerce:** per progetti che intendono integrare [AEM Commerce](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content-and-commerce/home.html?lang=it) con soluzioni commerciali come [Magento](https://magento.com/it) utilizzando i [Componenti Core commerciali](https://github.com/adobe/aem-core-cif-components).
+* **Predisposto per l’e-commerce:** per progetti che intendono integrare [AEM Commerce](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content-and-commerce/home.html?lang=it) con soluzioni per l’e-commerce [Magento](https://magento.com/it) utilizzando i [Componenti core Commerce](https://github.com/adobe/aem-core-cif-components).
 * **Esempio di codice:** seleziona il componente HelloWorld e gli esempi di modelli, servlet, filtri e schedulatori.
 * **Open source:** se qualcosa non va come dovrebbe, [suggerisci](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) i tuoi miglioramenti!
 

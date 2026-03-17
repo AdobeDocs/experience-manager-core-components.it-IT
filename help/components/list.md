@@ -1,11 +1,11 @@
 ---
 title: Componente Elenco
 description: Il componente core Elenco consente di creare facilmente elenchi dinamici e statici.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '1204'
+source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
+workflow-type: tm+mt
+source-wordcount: '1214'
 ht-degree: 100%
 
 ---
@@ -23,13 +23,13 @@ Il componente Elenco può essere utilizzato per creare, ad esempio, un elenco di
 
 ## Versione e compatibilità {#version-and-compatibility}
 
-La versione corrente del componente Elenco è la v4, introdotta con la versione 2.22.0 dei componenti core di febbraio 2023, ed è quella descritta in questo documento.
+La versione corrente del componente Elenco è la v4, introdotta con la versione 2.22.0 dei Componenti core di febbraio 2023, ed è quella descritta in questo documento.
 
 La tabella che segue descrive tutte le versioni supportate del componente, le versioni di AEM con cui le versioni del componente sono compatibili e i collegamenti alla documentazione delle versioni precedenti.
 
 | Versione del componente | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |--- |--- |--- |---|---|
-| v4 | - | Compatibile | Compatibile |
+| v4 | - | Compatibile | Compatibile | |
 | [v3](/help/components/v3/list.md) | - | Compatibile | Compatibile | Compatibile |
 | [v2](/help/components/v2/list.md) | Compatibile | Compatibile | - | Compatibile |
 | [v1](/help/components/v1/list-v1.md) | Compatibile | Compatibile | - | Compatibile |

@@ -1,12 +1,12 @@
 ---
 title: Componente Contenitore modulo
 description: Il componente core Contenitore modulo consente la creazione di semplici moduli per l’invio.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 552f9dd5-6a3a-42d9-9969-e62a1f36e811
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: ht
-source-wordcount: '914'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '970'
+ht-degree: 97%
 
 ---
 
@@ -69,7 +69,7 @@ Quando il modulo viene inviato, il tipo di azione Pubblica dati modulo trasmette
 * **Messaggio di errore**: il messaggio da visualizzare se l’invio non ha esito positivo
 
 >[!TIP]
->Sono disponibili opzioni di timeout aggiuntive che un amministratore di sistema può modificare per gestire l’elaborazione dei dati del modulo inviati. [Per ulteriori informazioni, vedi la documentazione tecnica su GitHub.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/actions/rpc)
+>Sono disponibili opzioni di timeout aggiuntive che un amministratore di sistema può modificare per gestire l’elaborazione dei dati del modulo inoltrati. [Per ulteriori informazioni, vedere la documentazione tecnica su GitHub.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/actions/rpc)
 
 ### Mail {#mail}
 

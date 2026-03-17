@@ -3,26 +3,26 @@ product: adobe experience manager
 solution: Experience Manager, Experience Manager Sites
 type: Documentation
 description: Documentazione dei Componenti core di Adobe Experience Manager
-git-repo: https://github.com/AdobeDocs/experience-manager-core-components.it-IT
-index: y
+git-repo: https://github.com/AdobeDocs/experience-manager-core-components.en
+index: true
 recommendations: noDisplay
-source-git-commit: 55e5ef9271b07d8fffc7b396c890af1637309ff3
-workflow-type: ht
-source-wordcount: '101'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '120'
+ht-degree: 1%
 
 ---
 
 
 # Metadati per uso interno
 
-I metadati nel sistema di authoring GitHub sono gerarchici, in base ai seguenti livelli crescenti di precedenza.
+I metadati nel sistema di authoring GitHub sono gerarchici e vengono definiti in base ai seguenti livelli crescenti di precedenza.
 
 1. metadata.md
-1. Sommario
+1. ToC
 1. Articolo
 
-I metadati definiti nel file metadata.md si applicano all’intero archivio, ma possono essere ignorati a livello di sommario e articolo. Eventuali esclusioni dei metadati devono essere eseguite al livello più basso possibile.
+I metadati definiti nel file metadata.md si applicano all’intero archivio, ma possono essere ignorati a livello di sommario e di articolo. Eventuali esclusioni dei metadati devono essere eseguite al livello più basso possibile.
 
 I metadati nell’archivio experience-manager-core-components.en rappresentano il minimo richiesto.
 
@@ -30,7 +30,7 @@ metadata.md
 
 * `product`
 * `git-repo`
-* `index: y`
+* `index: true`
 * `solution-title`
 * `solution-hub-url`
 * `getting-started-title`
@@ -38,7 +38,7 @@ metadata.md
 * `tutorials-title`
 * `tutorials-url`
 
-Sommario
+ToCs
 
 * `sub-product`
 * `user-guide-title`
@@ -47,6 +47,6 @@ Articolo
 
 * `title`
 * `description`
-* `index: n` (solo per le versioni precedenti dei componenti)
+* `index: false` (solo per le versioni precedenti dei componenti)
 
-Ulteriori informazioni sui metadati sono disponibili nella [guida all’authoring interno.](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/authoring/features/metadata.html?lang=it#solution)
+Ulteriori informazioni sui metadati sono disponibili nella [guida all&#39;authoring interno.](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/authoring/features/metadata.html#solution)

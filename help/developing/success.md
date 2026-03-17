@@ -1,11 +1,11 @@
 ---
 title: Come utilizzare in modo efficace i Componenti core
 description: Come eseguire correttamente l’implementazione del progetto con i Componenti core
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 1ea8cd1c-8435-4ded-82dc-5a7896c53e0c
-source-git-commit: b1d38310a3f05e2dd2a68de1574a278bac2c78e7
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '592'
 ht-degree: 100%
 
 ---
@@ -41,7 +41,7 @@ Considera l’utilizzo della [Libreria dei componenti](https://adobe.com/go/aem_
 
 ### Utilizza il kit di interfaccia utente per Adobe XD {#ui-kit}
 
-Non appena si determina la comprovata necessità di un componente personalizzato, utilizza il kit dell’interfaccia utente per Adobe XD, [scaricabile da qui](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd?lang=it), in modo che i designer possano iniziare a creare wireframe e progetti con i Componenti core come elementi costitutivi.
+Non appena si determina la comprovata necessità di un componente personalizzato, utilizza il kit dell’interfaccia utente per Adobe XD, [scaricabile da qui](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd), in modo che i designer possano iniziare a creare wireframe e progetti con i Componenti core come elementi costitutivi.
 
 ## Non trascurare le funzioni più efficaci {#powerful-features}
 
@@ -51,7 +51,7 @@ Le funzioni di AEM e dei Componenti core possono essere molto efficienti, ma anc
 
 I [Frammenti di contenuto](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/content-fragments.html?lang=it) consentono di creare contenuto versatile utilizzabile in qualsiasi canale, con possibili varianti per canali specifici. Puoi quindi utilizzare questi frammenti, con le relative varianti, durante l’authoring di pagine di contenuto.
 
-Insieme alla funzione di esportazione JSON aggiornata, i frammenti di contenuto strutturati possono anche essere utilizzati per distribuire contenuti AEM, tramite Content Services a canali diversi dalle pagine AEM.
+Insieme alla funzione di esportazione JSON aggiornata, i frammenti di contenuti strutturati possono anche essere utilizzati per distribuire contenuti AEM, tramite Content Services a canali diversi dalle pagine AEM.
 
 ### Modelli di Frammento esperienza {#experience-fragment-templates}
 

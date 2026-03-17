@@ -1,12 +1,12 @@
 ---
 title: Componente Immagine
 description: Il componente core Immagine è un componente immagine adattivo.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: 8952f6c574fe1e21ff35e95bc0af6433f0363e77
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '2064'
-ht-degree: 99%
+source-wordcount: '2163'
+ht-degree: 95%
 
 ---
 
@@ -59,13 +59,13 @@ Per ulteriori informazioni, [consulta la documentazione tecnica del componente I
 
 ## Supporto di Dynamic Media {#dynamic-media}
 
-Il componente Immagine (a partire dalla [versione 2.13.0](/help/versions.md)) supporta le risorse di [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media.html?lang=it). [Se abilitate,](#design-dialog) queste funzioni consentono di aggiungere risorse immagine di Dynamic Media con una semplice azione di trascinamento e rilascio della selezione oppure tramite il browser delle risorse, esattamente come faresti con qualsiasi altra immagine. Sono inoltre supportati modificatori di immagini, predefiniti per immagini e ritaglio avanzato.
+Il componente Immagine (a partire dalla [versione 2.13.0](/help/versions.md)) supporta [risorse Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media.html?lang=it). [Se abilitate,](#design-dialog) queste funzioni consentono di aggiungere risorse immagine Dynamic Media con una semplice azione di trascinamento e rilascio della selezione oppure tramite il browser delle risorse, esattamente come faresti con qualsiasi altra immagine. Sono inoltre supportati modificatori di immagini, predefiniti per immagini e ritaglio avanzato.
 
-La tua esperienza web costruita con i Componenti core ora si arricchisce delle solide funzionalità per le immagini offerte da Dynamic Media, performanti, multipiattaforma e con tecnologia AI di Adobe.
+La tua esperienza web costruita con i Componenti core ora si arricchisce delle solide funzionalità per le immagini offerte da Dynamic Media, performanti, multipiattaforma e con tecnologia Adobe AI.
 
 ## Supporto risorse remote {#remote-assets}
 
-Il componente Immagine (a partire dalla [versione 2.23.2](/help/versions.md)) supporta le risorse remote. [Una volta configurato](/help/developing/remote-assets.md), è possibile selezionare le risorse da un servizio remoto per il componente Immagine.
+Il componente Immagine (a partire dalla [versione 2.23.2](/help/versions.md)) supporta le risorse remote. [Una volta configurata,](/help/developing/remote-assets.md) puoi selezionare le risorse da un servizio remoto per il componente immagine.
 
 ## Supporto di SVG {#svg-support}
 
@@ -169,7 +169,7 @@ Il componente Immagine offre una finestra di dialogo di configurazione in cui l�
 
 * **Testo alternativo per accessibilità**: Questo campo consente di definire una descrizione dell’immagine per gli utenti ipovedenti.
 
-   * **Eredita testo alternativo dalla pagina**: Questa opzione utilizza la descrizione alternativa del valore della risorsa collegata dei metadati `dc:description` in DAM o nella pagina corrente se non è collegata alcuna risorsa.
+   * **Eredita testo alternativo dalla pagina** - Questa opzione utilizza la descrizione alternativa del valore della risorsa collegata dei metadati `dc:description` in DAM o nella pagina corrente se non è collegata alcuna risorsa.
 
 * **Non fornire testo alternativo** : questa opzione contrassegna l’immagine da ignorare da parte di tecnologie di assistenza, come le utilità per la lettura dello schermo, nei casi in cui l’immagine sia puramente decorativa o in altro modo non trasmetta informazioni aggiuntive alla pagina.
 

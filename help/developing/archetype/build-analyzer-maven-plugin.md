@@ -2,18 +2,18 @@
 title: Plug-in Maven di Build Analyzer nel SDK di AEM as a Cloud Service
 description: Documentazione del plug-in Maven locale di Build Analyzer
 feature: Core Components, AEM Project Archetype
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: de26b310-a294-42d6-a0db-91f6036a328c
-source-git-commit: eafbe18b13830edde3535fbb67d9ef62b7d045f3
-workflow-type: ht
-source-wordcount: '656'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '765'
 ht-degree: 100%
 
 ---
 
 # Plug-in Maven di Build Analyzer nel SDK di AEM as a Cloud Service {#maven-analyzer-plugin}
 
-Il Plug-in Maven di Build Analyzer nel Software Development Kit (SDK) di AEM as a Cloud Service analizza la struttura dei vari progetti di pacchetti di contenuti.
+Il plug-in Build Analyzer Maven di AEM as a Cloud Service SDK analizza la struttura dei vari progetti di pacchetti di contenuti.
 
 Per informazioni su come includerlo in un progetto Maven, di AEM, vedi la [documentazione del Plug-in Maven](https://github.com/adobe/aemanalyser-maven-plugin/blob/main/aemanalyser-maven-plugin/README.md).
 
@@ -32,7 +32,7 @@ La tabella che segue descrive gli analizzatori eseguiti come parte di questo pas
 | `requirements-capabilities` | Verifica se le dichiarazioni delle funzionalità di altri bundle inclusi nel progetto Maven soddisfano tutte le dichiarazioni dei requisiti definite nei bundle OSGI. Un errore è simile al seguente: <p> </p> `[ERROR] org.acme:mybundle:0.0.1-SNAPSHOT: Artifact org.acme:mybundle:0.0.1-SNAPSHOT requires org.foo.bar in start level 20 but no artifact is providing a matching capability in this start level.`<p> </p> Per risolvere i problemi, esamina il manifesto del bundle che ritieni debba dichiarare una funzionalità per stabilire il motivo della mancata dichiarazione oppure verifica nel manifesto del bundle richiedente se il requisito riportato è corretto. | Sì | Sì |
 | `bundle-resources` | Visualizza un avviso se un bundle include contenuto iniziale specificato con l’intestazione Sling-Bundle-Resources, che è problematica nell’ambiente a cluster di AEM as a Cloud Service. L’avviso si presenta così:<p> </p> `[WARNING] org.acme:mybundle:0.0.1-SNAPSHOT: Found bundle resources : [/libs/sling/explorer!/resources/explorer]`<p> </p> Per risolvere i problemi relativi alla conversione delle risorse in istruzioni Repoinit, vedi la [documentazione di Repoinit](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=it#repo-init). | Sì | Sì |
 | `api-regions`<p> </p>`api-regions-check-order`<p> </p>`api-regions-dependencies`<p> </p>`api-regions-duplicates` | Questi analizzatori verificano alcuni dettagli del [pacchetto di contenuti per il processo di conversione del modello di funzione](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=it#deploying) che crea artefatti conformi al modello di funzione Sling. Eventuali errori devono essere segnalati all’Assistenza clienti di Adobe. | Sì | Sì |
-| `api-regions-crossfeature-dups` | Verifica che i bundle OSGI del cliente non abbiano dichiarazioni Export-Package che sovrascrivano l’API pubblica di AEM as a Cloud Service<p> </p>`[WARNING] org.acme:mybundle:0.0.1-SNAPSHOT: Package overlap found between region global and bundle org.acme:mybundle:0.0.1.SNAPSHOT which comes from feature: [org.acme:myproject.analyse:slingosgifeature:0.0.1-SNAPSHOT]. Both export package: com.day.util`<p> </p>Per risolvere il problema, evita di esportare un pacchetto che fa parte dell’API pubblica di AEM. | Sì | Sì |
+| `api-regions-crossfeature-dups` | Verifica che i bundle OSGI del cliente non abbiano dichiarazioni Export-Package che sovrascrivano l’API pubblica di AEM as a Cloud Service<p> </p>`[WARNING] org.acme:mybundle:0.0.1-SNAPSHOT: Package overlap found between region global and bundle org.acme:mybundle:0.0.1.SNAPSHOT which comes from feature: [org.acme:myproject.analyse:slingosgifeature:0.0.1-SNAPSHOT]. Both export package: com.day.util`<p> </p>Per risolvere il problema, interrompi l’esportazione di un pacchetto che fa parte dell’API pubblica di AEM. | Sì | Sì |
 | `repoinit` | Verifica la sintassi di tutte le sezioni Repoinit | Sì | Sì |
 | `bundle-nativecode` | Verifica che i bundle OSGI non installino codice nativo. | Sì | Sì |
 | `configuration-api` | Verifica importanti configurazioni OSGi. <p> </p> `Configuration org.apache.felix.webconsole.internal.servlet.OsgiManager: Configuration is not allowed (com.mysite:mysite.all:1.0.0-SNAPSHOT\|com.mysite:mysite.ui.config:1.0.0-SNAPSHOT)` | Sì | Sì |

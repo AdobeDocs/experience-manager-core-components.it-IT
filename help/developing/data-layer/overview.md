@@ -2,12 +2,12 @@
 title: Utilizzo di Adobe Client Data Layer con i componenti core
 description: Utilizzo di Adobe Client Data Layer con i componenti core
 feature: Core Components, Adobe Client Data Layer
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
-source-git-commit: 8f0ece0eed42f72e919535c6da6e729e54d1d339
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 96%
+source-wordcount: '1024'
+ht-degree: 93%
 
 ---
 
@@ -30,7 +30,7 @@ Come i iomponenti core, il codice di Adobe Client Data Layer è disponibile su G
 
 ## Installazione e attivazione {#installation-activation}
 
-A partire dalla versione 2.9.0 dei componenti core, il livello dati viene distribuito con i componenti core come libreria client di AEM e non è necessaria alcuna installazione. Tutti i progetti generati da [Archetipo progetto AEM v. 24+](/help/developing/archetype/overview.md) includono un livello dati attivato per impostazione predefinita.
+A partire dalla versione 2.9.0 dei componenti core, il livello dati viene distribuito con i componenti core come libreria client di AEM e non è necessaria alcuna installazione. Tutti i progetti generati da [Archetipo progetto AEM v. 24+](/help/developing/archetype/overview.md) include un livello dati attivato per impostazione predefinita.
 
 Per attivare manualmente il livello dati è necessario creare una specifica [configurazione in base al contesto](/help/developing/context-aware-configs.md):
 
@@ -313,7 +313,7 @@ window.adobeDataLayer.push(function (dl) {
 
 ## Esercitazione
 
-Vuoi saperne di più sul livello dati e i componenti core? [Guarda questa esercitazione pratica](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html?lang=it).
+Desideri esplorare più dettagliatamente Data Layer e Componenti core? [Guarda questa esercitazione pratica](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html?lang=it).
 
 >[!TIP]
 >
