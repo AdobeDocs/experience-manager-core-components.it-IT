@@ -3,7 +3,7 @@ title: Funzioni di localizzazione dei Componenti core
 description: Funzioni di localizzazione dei Componenti core
 role: Developer, Admin, User
 exl-id: 9140b65a-6dd7-4ec9-9095-6e8243ec8424
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+source-git-commit: f3a3cfcadf76058eb0c927424fe41f03a55a58c8
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 100%
@@ -110,3 +110,4 @@ Il componente Navigazione e il componente Frammento esperienza provengono dal mo
 Ecco l’immagine completa di come questi semplici ma efficaci elementi agiscono insieme per distribuire pagine localizzate agli autori di contenuto.
 
 ![](/help/assets/screen-shot-2019-09-09-11.27.58.png)
+
