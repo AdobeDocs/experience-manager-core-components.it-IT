@@ -3,9 +3,9 @@ title: Componente Teaser
 description: Il componente Teaser può mostrare un’immagine, un titolo, un testo RTF e opzionalmente un collegamento ad altro contenuto.
 role: Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+source-git-commit: ff337aee45ea3d39f9669a8fa46accaed854532a
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1098'
 ht-degree: 93%
 
 ---
@@ -105,7 +105,7 @@ Gli stili devono essere configurati per questo componente nella [finestra di dia
 
 ## Finestra di dialogo per la modifica {#edit-dialog}
 
-Il componente Teaser delega il rendering dell’immagine al [componente Immagine](image.md). Pertanto, la [finestra di dialogo per modifica]&#x200B;(image.md#edit-dialog) del componente Immagine è disponibile per consentire all’autore di contenuto di manipolare l’immagine del teaser.
+Il componente Teaser delega il rendering dell’immagine al [componente Immagine](image.md). Pertanto, la [finestra di dialogo per la modifica](image.md#edit-dialog) del componente Immagine è disponibile per consentire all’autore del contenuto di manipolare l’immagine del teaser.
 
 ## Finestra di dialogo per la progettazione {#design-dialog}
 
