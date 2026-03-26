@@ -5,7 +5,7 @@ landing-page-name: experience-manager
 landing-page-breadcrumb-title: AEM
 type: Documentation
 description: Documentazione dei Componenti core di Adobe Experience Manager
-git-repo: https://github.com/AdobeDocs/experience-manager-core-components.en
+git-repo: https://github.com/AdobeDocs/experience-manager-core-components.it-IT
 index: true
 recommendations: noDisplay
 source-git-commit: 1975e060e8db5526518dcf6fc722e3623c47dda6
