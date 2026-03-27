@@ -3,7 +3,7 @@ title: Versioni dei Componenti core
 description: Le versioni dei Componenti core pubblicate possono contenere più di una versione degli stessi Componenti core. Questo documento spiega cosa s’intende per versioni e come comprendere la compatibilità con i Componenti core e AEM.
 role: Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
+source-git-commit: 4119923c2c7d256f46b3bf80cf620d8f114fae6f
 workflow-type: tm+mt
 source-wordcount: '3887'
 ht-degree: 96%
@@ -12,7 +12,7 @@ ht-degree: 96%
 
 # Versioni dei Componenti core {#core-components-versions}
 
-I Componenti core sono compatibili con installazioni di [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=it) e [&#x200B; AEM on-premise](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=it).
+I Componenti core sono compatibili con installazioni di [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=it) e [ AEM on-premise](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=it).
 
 ## Cronologia delle versioni e compatibilità {#release-history-and-compatibility}
 
