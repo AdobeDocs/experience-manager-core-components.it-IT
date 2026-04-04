@@ -2,14 +2,13 @@
 title: Abilitare e utilizzare i modelli di convalida dell’input di testo in Adobe Experience Manager Adaptive Forms
 description: Scopri come configurare i criteri dei modelli per esporre pattern di convalida come numeri di telefono, numeri di previdenza sociale e codici postali, e quindi utilizzarli nel Forms adattivo.
 hide: true
-hidefromtoc: true
-source-git-commit: 1ac3d987337f8279e762ab5357d32bb732dea0be
+exl-id: e4500666-1346-4558-861d-da9541dcef51
+source-git-commit: ece6b7092a19c98c836d58f3f4d5ff15a0276b1c
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 1%
 
 ---
-
 
 # Abilitare e utilizzare i modelli di convalida dell’input di testo in Adobe Experience Manager Adaptive Forms
 

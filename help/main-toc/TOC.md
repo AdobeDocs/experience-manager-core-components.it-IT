@@ -5,10 +5,10 @@ breadcrumb-title: Guida dei Componenti core
 feature: Core Components
 user-guide-description: Per i progetti AEM tradizionali, utilizza i Componenti core estendibili per consentire agli autori di creare facilmente il contenuto.
 feature-set: Experience Manager Sites, Experience Manager Forms
-source-git-commit: 1ac3d987337f8279e762ab5357d32bb732dea0be
+source-git-commit: ece6b7092a19c98c836d58f3f4d5ff15a0276b1c
 workflow-type: tm+mt
 source-wordcount: '428'
-ht-degree: 98%
+ht-degree: 96%
 
 ---
 
@@ -122,12 +122,12 @@ ht-degree: 98%
       + [Schede orizzontali moduli adattivi](/help/adaptive-forms/components/horizontal-tabs.md)
       + [Immagine moduli adattivi](/help/adaptive-forms/components/image.md)
       + [Casella numerica moduli adattivi](/help/adaptive-forms/components/numeric-box.md)
-      + [Casella password moduli adattivi](/help/adaptive-forms/components/password-box.md)
+      + {hide-from-toc}[Casella password Forms adattiva](/help/adaptive-forms/components/password-box.md)
       + [Pannello moduli adattivi](/help/adaptive-forms/components/panel.md)
       + [CAPTCHA dei moduli adattivi](/help/adaptive-forms/components/adaptive-form-recaptcha.md)
       + [Pulsante di scelta moduli adattivi](/help/adaptive-forms/components/radio-button.md)
       + [Pulsante reimpostazione moduli adattivi](/help/adaptive-forms/components/reset-button.md)
-      + [Revisione per modulo adattivo](/help/adaptive-forms/components/review.md)
+      + {hide-from-toc}[Revisione modulo adattivo](/help/adaptive-forms/components/review.md)
       + [Firma a mano per moduli adattivi](/help/adaptive-forms/components/scribble-signature.md)
       + [Pulsante di invio moduli adattivi](/help/adaptive-forms/components/submit-button.md)
       + [Interruttore moduli adattivi](/help/adaptive-forms/components/adaptive-form-switch.md)
@@ -141,7 +141,7 @@ ht-degree: 98%
       + [Piè di pagina](/help/adaptive-forms/components/footer.md)
    + [Personalizzare i componenti core dei moduli adattivi](/help/developing/customize-adaptive-forms-core-components.md)
    + [Modelli e temi di esempio](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
-   + [Abilita modelli di convalida input testo](/help/adaptive-forms/enable-validation-patterns.md)
+   + {hide-from-toc}[Abilita modelli di convalida input testo](/help/adaptive-forms/enable-validation-patterns.md)
 + Sviluppo {#developing}
    + [Sviluppo di Componenti core](/help/developing/overview.md)
    + [Percorsi verso il successo](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=it)
