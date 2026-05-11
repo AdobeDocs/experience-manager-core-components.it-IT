@@ -5,7 +5,7 @@ role: Developer, Admin, User
 exl-id: 48e56938-660a-43e7-9e62-8069283ae73f
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '766'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 # Componente Teaser (v1) {#teaser-component}
 
-Il componente core Teaser può mostrare un’immagine, un titolo, un testo formattato e opzionalmente un collegamento verso altri contenuti.
+Il componente core Teaser può mostrare un’immagine, un titolo, un testo RTF e opzionalmente un collegamento ad altro contenuto.
 
 ## Utilizzo {#usage}
 

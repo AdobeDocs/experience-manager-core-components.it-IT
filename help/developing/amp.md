@@ -4,9 +4,9 @@ description: 'I Componenti core supportano AMP: Accelerated Mobile Pages'
 role: Developer, Admin
 exl-id: 1fd9b6b5-0e4d-48c7-8faa-42e0d4a6bbd0
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '578'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Accelerated Mobile Pages o AMP è un framework open-source progettato originaria
 
 ## AMP nei Componenti core {#amp-in-core-components}
 
-Il supporto per AMP nei Componenti core è [completamente configurabile.](#enabling-amp) Le versioni AMP delle pagine possono essere servite in via esclusiva, insieme alle versioni standard di HTML, o non servite affatto.
+Il supporto per AMP nei Componenti core è [completamente configurabile.](#enabling-amp)Le versioni AMP delle pagine possono essere pubblicate in via esclusiva, insieme alle versioni HTML standard, o non pubblicate affatto.
 
 I Componenti core utilizzano `amp` come selettore Sling per eseguire il rendering di una pagina AMP. Ad esempio, `example.html` esegue il rendering della pagina normale e `example.amp.html` è la versione AMP.
 

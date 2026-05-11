@@ -4,9 +4,9 @@ description: Utilizzo o personalizzazione del componente core della procedura gu
 role: Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
 source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2246'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Ogni passaggio della procedura guidata contiene in genere un gruppo di campi mod
 Il layout della procedura guidata è utile per i moduli che contengono molti campi o informazioni da raccogliere, in quanto suddivide il modulo in blocchi più piccoli e gestibili. Aiuta inoltre gli utenti a concentrarsi su un insieme di campi alla volta, il che può rendere il processo di compilazione del modulo meno complesso.
 
 Tuttavia, può anche aumentare la complessità del modulo, in quanto l’utente deve passare attraverso più pagine per completare il modulo. Pertanto, è necessario valutare i requisiti del modulo e le esigenze dell’utente prima di decidere di utilizzare un layout con procedura guidata.
-È possibile utilizzare il componente core del layout della procedura guidata in un modulo adattivo per creare il layout della procedura guidata.
+È possibile utilizzare il componente core Layout della procedura guidata in un modulo adattivo per creare il layout della procedura guidata.
 
 {{traditional-aem}}
 
@@ -50,13 +50,13 @@ Nel complesso, un layout della procedura guidata può rendere il processo di com
 
 ## Versione e compatibilità {#version-and-compatibility}
 
-Il componente core Layout guidato adattivo Forms è stato rilasciato a febbraio 2023 come parte dei Componenti core 2.0.4. Di seguito è riportata una tabella che mostra tutte le versioni supportate, la compatibilità AEM e i collegamenti alla documentazione corrispondente:
+Il componente core Layout procedura guidata dei moduli adattivi è stato rilasciato a febbraio 2023 come parte dei Componenti core 2.0.4. Di seguito è riportata una tabella che mostra tutte le versioni supportate, la compatibilità AEM e i collegamenti alla documentazione corrispondente:
 
 |  |  |
 |---|---|
 | Versione del componente | AEM as a Cloud Service |
 | --- | --- |
-| v1 | Compatibile con<br>[versione 2.0.4](/help/adaptive-forms/version.md) e successive\|Compatibile\|Compatibile |
+| v1 | Compatibile con la<br>[versione 2.0.4](/help/adaptive-forms/version.md) e successive\|Compatibile\|Compatibile |
 
 Per informazioni sulle versioni dei componenti core, consulta il documento [Versioni dei componenti core](/help/adaptive-forms/version.md).
 

@@ -4,16 +4,16 @@ description: Le versioni dei Componenti core AEM pubblicate possono contenere pi
 role: Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '213'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
 # Versioni dei componenti core dei moduli adattivi {#core-components-versions}
 
-Identifica le versioni precise delle dipendenze dei Componenti core Forms e dei Componenti core WCM. Acquisisci inoltre familiarità con i componenti e le funzioni abilitati in ogni versione dei Componenti core dei moduli adattivi.
+Identifica le versioni precise delle dipendenze sia per i componenti core Moduli che per i componenti core WCM.Acquisisci inoltre familiarità con i componenti e le funzioni abilitati in ogni versione dei Componenti core dei moduli adattivi.
 
 ## Cronologia delle versioni di AEM Forms as Cloud Service {#aem-as-cs-version-history}
 

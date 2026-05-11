@@ -5,9 +5,9 @@ role: Developer, Admin, User
 exl-id: e85fe4db-6de4-4a84-a54c-bd07a67efed3
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '662'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Questo documento descrive la versione 2 del componente Pagina, originariamente i
 
 ## Supporto di Progressive Web App {#pwa-support}
 
-La versione 2.15.0 dei Componenti core ha introdotto il supporto delle funzionalità integrate di AEM as a Cloud Service [Progressive Web Apps (PWA).](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=it) Con una semplice configurazione a livello di sito, puoi trasformare la tua esperienza AEM in un’esperienza PWA.
+La versione 2.15.0 dei Componenti core ha introdotto il supporto delle [funzionalità di Progressive Web App (PWA)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=it) incorporate in AEM as a Cloud Service.Con una semplice configurazione a livello di sito, potrai trasformare la tua esperienza AEM in un’esperienza PWA.
 
 ### Dettagli tecnici {#technical-details}
 

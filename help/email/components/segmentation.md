@@ -5,9 +5,9 @@ role: Developer, Admin, User
 exl-id: 6c88b8c5-189a-40c0-ab28-04d37dc5fbac
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1156'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -57,8 +57,8 @@ Utilizza il pulsante **Aggiungi segmento** per aprire il selettore componenti e 
    * **Predefinito**: definisce il segmento predefinito da mostrare se non sono soddisfatte altre condizioni
    * **Personalizzato**: consente all’autore di definire una condizione
       * Le condizioni sono basate sulle variabili di personalizzazione Adobe Campaign
-      * [Consulta qui per le risorse di personalizzazione di Adobe Campaign Standard.](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=it)
-      * [Consulta qui per le risorse di personalizzazione di Adobe Campaign Classic.](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html?lang=it)
+      * [Consulta qui le risorse di personalizzazione di Adobe Campaign Standard.](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=it)
+      * [Consulta qui le risorse di personalizzazione di Adobe Campaign Classic.](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html?lang=it)
 * **Elimina**: tocca o fai clic per eliminare il segmento dal componente Segmentazione e-mail.
 * **Ridisponi**: tocca o fai clic e trascina per ridisporre i segmenti.
 
@@ -135,7 +135,7 @@ Tocca o fai clic sul pulsante **Aggiungi** per creare nuove condizioni.
 
 * **Nome della condizione del segmento**: descrizione della condizione
 * **Condizione del segmento**: la condizione effettiva che deve essere soddisfatta, in base alle variabili di personalizzazione di Adobe Campaign
-   * [Consulta qui per le risorse di personalizzazione di Adobe Campaign Standard.](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=it)
-   * [Consulta qui per le risorse di personalizzazione di Adobe Campaign Classic.]&#x200B;(https://experienceleague.adobe.com/docs/?lang=it
+   * [Consulta qui le risorse di personalizzazione di Adobe Campaign Standard.](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=it)
+   * [Consulta qui le risorse di personalizzazione di Adobe Campaign Classic]&#x200B;(https://experienceleague.adobe.com/it/docs
 * **Rimuovi**: tocca o fai clic per rimuovere la condizione
 * **Ridisponi**: tocca o fai clic e trascina per modificare l’ordine delle condizioni

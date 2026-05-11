@@ -7,9 +7,9 @@ role: Admin, User
 level: Intermediate
 exl-id: aef6e88b-dcae-4777-9893-9257d7702f43
 source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1384'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -40,14 +40,14 @@ I temi, i modelli e i modelli di dati per moduli di esempio inclusi nel pacchett
 
 I temi di esempio di riferimento aiutano gli autori a utilizzare, definire e personalizzare lo stile dei moduli; gli autori con conoscenze di base di CSS possono personalizzare il tema secondo le proprie esigenze.
 
-**Come ottenere questi temi?**
-Ottieni questi temi utilizzando i seguenti passaggi forniti di seguito per l&#39;ambiente **AEM as a Cloud Service**:
+**Come si ottengono questi temi?**
+Puoi ottenere questi temi seguendo i passaggi indicati di seguito per l’ambiente **AEM as a Cloud Service**:
 
 <!-- 1. [Enable Adaptive Form Core Components](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html?lang=it) -->
-1. [Distribuire un progetto AEM Archetype 47 o successivo nell’ambiente](https://github.com/adobe/aem-project-archetype)
+1. [Distribuisci un progetto AEM basato sull’Archetipo 47 o successivo nel tuo ambiente](https://github.com/adobe/aem-project-archetype)
 
 
-Quando distribuisci un progetto basato sull’Archetipo AEM, è possibile utilizzare solo i temi predefiniti nei moduli. Per personalizzare i temi in base alle tue esigenze, [utilizza la pipeline front-end](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html?lang=it) per distribuire i temi.
+Quando implementi un Archetipo AEM, puoi utilizzare solo i temi predefiniti nei moduli. Per personalizzare i temi in base alle tue esigenze, [utilizza la pipeline front-end](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html?lang=it) per implementarli.
 
 >[!NOTE]
 >
@@ -200,8 +200,8 @@ Il modello per moduli di iscrizione alle prestazioni viene utilizzato per creare
 
 ### Riepilogo prestazioni dei dipendenti {#Employee-Benefits-Summary}
 
-Il modello per moduli Riepilogo prestazioni dei dipendenti consente di creare un modulo per raccogliere dettagli essenziali sulle prestazioni di un individuo. Consente di valutare la copertura in modo rapido e accurato, fornendo una panoramica completa per assistenza e supporto efficienti.
-![Sintetico benefit dipendenti](/help/adaptive-forms/assets/Employee-benefits-summary.png)
+Il modello per moduli Riepilogo prestazioni dei dipendenti consente di creare un modulo per raccogliere dettagli essenziali sulle prestazioni di un individuo. Consente di valutare la copertura in modo rapido e accurato, fornendo una panoramica completa per ottenere assistenza e supporto efficienti.
+![Riepilogo prestazioni dei dipendenti](/help/adaptive-forms/assets/Employee-benefits-summary.png)
 
 
 ### Richiesta di estratto conto {#Request-for-Account-Statement}

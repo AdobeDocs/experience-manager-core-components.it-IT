@@ -4,9 +4,9 @@ description: Utilizzo o personalizzazione del componente core di inserimento num
 role: Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2446'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -178,11 +178,11 @@ Le proprietà personalizzate consentono di associare attributi personalizzati (c
 
 ### Scheda Formati {#formats-tab}
 
-La scheda dei formati consente di specificare i formati di data predefiniti e personalizzati. È inoltre possibile aggiungere un nuovo formato numerico personalizzato utilizzando il pulsante **Aggiungi**.
+La scheda dei formati consente di specificare i formati di data predefiniti e personalizzati. Inoltre, puoi aggiungere un nuovo formato numerico personalizzato utilizzando il pulsante **Aggiungi**.
 
 ![Scheda formato](/help/adaptive-forms/assets/emailinput_formattab.png)
 
-#### Aggiungere formati nel criterio del modello del componente
+#### Aggiunta di formati al criterio del modello del componente
 
 Per visualizzare i formati disponibili per il componente, devi aggiungerli al criterio del modello del componente.
 
@@ -191,10 +191,10 @@ Per visualizzare i formati disponibili per il componente, devi aggiungerli al cr
 Per aggiungere formati al criterio del modello:
 
 1. Apri il modello corrispondente associato a un modulo adattivo o a Sites nell’editor di modelli.
-2. Nella sezione **Componenti consentiti** selezionare il componente **[!UICONTROL Input numero]**.
+2. Nella sezione **Componenti consentiti**, seleziona il componente **[!UICONTROL Immissione numeri]**.
    ![Criterio modello selettore data](/help/adaptive-forms/assets/number-input-policy.png)
-3. Fai clic sull&#39;icona **[!UICONTROL Aggiungi]** per creare un nuovo criterio per il componente Input numero.
-4. Immettere un nome per il criterio e selezionare tutti i formati richiesti nella scheda **Formato**.
+3. Fai clic sull’icona **[!UICONTROL Aggiungi]** per creare un nuovo criterio per il componente Immissione numeri.
+4. Immetti un nome per il criterio e seleziona tutti i formati richiesti nella scheda **Formato**.
    ![Crea criterio](/help/adaptive-forms/assets/date-picker-format-policy.png)
 5. Fai clic su **[!UICONTROL Fine]**.
 

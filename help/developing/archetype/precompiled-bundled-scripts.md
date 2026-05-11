@@ -5,9 +5,9 @@ feature: Core Components, AEM Project Archetype
 role: Developer, Admin
 exl-id: 3edc388f-01b2-45cc-bd56-f22e5a5a8624
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '416'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ La distribuzione di script in bundle precompilati presenta i seguenti vantaggi:
 
 Il framework OSGi permette di definire [Requisiti e funzionalità](https://docs.osgi.org/specification/osgi.core/7.0.0/framework.module.html#framework.module.dependencies) per esprimere relazioni e vincoli tra vari componenti. Questi vengono descritti tramite metadati e applicati in fase di runtime. Gli script in bundle utilizzano questo meccanismo per esprimere sia le relazioni di ereditarietà (`sling:resourceSuperType`) che la delega (anche per altri tipi di risorse nel processo di rendering).
 
-Il plug-in `bnd` dal progetto [scriptingbundle-maven-plugin](https://sling.apache.org/components/scriptingbundle-maven-plugin/bnd.html) può essere utilizzato per estrarre i requisiti e le funzionalità corrispondenti agli script forniti da [`ui.apps`.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=it#code-packages-%2F-osgi-bundles) pacchetto di contenuti
+Il plug-in `bnd` del progetto [scriptingbundle-maven-plugin](https://sling.apache.org/components/scriptingbundle-maven-plugin/bnd.html) può essere utilizzato per estrarre i requisiti e le funzionalità corrispondenti agli script forniti da [`ui.apps`.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=it#code-packages-%2F-osgi-bundles) pacchetto di contenuti
 
 ## Supporto di Archetipo progetto AEM {#support}
 

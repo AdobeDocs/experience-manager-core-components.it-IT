@@ -4,9 +4,9 @@ description: Il componente core Immagine è un componente immagine adattivo.
 role: Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2163'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -59,13 +59,13 @@ Per ulteriori informazioni, [consulta la documentazione tecnica del componente I
 
 ## Supporto di Dynamic Media {#dynamic-media}
 
-Il componente Immagine (a partire dalla [versione 2.13.0](/help/versions.md)) supporta [risorse Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media.html?lang=it). [Se abilitate,](#design-dialog) queste funzioni consentono di aggiungere risorse immagine Dynamic Media con una semplice azione di trascinamento e rilascio della selezione oppure tramite il browser delle risorse, esattamente come faresti con qualsiasi altra immagine. Sono inoltre supportati modificatori di immagini, predefiniti per immagini e ritaglio avanzato.
+Il componente Immagine (a partire dalla [versione 2.13.0](/help/versions.md)) supporta le risorse di [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media.html?lang=it). [Se abilitate,](#design-dialog) queste funzioni consentono di aggiungere risorse immagine di Dynamic Media con una semplice azione di trascinamento e rilascio della selezione oppure tramite il browser delle risorse, esattamente come faresti con qualsiasi altra immagine. Sono inoltre supportati modificatori di immagini, predefiniti per immagini e ritaglio avanzato.
 
-La tua esperienza web costruita con i Componenti core ora si arricchisce delle solide funzionalità per le immagini offerte da Dynamic Media, performanti, multipiattaforma e con tecnologia Adobe AI.
+Le tue esperienze web create con i componenti core possono includere funzionalità per immagini Dynamic Media arricchite, basate su Adobe AI, solide, ad alte prestazioni e per più piattaforme.
 
 ## Supporto risorse remote {#remote-assets}
 
-Il componente Immagine (a partire dalla [versione 2.23.2](/help/versions.md)) supporta le risorse remote. [Una volta configurata,](/help/developing/remote-assets.md) puoi selezionare le risorse da un servizio remoto per il componente immagine.
+Il componente Immagine (a partire dalla [versione 2.23.2](/help/versions.md)) supporta le risorse remote. [Una volta configurato](/help/developing/remote-assets.md), è possibile selezionare le risorse da un servizio remoto per il componente Immagine.
 
 ## Supporto di SVG {#svg-support}
 
@@ -103,7 +103,7 @@ Se stai modificando AEM Assets standard, puoi fare clic sull’icona **Modifica*
 
 ![Finestra di dialogo per modifica del componente Immagine](/help/assets/image-edit.png)
 
-* Avvia ritaglio
+* Inizia ritaglio
 
   ![Icona Avvia ritaglio](/help/assets/image-start-crop.png)
 
@@ -121,7 +121,7 @@ Se stai modificando AEM Assets standard, puoi fare clic sull’icona **Modifica*
 
   Utilizza questa opzione per ruotare l’immagine di 90° verso destra (in senso orario).
 
-* Reimposta zoom
+* Ripristina zoom
 
   ![Icona Reimposta zoom](/help/assets/image-reset-zoom.png)
 
@@ -131,7 +131,7 @@ Se stai modificando AEM Assets standard, puoi fare clic sull’icona **Modifica*
 
   ![Icona Apri cursore zoom](/help/assets/image-zoom.png)
 
-  Utilizza questa opzione per visualizzare un cursore che permette di controllare il livello di zoom dell’immagine.
+  Utilizza questa opzione in modo da poter visualizzare un cursore per controllare il livello di zoom dell’immagine.
 
   ![Controllo cursore dello zoom](/help/assets/image-zoom-slider.png)
 

@@ -4,9 +4,9 @@ description: Utilizzo o personalizzazione del componente core piè di pagina dei
 role: Developer, Admin, User
 exl-id: c8e7d3fe-4b82-4a80-8da2-19f6cff1e3e9
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '783'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -63,11 +63,11 @@ Puoi personalizzare facilmente l’esperienza del piè di pagina per i visitator
 ![Scheda Proprietà](/help/adaptive-forms/assets/footer_propertiestab.png)
 
 - **Finestra di dialogo Modifica**
-La finestra di dialogo Modifica fornisce strumenti di formattazione rich text standard che consentono all’utente di creare un testo per il piè di pagina.
+La finestra di dialogo di modifica fornisce strumenti di formattazione rich text standard che consentono all’utente di creare un testo per il piè di pagina.
 
-- **Grassetto** - Questa opzione applica il formato grassetto al testo selezionato o al testo in grassetto   formattare il testo immesso dopo il cursore. `Ctrl+B` è una scelta rapida da tastiera.
+- **Grassetto**: consente di applicare il grassetto al testo selezionato o al testo inserito dopo il cursore. `Ctrl+B` è una scelta rapida della tastiera.
 
-- **Corsivo** - Questa opzione applica la formattazione in corsivo al testo selezionato o   testo in corsivo immesso dopo il cursore. `Ctrl+I` è una scelta rapida da tastiera.
+- **Corsivo**: questa opzione applica la formattazione in corsivo al testo selezionato o al testo in corsivo inserito dopo il cursore. `Ctrl+I` è una scelta rapida della tastiera.
 
 ![Opzioni punto elenco](/help/adaptive-forms/assets/footer_bullet.png)
 

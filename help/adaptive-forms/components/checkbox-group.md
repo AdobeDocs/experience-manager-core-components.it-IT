@@ -4,9 +4,9 @@ description: Utilizzo o personalizzazione del componente core del gruppo di case
 role: Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
-source-wordcount: '2315'
-ht-degree: 91%
+workflow-type: ht
+source-wordcount: '2316'
+ht-degree: 100%
 
 ---
 
@@ -53,14 +53,14 @@ Il componente core Gruppo di caselle di controllo dei moduli adattivi è stato r
 
 | Versione del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o versioni successive |
 |---|---|---|
-| v2 | Compatibile con <br>[versione 3.0.142](/help/adaptive-forms/version.md) e successive | |
+| v2 | Compatibile con la <br>[versione 3.0.142](/help/adaptive-forms/version.md) e successive | |
 | v1 | Compatibile con <br>[versione 2.0.4](/help/adaptive-forms/version.md) e successive | Compatibile con <br>[versione 1.1.12](/help/adaptive-forms/version.md) e successive, ma precedenti a 2.0.0. |
 
 Per informazioni sulle versioni dei componenti core, consulta il documento [Versioni dei componenti core](/help/adaptive-forms/version.md).
 
 >[!NOTE]
 >
-> La versione v1 del componente core Gruppo di caselle di controllo supporta WCAG 2.1, che mira a rendere il contenuto accessibile seguendo le best practice per l’usabilità e la leggibilità. La versione v2 supporta WCAG 2.2, che compie un ulteriore passo avanti sottolineando l’accessibilità chiara, prevedibile e inequivocabile attraverso il raggruppamento logico e semantico di campi correlati, rendendola un requisito fondamentale per la progettazione di moduli inclusivi.
+> La versione v1 del componente core Gruppo di caselle di controllo supporta WCAG 2.1, che mira a rendere il contenuto accessibile seguendo le best practice per l’usabilità e la leggibilità. La versione v2 supporta WCAG 2.2, che compie un ulteriore passo avanti evidenziando un’accessibilità chiara, prevedibile e inequivocabile attraverso il raggruppamento logico e semantico di campi correlati, rendendola un requisito fondamentale per la progettazione di moduli inclusivi.
 
 <!--
 ## Sample Component Output {#sample-component-output}
@@ -81,7 +81,7 @@ Puoi personalizzare facilmente la tua esperienza con le caselle di controllo per
 
 ![Scheda Base](/help/adaptive-forms/assets/checkbox_basictab.png)
 
-- **Nome**: il nome identifica in modo univoco il componente nell’editor delle regole. Le stringhe di nome non consentono l’uso di caratteri e spazi speciali.
+- **Nome**: il nome identifica il componente in modo univoco nell’editor di regole.I caratteri speciali e gli spazi non sono consentiti nelle stringhe dei nomi.
 
 - **Titolo** : con il relativo titolo è possibile identificare facilmente un componente in un modulo e, per impostazione predefinita, il titolo viene visualizzato sopra il componente. Se non aggiungi un titolo, al posto del testo del titolo viene visualizzato il nome del componente.
 
@@ -180,15 +180,15 @@ Le proprietà personalizzate consentono di associare attributi personalizzati (c
 
    - **Ridisponi**: tocca o fai clic e trascina per ridisporre l’ordine del nome e del valore della proprietà personalizzata.
 
-## Supporto di set di campi e legende per il gruppo di caselle di controllo (v2)
+## Supporto per set di campi e legende per il gruppo di caselle di controllo (v2)
 
-<span class="preview"> Questa funzionalità è disponibile tramite il programma di accesso anticipato. Per richiedere l&#39;accesso, invia un&#39;e-mail dal tuo indirizzo ufficiale a [aem-forms-ea@adobe.com](mailto:aem-forms-ea@adobe.com). </span>
+<span class="preview">Questa funzione è disponibile tramite il programma di accesso anticipato. Per richiedere l’accesso, invia un’e-mail dal tuo indirizzo ufficiale a [aem-forms-ea@adobe.com](mailto:aem-forms-ea@adobe.com). </span>
 
-I componenti core Forms adattivi utilizzano elementi HTML semantici `<fieldset>` e `<legend>` per migliorare l&#39;accessibilità per i gruppi di caselle di controllo. Questi elementi consentono agli assistenti vocali di interpretare con precisione la struttura del modulo e di comunicare le relazioni tra le etichette dei gruppi e le relative opzioni.
+I componenti core dei moduli adattivi utilizzano elementi semantici `<fieldset>` e `<legend>` HTML per migliorare l’accessibilità dei gruppi di caselle di controllo. Questi elementi consentono agli assistenti vocali di interpretare in modo accurato la struttura del modulo e di comunicare le relazioni tra etichette dei gruppi e relative opzioni.
 
-Il rendering del componente del gruppo di caselle di controllo (v2) all&#39;interno di un elemento `<fieldset>`, con l&#39;etichetta del gruppo racchiusa in un `<legend>` come primo elemento figlio. Questa struttura assicura che gli assistenti vocali pubblichino l’etichetta del gruppo prima di leggere le singole opzioni delle caselle di controllo, semplificando la comprensione del contesto e dello scopo di ciascuna opzione da parte degli utenti che dispongono di tecnologie per l’accessibilità.
+Il rendering del componente del gruppo di caselle di controllo(v2) all’interno di un elemento `<fieldset>`, con l’etichetta del gruppo racchiusa in un `<legend>` come primo elemento secondario. Questa struttura garantisce che gli assistenti vocali annuncino l’etichetta del gruppo prima di leggere le singole opzioni delle caselle di controllo, semplificando la comprensione del contesto e dello scopo di ciascuna opzione da parte degli utenti che si avvalgono di tecnologie di assistenza.
 
-![set di campi casella di controllo](/help/adaptive-forms/assets/checkbox-fieldset.png)
+![set di campi delle caselle di controllo](/help/adaptive-forms/assets/checkbox-fieldset.png)
 
 ## Articoli correlati {#related-articles}
 

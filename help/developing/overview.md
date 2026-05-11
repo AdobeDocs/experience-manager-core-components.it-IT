@@ -4,9 +4,9 @@ description: I Componenti core forniscono componenti di base affidabili ed esten
 role: Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1339'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ I Componenti core forniscono componenti di base affidabili ed estensibili che of
 
 ## Come utilizzare in modo efficace i Componenti core {#how-to-succeed}
 
-I Componenti core sono potenti, flessibili e facili da usare e personalizzare. [L&#39;aderenza ad alcune linee guida chiave](success.md) garantirà il successo del progetto con i Componenti core.
+I Componenti core sono efficienti, flessibili e facili da usare e personalizzare. [L’aderenza ad alcune linee guida chiave](success.md) garantirà il successo del tuo progetto con i Componenti core.
 
 ## Migrazione ai Componenti core
 

@@ -5,9 +5,9 @@ role: Developer, Admin, User
 exl-id: 861c1fd1-6d6d-426c-a338-a558326fe16e
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '894'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -120,7 +120,7 @@ La finestra di dialogo per configurazione consente all’autore di contenuti di 
 
 Utilizza il pulsante **Apri finestra di dialogo per selezione** per aprire il selettore di componenti e scegliere la variante del componente Frammento esperienza da aggiungere alla pagina di contenuto.
 
-Se aggiungi il componente Frammento esperienza e-mail a un modello, verrà automaticamente localizzato, a condizione che i Frammenti esperienza siano localizzati, pertanto ciò che viene renderizzato sulla pagina può variare in base al componente esplicitamente selezionato. [Per ulteriori informazioni, vedi l&#39;esempio precedente](#example).
+Se aggiungi il componente Frammento esperienza e-mail a un modello, noterai che verrà automaticamente localizzato, a condizione che i frammenti esperienza siano localizzati, pertanto ciò che viene renderizzato sulla pagina può variare in base al componente esplicitamente selezionato. Per ulteriori informazioni, [vedi l’esempio precedente](#example).
 
 Puoi anche definire un **ID**. Questa opzione consente di controllare l’identificatore univoco del componente nell’HTM.
 

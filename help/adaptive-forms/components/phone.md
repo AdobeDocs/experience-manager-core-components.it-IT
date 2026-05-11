@@ -4,9 +4,9 @@ description: Utilizzo o personalizzazione del componente core per l’inseriment
 role: Developer, Admin, User
 exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2232'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -157,7 +157,7 @@ Le proprietà personalizzate consentono di associare attributi personalizzati (c
 
 ### Scheda Formati {#format-tab}
 
-La scheda Formati consente di specificare i formati numerici predefiniti e personalizzati.È inoltre possibile aggiungere un formato numerico personalizzato facendo clic sul pulsante **Aggiungi**.
+La scheda Formati ti consente di specificare i formati numerici predefiniti e personalizzati. Inoltre, puoi aggiungere un formato numerico personalizzato facendo clic sul pulsante **Aggiungi**.
 
 ![Scheda Formato](/help/adaptive-forms/assets/telephoneinput_format.png)
 

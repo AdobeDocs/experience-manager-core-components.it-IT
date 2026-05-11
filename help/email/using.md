@@ -5,9 +5,9 @@ role: Developer, Admin, User
 exl-id: 0e79ca8f-eb0a-4519-b1e8-a9d3b0b99987
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '683'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Informazioni sull’installazione, la configurazione e l’utilizzo di base dei 
 
 ## Installazione dei componenti core E-mail {#installation}
 
-I componenti core E-mail possono essere utilizzati con AEM 6.5. Per ulteriori informazioni, consulta la sezione [Requisiti del documento introduttivo sui componenti core E-mail](introduction.md#requirements).
+I componenti core E-mail possono essere utilizzati con AEM 6.5. Consulta la [sezione Requisiti del documento Introduzione ai componenti core E-mail](introduction.md#requirements) per ulteriori informazioni.
 
 ### Installare i componenti core {#core-components}
 

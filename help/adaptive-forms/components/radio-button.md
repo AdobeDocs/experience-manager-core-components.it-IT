@@ -4,9 +4,9 @@ description: Utilizzo o personalizzazione del componente core del pulsante di sc
 role: Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2349'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Il componente core Pulsante di scelta dei moduli adattivi è stato rilasciato a 
 
 | Versione del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o versioni successive |
 |---|---|---|
-| v2 | Compatibile con <br>[versione 3.0.142](/help/adaptive-forms/version.md) e successive | |
+| v2 | Compatibile con la<br>[versione 3.0.142](/help/adaptive-forms/version.md) e successive | |
 | v1 | Compatibile con <br>[versione 2.0.4](/help/adaptive-forms/version.md) e successive | Compatibile con <br>[versione 1.1.12](/help/adaptive-forms/version.md) e successive, ma precedenti a 2.0.0. |
 
 
@@ -57,7 +57,7 @@ Per informazioni sulle versioni dei componenti core, consulta il documento [Vers
 
 >[!NOTE]
 >
-> La versione v1 del componente core Gruppo di caselle di controllo supporta WCAG 2.1, che mira a rendere il contenuto accessibile seguendo le best practice per l’usabilità e la leggibilità. La versione v2 supporta WCAG 2.2, che compie un ulteriore passo avanti sottolineando l’accessibilità chiara, prevedibile e inequivocabile attraverso il raggruppamento logico e semantico di campi correlati, rendendola un requisito fondamentale per la progettazione di moduli inclusivi.
+> La versione v1 del componente core Gruppo di caselle di controllo supporta WCAG 2.1, che mira a rendere il contenuto accessibile seguendo le best practice per l’usabilità e la leggibilità. La versione v2 supporta WCAG 2.2, che compie un ulteriore passo avanti evidenziando un’accessibilità chiara, prevedibile e inequivocabile attraverso il raggruppamento logico e semantico di campi correlati, rendendola un requisito fondamentale per la progettazione di moduli inclusivi.
 
 <!--
 ## Sample Component Output {#sample-component-output}
@@ -175,15 +175,15 @@ Le proprietà personalizzate consentono di associare attributi personalizzati (c
 
    - **Ridisponi**: tocca o fai clic e trascina per ridisporre l’ordine del nome e del valore della proprietà personalizzata.
 
-## Supporto del set di campi e della legenda per il pulsante di opzione (v2)
+## Supporto di set di campi e legende per il pulsante di scelta(v2)
 
-<span class="preview"> Questa funzionalità è disponibile tramite il programma di accesso anticipato. Per richiedere l&#39;accesso, invia un&#39;e-mail dal tuo indirizzo ufficiale a [aem-forms-ea@adobe.com](mailto:aem-forms-ea@adobe.com). </span>
+<span class="preview">Questa funzione è disponibile tramite il programma di accesso anticipato. Per richiedere l’accesso, invia un’e-mail dal tuo indirizzo ufficiale a [aem-forms-ea@adobe.com](mailto:aem-forms-ea@adobe.com). </span>
 
-I componenti core Forms adattivi utilizzano elementi HTML semantici `<fieldset>` e `<legend>` per migliorare l&#39;accessibilità per i gruppi di pulsanti di scelta. Questi elementi consentono agli assistenti vocali di interpretare con precisione la struttura del modulo e di comunicare le relazioni tra le etichette dei gruppi e le relative opzioni.
+I componenti core dei moduli adattivi utilizzano elementi semantici `<fieldset>` e `<legend>` HTML per migliorare l’accessibilità dei gruppi dei pulsanti di scelta. Questi elementi consentono agli assistenti vocali di interpretare in modo accurato la struttura del modulo e di comunicare le relazioni tra etichette dei gruppi e relative opzioni.
 
-I componenti del pulsante di opzione (v2) eseguono il rendering all&#39;interno di un elemento `<fieldset>`, con l&#39;etichetta del gruppo racchiusa in un `<legend>` come primo elemento figlio. Gli attributi ARIA ridondanti o non validi vengono rimossi e le singole etichette sono correttamente associate ai rispettivi input. In questo modo gli assistenti vocali leggono chiaramente ogni etichetta di pulsante di opzione, insieme al relativo contesto di gruppo.
+I componenti del pulsante di scelta( v2) vengono sottoposti a rendering all’interno di un elemento `<fieldset>`, con l’etichetta del gruppo racchiusa in un `<legend>` come primo elemento secondario. Gli attributi ARIA ridondanti o non validi vengono rimossi e le singole etichette sono associate correttamente ai rispettivi input. In questo modo gli assistenti vocali leggono chiaramente ogni etichetta dei pulsanti di scelta, insieme al relativo contesto di gruppo.
 
-![pulsante di opzione](/help/adaptive-forms/assets/radiobutton-fieldset.png)
+![pulsante di scelta](/help/adaptive-forms/assets/radiobutton-fieldset.png)
 
 ## Articoli correlati {#related-articles}
 
