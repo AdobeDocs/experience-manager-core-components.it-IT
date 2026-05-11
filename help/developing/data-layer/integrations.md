@@ -5,9 +5,9 @@ feature: Core Components, Adobe Client Data Layer
 role: Developer, Admin
 exl-id: 503dd3dc-fe95-4a17-83f5-1f0c1960993d
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '424'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Adobe Client Data Layer può integrarsi con i componenti personalizzati, e le in
 Per aggiungere automaticamente un componente personalizzato al livello dati:
 
 1. Definisci le proprietà del modello del componente personalizzato da tracciare.
-1. Aggiungi l&#39;attributo `data-cmp-data-layer` al codice HTL del componente personalizzato. Esempio: `data-cmp-data-layer="${mycomponent.data.json}"`.
+1. Aggiungi l’attributo `data-cmp-data-layer` all’HTL del componente personalizzato. Ad es. `data-cmp-data-layer="${mycomponent.data.json}"`.
 
 Per fare in modo che il livello dati attivi automaticamente un evento `cmp:click` ogni volta che si fa clic su un elemento specifico del componente personalizzato, aggiungi l’attributo `data-cmp-clickable` all’elemento da tracciare nel codice HTL del componente personalizzato.
 
@@ -40,10 +40,10 @@ Insieme ad Adobe Analytics e Adobe Target, Adobe Client Data Layer diventa il fo
 
 Scopri come utilizzare le funzioni incorporate di Adobe Client Data Layer con i componenti core di AEM per raccogliere i dati di una pagina in Adobe Experience Manager Sites. Experience Platform Launch e l’estensione Adobe Analytics verranno utilizzati per creare regole per inviare dati di pagina ad Adobe Analytics.
 
-[Visualizza l’esercitazione qui.](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/analytics/collect-data-analytics.html?lang=it)
+[Visualizza il tutorial qui.](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/analytics/collect-data-analytics.html?lang=it)
 
 ### Tracciamento dei componenti selezionati con Adobe Analytics {#track-clicked-components}
 
 Utilizza Adobe Client Data Layer basato sugli eventi con i componenti core di AEM per tracciare i clic su componenti specifici su un sito Adobe Experience Manager. Scopri come utilizzare le regole in Experience Platform Launch per rilevare gli eventi clic, filtrarli per componente e inviare i dati ad Adobe Analytics con un beacon di tracciamento dei collegamenti.
 
-[Visualizza l’esercitazione qui.](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/analytics/track-clicked-component.html?lang=it)
+[Visualizza il tutorial qui.](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/analytics/track-clicked-component.html?lang=it)

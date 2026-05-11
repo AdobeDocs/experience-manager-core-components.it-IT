@@ -4,9 +4,9 @@ description: Il componente Sommario crea un sommario basato sui titoli nel conte
 role: Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '753'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -43,11 +43,11 @@ Per ulteriori informazioni sulle versioni e sugli aggiornamenti dei Componenti c
 >
 >In AEM as a Cloud Service, l’amministratore deve abilitare un filtro per il componente affinché possa essere eseguito il rendering dei contenuti del componente.
 >
->Per ulteriori informazioni, [consulta la documentazione GitHub del componente](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_it).
+>Per ulteriori informazioni, [consulta la documentazione GitHub del componente](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1).
 
 ### Dettagli tecnici {#technical-details}
 
-La documentazione tecnica più recente sul componente Sommario [è disponibile su GitHub](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_it).
+La documentazione tecnica più recente sul componente Sommario [è disponibile su GitHub](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1).
 
 Per ulteriori informazioni sullo sviluppo di Componenti core, vedi la [documentazione per gli sviluppatori di Componenti core](/help/developing/overview.md).
 
@@ -85,4 +85,4 @@ Utilizzando la finestra di dialogo di progettazione, l’autore del modello può
 
 ### Scheda Stili {#styles-tab}
 
-Il componente Sommario supporta il [sistema di stili.](/help/get-started/authoring.md#component-styling) di AEM.
+Il componente Sommario supporta il [Sistema di stili](/help/get-started/authoring.md#component-styling) di AEM.

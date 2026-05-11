@@ -4,9 +4,9 @@ description: Utilizzo o personalizzazione del componente core delle schede verti
 role: Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
 source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2214'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 98%
 # Componente Schede verticali{#vertical-tabs-adaptive-forms-core-component}
 
 Le schede verticali in un modulo adattivo fanno riferimento a un pattern di progettazione in cui più sezioni di un modulo sono raggruppate e visualizzate come schede separate, allineate verticalmente. L’utente può passare da una scheda all’altra per accedere a diverse sezioni del modulo. Ogni scheda funge da attivatore per mostrare e nascondere il relativo contenuto del modulo. Le schede verticali consentono di organizzare i moduli lunghi in sezioni gestibili e di migliorare l’esperienza di utilizzo. Le schede possono essere utili per rendere un modulo più accessibile agli utenti con disabilità, consentendo di passare da una sezione all’altra tramite la navigazione con tastiera.
-Facendo clic su una scheda, il contenuto del modulo si aggiorna dinamicamente mostrando la sezione corrispondente.
+Quando un utente fa clic su una scheda, il contenuto del modulo si aggiorna dinamicamente per visualizzare la sezione corrispondente.
 
 >[!NOTE]
 >
@@ -38,13 +38,13 @@ I motivi comuni per utilizzare le schede verticali in un modulo adattivo sono i 
 
 ## Versione e compatibilità {#version-and-compatibility}
 
-Il componente core Schede verticali di Forms adattivo è stato rilasciato come parte dei Componenti core 2.0.18. Di seguito è riportata una tabella che mostra tutte le versioni supportate, la compatibilità AEM e i collegamenti alla documentazione corrispondente:
+Il componente core Schede verticali dei moduli adattivi è stato rilasciato come parte dei Componenti core 2.0.18. Di seguito è riportata una tabella che mostra tutte le versioni supportate, la compatibilità AEM e i collegamenti alla documentazione corrispondente:
 
 |  |  |
 |---|---|
 | Versione del componente | AEM as a Cloud Service |
 | --- | --- |
-| v1 | Compatibile con <br>[versione 2.0.18](/help/adaptive-forms/version.md) e successive\|Compatibile\|Compatibile |
+| v1 | Compatibile con la <br>[versione 2.0.18 ](/help/adaptive-forms/version.md)  e successive\|Compatibile\|Compatibile |
 
 Per informazioni sulle versioni dei componenti core, consulta il documento [Versioni dei componenti core](/help/adaptive-forms/version.md).
 

@@ -5,7 +5,7 @@ role: Developer, Admin, User
 exl-id: fa34be64-b345-45cd-baf3-571973414852
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1020'
 ht-degree: 100%
 
@@ -80,8 +80,8 @@ L’elenco può essere costituito dalle pagine secondarie della pagina corrente 
    * Pagina da cui creare l’elenco di pagine secondarie
    * Lascia il campo vuoto per usare la pagina corrente
 
-* **Profondità elementi secondari**
-Quanti livelli della gerarchia devono essere utilizzati
+* **Livelli di elementi secondari**
+Quanti livelli inferiori nella gerarchia devono essere utilizzati
 
 #### Elenco fisso {#fixed-list}
 
@@ -102,9 +102,9 @@ L’elenco può essere creato utilizzando i risultati di una ricerca di contenut
 ![Opzioni per la ricerca](/help/assets/v2/list-edit-search.png)
 
 * **Query di ricerca**
-Stringa per la quale verrà eseguita una ricerca di testo completa per generare gli elementi dell’elenco
+La stringa per la quale verrà eseguita una ricerca testuale completa per generare gli elementi dell’elenco
 * **Cerca in**
-Dove eseguire la ricerca
+Posizione da cui deve essere eseguita la ricerca
    * Utilizza la **finestra di dialogo per selezione** per scegliere la posizione in AEM
    * Se non specificata, viene utilizzata la pagina corrente
 
@@ -114,15 +114,15 @@ L’elenco può essere creato utilizzando pagine che corrispondono a determinati
 
 ![Opzioni per i tag](/help/assets/v2/list-edit-tags.png)
 
-* **Pagina padre**
-La pagina da cui inizia la ricerca delle corrispondenze con i tag
+* **Pagina principale**
+Pagina da cui deve iniziare la corrispondenza con i tag
    * Utilizza la **finestra di dialogo per selezione** per scegliere la posizione in AEM
    * Se non specificata, viene utilizzata la pagina corrente
 * **Tag**
-I tag per i quali deve esistere una corrispondenza
+Tag per i quali deve esistere una corrispondenza
    * Utilizza la finestra di dialogo **Sfoglia** per selezionare i tag
 * **Corrispondenza**
-Consente di definire il tipo di corrispondenza da applicare a una pagina da includere nell’elenco
+Definisci il tipo di corrispondenza da applicare a una pagina da includere nell’elenco
    * **qualsiasi tag**
    * **tutti i tag**
 
@@ -133,15 +133,15 @@ Indipendentemente dalla modalità di creazione dell’elenco, è sempre possibil
 ![Opzioni di ordinamento](/help/assets/v2/list-edit-sort-options.png)
 
 * **Ordina per**
-Come ordinare gli elementi
+Criterio con cui devono essere ordinati gli elementi
    * **Titolo**
    * **Data ultima modifica**
 * **Ordinamento**
-L’ordine in cui devono essere disposti gli elementi
+L’ordine in cui devono essere riportati gli elementi
    * **crescente**
    * **decrescente**
-* **Max. elementi**
-Il numero massimo di elementi da visualizzare nell’elenco.
+* **Numero massimo di elementi**
+Numero massimo di elementi visualizzati nell’elenco.
    * Lascia vuoto il campo per restituire tutti gli elementi.
 * **ID**: questa opzione consente di controllare l’identificatore univoco del componente nel codice HTML e nel [livello dati](/help/developing/data-layer/overview.md).
    * Se non specificato, viene generato automaticamente un ID univoco reperibile sulla pagina risultante.
@@ -154,12 +154,12 @@ Utilizzando la scheda Impostazioni elemento, è possibile configurare la formatt
 
 ![Impostazioni elemento](/help/assets/v2/list-edit-item-settings.png)
 
-* **Collega elementi**
-Collega gli elementi alla pagina corrispondente
+* **Elementi di collegamento**
+Elementi di collegamento alla pagina corrispondente
 * **Mostra descrizione**
-Mostra la descrizione dell’elemento da collegare
+Mostra le descrizioni dell’elemento di collegamento
 * **Mostra data**
-Mostra la data di modifica dell’elemento da collegare
+Mostra la data di modifica dell’elemento di collegamento
 
 ## Finestra di dialogo per progettazione {#design-dialog}
 
@@ -172,15 +172,15 @@ Nella scheda **Impostazioni elenco**, è possibile definire il formato della dat
 ![Impostazione dell’elenco nella finestra di dialogo per progettazione del componente Elenco](/help/assets/v2/list-design-list-settings.png)
 
 * **Formato data**
-Il formato da utilizzare per visualizzare la data dell’ultima modifica
+Formato da utilizzare per visualizzare la data dell’ultima modifica
 * **Disabilita elementi secondari**
-Disabilita il tipo di elenco secondario nel componente
+Disabilita il tipo di elenco elementi secondari del componente
 * **Disabilita statico**
-Disabilita il tipo di elenco statico nel componente
+Disabilita il tipo di elenco statico del componente
 * **Disabilita ricerca**
-Disabilita il tipo di elenco ricerca nel componente
+Disabilita il tipo di elenco di ricerca del componente
 * **Disabilita tag**
-Disabilita il tipo di elenco tag nel componente
+Disabilita il tipo di elenco di tag del componente
 
 ### Impostazioni elemento {#item-settings}
 
@@ -188,12 +188,12 @@ Nella scheda **Impostazioni elemento**, è possibile definire le opzioni di form
 
 ![Impostazioni degli elementi nella finestra di dialogo per progettazione del componente Elenco](/help/assets/v2/list-design-item-settings.png)
 
-* **Collega elementi**
-Abilita l’opzione Collega elementi nella [finestra di dialogo per modifica](#edit-dialog)
-* **Mostra descrizione**
-Abilita l’opzione Mostra descrizione nella [finestra di dialogo per modifica](#edit-dialog)
+* **Elementi di collegamento**
+Abilita l’opzione Elementi di collegamento nella [finestra di dialogo di modifica](#edit-dialog)
+* **Mostra descrizioni**
+Abilita l’opzione Mostra descrizioni nella [finestra di dialogo di modifica](#edit-dialog)
 * **Mostra data**
-Abilita l’opzione Mostra data nella [finestra di dialogo per modifica](#edit-dialog)
+Abilita l’opzione Mostra data nella [finestra di dialogo di modifica](#edit-dialog)
 
 ### Scheda Stili {#styles-tab}
 

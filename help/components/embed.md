@@ -4,7 +4,7 @@ description: Il componente Incorpora consente di incorporare contenuto esterno i
 role: Developer, Admin, User
 exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1421'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ Per ulteriori informazioni sulle versioni e sugli aggiornamenti dei Componenti c
 
 ## Esempio di output del componente {#sample-component-output}
 
-Per avere un’idea del componente Incorpora e vedere esempi delle opzioni di configurazione e dell’output HTML e JSON, visita la [libreria dei componenti](https://adobe.com/go/aem_cmp_library_embed_it).
+Per avere un’idea del componente Incorpora e vedere esempi delle opzioni di configurazione e dell’output HTML e JSON, visita la [libreria dei componenti](https://adobe.com/go/aem_cmp_library_embed).
 
 ## Dettagli tecnici {#technical-details}
 

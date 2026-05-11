@@ -4,9 +4,9 @@ description: Scopri in che modo i componenti core sfruttano Adaptive Image Servl
 role: Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '487'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Questo documento descrive il metodo predefinito, Adaptive Image Servlet.
 
 ## Panoramica {#overview}
 
-Per impostazione predefinita, il componente Immagine utilizza Adaptive Image Servlet del componente core per distribuire le immagini. [Adaptive Image Servlet](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) è responsabile dell&#39;elaborazione e dello streaming delle immagini e può essere utilizzato dagli sviluppatori nelle [personalizzazioni dei Componenti core](/help/developing/customizing.md).
+Per impostazione predefinita, il componente Immagine utilizza Adaptive Image Servlet del componente core per consegnare le immagini. [Adaptive Image Servlet](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) è responsabile dell’elaborazione e dello streaming delle immagini e può essere utilizzato dagli sviluppatori nelle [personalizzazioni dei componenti core](/help/developing/customizing.md).
 
 ## Selezione della rappresentazione {#rendition-selection}
 
@@ -39,7 +39,7 @@ Adaptive Image Servlet selezionerà automaticamente la rappresentazione più app
 
 1. Adaptive Image Servlet rivede tutte le rappresentazioni disponibili della risorsa immagine.
 1. Seleziona solo quelle con lo stesso mime/tipo della risorsa di riferimento originale.
-   * E.g. se la risorsa originale era un file PNG, considererà solo le rappresentazioni PNG.
+   * Ad es.se la risorsa originale era un file PNG, considera solo le rappresentazioni PNG.
 1. Di quelle rappresentazioni considera le dimensioni e le confronta con le dimensioni del contenitore in cui deve essere visualizzata l’immagine.
 1. Se la rappresentazione è >= alla dimensione del contenitore, viene aggiunta a un elenco di rappresentazioni candidate.
 1. Se la rappresentazione è &lt; alla dimensione del contenitore, viene ignorata.

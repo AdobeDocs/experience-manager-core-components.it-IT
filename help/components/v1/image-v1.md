@@ -5,7 +5,7 @@ index: false
 role: Developer, Admin, User
 exl-id: 625ce8de-5c4a-476d-b749-895493d169b1
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1369'
 ht-degree: 100%
 
@@ -103,7 +103,7 @@ La finestra di dialogo per modifica consente all’autore di contenuto di ritagl
 
 ![](/help/assets/chlimage_1-8.png)
 
-* Avvia ritaglio
+* Inizia ritaglio
 
   ![](/help/assets/chlimage_1-9.png)
 
@@ -144,7 +144,7 @@ La finestra di dialogo per modifica consente all’autore di contenuto di ritagl
       * Utilizza l’opzione Selettore percorso per selezionare un percorso in AEM
       * Se il percorso non è in AEM, utilizza l’URL assoluto. I percorsi non assoluti vengono interpretati come relativi ad AEM.
 
-      * **Testo alt**
+      * **Testo alternativo**
 Descrizione alternativa della destinazione del percorso
       * **Destinazione**
          * **Stessa scheda**
@@ -156,7 +156,7 @@ Descrizione alternativa della destinazione del percorso
 
   ![](/help/assets/chlimage_1-14.png)
 
-* Reimposta zoom
+* Ripristina zoom
 
   ![](/help/assets/chlimage_1-15.png)
 
@@ -166,7 +166,7 @@ Descrizione alternativa della destinazione del percorso
 
   ![](/help/assets/chlimage_1-16.png)
 
-  Utilizza questa opzione per visualizzare un cursore che permette di controllare il livello di zoom dell’immagine.
+  Utilizza questa opzione in modo da poter visualizzare un cursore per controllare il livello di zoom dell’immagine.
 
   ![](/help/assets/chlimage_1-17.png)
 
@@ -217,8 +217,8 @@ Nella scheda **Funzioni** è possibile definire le opzioni disponibili per gli a
 
   ![](/help/assets/chlimage_1-20.png)
 
-   * **Rotazione**: utilizza questa opzione per consentire all’autore di contenuto di utilizzare l’opzione **Ruota a destra**.
-   * **Rifletti**
+   * **Rotazione**: utilizza questa opzione per consentire all’autore dei contenuti di utilizzare l’opzione **Ruota a destra**.
+   * **Riflessione**
 Utilizza questa opzione per consentire all’autore del contenuto di utilizzare le opzioni **Rifletti in orizzontale** e **Rifletti in verticale**.
 
   >[!CAUTION]

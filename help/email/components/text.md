@@ -5,7 +5,7 @@ role: Developer, Admin, User
 exl-id: 4aa192f6-8314-40e7-8732-c6626d647986
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2346'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ Per ulteriori informazioni sulle versioni e sugli aggiornamenti dei Componenti c
 
 ### Dettagli tecnici {#technical-details}
 
-La documentazione tecnica più recente sul componente Testo e-mail [è disponibile su GitHub](https://adobe.com/go/aem_cmp_tech_email_text_v1_it).
+La documentazione tecnica più recente sul componente Testo e-mail [è disponibile su GitHub](https://adobe.com/go/aem_cmp_tech_email_text_v1).
 
 Per ulteriori informazioni sullo sviluppo di Componenti core, vedi la [documentazione per gli sviluppatori di Componenti core](/help/developing/overview.md).
 

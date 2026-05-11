@@ -5,9 +5,9 @@ role: Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2119'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -44,9 +44,9 @@ Inoltre, il componente Immagine supporta il caricamento lento per posticipare il
 
 ## Supporto di Dynamic Media {#dynamic-media}
 
-Il componente Immagine (a partire dalla [versione 2.13.0](/help/versions.md)) supporta [risorse Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=it#dynamicmedia). [Se abilitate,](#design-dialog) queste funzioni consentono di aggiungere risorse immagine Dynamic Media con una semplice azione di trascinamento e rilascio della selezione oppure tramite il browser delle risorse, esattamente come faresti con qualsiasi altra immagine. Sono inoltre supportati modificatori di immagini, predefiniti per immagini e ritaglio avanzato.
+Il componente Immagine (a partire dalla [versione 2.13.0](/help/versions.md)) supporta le risorse di [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=it#dynamicmedia). [Se abilitate,](#design-dialog) queste funzioni consentono di aggiungere risorse immagine di Dynamic Media con una semplice azione di trascinamento e rilascio della selezione oppure tramite il browser delle risorse, esattamente come faresti con qualsiasi altra immagine. Sono inoltre supportati modificatori di immagini, predefiniti per immagini e ritaglio avanzato.
 
-La tua esperienza web costruita con i Componenti core non offre funzionalità avanzate, basate su Adobe AI, solide, ad alte prestazioni e multipiattaforma per le immagini Dynamic Media.
+Le tue esperienze web create con i componenti core possono includere funzionalità per immagini Dynamic Media arricchite, basate su Adobe AI, solide, ad alte prestazioni e per più piattaforme.
 
 ## Supporto di SVG {#svg-support}
 
@@ -121,7 +121,7 @@ La finestra di dialogo per modifica consente all’autore di contenuto di ritagl
 
 ![Finestra di dialogo per modifica del componente Immagine](/help/assets/image-edit.png)
 
-* Avvia ritaglio
+* Inizia ritaglio
 
   ![Icona Avvia ritaglio](/help/assets/image-start-crop.png)
 
@@ -152,7 +152,7 @@ La finestra di dialogo per modifica consente all’autore di contenuto di ritagl
 
   Utilizza questa opzione per capovolgere l’immagine verticalmente o ruotarla 180° lungo l’asse x.
 
-* Reimposta zoom
+* Ripristina zoom
 
   ![Icona Reimposta zoom](/help/assets/image-reset-zoom.png)
 
@@ -162,7 +162,7 @@ La finestra di dialogo per modifica consente all’autore di contenuto di ritagl
 
   ![Icona Apri cursore zoom](/help/assets/image-zoom.png)
 
-  Utilizza questa opzione per visualizzare un cursore che permette di controllare il livello di zoom dell’immagine.
+  Utilizza questa opzione in modo da poter visualizzare un cursore per controllare il livello di zoom dell’immagine.
 
   ![Controllo cursore dello zoom](/help/assets/image-zoom-slider.png)
 
@@ -222,9 +222,9 @@ Nella scheda **Funzioni** è possibile definire le opzioni disponibili per gli a
 
   ![Scheda Funzioni della finestra di dialogo per progettazione del componente Immagine](/help/assets/image-design-features-orientation.png)
 
-* **Ruota**
+* **Rotazione**
 Utilizza questa opzione per consentire all’autore del contenuto di utilizzare l’opzione **Ruota a destra**.
-* **Rifletti**
+* **Riflessione**
 Utilizza questa opzione per consentire all’autore del contenuto di utilizzare le opzioni **Rifletti in orizzontale** e **Rifletti in verticale**.
 
   >[!CAUTION]

@@ -5,7 +5,7 @@ role: Developer, Admin, User
 exl-id: ebd63522-218d-4784-bea0-1627c64f5230
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '649'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ Per avere un’idea del componente Scarica e vedere esempi delle opzioni di conf
 
 ## Dettagli tecnici {#technical-details}
 
-La documentazione tecnica più recente sul componente Scarica [è disponibile su GitHub](https://adobe.com/go/aem_cmp_tech_download_v1_it).
+La documentazione tecnica più recente sul componente Scarica [è disponibile su GitHub](https://adobe.com/go/aem_cmp_tech_download_v1).
 
 Per ulteriori informazioni sullo sviluppo di Componenti core, vedi la [documentazione per gli sviluppatori di Componenti core](/help/developing/overview.md).
 

@@ -4,7 +4,7 @@ description: Come eseguire correttamente l’implementazione del progetto con i 
 role: Developer, Admin, User
 exl-id: 1ea8cd1c-8435-4ded-82dc-5a7896c53e0c
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '592'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ Considera l’utilizzo della [Libreria dei componenti](https://adobe.com/go/aem_
 
 ### Utilizza il kit di interfaccia utente per Adobe XD {#ui-kit}
 
-Non appena si determina la comprovata necessità di un componente personalizzato, utilizza il kit dell’interfaccia utente per Adobe XD, [scaricabile da qui](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd?lang=it), in modo che i designer possano iniziare a creare wireframe e progetti con i Componenti core come elementi costitutivi.
+Non appena si determina la comprovata necessità di un componente personalizzato, utilizza il kit dell’interfaccia utente per Adobe XD, [scaricabile da qui](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd), in modo che i designer possano iniziare a creare wireframe e progetti con i Componenti core come elementi costitutivi.
 
 ## Non trascurare le funzioni più efficaci {#powerful-features}
 

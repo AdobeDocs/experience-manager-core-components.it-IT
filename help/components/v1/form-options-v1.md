@@ -5,7 +5,7 @@ index: false
 role: Developer, Admin, User
 exl-id: a5e8656b-eddd-48ec-876b-39bbaa70edf6
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '492'
 ht-degree: 100%
 
@@ -119,8 +119,8 @@ La finestra di dialogo per configurazione consente all’autore di contenuto di 
 
 ![](/help/assets/chlimage_1-90.png)
 
-* **Tipo**
-Modalità di presentazione delle opzioni
+* **Tipi**
+La modalità di presentazione delle opzioni
 
    * **Caselle di controllo**
    * **Pulsanti di scelta**

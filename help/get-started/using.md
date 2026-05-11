@@ -1,12 +1,12 @@
 ---
 title: Utilizzo dei Componenti core
-description: 'Per iniziare a utilizzare i Componenti core nel tuo progetto, segui questi tre passaggi: scarica e installa, crea componenti proxy, carica gli stili core e consenti i componenti sui tuoi modelli.'
+description: 'Per iniziare a utilizzare subito i componenti core nel tuo progetto, segui questi tre passaggi: scarica e installa, crea componenti proxy, carica gli stili core e abilita i componenti sui tuoi modelli.'
 role: Developer, Admin, User
 exl-id: ee2d25e4-e2b8-4ecc-a62c-f0066de2bf2d
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1043'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -44,9 +44,9 @@ Alcuni punti da tenere presenti quando utilizzi i Componenti core su AEMaaCS:
 * La pipeline di creazione del progetto genera avvisi nel registro, se include nuovamente i Componenti core come parte di `/apps`, e ignora la versione incorporata nel progetto.
    * In una prossima versione, includere nuovamente i Componenti core non permetterà di generare la pipeline.
 * Se il progetto già includeva i Componenti core in `/apps`, [potrebbe essere necessario adeguare il progetto.](/help/developing/overview.md#via-aemaacs)
-* Anche se i Componenti core si trovano ora in `/libs`, non è consigliabile creare sovrapposizioni dello stesso percorso in `/apps`. [Utilizzare il modello di componente proxy](/help/developing/guidelines.md#proxy-component-pattern) se è necessario personalizzare un aspetto qualsiasi dei componenti.
+* Anche se i Componenti core sono ora inclusi in `/libs`, si sconsiglia di creare sovrapposizioni dello stesso percorso in `/apps`. Va invece utilizzato [il modello di componente proxy](/help/developing/guidelines.md#proxy-component-pattern), se è necessario personalizzare un qualunque aspetto dei componenti.
 * Per eseguire il rendering del contenuto del [componente Sommario](/help/components/tableofcontents.md), è necessario configurare un filtro in OSGi.
-   * Per ulteriori informazioni, [consulta la documentazione GitHub del componente](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_it).
+   * Per ulteriori informazioni, [consulta la documentazione GitHub del componente](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1).
 
 ### AEM 6.5 e versioni precedenti {#aem-65}
 
@@ -67,7 +67,7 @@ Pertanto, per ciascun Componente core che vuoi utilizzare per un sito, devi:
    **Esempio**
 Sotto `/apps/my-site/components` crea un nodo titolo di tipo `cq:Component`
 
-1. Puntare alla versione corrispondente del Componente core con il super-tipo.
+1. Punta alla versione corrispondente del Componente core con il super-tipo.
 
    **Esempio**
 Aggiungi la seguente proprietà:\

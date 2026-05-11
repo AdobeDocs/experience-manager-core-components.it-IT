@@ -5,9 +5,9 @@ role: Developer, Admin, User
 exl-id: 0b7de79a-e0c7-4cf9-b5a9-c78cbc3ecd2f
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1435'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Il componente Navigazione consente agli utenti di navigare facilmente nella stru
 
 Il componente Navigazione visualizza una struttura di pagine che consente agli utenti di navigare facilmente nel sito.
 
-Il componente Navigazione può rilevare automaticamente la struttura globalizzata del sito e [adattarsi automaticamente a una pagina localizzata.](#localized-site-structure) Inoltre, può supportare qualsiasi struttura arbitraria del sito utilizzando [pagine di reindirizzamento ombra](#shadow-structure) per rappresentare un&#39;altra struttura diversa dalla struttura di contenuto principale.
+Il componente di Navigazione può rilevare automaticamente la struttura globalizzata del tuo sito e di [adattarsi automaticamente a una pagina localizzata.](#localized-site-structure)Inoltre, può supportare qualsiasi struttura arbitraria del sito utilizzando le [pagine di reindirizzamento replicate](#shadow-structure) per rappresentare un’altra struttura diversa dalla struttura del contenuto principale.
 
 La [finestra di dialogo per modifica](#edit-dialog) consente all’autore di contenuto di definire la pagina principale di navigazione e il livello di annidamento della navigazione. La [finestra di dialogo per progettazione](#design-dialog) consente all’autore del modello di definire i valori predefiniti per la directory principale di navigazione e il livello di annidamento della navigazione.
 

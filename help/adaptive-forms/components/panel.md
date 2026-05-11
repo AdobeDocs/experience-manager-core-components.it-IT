@@ -4,9 +4,9 @@ description: Utilizzo o personalizzazione del componente core contenitore di pan
 role: Developer, Admin, User
 exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
 source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2331'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -39,20 +39,20 @@ Esistono diversi motivi per utilizzare un pannello in un modulo, tra cui:
 
 ## Versione e compatibilità {#version-and-compatibility}
 
-Il componente core Contenitore pannello Forms adattivo è stato rilasciato a febbraio 2023 come parte dei Componenti core 2.0.4. Di seguito è riportata una tabella che mostra tutte le versioni supportate, la compatibilità AEM e i collegamenti alla documentazione corrispondente:
+Il componente core Contenitore del pannello moduli adattivi è stato rilasciato a febbraio 2023 come parte dei Componenti core 2.0.4.Di seguito è riportata una tabella che mostra tutte le versioni supportate, la compatibilità AEM e i collegamenti alla documentazione corrispondente:
 
 |  |  |
 |---|---|
 | Versione del componente | AEM as a Cloud Service |
 | --- | --- |
-| v1 | Compatibile con<br>[versione 2.0.4](/help/adaptive-forms/version.md) e successive\|Compatibile\|Compatibile |
+| v1 | Compatibile con la<br>[versione 2.0.4](/help/adaptive-forms/version.md) e successive\|Compatibile\|Compatibile |
 
 Per informazioni sulle versioni dei componenti core, consulta il documento [Versioni dei componenti core](/help/adaptive-forms/version.md).
 
 <!--
 ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_it). 
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
 -->
 
 ## Dettagli tecnici {#technical-details}
@@ -100,9 +100,9 @@ Puoi personalizzare facilmente l’esperienza del contenitore di pannelli per i 
         { "Street": "123 Main Street", "City": "New York", "Zip Code": "12345" }
      ```
 
-- **Raggruppa il campo sotto un&#39;intestazione di sezione**: selezionare questa opzione per organizzare i campi modulo correlati sotto un&#39;intestazione di sezione comune. Questo raggruppamento garantisce che le tecnologie per l’accessibilità, come gli assistenti vocali, possano identificare e annunciare i campi raggruppati come un’unica unità coesa, migliorando l’accessibilità dei moduli e la navigazione per tutti gli utenti.
+- **Raggruppa i campi sotto un’intestazione di sezione**: seleziona questa opzione per organizzare campi modulo correlati sotto un’intestazione di sezione comune. Questo raggruppamento garantisce che le tecnologie di assistenza, come gli assistenti vocali, possano identificare e annunciare i campi raggruppati come un’unica unità coesa, migliorando l’accessibilità del modulo e la navigazione per tutti gli utenti.
 
-  ![Campo gruppo pannello](/help/adaptive-forms/assets/panel-fieldset.png)
+  ![Panello raggruppa campi](/help/adaptive-forms/assets/panel-fieldset.png)
 
 - **Riferimento di binding**: un riferimento di binding è un riferimento a un elemento dati memorizzato in un’origine dati esterna e utilizzato in un modulo. Il riferimento di binding consente di eseguire un binding dinamico dei dati ai campi del modulo, in modo che il modulo possa visualizzare i dati più aggiornati dell’origine dati. Ad esempio, è possibile utilizzare un riferimento di binding per visualizzare il nome e l’indirizzo di un cliente in un modulo, in base all’ID cliente immesso nel modulo. È inoltre possibile utilizzare il riferimento di binding per aggiornare l’origine dati con i dati immessi nel modulo. In questo modo, AEM Forms consente di creare moduli che interagiscono con origini dati esterne, fornendo un’esperienza utente fluida per la raccolta e la gestione dei dati.
 - **Nascondi componente**: seleziona questa opzione per nascondere il componente del modulo. Il componente rimane accessibile per altri scopi, ad esempio per i calcoli nell’editor di regole. Questa funzione è utile quando devi memorizzare informazioni che non devono essere viste o modificate direttamente dall’utente.
@@ -207,7 +207,7 @@ Le proprietà personalizzate consentono di associare attributi personalizzati (c
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=it)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

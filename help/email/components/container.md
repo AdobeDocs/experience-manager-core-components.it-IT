@@ -5,7 +5,7 @@ role: Developer, Admin, User
 exl-id: 3b271e95-0093-4cb1-bb83-8446ba12a821
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '815'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ Per ulteriori informazioni sulle versioni e sugli aggiornamenti dei componenti c
 
 ## Dettagli tecnici {#technical-details}
 
-La documentazione tecnica più recente sul componente Contenitore [è disponibile su GitHub.](https://adobe.com/go/aem_cmp_tech_email_container_v1_it)
+La documentazione tecnica più recente sul componente Contenitore [è disponibile su GitHub.](https://adobe.com/go/aem_cmp_tech_email_container_v1)
 
 Per ulteriori informazioni sullo sviluppo di Componenti core, vedi la [documentazione per gli sviluppatori di Componenti core.](/help/developing/overview.md)
 

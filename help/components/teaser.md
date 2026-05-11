@@ -4,9 +4,9 @@ description: Il componente Teaser può mostrare un’immagine, un titolo, un tes
 role: Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
 source-git-commit: ff337aee45ea3d39f9669a8fa46accaed854532a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1098'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ La tabella che segue descrive tutte le versioni supportate del componente, le ve
 
 ## Supporto risorse remote {#remote-assets}
 
-Il componente Teaser (a partire dalla [versione 2.23.2](/help/versions.md)) supporta le risorse remote. [Una volta configurata,](/help/developing/remote-assets.md) puoi selezionare le risorse da un servizio remoto per il componente teaser.
+Il componente Teaser (a partire dalla [versione 2.23.2](/help/versions.md)) supporta le risorse remote. [Una volta configurato](/help/developing/remote-assets.md), puoi selezionare le risorse da un servizio remoto per il componente Teaser.
 
 ## Esempio di output del componente {#sample-component-output}
 
@@ -56,7 +56,7 @@ L’autore di contenuti può utilizzare la finestra di dialogo per la configuraz
 
 ![Scheda collegamento della finestra di dialogo per modifica del componente Teaser](/help/assets/teaser-edit-links.png)
 
-Il titolo, la descrizione e l’immagine del teaser possono essere ereditati dalla pagina collegata o dalla pagina collegata nel primo call to action. Se non viene specificato né un collegamento né un call to action, il titolo, la descrizione e l’immagine verranno ereditati dalla pagina corrente.
+Il titolo, la descrizione e l’immagine del teaser possono essere ereditati dalla pagina collegata o dalla pagina collegata nel primo invito all’azione. Se non viene specificato né un collegamento né un invito all’azione, il titolo, la descrizione e l’immagine verranno ereditati dalla pagina corrente.
 
 * **Collegamento** - Questo file collega a una pagina di contenuti, un URL esterno o un ancoraggio pagina.
 * **Apri collegamento in una nuova scheda** - Se abilitato, il collegamento si aprirà in una nuova scheda del browser.

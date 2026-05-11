@@ -4,8 +4,8 @@ description: Il componente Ricerca rapida fornisce funzionalità di ricerca in u
 role: Developer, Admin, User
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
-source-wordcount: '626'
+workflow-type: ht
+source-wordcount: '627'
 ht-degree: 100%
 
 ---
@@ -64,22 +64,22 @@ La finestra di dialogo per modifica consente all’autore di contenuto di defini
 
 ## Finestra di dialogo per progettazione {#design-dialog}
 
-Tramite la finestra di dialogo per progettazione, l’autore del modello può impostare il valore predefinito per la posizione da cui iniziare la ricerca nella struttura del contenuto, nonché una dimensione massima del set di risultati e una lunghezza minima del termine di ricerca. La finestra di dialogo per progettazione consente all’autore del modello di definire quali opzioni di formattazione del testo sono disponibili per gli autori di contenuto.
+La finestra di dialogo Progettazione consente all’autore del modello di impostare il valore predefinito per la posizione nella struttura del contenuto da cui deve iniziare la ricerca, nonché la dimensione massima del set di risultati e la lunghezza minima del termine di ricerca.La finestra di dialogo per progettazione consente all’autore del modello di definire le opzioni di formattazione del testo disponibili per gli autori di contenuti.
 
 ### Scheda Proprietà {#properties-tab}
 
 ![Finestra di dialogo per progettazione del componente Ricerca rapida](/help/assets/quick-search-design.png)
 
-* **Pagina iniziale ricerca**
-Il valore predefinito per la pagina iniziale della ricerca della ricerca quando un autore di contenuto inserisce il componente Ricerca rapida in una pagina
+* **Pagina iniziale della ricerca**
+Il valore predefinito della pagina iniziale della ricerca quando un autore di contenuti inserisce il componente Ricerca rapida su una pagina di contenuti
 * **Dimensione risultati**
 Il numero massimo di risultati recuperati da una richiesta di ricerca
-* **Lunghezza minima termine di ricerca**
-La lunghezza minima del termine di ricerca per l’avvio della ricerca
+* **Lunghezza minima del termine di ricerca**
+Lunghezza minima del termine di ricerca per iniziare la ricerca
 
 >[!NOTE]
 >
->Le opzioni **Dimensione risultati** e **Lunghezza minima termine di ricerca** possono essere impostate solo in modalità di progettazione e quindi solo a livello di modello, il che significa che gli autori di contenuto non possono modificare questi valori.
+>Le opzioni **Dimensione risultati** e **Lunghezza minima termine di ricerca** possono essere impostate solo in modalità di progettazione e quindi solo a livello di modello; ciò significa che gli autori dei contenuti non possono modificare questi valori.
 
 >[!CAUTION]
 >

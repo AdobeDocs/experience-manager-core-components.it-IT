@@ -4,9 +4,9 @@ description: I Componenti core implementano diversi modelli che consentono una f
 role: Developer, Admin
 exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1146'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Potrebbe risultare conveniente personalizzare le opzioni di configurazione dispo
 
 Ogni finestra di dialogo ha una struttura di nodi coerente. Si consiglia di replicare questa struttura in un componente ereditante, in modo che le opzioni [Sling Resource Merger](https://helpx.adobe.com/it/experience-manager/6-4/sites/developing/using/sling-resource-merger.html) e [Nascondi condizioni](https://experienceleague.adobe.com/docs/experience-manager-65/developing/components/hide-conditions.html?lang=it) possano essere utilizzate per nascondere, sostituire o riordinare le sezioni della finestra di dialogo originale. La struttura da replicare è definita fino al livello del nodo dell’elemento Scheda.
 
-Per essere pienamente compatibile con qualsiasi modifica apportata a una finestra di dialogo nella sua versione corrente, è molto importante che le strutture al di sotto del livello dell’elemento Scheda non vengano toccate (nascoste, aggiunte, sostituite, riordinate, ecc.). Al contrario, un elemento Scheda dell&#39;elemento padre deve essere nascosto tramite la proprietà `sling:hideResource` (vedi [Proprietà di Sling Resource Merger](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/sling-resource-merger.html?lang=it)) e devono essere aggiunti nuovi elementi Scheda contenenti i campi di configurazione personalizzati. `sling:orderBefore` può essere utilizzato per riordinare gli elementi Scheda, se necessario.
+Per essere pienamente compatibile con qualsiasi modifica apportata a una finestra di dialogo nella sua versione corrente, è molto importante che le strutture al di sotto del livello dell’elemento Scheda non vengano toccate (nascoste, aggiunte, sostituite, riordinate, ecc.). Al contrario, un elemento Scheda derivato dall’elemento padre deve essere nascosto tramite la proprietà `sling:hideResource` (vedi [Proprietà di Sling Resource Merger](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/sling-resource-merger.html?lang=it)) e devono essere aggiunti nuovi elementi Scheda contenenti i campi di configurazione personalizzati. La proprietà `sling:orderBefore` può essere utilizzata per riordinare gli elementi Scheda, se necessario.
 
 La finestra di dialogo che segue illustra la struttura consigliata e come nascondere e sostituire una scheda ereditata come descritto in precedenza:
 

@@ -4,9 +4,9 @@ description: Utilizzo o personalizzazione del componente core del selettore data
 role: Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2465'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Per informazioni sulle versioni dei componenti core, consulta il documento [Vers
 <!--
 ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_it). 
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
 -->
 
 ## Dettagli tecnici {#technical-details}
@@ -180,11 +180,11 @@ Le proprietà personalizzate consentono di associare attributi personalizzati (c
 
 ### Scheda Formati {#formats-tab}
 
-La scheda dei formati consente di specificare i formati di data predefiniti e personalizzati. Inoltre, puoi anche aggiungere un nuovo formato data personalizzato utilizzando il pulsante **Aggiungi**.
+La scheda dei formati consente di specificare i formati di data predefiniti e personalizzati. Inoltre, puoi aggiungere un nuovo formato di data personalizzato utilizzando il pulsante **Aggiungi**.
 
 ![Scheda formato](/help/adaptive-forms/assets/datepicker_formatpolicy.png)
 
-#### Aggiungere formati nel criterio del modello del componente
+#### Aggiunta di formati al criterio del modello del componente
 
 Per visualizzare i formati disponibili per il componente, devi aggiungerli al criterio del modello del componente.
 
@@ -193,10 +193,10 @@ Per visualizzare i formati disponibili per il componente, devi aggiungerli al cr
 Per aggiungere formati al criterio del modello:
 
 1. Apri il modello corrispondente associato a un modulo adattivo o a Sites nell’editor di modelli.
-2. Nella sezione **Componenti consentiti**, seleziona il componente **[!UICONTROL Selezione data]**.
+2. Nella sezione **Componenti consentiti**, seleziona il componente **[!UICONTROL Selettore data]**.
    ![Criterio modello selettore data](/help/adaptive-forms/assets/date-picker-policy.png)
-3. Fai clic sull&#39;icona **[!UICONTROL Aggiungi]** per creare un nuovo criterio per il componente Selezione data.
-4. Immettere un nome per il criterio e selezionare tutti i formati richiesti nella scheda **Formato**.
+3. Fai clic sull’icona **[!UICONTROL Aggiungi]** per creare un nuovo criterio per il componente Selettore data.
+4. Immetti un nome per il criterio e seleziona tutti i formati richiesti nella scheda **Formato**.
    ![Crea criterio](/help/adaptive-forms/assets/number-input-format-policy.png)
 5. Fai clic su **[!UICONTROL Fine]**.
 
@@ -204,7 +204,7 @@ Per aggiungere formati al criterio del modello:
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=it)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

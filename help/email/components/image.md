@@ -5,9 +5,9 @@ role: Developer, Admin, User
 exl-id: f5d40047-3082-4edd-a5f6-6ab3e33997f9
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1685'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -47,9 +47,9 @@ Inoltre, il componente Immagine e-mail supporta il caricamento lazy, in modo che
 
 ## Supporto di Dynamic Media {#dynamic-media}
 
-Il componente Immagine e-mail supporta [risorse Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=it#dynamicmedia). [Se abilitate,](#design-dialog) queste funzioni consentono di aggiungere risorse immagine Dynamic Media con una semplice azione di trascinamento e rilascio della selezione oppure tramite il browser delle risorse, esattamente come faresti con qualsiasi altra immagine. Sono inoltre supportati modificatori di immagini, predefiniti per immagini e ritaglio avanzato.
+Il componente Immagine e-mail supporta le risorse [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=it#dynamicmedia). [Se abilitate,](#design-dialog) queste funzioni consentono di aggiungere risorse immagine di Dynamic Media con una semplice azione di trascinamento e rilascio della selezione oppure tramite il browser delle risorse, esattamente come faresti con qualsiasi altra immagine. Sono inoltre supportati modificatori di immagini, predefiniti per immagini e ritaglio avanzato.
 
-La tua esperienza e-mail costruita con i componenti core E-mail ora si arricchisce delle solide funzionalità per le immagini offerte da Dynamic Media, performanti, multipiattaforma e con tecnologia Adobe AI.
+Le tue esperienze e-mail create con i componenti core possono includere funzionalità per immagini Dynamic Media arricchite, basate su Adobe AI, solide, ad alte prestazioni e per più piattaforme.
 
 ## Supporto di SVG {#svg-support}
 
@@ -65,7 +65,7 @@ Per motivi di sicurezza, il file SVG originale non viene mai richiamato direttam
 
 ### Dettagli tecnici {#technical-details}
 
-La documentazione tecnica più recente sul componente Immagine e-mail [è disponibile su GitHub.](https://adobe.com/go/aem_cmp_tech_email_image_v1_it)
+La documentazione tecnica più recente sul componente Immagine e-mail [è disponibile su GitHub.](https://adobe.com/go/aem_cmp_tech_email_image_v1)
 
 Per ulteriori informazioni sullo sviluppo di Componenti core, vedi la [documentazione per gli sviluppatori di Componenti core.](/help/developing/overview.md)
 
