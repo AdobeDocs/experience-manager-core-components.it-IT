@@ -46,7 +46,7 @@ Alcuni punti da tenere presenti quando utilizzi i Componenti core su AEMaaCS:
 * Se il progetto già includeva i Componenti core in `/apps`, [potrebbe essere necessario adeguare il progetto.](/help/developing/overview.md#via-aemaacs)
 * Anche se i Componenti core sono ora inclusi in `/libs`, si sconsiglia di creare sovrapposizioni dello stesso percorso in `/apps`. Va invece utilizzato [il modello di componente proxy](/help/developing/guidelines.md#proxy-component-pattern), se è necessario personalizzare un qualunque aspetto dei componenti.
 * Per eseguire il rendering del contenuto del [componente Sommario](/help/components/tableofcontents.md), è necessario configurare un filtro in OSGi.
-   * Per ulteriori informazioni, [consulta la documentazione GitHub del componente](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1).
+   * Per ulteriori informazioni, [consulta la documentazione GitHub del componente](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_it).
 
 ### AEM 6.5 e versioni precedenti {#aem-65}
 
