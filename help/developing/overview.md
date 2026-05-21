@@ -3,9 +3,15 @@ title: Sviluppo di Componenti core
 description: I Componenti core forniscono componenti di base affidabili ed estensibili che offrono funzionalità avanzate, distribuzione continua, controllo delle versioni dei componenti, implementazione moderna, markup snello ed esportazione JSON di contenuto.
 role: Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '1339'
+TQID: https://experienceleague.adobe.com/ul-w1fUkmXE-T8S1oEqIdCd9TjS34WPYZipw8uMzAyA
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+subfeature_v2: id: f86a5563-8f73-4ec0-be7d-a1782604870a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+workflow-type: tm+mt
+source-wordcount: 1339
 ht-degree: 100%
 
 ---
@@ -117,13 +123,13 @@ La tabella che segue riporta i Componenti core disponibili, il collegamento alle
 | [Frammento di contenuto](https://adobe.com/go/aem_cmp_tech_cf_v1_it) | Consente la visualizzazione di un frammento di contenuto | `-` |
 | [Elenco di frammenti di contenuto](https://adobe.com/go/aem_cmp_tech_cflist_v1_it) | Consente la visualizzazione di un elenco di frammenti di contenuto | `-` |
 | [Separatore](https://adobe.com/go/aem_cmp_tech_separator_v1_it) | Separa il contenuto su una pagina | `-` |
-| [Pannello a soffietto](https://adobe.com/go/aem_cmp_tech_accordion_v1_it) | Organizza i pannelli di contenuto in un pannello a soffietto comprimibile | `-` |
+| [Pannello a soffietto](https://adobe.com/go/aem_cmp_tech_accordion_v1) | Organizza i pannelli di contenuto in un pannello a soffietto comprimibile | `-` |
 | [Contenitore](https://adobe.com/go/aem_cmp_tech_container_v1_it) | Organizza i componenti all’interno di un contenitore | `-` |
-| [Pulsante](https://adobe.com/go/aem_cmp_tech_button_v1_it) | Crea un pulsante su una pagina | `-` |
-| [Scarica](https://adobe.com/go/aem_cmp_tech_download_v1_it) | Aggiunge una risorsa scaricabile a una pagina | `-` |
-| [Frammento esperienza](https://adobe.com/go/aem_cmp_tech_xf_v1_it) | Aggiunge un frammento esperienza a una pagina | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
-| [Incorpora](https://adobe.com/go/aem_cmp_tech_embed_v1_it) | Incorpora una risorsa esterna all’interno di una pagina | - |
-| [Barra di avanzamento](https://adobe.com/go/aem_cmp_tech_progress_v1_it) | Fornisce una rappresentazione visiva del progresso verso un obiettivo | - |
+| [Pulsante](https://adobe.com/go/aem_cmp_tech_button_v1) | Crea un pulsante su una pagina | `-` |
+| [Scarica](https://adobe.com/go/aem_cmp_tech_download_v1) | Aggiunge una risorsa scaricabile a una pagina | `-` |
+| [Frammento esperienza](https://adobe.com/go/aem_cmp_tech_xf_v1) | Aggiunge un frammento esperienza a una pagina | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
+| [Incorpora](https://adobe.com/go/aem_cmp_tech_embed_v1) | Incorpora una risorsa esterna all’interno di una pagina | - |
+| [Barra di avanzamento](https://adobe.com/go/aem_cmp_tech_progress_v1) | Fornisce una rappresentazione visiva del progresso verso un obiettivo | - |
 | [Visualizzatore PDF](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1_it) | Visualizza un documento PDF su una pagina | - |
 
 ## Aggiornamento dei Componenti core {#upgrade-of-core-components}
