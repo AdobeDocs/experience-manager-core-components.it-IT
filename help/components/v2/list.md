@@ -4,13 +4,22 @@ description: Il componente core Elenco consente di creare facilmente elenchi din
 role: Developer, Admin, User
 exl-id: fa34be64-b345-45cd-baf3-571973414852
 index: false
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '1020'
+TQID: https://experienceleague.adobe.com/9zz16bJ7tDpOSntRTbPDUJQIabSAmIfvRPCD067tQXc
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+workflow-type: tm+mt
+source-wordcount: 1020
 ht-degree: 100%
 
 ---
-
 
 # Componente Elenco (v2) {#list-component}
 
@@ -81,7 +90,7 @@ L’elenco può essere costituito dalle pagine secondarie della pagina corrente 
    * Lascia il campo vuoto per usare la pagina corrente
 
 * **Livelli di elementi secondari**
-Quanti livelli inferiori nella gerarchia devono essere utilizzati
+Numero di livelli inferiori della gerarchia da utilizzare
 
 #### Elenco fisso {#fixed-list}
 

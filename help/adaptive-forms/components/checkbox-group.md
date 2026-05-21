@@ -3,13 +3,24 @@ title: Componente core dei moduli adattivi - Gruppo di caselle di controllo
 description: Utilizzo o personalizzazione del componente core del gruppo di caselle di controllo nei moduli adattivi.
 role: Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '2316'
+TQID: https://experienceleague.adobe.com/6TicW4M5RGGd5b6dQZnIthLpXKhTwM1r9Fli8s3EqWo
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+workflow-type: tm+mt
+source-wordcount: 2316
 ht-degree: 100%
 
 ---
-
 
 # Componente gruppo di caselle di controllo {#button-component-adaptive-forms-core-component}
 
@@ -53,7 +64,7 @@ Il componente core Gruppo di caselle di controllo dei moduli adattivi è stato r
 
 | Versione del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o versioni successive |
 |---|---|---|
-| v2 | Compatibile con la <br>[versione 3.0.142](/help/adaptive-forms/version.md) e successive | |
+| v2 | Compatibile con la<br>[versione 3.0.142](/help/adaptive-forms/version.md) e successive | |
 | v1 | Compatibile con <br>[versione 2.0.4](/help/adaptive-forms/version.md) e successive | Compatibile con <br>[versione 1.1.12](/help/adaptive-forms/version.md) e successive, ma precedenti a 2.0.0. |
 
 Per informazioni sulle versioni dei componenti core, consulta il documento [Versioni dei componenti core](/help/adaptive-forms/version.md).
@@ -182,7 +193,7 @@ Le proprietà personalizzate consentono di associare attributi personalizzati (c
 
 ## Supporto per set di campi e legende per il gruppo di caselle di controllo (v2)
 
-<span class="preview">Questa funzione è disponibile tramite il programma di accesso anticipato. Per richiedere l’accesso, invia un’e-mail dal tuo indirizzo ufficiale a [aem-forms-ea@adobe.com](mailto:aem-forms-ea@adobe.com). </span>
+<span class="preview">Questa funzione è disponibile tramite il programma di accesso anticipato. Per richiedere l’accesso, invia un’e-mail dal tuo indirizzo ufficiale a [aem-forms-ea@adobe.com](mailto:aem-forms-ea@adobe.com). </span>
 
 I componenti core dei moduli adattivi utilizzano elementi semantici `<fieldset>` e `<legend>` HTML per migliorare l’accessibilità dei gruppi di caselle di controllo. Questi elementi consentono agli assistenti vocali di interpretare in modo accurato la struttura del modulo e di comunicare le relazioni tra etichette dei gruppi e relative opzioni.
 

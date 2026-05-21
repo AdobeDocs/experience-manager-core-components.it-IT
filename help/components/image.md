@@ -3,13 +3,27 @@ title: Componente Immagine
 description: Il componente core Immagine è un componente immagine adattivo.
 role: Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '2163'
+TQID: https://experienceleague.adobe.com/MYJ14L6Q1TDwtxhUEBvnOO2ZRMmdkuyYDFflMSOFNmw
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+workflow-type: tm+mt
+source-wordcount: 2163
 ht-degree: 100%
 
 ---
-
 
 # Componente Immagine {#image-component}
 
@@ -103,7 +117,7 @@ Se stai modificando AEM Assets standard, puoi fare clic sull’icona **Modifica*
 
 ![Finestra di dialogo per modifica del componente Immagine](/help/assets/image-edit.png)
 
-* Inizia ritaglio
+* Avvia ritaglio
 
   ![Icona Avvia ritaglio](/help/assets/image-start-crop.png)
 
@@ -121,7 +135,7 @@ Se stai modificando AEM Assets standard, puoi fare clic sull’icona **Modifica*
 
   Utilizza questa opzione per ruotare l’immagine di 90° verso destra (in senso orario).
 
-* Ripristina zoom
+* Reimposta zoom
 
   ![Icona Reimposta zoom](/help/assets/image-reset-zoom.png)
 
@@ -131,7 +145,7 @@ Se stai modificando AEM Assets standard, puoi fare clic sull’icona **Modifica*
 
   ![Icona Apri cursore zoom](/help/assets/image-zoom.png)
 
-  Utilizza questa opzione in modo da poter visualizzare un cursore per controllare il livello di zoom dell’immagine.
+  Utilizza questa opzione per visualizzare un cursore che permette di controllare il livello di zoom dell’immagine.
 
   ![Controllo cursore dello zoom](/help/assets/image-zoom-slider.png)
 
