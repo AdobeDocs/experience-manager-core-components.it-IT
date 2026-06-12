@@ -5,15 +5,9 @@ index: false
 role: Developer, Admin, User
 exl-id: 625ce8de-5c4a-476d-b749-895493d169b1
 TQID: https://experienceleague.adobe.com/QaeVDiEDzacnqcYrmteAoHi5lQzjiErYHhyOxi7GWhM
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
 source-wordcount: 1369
@@ -112,7 +106,7 @@ La finestra di dialogo per modifica consente all’autore di contenuto di ritagl
 
 ![](/help/assets/chlimage_1-8.png)
 
-* Inizia ritaglio
+* Avvia ritaglio
 
   ![](/help/assets/chlimage_1-9.png)
 
@@ -165,7 +159,7 @@ Descrizione alternativa della destinazione del percorso
 
   ![](/help/assets/chlimage_1-14.png)
 
-* Ripristina zoom
+* Reimposta zoom
 
   ![](/help/assets/chlimage_1-15.png)
 
@@ -175,7 +169,7 @@ Descrizione alternativa della destinazione del percorso
 
   ![](/help/assets/chlimage_1-16.png)
 
-  Utilizza questa opzione in modo da poter visualizzare un cursore per controllare il livello di zoom dell’immagine.
+  Utilizza questa opzione per visualizzare un cursore che permette di controllare il livello di zoom dell’immagine.
 
   ![](/help/assets/chlimage_1-17.png)
 

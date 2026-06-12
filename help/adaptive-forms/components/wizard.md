@@ -4,22 +4,14 @@ description: Utilizzo o personalizzazione del componente core della procedura gu
 role: Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
 TQID: https://experienceleague.adobe.com/F48Og-1CMLNxu-Ajxuh8V-frKVTdvIpVhR2FAaYqalA
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c18d9e03-ac7d-4811-9c92-3e92ddc70adeid: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
-source-wordcount: 2246
-ht-degree: 100%
+source-wordcount: 2211
+ht-degree: 98%
 
 ---
 
@@ -31,8 +23,8 @@ Ogni passaggio della procedura guidata contiene in genere un gruppo di campi mod
 
 Il layout della procedura guidata è utile per i moduli che contengono molti campi o informazioni da raccogliere, in quanto suddivide il modulo in blocchi più piccoli e gestibili. Aiuta inoltre gli utenti a concentrarsi su un insieme di campi alla volta, il che può rendere il processo di compilazione del modulo meno complesso.
 
-Tuttavia, può anche aumentare la complessità del modulo, in quanto l’utente deve passare attraverso più pagine per completare il modulo. Pertanto, è necessario valutare i requisiti del modulo e le esigenze dell’utente prima di decidere di utilizzare un layout con procedura guidata.
-È possibile utilizzare il componente core Layout della procedura guidata in un modulo adattivo per creare il layout della procedura guidata.
+Tuttavia, può anche aumentare la complessità del modulo, in quanto l’utente deve passare attraverso diverse pagine per completare il modulo. È quindi necessario valutare i requisiti del modulo e le esigenze dell’utente prima di decidere di utilizzare un layout di procedura guidata.
+Per creare il layout della procedura guidata è possibile utilizzare il componente core layout procedura guidata in un modulo adattivo.
 
 {{traditional-aem}}
 
@@ -75,7 +67,7 @@ Per informazioni sulle versioni dei componenti core, consulta il documento [Vers
 <!--
 ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_it). 
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
 -->
 
 ## Dettagli tecnici {#technical-details}

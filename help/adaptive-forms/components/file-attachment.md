@@ -4,21 +4,14 @@ description: Utilizzo o personalizzazione del componente core allegato file dei 
 role: Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
 TQID: https://experienceleague.adobe.com/HgywNBqaw9VsqErSvvKa-d106LtbKsxVT6xaaODRa2U
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
-source-wordcount: 2089
-ht-degree: 100%
+source-wordcount: 2083
+ht-degree: 99%
 
 ---
 
@@ -62,7 +55,7 @@ Per informazioni sulle versioni dei componenti core, consulta il documento [Vers
 <!--
 ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_it). 
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
 -->
 
 ## Dettagli tecnici {#technical-details}
@@ -108,7 +101,7 @@ Puoi personalizzare facilmente l’esperienza dell’allegato file per i visitat
 
 <!--   **Minimum files error message** - This option is used to enter an error message that is displayed if you upload files lesser than the specified minimum number of files.-->
 
-- **Dimensione massima del file (MB)**: questa opzione consente di specificare una dimensione massima del file. Le dimensioni dei file sono specificate in MB.
+- **Dimensione massima file (MB)** - Questa opzione consente di specificare una dimensione massima per il file. Le dimensioni dei file sono specificate in MB.
   <!--   **Maximum files error message** - This option is used to enter an error message that is displayed if you upload files greater than the specified maximum number of files.-->
 
 - **Messaggio di errore dimensione massima file**: questa opzione viene utilizzata per inserire un messaggio di errore visualizzato se si caricano file di dimensioni superiori a quelle specificate nell’opzione **Dimensione massima del file (MB)**.
@@ -174,7 +167,7 @@ Le proprietà personalizzate consentono di associare attributi personalizzati (c
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=it)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 
