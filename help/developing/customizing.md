@@ -16,7 +16,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+source-git-commit: a7423900fd8302f5b5e59bad28bb727978c35288
 workflow-type: tm+mt
 source-wordcount: 1146
 ht-degree: 100%
@@ -126,7 +126,7 @@ A volte gli stili avanzati richiedono una diversa struttura di markup del compon
 
 Ciò può essere fatto facilmente copiando i file HTL che devono essere modificati dal Componente core al [componente proxy.](guidelines.md#proxy-component-pattern)
 
-Riprendendo l’esempio del componente core Breadcrumb, core, per personalizzare l’output di markup, il file `breadcrumb.html` deve essere copiato nel componente specifico del sito che ha la proprietà `sling:resourceSuperTypes` che punta al componente core Breadcrumb.
+Riprendendo l’esempio del componente core Breadcrumb, core, per personalizzare l’output di markup, il file `breadcrumb.html` deve essere copiato nel componente specifico del sito che ha la proprietà `sling:resourceSuperType` che punta al componente core Breadcrumb.
 
 ### Definizione degli stili dei componenti {#styling-the-components}
 
