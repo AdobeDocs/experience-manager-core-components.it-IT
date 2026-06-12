@@ -14,8 +14,8 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
-source-wordcount: 559
-ht-degree: 100%
+source-wordcount: 544
+ht-degree: 98%
 
 ---
 
@@ -43,7 +43,7 @@ La tabella che segue riporta la compatibilità della versione 1 del componente B
 >[!CAUTION]
 >
 >Questo documento descrive la versione 1 del componente Breadcrumb.
->Per informazioni dettagliate sulla versione corrente del componente Breadcrumb, vedi il documento [Componente Breadcrumb](/help/components/breadcrumb.md).
+>Per informazioni dettagliate sulla versione corrente del componente Breadcrumb, vedere il documento [Componente Breadcrumb](/help/components/breadcrumb.md).
 
 ## Esempio di output del componente {#sample-component-output}
 

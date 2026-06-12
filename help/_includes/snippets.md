@@ -1,6 +1,6 @@
 ---
 source-git-commit: bf6953f24388ed08cd5a66bb51011b3ac82fb58e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 100%
 
@@ -60,7 +60,7 @@ ht-degree: 100%
 - [Frammenti di moduli adattivi](/help/adaptive-forms/components/adaptive-form-fragment.md)
 - [reCAPTCHA per modulo adattivo](/help/adaptive-forms/components/adaptive-form-recaptcha.md)
 - [Pulsante](/help/adaptive-forms/components/button.md)
-- [Gruppo di caselle di controllo](/help/adaptive-forms/components/checkbox-group.md)
+- [Gruppo di caselle di selezione](/help/adaptive-forms/components/checkbox-group.md)
 - [Casella di controllo](/help/adaptive-forms/components/checkbox.md)
 - [Data e ora](/help/adaptive-forms/components/date-time-component.md)
 - [Selettore data](/help/adaptive-forms/components/date-picker.md)
