@@ -15,8 +15,8 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
-source-wordcount: 2265
-ht-degree: 100%
+source-wordcount: 2206
+ht-degree: 99%
 
 ---
 
@@ -162,8 +162,8 @@ Questa opzione consente di cercare nel testo l’occorrenza di una stringa di te
 ![Esempio dell’opzione Trova](/help/assets/text-find-example.png)
 
 Inserisci il testo da cercare e tocca o fai clic su **Trova** per iniziare la ricerca. Tocca o fai clic sulla x per annullare.
-Se vuoi avere una corrispondenza esatta di maiuscole/minuscole, seleziona l’opzione **Rispetta maiuscole/minuscole** prima di avviare la ricerca.
-Se viene trovata una corrispondenza, questa viene evidenziata e la finestra di dialogo di ricerca viene sfumata. Tocca o fai di nuovo clic sul pulsante **Trova** nella finestra di dialogo sfumata per cercare l’occorrenza successiva.
+Se si desidera ottenere una corrispondenza esatta tra maiuscole e minuscole, selezionare l&#39;opzione **Rispetta maiuscole/minuscole** prima di avviare la ricerca.
+Se viene trovata una corrispondenza, questa viene evidenziata e la finestra di dialogo di ricerca viene sfumata. Tocca o fai clic nuovamente sul pulsante **Trova** nella finestra di dialogo sfumata per cercare l&#39;occorrenza successiva.
 
 ![Esempio di occorrenza trovata](/help/assets/text-find-example-found.png)
 
