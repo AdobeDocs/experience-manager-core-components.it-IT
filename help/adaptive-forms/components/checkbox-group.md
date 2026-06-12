@@ -17,8 +17,8 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
-source-wordcount: 2316
-ht-degree: 100%
+source-wordcount: 2302
+ht-degree: 99%
 
 ---
 
@@ -114,7 +114,7 @@ Puoi personalizzare facilmente la tua esperienza con le caselle di controllo per
 
   ![Supporto testo RTF per le opzioni](/help/adaptive-forms/assets/richtext-for-options.png)
 
-  Dopo aver selezionato la casella di controllo per **Consenti testo formattato per opzioni**, le opzioni di formattazione diventano visibili per applicare lo stile alle opzioni del componente. Per accedere a tutte le opzioni di formattazione disponibili, puoi fare clic sulla scheda `Fullscreen` ![Icona schermo intero](/help/adaptive-forms/assets/fullscreen-icon.png).
+  Dopo aver selezionato la casella di controllo per **Consenti formato RTF per le opzioni**, le opzioni di formattazione diventano visibili per assegnare uno stile alle opzioni del componente. Per accedere a tutte le opzioni di formattazione disponibili, è possibile fare clic sulla scheda `Fullscreen` ![Icona Schermo intero](/help/adaptive-forms/assets/fullscreen-icon.png).
   ![Supporto testo RTF per le opzioni](/help/adaptive-forms/assets/richtextoptions-support.png)
 
 - **Riferimento di binding**: un riferimento di binding è un riferimento a un elemento dati memorizzato in un’origine dati esterna e utilizzato in un modulo. Il riferimento di binding consente di eseguire un binding dinamico dei dati ai campi del modulo, in modo che il modulo possa visualizzare i dati più aggiornati dell’origine dati. Ad esempio, è possibile utilizzare un riferimento di binding per visualizzare il nome e l’indirizzo di un cliente in un modulo, in base all’ID cliente immesso nel modulo. È inoltre possibile utilizzare il riferimento di binding per aggiornare l’origine dati con i dati immessi nel modulo. In questo modo, AEM Forms consente di creare moduli che interagiscono con origini dati esterne, fornendo un’esperienza utente fluida per la raccolta e la gestione dei dati.

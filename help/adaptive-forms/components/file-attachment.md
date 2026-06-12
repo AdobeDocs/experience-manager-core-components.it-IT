@@ -17,8 +17,8 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
-source-wordcount: 2089
-ht-degree: 100%
+source-wordcount: 2083
+ht-degree: 99%
 
 ---
 
@@ -108,7 +108,7 @@ Puoi personalizzare facilmente l’esperienza dell’allegato file per i visitat
 
 <!--   **Minimum files error message** - This option is used to enter an error message that is displayed if you upload files lesser than the specified minimum number of files.-->
 
-- **Dimensione massima del file (MB)**: questa opzione consente di specificare una dimensione massima del file. Le dimensioni dei file sono specificate in MB.
+- **Dimensione massima file (MB)** - Questa opzione consente di specificare una dimensione massima per il file. Le dimensioni dei file sono specificate in MB.
   <!--   **Maximum files error message** - This option is used to enter an error message that is displayed if you upload files greater than the specified maximum number of files.-->
 
 - **Messaggio di errore dimensione massima file**: questa opzione viene utilizzata per inserire un messaggio di errore visualizzato se si caricano file di dimensioni superiori a quelle specificate nell’opzione **Dimensione massima del file (MB)**.

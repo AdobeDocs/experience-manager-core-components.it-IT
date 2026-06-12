@@ -19,8 +19,8 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
-source-wordcount: 3266
-ht-degree: 100%
+source-wordcount: 3244
+ht-degree: 99%
 
 ---
 
@@ -32,7 +32,7 @@ Il componente **Termini e condizioni** è un componente composito costituito dai
 
 >[!NOTE]
 >
-> Per AEM 6.5 Forms, questo componente è stato introdotto con il Service Pack 19 di AEM 6.5 Forms (6.5.19.0). Per informazioni dettagliate sulle versioni dei componenti core dei moduli adattivi, consulta le [Versioni dei componenti core dei moduli adattivi](/help/adaptive-forms/version.md)
+> Per AEM Forms 6.5, questo componente è stato introdotto con il Service Pack 19 di AEM Forms 6.5 (6.5.19.0). Per informazioni dettagliate sulle versioni dei componenti core dei moduli adattivi, consulta le [Versioni dei componenti core dei moduli adattivi](/help/adaptive-forms/version.md)
 
 {{traditional-aem}}
 
@@ -196,8 +196,8 @@ Questo componente sostituisce un testo di consenso con uno o più collegamenti w
 
 - **Nascondi titolo**: seleziona l’opzione per nascondere il titolo del componente.
 
-- **Collegamenti**: specifica il collegamento e il testo da visualizzare corrispondente al posto del testo del consenso. Puoi aggiungere più collegamenti facendo clic sul pulsante **Aggiungi**.
-Una volta aggiunta una nuova opzione, è possibile eseguire le azioni seguenti:
+- **Collegamenti** - Specifica il collegamento e il testo di visualizzazione corrispondente utilizzato al posto del testo del consenso. Per aggiungere più collegamenti, fare clic sul pulsante **Aggiungi**.
+Dopo l’aggiunta di una nuova opzione, è possibile eseguire le azioni seguenti:
    - **Collegamento**: questa opzione consente di immettere l’URL a cui reindirizzare quando viene selezionata un’opzione.
    - **Testo Visualizzato**: questa opzione consente di inserire il contenuto da visualizzare in un modulo adattivo.
    - **Elimina**: tocca o fai clic per eliminare l’opzione di un pulsante di scelta.

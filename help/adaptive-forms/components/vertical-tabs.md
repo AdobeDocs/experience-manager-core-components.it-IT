@@ -17,15 +17,15 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
-source-wordcount: 2214
-ht-degree: 100%
+source-wordcount: 2130
+ht-degree: 98%
 
 ---
 
 # Componente Schede verticali{#vertical-tabs-adaptive-forms-core-component}
 
-Le schede verticali in un modulo adattivo fanno riferimento a un pattern di progettazione in cui più sezioni di un modulo sono raggruppate e visualizzate come schede separate, allineate verticalmente. L’utente può passare da una scheda all’altra per accedere a diverse sezioni del modulo. Ogni scheda funge da attivatore per mostrare e nascondere il relativo contenuto del modulo. Le schede verticali consentono di organizzare i moduli lunghi in sezioni gestibili e di migliorare l’esperienza di utilizzo. Le schede possono essere utili per rendere un modulo più accessibile agli utenti con disabilità, consentendo di passare da una sezione all’altra tramite la navigazione con tastiera.
-Quando un utente fa clic su una scheda, il contenuto del modulo si aggiorna dinamicamente per visualizzare la sezione corrispondente.
+Le schede verticali in un modulo adattivo si riferiscono a un motivo di progettazione in cui più sezioni di un modulo sono raggruppate e visualizzate come schede separate, allineate verticalmente. L’utente può passare da una scheda all’altra per accedere a diverse sezioni del modulo. Ogni scheda funge da trigger per mostrare e nascondere il contenuto del modulo correlato. Le schede verticali consentono di organizzare i moduli lunghi in sezioni gestibili e di migliorare l’esperienza di utilizzo. Le schede possono essere utili per rendere un modulo più accessibile agli utenti con disabilità, in quanto consentono di passare da una sezione all’altra utilizzando la navigazione da tastiera.
+Quando un utente fa clic su una scheda, il contenuto del modulo viene aggiornato in modo dinamico per mostrare la sezione corrispondente.
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ Il componente core Schede verticali dei moduli adattivi è stato rilasciato come
 |---|---|
 | Versione del componente | AEM as a Cloud Service |
 | --- | --- |
-| v1 | Compatibile con la <br>[versione 2.0.18 ](/help/adaptive-forms/version.md)  e successive\|Compatibile\|Compatibile |
+| v1 | Compatibile con la <br>[versione 2.0.18 &#x200B;](/help/adaptive-forms/version.md)  e successive\|Compatibile\|Compatibile |
 
 Per informazioni sulle versioni dei componenti core, consulta il documento [Versioni dei componenti core](/help/adaptive-forms/version.md).
 

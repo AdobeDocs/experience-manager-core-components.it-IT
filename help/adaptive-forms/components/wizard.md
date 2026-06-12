@@ -18,8 +18,8 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
-source-wordcount: 2246
-ht-degree: 100%
+source-wordcount: 2211
+ht-degree: 98%
 
 ---
 
@@ -31,8 +31,8 @@ Ogni passaggio della procedura guidata contiene in genere un gruppo di campi mod
 
 Il layout della procedura guidata è utile per i moduli che contengono molti campi o informazioni da raccogliere, in quanto suddivide il modulo in blocchi più piccoli e gestibili. Aiuta inoltre gli utenti a concentrarsi su un insieme di campi alla volta, il che può rendere il processo di compilazione del modulo meno complesso.
 
-Tuttavia, può anche aumentare la complessità del modulo, in quanto l’utente deve passare attraverso più pagine per completare il modulo. Pertanto, è necessario valutare i requisiti del modulo e le esigenze dell’utente prima di decidere di utilizzare un layout con procedura guidata.
-È possibile utilizzare il componente core Layout della procedura guidata in un modulo adattivo per creare il layout della procedura guidata.
+Tuttavia, può anche aumentare la complessità del modulo, in quanto l’utente deve passare attraverso diverse pagine per completare il modulo. È quindi necessario valutare i requisiti del modulo e le esigenze dell’utente prima di decidere di utilizzare un layout di procedura guidata.
+Per creare il layout della procedura guidata è possibile utilizzare il componente core layout procedura guidata in un modulo adattivo.
 
 {{traditional-aem}}
 

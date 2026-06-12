@@ -17,8 +17,8 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
-source-wordcount: 2349
-ht-degree: 100%
+source-wordcount: 2334
+ht-degree: 99%
 
 ---
 
@@ -103,8 +103,8 @@ Puoi personalizzare facilmente l’esperienza del pulsante di scelta per i visit
    - **Valore Dati**: questa opzione consente di immettere il contenuto da inviare quando viene selezionata un’opzione.
    - **Testo Visualizzato**: questa opzione consente di inserire il contenuto da visualizzare in un modulo adattivo.
    - **Elimina**: tocca o fai clic per eliminare l’opzione di un pulsante di scelta.
-   - **Ridisponi**: tocca o fai clic e trascina per riordinare le opzioni.
-Puoi anche formattare le opzioni per il gruppo di pulsanti di scelta utilizzando **Consenti formato RTF per le opzioni**.
+   - **Ridisponi** - Tocca o fai clic e trascina per modificare l&#39;ordine delle opzioni.
+È inoltre possibile formattare le opzioni per il gruppo di pulsanti di scelta utilizzando **Consenti testo formattato per le opzioni**.
 
   ![Supporto testo RTF per le opzioni](/help/adaptive-forms/assets/richtext-for-options.png)
 

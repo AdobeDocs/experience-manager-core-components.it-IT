@@ -112,7 +112,7 @@ La finestra di dialogo per modifica consente all’autore di contenuto di ritagl
 
 ![](/help/assets/chlimage_1-8.png)
 
-* Inizia ritaglio
+* Avvia ritaglio
 
   ![](/help/assets/chlimage_1-9.png)
 
@@ -165,7 +165,7 @@ Descrizione alternativa della destinazione del percorso
 
   ![](/help/assets/chlimage_1-14.png)
 
-* Ripristina zoom
+* Reimposta zoom
 
   ![](/help/assets/chlimage_1-15.png)
 
@@ -175,7 +175,7 @@ Descrizione alternativa della destinazione del percorso
 
   ![](/help/assets/chlimage_1-16.png)
 
-  Utilizza questa opzione in modo da poter visualizzare un cursore per controllare il livello di zoom dell’immagine.
+  Utilizza questa opzione per visualizzare un cursore che permette di controllare il livello di zoom dell’immagine.
 
   ![](/help/assets/chlimage_1-17.png)
 
