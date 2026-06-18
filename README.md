@@ -1,5 +1,5 @@
 ---
-source-git-commit: d1ab5eb1b3de07ccdf095b03f7c2e760dfc3d413
+source-git-commit: 78c755d553fdb424fee36bcb2a2c52627c51eaad
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 4%
@@ -20,3 +20,4 @@ I tuoi contributi alla documentazione di sono i benvenuti. Consulta le risorse s
 ## Archivio dei Componenti core
 
 I [Componenti core Adobe Experience Manager](https://github.com/adobe/aem-core-wcm-components) stessi vengono mantenuti come un progetto in un archivio separato. Consulta questo progetto se hai bisogno di documentazione tecnica/per sviluppatori sui componenti, se desideri contribuire ai componenti stessi o se vuoi segnalare un problema relativo alle funzionalità dei componenti core.
+
