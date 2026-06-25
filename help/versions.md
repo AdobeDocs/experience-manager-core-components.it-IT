@@ -21,9 +21,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 44091110a4cb18c6c35a22ee5ac9a9863ac8ae00
+source-git-commit: 4ce657455437b1a274246f9f81b0f4f85d6292ff
 workflow-type: tm+mt
-source-wordcount: 3937
+source-wordcount: 3972
 ht-degree: 98%
 
 ---
@@ -44,6 +44,7 @@ La tabella che segue, il cui contenuto è [disponibile su GitHub con tutti i det
 
 | Versione | Descrizione | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service | Java | Data di pubblicazione |
 |---|---|---|---|---|---|---|---|
+| [2.31.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.31.2) | Questa versione risolve alcuni bug in cui alcune informazioni non venivano mantenute correttamente. | - | 6.5.21.0+ | 6.5 LTS GA | Continua | 8, 11, 17, 21 | 22 giugno 2026 |
 | [2.31.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.31.0) | Questa versione introduce il supporto per i dati JSON-LD per il componente Pagina, nonché miglioramenti delle prestazioni per diversi altri componenti oltre a numerose correzioni di bug. | - | 6.5.21.0+ | 6.5 LTS GA | Continua | 8, 11, 17, 21 | 19 maggio 2026 |
 | [2.30.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.4) | Con questa versione è stato corretto un problema di convalida dei percorsi. | - | 6.5.21.0+ | 6.5 LTS GA | Continua | 8, 11, 17, 21 | 30 gennaio 2026 |
 | [2.30.3](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.3) | Con questa versione è stata corretta una regressione nella finestra di dialogo dei criteri del componente Titolo. | - | 6.5.21.0+ | 6.5 LTS GA | Continua | 8, 11, 17, 21 | 5 dicembre 2025 |
