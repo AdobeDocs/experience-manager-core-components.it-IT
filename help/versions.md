@@ -4,33 +4,21 @@ description: Le versioni dei Componenti core pubblicate possono contenere più d
 role: Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 TQID: https://experienceleague.adobe.com/XTlpl5LlUcde1kvtWXPWtZczkafTGRk2g2OZ6MBDaRY
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ae478996-b206-4712-9b0c-dc78a2644453
-  - id: d429a63e-ade4-4117-b04e-9b996d1c94ef
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-subfeature_v2:
-  - id: a94e5c13-4138-47ec-b9c8-e804e17aaca2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 44091110a4cb18c6c35a22ee5ac9a9863ac8ae00
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ae478996-b206-4712-9b0c-dc78a2644453id: d429a63e-ade4-4117-b04e-9b996d1c94efid: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+subfeature_v2: id: a94e5c13-4138-47ec-b9c8-e804e17aaca2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 4ce657455437b1a274246f9f81b0f4f85d6292ff
 workflow-type: tm+mt
-source-wordcount: 3937
+source-wordcount: 3972
 ht-degree: 98%
 
 ---
 
 # Versioni dei Componenti core {#core-components-versions}
 
-I Componenti core sono compatibili con installazioni di [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=it) e [&#x200B; AEM on-premise](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=it).
+I Componenti core sono compatibili con installazioni di [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=it) e [ AEM on-premise](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=it).
 
 ## Cronologia delle versioni e compatibilità {#release-history-and-compatibility}
 
@@ -44,6 +32,7 @@ La tabella che segue, il cui contenuto è [disponibile su GitHub con tutti i det
 
 | Versione | Descrizione | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service | Java | Data di pubblicazione |
 |---|---|---|---|---|---|---|---|
+| [2.31.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.31.2) | Questa versione risolve alcuni bug in cui alcune informazioni non venivano mantenute correttamente. | - | 6.5.21.0+ | 6.5 LTS GA | Continua | 8, 11, 17, 21 | 22 giugno 2026 |
 | [2.31.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.31.0) | Questa versione introduce il supporto per i dati JSON-LD per il componente Pagina, nonché miglioramenti delle prestazioni per diversi altri componenti oltre a numerose correzioni di bug. | - | 6.5.21.0+ | 6.5 LTS GA | Continua | 8, 11, 17, 21 | 19 maggio 2026 |
 | [2.30.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.4) | Con questa versione è stato corretto un problema di convalida dei percorsi. | - | 6.5.21.0+ | 6.5 LTS GA | Continua | 8, 11, 17, 21 | 30 gennaio 2026 |
 | [2.30.3](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.3) | Con questa versione è stata corretta una regressione nella finestra di dialogo dei criteri del componente Titolo. | - | 6.5.21.0+ | 6.5 LTS GA | Continua | 8, 11, 17, 21 | 5 dicembre 2025 |

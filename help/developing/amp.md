@@ -4,22 +4,17 @@ description: 'I Componenti core supportano AMP: Accelerated Mobile Pages'
 role: Developer, Admin
 exl-id: 1fd9b6b5-0e4d-48c7-8faa-42e0d4a6bbd0
 TQID: https://experienceleague.adobe.com/5v1tXLzHNRvAxy6-aJipN-ZYzsPJ1xFNc1hKmz73wic
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+source-git-commit: 59ca85e0f0b99ba46bb2b85f383f1fefd2b1c5fd
 workflow-type: tm+mt
-source-wordcount: 578
-ht-degree: 100%
+source-wordcount: 680
+ht-degree: 76%
 
 ---
+
 
 # Supporto AMP per i Componenti core {#amp-support}
 
@@ -43,10 +38,12 @@ I singoli progetti possono decidere se utilizzare o meno AMP. Infatti, poiché l
 
 Sebbene il supporto AMP offra una grande flessibilità, per iniziare a utilizzarlo occorrono solo alcuni semplici passaggi:
 
-1. Se necessario, installa l’estensione del supporto AMP.
-   * Per i progetti AEM as a Cloud Service, l’estensione è automaticamente disponibile con i Componenti core e non è necessaria alcuna installazione.
-   * Per i progetti on-premise e AMS, l’estensione deve essere installata esplicitamente durante l’installazione dei Componenti core.
-1. Una volta installata l’estensione AMP, l’autore del componente deve semplicemente far puntare i supertipi del componente a quelli dell’estensione.
+1. [Installare i Componenti core](/help/get-started/using.md#download-and-install)
+   * Per i progetti AEM as a Cloud Service, i Componenti core sono disponibili per impostazione predefinita e non è necessaria alcuna installazione aggiuntiva.
+   * Per i progetti on-premise e AMS, puoi [scaricare il pacchetto di contenuti più recente per i Componenti core da GitHub](https://github.com/adobe/aem-core-wcm-components/releases/latest) e installarlo nei tuoi ambienti AEM.
+   * Se il progetto on-premise o AMS utilizza una versione dei Componenti core precedente alla 2.14.0, devi installare l’estensione AMP disponibile come parte della versione su GitHub.
+1. Puntare il componente `resourceSuperType` a `core/wcm/extensions/amp/components/page/v1/page`.
+   * Se hai utilizzato [Archetipo progetto AEM](/help/developing/archetype/using.md) per il progetto come best practice consigliata e hai scelto [l&#39;opzione per abilitare il supporto AMP,](https://github.com/adobe/aem-project-archetype/tree/develop) l&#39;operazione è stata eseguita automaticamente.
 1. [Abilita il supporto AMP](#enabling-amp) a livello di modello oppure sulle singole pagine.
 1. [Distribuisci i file CSS allineati](#css-requirements) come richiesto.
 
@@ -68,6 +65,8 @@ Le impostazioni AMP per una pagina possono anche essere ignorate in [Proprietà 
 * **Nessun AMP**: la pagina viene distribuita solo come HTML standard.
 * **AMP associata**: la pagina viene distribuita sia come AMP che come HTML.
 * **Solo AMP**: la pagina viene distribuita solo come AMP.
+
+Queste opzioni vengono visualizzate nell&#39;interfaccia utente solo se `resourceSuperType` è impostato correttamente per il supporto AMP. Il contenuto di esempio WKND predefinito non ha impostato `resourceSuperType` e pertanto le opzioni per AMP non sono visibili nell&#39;interfaccia utente.
 
 ### Requisiti CSS {#css-requirements}
 
