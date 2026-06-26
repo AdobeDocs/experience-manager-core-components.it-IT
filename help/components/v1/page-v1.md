@@ -696,7 +696,7 @@ Di seguito è riportato un esempio tratto da [We.Retail](https://experienceleagu
 
 ## Finestra di dialogo per modifica {#edit-dialog}
 
-Poiché il componente rappresenta l’intera pagina, le impostazioni normalmente presenti in una finestra di dialogo per modifica si trovano invece nella finestra [Proprietà della pagina](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/authoring/editing-page-properties).
+Poiché il componente rappresenta l’intera pagina, le impostazioni normalmente presenti in una finestra di dialogo per modifica si trovano invece nella finestra [Proprietà della pagina](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/sites/authoring/authoring/editing-page-properties).
 
 ### Supporto di dati strutturati {#structured-data}
 
