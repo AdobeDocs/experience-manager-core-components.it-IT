@@ -17,10 +17,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+source-git-commit: 2a9a69dd7eeade8cdc2f681a354350c4370d5d1b
 workflow-type: tm+mt
-source-wordcount: 739
-ht-degree: 100%
+source-wordcount: 778
+ht-degree: 90%
 
 ---
 
@@ -50,10 +50,6 @@ La tabella che segue descrive tutte le versioni supportate del componente, le ve
 
 Per ulteriori informazioni sulle versioni e sugli aggiornamenti dei Componenti core, vedi il documento [Versioni dei Componenti core](/help/versions.md).
 
-## Supporto di Progressive Web App {#pwa-support}
-
-La versione 2.15.0 dei Componenti core ha introdotto il supporto delle [funzionalità di Progressive Web App (PWA)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=it) incorporate in AEM as a Cloud Service. Con una semplice configurazione a livello di sito, potrai trasformare la tua esperienza AEM in un’esperienza PWA.
-
 ### Dettagli tecnici {#technical-details}
 
 La documentazione tecnica più recente sul componente Pagina [è disponibile su GitHub](https://adobe.com/go/aem_cmp_tech_page_v3_it).
@@ -63,6 +59,12 @@ Per ulteriori informazioni sullo sviluppo di Componenti core, vedi la [documenta
 ## Finestra di dialogo per modifica {#edit-dialog}
 
 Poiché il componente rappresenta l’intera pagina, le impostazioni normalmente presenti in una finestra di dialogo per modifica si trovano invece nella finestra [Proprietà della pagina](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html?lang=it).
+
+### Supporto di dati strutturati {#structured-data}
+
+La [versione 2.31.0](/help/versions.md) dei Componenti core ha introdotto il supporto per i dati strutturati a livello di pagina (JSON-LD) di tipi [schema.org](https://schema.org) in tutte le versioni del componente Pagina.  AEM esegue il rendering di questi blocchi lato server nell’intestazione della pagina.
+
+[La versione 2026.6.0 di AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-release-information/aem-release-updates/update-releases-roadmap) ha aggiunto la possibilità per gli autori di utilizzare la finestra Proprietà pagina per aggiungere uno o più blocchi JSON-LD a una pagina nella sezione **SEO** della scheda **Avanzate**.
 
 ## Finestra di dialogo per progettazione {#design-dialog}
 
