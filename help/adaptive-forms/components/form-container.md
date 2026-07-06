@@ -16,16 +16,16 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+source-git-commit: 0af65c80f9cc58c4ba48d5b3dc7a026820bd2833
 workflow-type: tm+mt
-source-wordcount: 1529
-ht-degree: 99%
+source-wordcount: 2555
+ht-degree: 64%
 
 ---
 
 # Contenitore modulo {#form-container-adaptive-forms-core-component}
 
-<span class="preview"> Questo articolo approfondisce la funzionalità **Bozze** <!--and **Hamburger Menu Support** -->, che è una funzione pre-release. La funzione pre-release è accessibile solo tramite il [canale pre-release](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=it#new-features).</span>
+<span class="preview"> In questo articolo vengono illustrate le funzionalità **Bozze** e **Supporto menu Hamburger**, che sono funzionalità precedenti al rilascio. La funzione pre-release è accessibile solo tramite il [canale pre-release](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=it#new-features).</span>
 
 I moduli consentono ai visitatori di un sito web di interagire con il sito web fornendo informazioni preziose, che possono aumentare il coinvolgimento e la soddisfazione degli utenti. Un contenitore di moduli adattivi in Adobe Experience Manager (AEM) Sites consente ai proprietari di siti web di aggiungere facilmente i moduli alle proprie pagine. Questo rende più facile la comunicazione tra i visitatori di un sito web e il proprietario o l’organizzazione del sito web, offrendo ai visitatori un modo semplificato per fornire feedback, rispondere ai sondaggi e completare altre azioni
 
@@ -85,26 +85,25 @@ Per informazioni aggiornate sul componente core contenitore di moduli adattivi, 
 
 - **Ruolo**: il ruolo è un attributo HTML utilizzato per specificare lo scopo di un elemento HTML per tecnologie di assistenza come le utilità per la lettura dello schermo. L’attributo ruolo viene utilizzato per fornire ulteriore contesto e significato semantico a un elemento, facilitando l’interpretazione e la lettura del contenuto da parte delle utilità per la lettura dello schermo per l’utente. Ad esempio, in AEM Forms, l’etichetta di un campo modulo potrebbe avere il ruolo di “etichetta” e il relativo campo di input potrebbe avere il ruolo di “casella di testo”. Questo permette all’assistente vocale di comprendere la relazione tra l’etichetta e il campo di input, e di leggerli in modo corretto all’utente.
 
-- **Categoria Libreria client** - L&#39;utente può configurare una libreria JavaScript personalizzata per modulo adattivo. Si consiglia di mantenere solo le funzioni riutilizzabili nella libreria, che hanno dipendenza da librerie di terze parti jquery e underscore.js.
-A volte, se sono presenti **regole di convalida complesse**, lo script di convalida esatto risiede nelle funzioni personalizzate e gli utenti le chiamano dall&#39;espressione di convalida del campo. Per rendere nota e disponibile questa libreria di funzioni personalizzata durante l&#39;esecuzione delle convalide lato server, l&#39;utente del modulo può configurare il nome della libreria client di AEM nella scheda **[!UICONTROL Base]** delle proprietà del contenitore di moduli adattivi.
-L’utente può configurare una libreria JavaScript personalizzata per modulo adattivo. Nella libreria, mantieni solo le funzioni riutilizzabili, che hanno dipendenza da librerie di terze parti jquery e underscore.js.
+- **Categoria Libreria client**: l’utente può configurare una libreria JavaScript personalizzata per un modulo adattivo. Si consiglia di mantenere solo le funzioni riutilizzabili nella libreria, che dipendono dalle librerie di terze parti jquery e underscore.js.A volte, se sono presenti **regole di convalida complesse**, lo script di convalida esatto si trova nelle funzioni personalizzate e gli utenti chiamano tali funzioni personalizzate dall’espressione di convalida del campo. Per rendere nota e disponibile questa libreria di funzioni personalizzata durante l’esecuzione delle convalide lato server, l’utente del modulo può configurare il nome della libreria client AEM nella scheda **[!UICONTROL Base]** delle proprietà del contenitore per modulo adattivo.L’utente può configurare una libreria JavaScript personalizzata per modulo adattivo. Si consiglia di mantenere solo le funzioni riutilizzabili nella libreria, che dipendono dalle librerie di terze parti jquery e underscore.js.
 
-<!--
-- **Enable the hamburger menu for mobile view** - Select the checkbox to integrate a hamburger menu into your form for mobile view. Represented by three horizontal lines stacked vertically, this menu provides a clear and uncluttered display for panels on smaller devices, especially on mobile devices. For more information about the hamburger menu, refer to the [Learn more about the hamburger menu](#learn-more-about-the-hamburger-menu) section. 
--->
+- **Abilita il menu hamburger per la visualizzazione mobile** - Seleziona la casella di controllo per integrare un menu hamburger nel modulo per la visualizzazione mobile. Rappresentato da tre linee orizzontali sovrapposte verticalmente, questo menu fornisce un display chiaro e ordinato per i pannelli su dispositivi più piccoli, in particolare sui dispositivi mobili. Per ulteriori informazioni sul menu hamburger, fare riferimento alla sezione [Ulteriori informazioni sul menu hamburger](#learn-more-about-the-hamburger-menu).
 
 
 ### Scheda Modello dati {#data-model-tab}
 
-![Scheda Invio](/help/adaptive-forms/assets/formcontainer_fdmtab.png)
+![Scheda Modello dati](/help/adaptive-forms/assets/formcontainer_fdmtab.png)
 
 È possibile utilizzare il modello dati modulo per collegare un modulo a un’origine dati per inviare e ricevere dati in base alle azioni degli utenti. È possibile anche collegare un modulo a uno schema JSON per ricevere i dati inviati in un formato predefinito. In base al requisito, connetti il modulo a uno schema JSON o a un modello dati modulo:
-- Crea uno schema JSON e caricalo nell’ambiente
-- Creare un modello dati modulo
+- **Nessuno** - Non associare il modulo a un modello dati.
+- **Schema** - Connetti il modulo a uno schema JSON caricato nell&#39;ambiente.
+- **Modello dati modulo** - Connetti il modulo a un modello dati modulo per l&#39;integrazione con origini dati esterne.
+- **Connettore** - Connetti il modulo a un&#39;origine dati basata su connettore.
+- **Modelli di modulo** - Associa il modulo a un modello di modulo.
 
-### Bozze
+### Scheda Bozze {#drafts-tab}
 
-![Scheda Invio](/help/adaptive-forms/assets/formcontainer_autosavetab.png)
+![Scheda Bozze](/help/adaptive-forms/assets/formcontainer_autosavetab.png)
 
 - **Salvataggio automatico delle bozze**: seleziona la casella di controllo **Salvataggio automatico delle bozze** per abilitare il salvataggio dei moduli come bozze.
 - **Salva preferenza**: configura **Salva preferenza** come **Salva bozze a intervalli regolari**, per salvare automaticamente il modulo dopo un intervallo di tempo specifico.
@@ -113,6 +112,8 @@ L’utente può configurare una libreria JavaScript personalizzata per modulo ad
 ### Scheda Invio {#submission-tab}
 
 Gli utenti possono configurare azioni diverse per gli invii di moduli adattivi.
+
+- **All&#39;invio** - Scegliere **Reindirizza all&#39;URL** per inviare gli utenti del modulo a una pagina configurata dopo l&#39;invio oppure **Mostra messaggio** per visualizzare un messaggio di conferma nel modulo.
 
 - **URL/percorso di reindirizzamento**: questa opzione consente agli utenti di configurare una pagina per ciascun modulo, a cui verranno reindirizzati gli utenti dei moduli dopo l’invio di un modulo adattivo. Fai clic qui per ulteriori informazioni su [come configurare le pagine di reindirizzamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-redirect-page.html?lang=it).
 
@@ -123,6 +124,21 @@ Gli utenti possono configurare azioni diverse per gli invii di moduli adattivi.
 ![Scheda Mostra Messaggio](/help/adaptive-forms/assets/formconatiner_showmessage.png)
 
 - **Azione di invio**: un’azione di invio viene attivata quando l’utente fa clic sul pulsante Invia in un modulo adattivo. Gli utenti possono selezionare azioni di Invio dall’elenco a discesa supportato come predefinito. Scopri come [configurare un’azione di invio nella scheda Invio](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=it#supporting-custom-functions-in-validation-expressions-br).
+
+- **Configurazione azione** - Configura le mappature per il passaggio dei valori dei campi come parametri di richiesta della pagina di ringraziamento.
+
+- **Abilita richiesta POST** - Selezionare questa opzione per inviare i dati del modulo utilizzando una richiesta HTTP POST.
+
+### Scheda Documento record {#document-of-record-tab}
+
+![Scheda Documento record](/help/adaptive-forms/assets/formcontainer_dortab.png)
+
+Un [documento di record (DoR)](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/generate-document-of-record-core-components) è una rappresentazione formale e stampabile dei dati inviati tramite il modulo. Utilizzare la scheda **Documento record** per configurare la modalità di generazione di un documento record quando un utente invia il modulo:
+
+- **Nessuno** - Non generare un documento di record per il modulo.
+- **Associa modello modulo come modello del documento record**. Utilizzare un modello di modulo esistente come modello DoR.
+- **Genera documento record** - Genera automaticamente un documento record in base ai dati del modulo inviati.
+- **Escludi allegati da documento record** - Selezionare questa opzione per omettere gli allegati dal DoR generato.
 
 ## Finestra di dialogo per la progettazione {#design-dialog}
 
@@ -170,44 +186,44 @@ Le proprietà personalizzate consentono di associare attributi personalizzati (c
 
    - **Ridisponi**: tocca o fai clic e trascina per ridisporre l’ordine del nome e del valore della proprietà personalizzata.
 
+## Ulteriori informazioni sul menu hamburger {#learn-more-about-the-hamburger-menu}
+
+Un menu hamburger, spesso indicato come menu mobile o cassetto di navigazione, è un elemento di design popolare nelle interfacce utente mobili. Dispone di tre linee orizzontali impilate verticalmente, che assomigliano a un hamburger. La progettazione consente di risparmiare spazio sullo schermo nascondendo le opzioni di navigazione secondaria fino a quando non sono necessarie, in particolare su dispositivi più piccoli come i dispositivi mobili. AEM forms può essere organizzato in modo efficiente all’interno del menu hamburger, consentendo agli utenti di accedere a vari pannelli all’interno di un modulo senza sovraccaricare l’interfaccia principale.
+
+Si consideri uno scenario in cui un istituto finanziario offre un modulo di richiesta di prestito online che richiede agli utenti di fornire informazioni dettagliate su diversi pannelli, come dati personali, informazioni finanziarie, preferenze di prestito e documenti di supporto. Il modulo include più pannelli e opzioni che possono ingombrare l’interfaccia, in particolare sui dispositivi mobili. Gli utenti hanno bisogno di un modo organizzato per navigare attraverso questi pannelli senza sentirsi sopraffatti. Il menu hamburger è implementato per migliorare l’esperienza utente sui dispositivi mobili.
+
+### Componenti del menu hamburger
+
+![Menu Hamburger](/help/adaptive-forms/assets/hamburger-menu.png){width=50%, align=center}
+
+**A. Menu Hamburger**: il menu hamburger presenta un pannello di navigazione che scorre o scende quando l&#39;icona dell&#39;hamburger viene selezionata o toccata. Il menu visualizza i titoli del pannello e, selezionando un pannello, lo stato attivo viene spostato su tale pannello. Consente agli utenti di navigare facilmente tra pannelli diversi.
+
+![Menu Hamburger](/help/adaptive-forms/assets/hamburger-menu-icon.png){width=50%}
+
+**B. Breadcrumb**: Le breadcrumb indicano la posizione corrente dell&#39;utente all&#39;interno del modulo. Offrono un percorso gerarchico che mostra il percorso di navigazione dell’utente e li aiuta a comprendere la sua posizione nel modulo.
+
+**C. Pannello attivo**: il pannello attivo fa riferimento alla sezione o alla parte del modulo attualmente visualizzata. Quando un utente seleziona un’opzione dal menu con hamburger, il pannello corrispondente diventa il pannello attivo e mostra i campi e le informazioni pertinenti per quella sezione.
+
+### Punti da considerare durante l&#39;utilizzo del menu hamburger
+
+- Il menu hamburger visualizza solo i nomi dei pannelli. Di seguito sono riportati diversi scenari che illustrano come viene visualizzato il nome del pannello nel riquadro di navigazione del menu hamburger in base alle proprietà di configurazione del pannello:
+
+   - Se si impostano le proprietà del pannello su Nascosto, il nome del pannello non viene visualizzato nel riquadro di navigazione del menu con hamburger. Se ad esempio si configurano le proprietà del pannello `Financial Information` come `hidden`, il nome del pannello non verrà visualizzato nel riquadro di spostamento del menu hamburger.
+
+     ![Pannello nascosto](/help/adaptive-forms/assets/hidden-panel.png){width=50%}
+
+   - Se si impostano le proprietà del pannello su `disabled`, il relativo nome verrà visualizzato nel riquadro di spostamento del menu hamburger, ma non sarà possibile selezionarlo o modificarlo. Se ad esempio si configurano le proprietà del pannello `Financial Information` come `disabled`, il nome del pannello verrà visualizzato nel riquadro di spostamento, ma non potrà essere selezionato o modificato.
+
+     ![Pannello disabilitato](/help/adaptive-forms/assets/disabled-panel.png){width=50%}
+
+   - Se nascondi il titolo del pannello, non viene visualizzato nel riquadro di navigazione del menu hamburger. Viene invece visualizzato uno spazio vuoto, ma puoi passare ai campi del pannello facendo clic su tale spazio. Se ad esempio si nasconde il titolo del pannello `Financial Information`, lo spazio vuoto verrà visualizzato al suo posto nel riquadro di spostamento del menu hamburger. Per passare ai campi del pannello, fai clic sullo spazio vuoto.
+
+     ![Pannello titolo nascosto](/help/adaptive-forms/assets/hidden-title-panel.png){width=50%}
+
+- Per impostazione predefinita, il riquadro di navigazione nel componente Breadcrumb supporta fino a tre livelli di navigazione. Tuttavia, con il componente personalizzato, puoi configurare la gerarchia di navigazione in modo da includere tutti i livelli necessari.
+- Quando si utilizza il menu hamburger, l’utente può spostarsi tra i pannelli utilizzando le frecce. Tuttavia, una volta selezionato un pannello, il menu si chiude automaticamente e lo stato attivo si sposta sui campi all’interno del pannello selezionato.
+
 <!--
-## Learn more about the hamburger menu
-
-A hamburger menu, often referred to as a mobile menu or navigation drawer, is a popular design element in mobile user interfaces. It features three horizontal lines stacked vertically, resembling a hamburger. The design efficiently conserves screen space by hiding secondary navigation options until they are needed, especially on smaller devices such as mobile. AEM forms can be efficiently organized within the hamburger menu, enabling users to access various panels within a form without overwhelming the main interface.
-
-Consider a scenario, where a financial institution offers an online loan application form that requires users to provide detailed information across several panels, such as personal details, financial information, loan preferences, and supporting documents. The form includes multiple panels and options that can clutter the interface, especially on mobile devices. Users need an organized way to navigate through these panels without feeling overwhelmed. The hamburger menu is implemented to enhance the user experience on mobile devices.
-
-### Components of hamburger menu
-
-![Hamburger Menu](/help/adaptive-forms/assets/hamburger-menu.png){width=50%, align=center}
-
-**A. Hamburger menu**: The hamburger menu features a navigation panel that slides out or drops down when the hamburger icon is clicked or tapped. The menu displays the panel headings, and selecting a panel shifts the focus to that panel. It allows users to easily navigate between different panels.
-
-![Hamburger Menu](/help/adaptive-forms/assets/hamburger-menu-icon.png){width=50%}
-
-**B. Breadcrumb**: Breadcrumbs indicate the user's current location within the form. They offer a hierarchical trail that shows the user's navigation path and helps them understand their position in the form.
-
-**C. Active panel**: The active panel refers to the section or part of the form that is currently being displayed. When a user selects an option from the hamburger menu, the corresponding panel becomes the active panel, showing the relevant fields and information for that section.
-
-### Points to consider while working with the hamburger menu
-
-- The hamburger menu displays only the names of the panels. Here are different scenarios illustrating how the panel name appears in the navigation pane of the hamburger menu based on the configuration properties of the panel:  
-  
-  - If you set the properties of the panel to hidden, the panel's name does not appear in the navigation pane of the hamburger menu. For example, if you configure the properties of the `Financial Information` panel as `hidden`, the panel name does not appear in the navigation pane of the hamburger menu.
-    
-    ![Hidden panel](/help/adaptive-forms/assets/hidden-panel.png){width=50%}
-
-  - If you set the properties of the panel to `disabled`, its name appears in the navigation pane of the hamburger menu, but you cannot select or edit it. For example, if you configure the properties of the `Financial Information` panel as `disabled`, the panel name appears in the navigation pane, but it cannot be selected or edited. 
-     
-    ![Disabled panel](/help/adaptive-forms/assets/disabled-panel.png){width=50%}
-
-  - If you hide the  title of the panel, it does not appear in the navigation pane of the hamburger menu. A blank space shows up instead, but you can navigate to the fields of the panel by clicking on that space. For example, if you hide the title of the `Financial Information` panel, the blank space appears in its place in the navigation pane of the hamburger menu. You can navigate to the fields of the panel by clicking on the blank space.
-    
-    ![Hidden title panel](/help/adaptive-forms/assets/hidden-title-panel.png){width=50%}
-
-- By default, the navigation pane in the breadcrumb component supports up to three levels of navigation. However, with the custom component, you can configure the navigation hierarchy to accommodate as many levels as needed.
-- When using the hamburger menu, the user can navigate between panels using arrows. However, once a panel is selected, the menu automatically closes, and focus shifts to the fields within the chosen panel.
-
 ### Advantages to use hamburger menu
 
 - **Space efficiency**: By hiding form navigation options until needed, the hamburger menu maximizes screen space, which is especially beneficial on smaller devices.
@@ -231,7 +247,7 @@ To enable hamburger menu for form, perform the following steps:
 1. Select the **[!UICONTROL Add hamburger menu support]** checkbox.
 1. Click **[!UICONTROL Done]**.
 
-![Basic tab](/help/adaptive-forms/assets/formcontainer_basictab.png)
+![Basic tab](/help/adaptive-forms/assets/formcontainer_basictab1.png)
 -->
 
 ## Articoli correlati {#related-articles}
