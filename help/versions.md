@@ -21,9 +21,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 965111707408c37899fd8a94cd5789b56b38db4a
+source-git-commit: 851de520ea02d9d47366967e70174eca714dd348
 workflow-type: tm+mt
-source-wordcount: 4174
+source-wordcount: 4192
 ht-degree: 96%
 
 ---
@@ -46,7 +46,7 @@ La tabella che segue, il cui contenuto è [disponibile su GitHub con tutti i det
 |---|---|---|---|---|---|---|---|
 | [2.32.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.4) | Questa versione risolve un problema di correzione di bug. | - | 6.5.21.0+ | 6.5 LTS GA | Continua | 8, 11, 17, 21 | 15 luglio 2026 |
 | [2.32.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.2) | Questa versione risolve i bug delle versioni precedenti delle clientlibs di ricerca. | - | 6.5.21.0+ | 6.5 LTS GA | Continua | 8, 11, 17, 21 | 15 luglio 2026 |
-| [2.32.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.0) | Questa versione risolve, tra gli altri, i bug di localizzazione. | - | 6.5.21.0+ | 6.5 LTS GA | Continua | 8, 11, 17, 21 | 14 luglio 2026 |
+| [2.32.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.0) | Questa versione introduce una nuova versione del [componente Ricerca rapida](/help/components/quick-search.md) con un interruttore di Ricerca IA opzionale e risolve, tra gli altri, i bug di localizzazione. | - | 6.5.21.0+ | 6.5 LTS GA | Continua | 8, 11, 17, 21 | 14 luglio 2026 |
 | [2.31.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.31.2) | Questa versione risolve alcuni bug in cui alcune informazioni non venivano mantenute correttamente. | - | 6.5.21.0+ | 6.5 LTS GA | Continua | 8, 11, 17, 21 | 22 giugno 2026 |
 | [2.31.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.31.0) | Questa versione introduce il supporto per i dati JSON-LD per il componente Pagina, nonché miglioramenti delle prestazioni per diversi altri componenti oltre a numerose correzioni di bug. | - | 6.5.21.0+ | 6.5 LTS GA | Continua | 8, 11, 17, 21 | 19 maggio 2026 |
 | [2.30.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.4) | Con questa versione è stato corretto un problema di convalida dei percorsi. | - | 6.5.21.0+ | 6.5 LTS GA | Continua | 8, 11, 17, 21 | 30 gennaio 2026 |
