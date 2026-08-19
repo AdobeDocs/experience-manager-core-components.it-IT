@@ -4,21 +4,14 @@ description: Il componente Ricerca rapida fornisce funzionalità di ricerca in u
 role: Developer, Admin, User
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
 TQID: https://experienceleague.adobe.com/wU-3pacdEz9ne8b53-mKJy-XxRdyz2gu4Jvj-yFgGOw
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: f7fb04a4420a61d8a4755f2b3f09aad91b12c7eb
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: f939ce7498d9ec1901bea4b5fbf631365ba923fa
 workflow-type: tm+mt
-source-wordcount: 863
-ht-degree: 46%
+source-wordcount: 909
+ht-degree: 41%
 
 ---
 
@@ -43,21 +36,27 @@ La tabella che segue descrive tutte le versioni supportate del componente, le ve
 
 | Versione del componente | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |--- |--- |--- |---|---|
-| v3 | - | Compatibile | Compatibile | Compatibile |
+| v3 | - | Compatibile* | Compatibile* | Compatibile |
 | [v2](/help/components/v2/quick-search.md) | - | Compatibile | Compatibile | Compatibile |
 | [v1](/help/components/v1/quick-search.md) | Compatibile con la <br>[versione 2.17.4](/help/versions.md) e precedenti | Compatibile | - | Compatibile |
 
-Per ulteriori informazioni sulle versioni e sugli aggiornamenti dei Componenti core, vedi il documento [Versioni dei Componenti core](/help/versions.md).
+*L&#39;interruttore di ricerca semantica è disponibile solo con AEM as a Cloud Service.
 
-### Dettagli tecnici {#technical-details}
+Per ulteriori informazioni sulle versioni e sugli aggiornamenti dei Componenti core, vedi il documento [Versioni dei Componenti core.](/help/versions.md)
+
+## Esempio di output del componente {#sample-component-output}
+
+Per avere un&#39;idea del componente Ricerca rapida e vedere esempi delle opzioni di configurazione e dell&#39;output HTML e JSON, visita la [libreria dei componenti.](https://adobe.com/go/aem_cmp_library_search)
+
+## Dettagli tecnici {#technical-details}
 
 >[!NOTE]
 >
 >La protezione del componente Ricerca o di qualsiasi applicazione basata su AEM contro attacchi DOS deve essere implementata a un livello più alto, ad esempio utilizzando la proprietà `mod_security` su Dispatcher.
 
-La documentazione tecnica più recente sul componente Ricerca rapida [è disponibile su GitHub](https://adobe.com/go/aem_cmp_tech_search_v2_it).
+La documentazione tecnica più recente sul componente Ricerca rapida [ è disponibile su GitHub.](https://adobe.com/go/aem_cmp_tech_search_v3)
 
-Per ulteriori informazioni sullo sviluppo di Componenti core, vedi la [documentazione per gli sviluppatori di Componenti core](/help/developing/overview.md).
+Per ulteriori informazioni sullo sviluppo di Componenti core, vedi la [documentazione per gli sviluppatori di Componenti core.](/help/developing/overview.md)
 
 ## Finestra di dialogo per modifica {#edit-dialog}
 
