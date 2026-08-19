@@ -53,7 +53,7 @@ Per ulteriori informazioni sulle versioni e sugli aggiornamenti dei Componenti c
 
 ## Esempio di output del componente {#sample-component-output}
 
-Per avere un&#39;idea del componente Ricerca rapida e vedere esempi delle opzioni di configurazione e dell&#39;output HTML e JSON, visita la [libreria dei componenti.](https://adobe.com/go/aem_cmp_library_search)
+Per avere un&#39;idea del componente Ricerca rapida e vedere esempi delle opzioni di configurazione e dell&#39;output HTML e JSON, visita la [libreria dei componenti.](https://adobe.com/go/aem_cmp_library_search_it)
 
 ## Dettagli tecnici {#technical-details}
 

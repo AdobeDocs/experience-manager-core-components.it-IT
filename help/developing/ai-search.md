@@ -26,8 +26,8 @@ Il componente Ricerca IA contenuto offre ai visitatori del sito una ricerca gene
 
 ## Prerequisiti {#prerequisites}
 
-* Almeno un [Source dei contenuti](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources) è già stato creato e con lo stato **Disponibile**.
-* Configurazione OSGi del client **AEM Content AI** (`ContentAIClientImpl`) impostata sia per l&#39;authoring che per la pubblicazione, con credenziali API valide e un valore **Default Content Source**. Per informazioni su come ottenere le credenziali, vedere il documento [Configurazione di un progetto Adobe Developer Console](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/setup-adc-project).
+* Almeno un [Source dei contenuti](https://experienceleague.adobe.com/it/docs/experience-manager-content-ai/using/contentsources) è già stato creato e con lo stato **Disponibile**.
+* Configurazione OSGi del client **AEM Content AI** (`ContentAIClientImpl`) impostata sia per l&#39;authoring che per la pubblicazione, con credenziali API valide e un valore **Default Content Source**. Per informazioni su come ottenere le credenziali, vedere il documento [Configurazione di un progetto Adobe Developer Console](https://experienceleague.adobe.com/it/docs/experience-manager-content-ai/using/setup-adc-project).
 
 ## Creazione di un componente proxy {#proxy-component}
 
@@ -54,10 +54,10 @@ Gli autori dei contenuti possono ora inserire il componente Ricerca IA contenuto
 
 * Le query di ricerca standard sono gestite dallo stesso livello di recupero dell’indice di Content Source, che restituisce dall’origine configurata pagine, frammenti o risorse corrispondenti.
 * Quando il riepilogo generato dall’intelligenza artificiale è abilitato, il componente chiama anche l’endpoint generativo di IA per l’analisi dei contenuti di AEM, basa la risposta nello stesso contenuto indicizzato e visualizza le origini insieme al riepilogo in modo che i visitatori possano verificarlo.
-* Poiché entrambe le funzioni vengono lette dallo stesso Content Source gestito, i risultati e i riepiloghi rimangono coerenti con qualsiasi contenuto attualmente indicizzato. La riesecuzione dell&#39;acquisizione (vedi [Controlla le origini di contenuto](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources)) aggiorna entrambi.
+* Poiché entrambe le funzioni vengono lette dallo stesso Content Source gestito, i risultati e i riepiloghi rimangono coerenti con qualsiasi contenuto attualmente indicizzato. La riesecuzione dell&#39;acquisizione (vedi [Controlla le origini di contenuto](https://experienceleague.adobe.com/it/docs/experience-manager-content-ai/using/contentsources)) aggiorna entrambi.
 
 ## Passaggi successivi {#next-steps}
 
-* [Controlla le origini di contenuto](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources) — crea e gestisci il Source di contenuto cercato da questo componente.
-* [Configura un progetto Adobe Developer Console](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/setup-adc-project) - Ottieni le credenziali utilizzate dalla configurazione del client di IA per la gestione dei contenuti OSGi.
+* [Controlla le origini di contenuto](https://experienceleague.adobe.com/it/docs/experience-manager-content-ai/using/contentsources) — crea e gestisci il Source di contenuto cercato da questo componente.
+* [Configura un progetto Adobe Developer Console](https://experienceleague.adobe.com/it/docs/experience-manager-content-ai/using/setup-adc-project) - Ottieni le credenziali utilizzate dalla configurazione del client di IA per la gestione dei contenuti OSGi.
 * [Riferimento API di IA per la gestione dei contenuti](https://developer.adobe.com/experience-cloud/experience-manager-apis/api/experimental/contentai/): comprendere la ricerca sottostante e gli endpoint di riepilogo generativo chiamati da questo componente.
