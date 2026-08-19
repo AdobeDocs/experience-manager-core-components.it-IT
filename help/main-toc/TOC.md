@@ -5,10 +5,10 @@ breadcrumb-title: Guida dei Componenti core
 feature: Core Components
 user-guide-description: Per i progetti AEM tradizionali, utilizza i Componenti core estendibili per consentire agli autori di creare facilmente il contenuto.
 feature-set: Experience Manager Sites, Experience Manager Forms
-source-git-commit: ccc4eebac29251d3527f34240cb2005b9029cf82
+source-git-commit: 20b54716af29ed8f283b3e6fffc2682dfee0d999
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 99%
+source-wordcount: '442'
+ht-degree: 97%
 
 ---
 
@@ -43,6 +43,7 @@ ht-degree: 99%
   + [Visualizzatore PDF](/help/components/pdf-viewer.md)
   + [Barra di avanzamento](/help/components/progress-bar.md)
   + [Ricerca rapida](/help/components/quick-search.md)
+  + [Contenuto Ricerca IA](/help/components/ai-search.md)
   + [Separatore](/help/components/separator.md)
   + [Condivisione sui social media](/help/components/sharing.md)
   + [Sommario](/help/components/tableofcontents.md)
@@ -156,6 +157,7 @@ ht-degree: 99%
   + [Adaptive Image Servlet](/help/developing/adaptive-image-servlet.md)
   + [Consegna delle immagini ottimizzate per il web](/help/developing/web-optimized-image-delivery.md)
   + [Supporto risorse remote](/help/developing/remote-assets.md)
+  + [Configura Ricerca IA contenuto](/help/developing/ai-search.md)
   + Livello dati client Adobe {#data-layer}
     + [Panoramica del livello dati](/help/developing/data-layer/overview.md)
     + [Integrazioni con il livello dati](/help/developing/data-layer/integrations.md)
