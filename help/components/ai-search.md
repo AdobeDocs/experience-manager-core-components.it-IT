@@ -55,7 +55,7 @@ Per avere un&#39;idea del componente Ricerca IA contenuto e vedere esempi delle 
 
 ## Dettagli tecnici {#technical-details}
 
-La documentazione tecnica più recente sul componente Ricerca IA contenuto [&#x200B; è disponibile su GitHub.](https://adobe.com/go/aem_cmp_tech_ai_search_v1)
+La documentazione tecnica più recente sul componente Ricerca IA contenuto [&#x200B; è disponibile su GitHub.](https://adobe.com/go/aem_cmp_tech_ai_search_v1_it)
 
 Per ulteriori informazioni sullo sviluppo di Componenti core, vedi la [documentazione per gli sviluppatori di Componenti core.](/help/developing/overview.md)
 
