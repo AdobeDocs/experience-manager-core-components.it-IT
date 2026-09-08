@@ -4,33 +4,21 @@ description: Le versioni dei Componenti core pubblicate possono contenere più d
 role: Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 TQID: https://experienceleague.adobe.com/XTlpl5LlUcde1kvtWXPWtZczkafTGRk2g2OZ6MBDaRY
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ae478996-b206-4712-9b0c-dc78a2644453
-  - id: d429a63e-ade4-4117-b04e-9b996d1c94ef
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-subfeature_v2:
-  - id: a94e5c13-4138-47ec-b9c8-e804e17aaca2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 20b54716af29ed8f283b3e6fffc2682dfee0d999
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ae478996-b206-4712-9b0c-dc78a2644453id: d429a63e-ade4-4117-b04e-9b996d1c94efid: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+subfeature_v2: id: a94e5c13-4138-47ec-b9c8-e804e17aaca2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 2bcb4b4397044b709cabaa5bf18efa235c56e7ec
 workflow-type: tm+mt
-source-wordcount: 4244
-ht-degree: 95%
+source-wordcount: 4308
+ht-degree: 94%
 
 ---
 
 # Versioni dei Componenti core {#core-components-versions}
 
-I Componenti core sono compatibili con installazioni di [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=it) e [&#x200B; AEM on-premise](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=it).
+I Componenti core sono compatibili con installazioni di [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=it) e [ AEM on-premise](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=it).
 
 ## Cronologia delle versioni e compatibilità {#release-history-and-compatibility}
 
@@ -44,6 +32,8 @@ La tabella che segue, il cui contenuto è [disponibile su GitHub con tutti i det
 
 | Versione | Descrizione | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service | Java | Data di pubblicazione |
 |---|---|---|---|---|---|---|---|
+| [2.32.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.8) | Questa versione abilita il [componente Ricerca IA contenuto](/help/components/ai-search.md) in AMS. | - | 6.5.21.0+ | 6.5 LTS GA | Continua | 8, 11, 17, 21 | 8 settembre 2026 |
+| [2.32.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.6) | Questa versione risolve un problema di correzione di bug. | - | 6.5.21.0+ | 6.5 LTS GA | Continua | 8, 11, 17, 21 | 10 agosto 2026 |
 | [2.32.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.4) | Questa versione risolve un problema di correzione di bug. | - | 6.5.21.0+ | 6.5 LTS GA | Continua | 8, 11, 17, 21 | 15 luglio 2026 |
 | [2.32.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.2) | Questa versione risolve i bug delle versioni precedenti delle clientlibs di ricerca. | - | 6.5.21.0+ | 6.5 LTS GA | Continua | 8, 11, 17, 21 | 15 luglio 2026 |
 | [2.32.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.0) | Questa versione introduce il [componente Ricerca IA contenuto](/help/components/ai-search.md) una nuova versione del [componente Ricerca rapida](/help/components/quick-search.md) con un interruttore opzionale Ricerca IA e risolve, tra gli altri, i bug di localizzazione. | - | 6.5.21.0+ | 6.5 LTS GA | Continua | 8, 11, 17, 21 | 14 luglio 2026 |
