@@ -7,22 +7,27 @@ index: false
 TQID: https://experienceleague.adobe.com/YHV-xySiw1BjEKsfT-ALcfEHNDhOtREXJroHUf3p6m4
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+    internal-label: Security
+source-git-commit: 404cb0693a33ee0f76ca33fe8dd3aad0785fd55e
 workflow-type: tm+mt
-source-wordcount: 1317
+source-wordcount: '1317'
 ht-degree: 100%
-
 ---
-
 # Componente Incorpora (v1) {#embed-component}
 
 Il componente core Incorpora consente di incorporare contenuto esterno in una pagina di contenuto AEM.
@@ -46,11 +51,11 @@ Questo documento descrive la versione 1 del componente Incorpora, introdotto con
 
 ## Esempio di output del componente {#sample-component-output}
 
-Per avere un’idea del componente Incorpora e vedere esempi delle opzioni di configurazione e dell’output HTML e JSON, visita la [libreria dei componenti](https://adobe.com/go/aem_cmp_library_embed_it).
+Per avere un’idea del componente Incorpora e vedere esempi delle opzioni di configurazione e dell’output HTML e JSON, visita la [libreria dei componenti](https://adobe.com/go/aem_cmp_library_embed).
 
 ## Dettagli tecnici {#technical-details}
 
-La documentazione tecnica più recente sul componente Incorpora [è disponibile su GitHub](https://adobe.com/go/aem_cmp_tech_embed_v1_it).
+La documentazione tecnica più recente sul componente Incorpora [è disponibile su GitHub](https://adobe.com/go/aem_cmp_tech_embed_v1).
 
 Per ulteriori informazioni sullo sviluppo di Componenti core, vedi la [documentazione per gli sviluppatori di Componenti core](/help/developing/overview.md).
 
@@ -145,12 +150,12 @@ La finestra di dialogo per progettazione consente all’autore del modello di de
 ![Scheda YouTube della finestra di dialogo per progettazione del componente Incorpora](/help/assets/embed-design-youtube.png)
 
 * **Consenti la configurazione del comportamento Disattiva audio**: consente all’autore del contenuto di configurare l’opzione **Abilita Disattiva audio** nel componente quando il tipo incorporabile selezionato è YouTube
-   * **Valore predefinito per Disattiva audio**: imposta automaticamente l’opzione **Abilita Disattiva audio** quando il tipo incorporabile selezionato è YouTube
+  * **Valore predefinito per Disattiva audio**: imposta automaticamente l’opzione **Abilita Disattiva audio** quando il tipo incorporabile selezionato è YouTube
 * **Consenti la configurazione del comportamento Riproduzione automatica**: consente all’autore di contenuto di configurare l’opzione **Abilita riproduzione automatica** nel componente quando il tipo incorporabile selezionato è YouTube
-   * **Valore predefinito per Riproduzione automatica**: se selezionata, imposta automaticamente l’opzione **Abilita Riproduzione automatica** quando il tipo incorporabile selezionato è YouTube
+  * **Valore predefinito per Riproduzione automatica**: se selezionata, imposta automaticamente l’opzione **Abilita Riproduzione automatica** quando il tipo incorporabile selezionato è YouTube
 * **Consenti la configurazione del comportamento Ciclo continuo**: consente all’autore di contenuto di configurare l’opzione **Abilita ciclo continuo** nel componente quando il tipo incorporabile selezionato è YouTube
-   * **Valore predefinito per Ciclo continuo**: imposta automaticamente l’opzione **Abilita ciclo continuo** quando il tipo incorporabile selezionato è YouTube
+  * **Valore predefinito per Ciclo continuo**: imposta automaticamente l’opzione **Abilita ciclo continuo** quando il tipo incorporabile selezionato è YouTube
 * **Consenti la configurazione di Riproduzione in linea (iOS)**: consente all’autore di contenuto di configurare l’opzione **Abilita riproduzione in linea (iOS)** nel componente quando il tipo incorporabile selezionato è YouTube
-   * **Valore predefinito per Riproduzione in linea (iOS)**: imposta automaticamente l’opzione **Abilita riproduzione in linea (iOS)** quando il tipo incorporabile selezionato è YouTube
+  * **Valore predefinito per Riproduzione in linea (iOS)**: imposta automaticamente l’opzione **Abilita riproduzione in linea (iOS)** quando il tipo incorporabile selezionato è YouTube
 * **Consenti la configurazione di Video correlati**: consente all’autore di contenuto di configurare l’opzione **Video correlati senza restrizioni** nel componente quando il tipo incorporabile selezionato è YouTube
-   * **Valore predefinito per Video correlati senza restrizioni**: imposta automaticamente l’opzione **Video correlati senza restrizioni** quando il tipo incorporabile selezionato è YouTube
+  * **Valore predefinito per Video correlati senza restrizioni**: imposta automaticamente l’opzione **Video correlati senza restrizioni** quando il tipo incorporabile selezionato è YouTube
