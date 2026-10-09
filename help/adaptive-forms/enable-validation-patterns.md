@@ -3,13 +3,16 @@ title: Abilitare e utilizzare i pattern di convalida dell’input di testo nei m
 description: Scopri come configurare i criteri dei modelli per esporre i pattern di convalida come numeri di telefono, numeri di previdenza sociale e codici postali, per poi utilizzarli nei tuoi moduli adattativi.
 hide: true
 exl-id: e4500666-1346-4558-861d-da9541dcef51
-source-git-commit: 59064c359aea14af99675709bbddf9a933a959df
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+source-git-commit: 025b8134f7675b4515f4586910a94a2732bfa2ee
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 100%
-
 ---
-
 # Abilitare e utilizzare i pattern di convalida dell’input di testo nei moduli adattativi di Adobe Experience Manager
 
 ## Panoramica
@@ -113,13 +116,13 @@ Per verificare il corretto funzionamento dei modelli di convalida:
 ## Risoluzione dei problemi
 
 - **Problema:** i modelli di convalida non sono visualizzati nel componente modulo.
-   - **Soluzione:** verifica che i criteri del modello siano stati salvati correttamente e che stai utilizzando il modello corretto durante la creazione del modulo.
+  - **Soluzione:** verifica che i criteri del modello siano stati salvati correttamente e che stai utilizzando il modello corretto durante la creazione del modulo.
 
 - **Problema:** impossibile accedere all’editor dei modelli.
-   - **Soluzione:** verifica di disporre delle autorizzazioni necessarie per modificare i modelli (appartenenza al gruppo `template-authors`).
+  - **Soluzione:** verifica di disporre delle autorizzazioni necessarie per modificare i modelli (appartenenza al gruppo `template-authors`).
 
 - **Problema:** il componente Immissione testo non convalida correttamente l’immissione.
-   - **Soluzione:** ricontrolla le impostazioni del modello di convalida nella scheda Convalida del componente e assicurati che sia selezionato il modello corretto.
+  - **Soluzione:** ricontrolla le impostazioni del modello di convalida nella scheda Convalida del componente e assicurati che sia selezionato il modello corretto.
 
 ## Passaggi successivi
 
