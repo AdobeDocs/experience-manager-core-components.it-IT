@@ -3,13 +3,23 @@ title: 'Componente core Forms adattivo: scelta dell’immagine'
 description: Utilizzo del componente core Scelta immagine.
 role: Developer, Admin, User
 hide: true
-source-git-commit: 0af65c80f9cc58c4ba48d5b3dc7a026820bd2833
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 025b8134f7675b4515f4586910a94a2732bfa2ee
 workflow-type: tm+mt
 source-wordcount: '1318'
 ht-degree: 58%
-
 ---
-
 # Campo ImageChoice modulo adattivo {#image-choice}
 
 Il componente Scelta immagine in un modulo consente agli utenti di effettuare selezioni in base alle rappresentazioni visive, come le immagini, anziché alle opzioni basate su testo. Presenta una serie di immagini, ognuna delle quali rappresenta una scelta distinta. Gli utenti possono selezionare una o più immagini, con un feedback visivo che ne indica la selezione. Questo componente è utile per opzioni quali varianti di prodotto, risposte a sondaggi o immagini di profilo. Offre un metodo di selezione intuitivo e accattivante che migliora il coinvolgimento e la chiarezza degli utenti.
@@ -102,8 +112,8 @@ Puoi personalizzare facilmente l’esperienza del componente Scelta immagine per
 ![Scelta immagine di accessibilità](accessibility-imagechoice.png)
 
 - **Testo per utilità per la lettura dello schermo**: il testo per le utilità per la lettura dello schermo indica il testo aggiuntivo destinato alla lettura da parte di tecnologie per l’accessibilità, come le utilità per la lettura dello schermo, utilizzate da persone ipovedenti. Questo testo fornisce una descrizione audio dello scopo del campo modulo e può includere informazioni sul titolo, la descrizione, il nome del campo ed eventuali messaggi rilevanti (testo personalizzato). Il testo dell’assistente vocale consente di garantire l’accesso al modulo da parte di qualsiasi utente, comprese le persone ipovedenti, consentendo di comprendere appieno il campo del modulo e i relativi requisiti.
-   - **Testo personalizzato**: seleziona questa opzione per utilizzare il testo personalizzato per le etichette di accessibilità ARIA. Selezionando questa opzione, viene visualizzata la finestra di dialogo Testo personalizzato. Puoi aggiungere informazioni rilevanti nella finestra di dialogo Testo personalizzato.
-   - **Titolo**: seleziona questa opzione per utilizzare il titolo per le etichette di accessibilità ARIA.
+  - **Testo personalizzato**: seleziona questa opzione per utilizzare il testo personalizzato per le etichette di accessibilità ARIA. Selezionando questa opzione, viene visualizzata la finestra di dialogo Testo personalizzato. Puoi aggiungere informazioni rilevanti nella finestra di dialogo Testo personalizzato.
+  - **Titolo**: seleziona questa opzione per utilizzare il titolo per le etichette di accessibilità ARIA.
 
 ## Articoli correlati {#related-articles}
 
