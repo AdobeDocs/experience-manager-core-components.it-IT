@@ -34,7 +34,7 @@ Il componente Ricerca IA contenuto offre ai visitatori del sito una ricerca gene
 
 ## Utilizzo {#usage}
 
-Il componente Ricerca IA contenuto consente ai visitatori di eseguire ricerche in un [Source contenuto](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources) direttamente da una pagina e, facoltativamente, di visualizzare un riepilogo dei risultati generato dall&#39;intelligenza artificiale. Combina una casella di ricerca full-text/semantica standard con un pannello di riepilogo **Mostra riepilogo generato dall&#39;intelligenza artificiale** attivato da AEM Content AI.
+Il componente Ricerca IA contenuto consente ai visitatori di eseguire ricerche in un [Source contenuto](https://experienceleague.adobe.com/it/docs/experience-manager-content-ai/using/contentsources) direttamente da una pagina e, facoltativamente, di visualizzare un riepilogo dei risultati generato dall&#39;intelligenza artificiale. Combina una casella di ricerca full-text/semantica standard con un pannello di riepilogo **Mostra riepilogo generato dall&#39;intelligenza artificiale** attivato da AEM Content AI.
 
 La [finestra di dialogo per modifica](#edit-dialog) consente all&#39;autore di contenuto di definire l&#39;ambito del contenuto della ricerca, il comportamento di ricerca e le impostazioni generative. La finestra di dialogo per progettazione non è disponibile, poiché non sono disponibili impostazioni a livello di modello.
 
@@ -65,7 +65,7 @@ Per avere un&#39;idea del componente Ricerca IA contenuto e vedere esempi delle 
 
 ## Dettagli tecnici {#technical-details}
 
-La documentazione tecnica più recente sul componente Ricerca IA contenuto [&#x200B; è disponibile su GitHub.](https://adobe.com/go/aem_cmp_tech_ai_search_v1)
+La documentazione tecnica più recente sul componente Ricerca IA contenuto [&#x200B; è disponibile su GitHub.](https://adobe.com/go/aem_cmp_tech_ai_search_v1_it)
 
 Per ulteriori informazioni sullo sviluppo di Componenti core, vedi la [documentazione per gli sviluppatori di Componenti core.](/help/developing/overview.md)
 
@@ -88,7 +88,7 @@ La finestra di dialogo per modifica consente all’autore di contenuto di defini
   * **PERSONALIZZATO** - Origine registrata al di fuori delle pipeline di acquisizione di AEM
 * **Origini contenuto** - Definisce il Source contenuto cercato da questo componente.
   * Le voci disponibili corrispondono alle origini di contenuto già esistenti e sono **disponibili**, nonché al tipo impostato in **Content Source Type**
-  * Per informazioni dettagliate, consulta il documento [Configurare e gestire le origini di IA per la gestione dei contenuti](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources).
+  * Per informazioni dettagliate, consulta il documento [Configurare e gestire le origini di IA per la gestione dei contenuti](https://experienceleague.adobe.com/it/docs/experience-manager-content-ai/using/contentsources).
 
 ### Scheda Comportamento di ricerca {#search-behavior}
 
