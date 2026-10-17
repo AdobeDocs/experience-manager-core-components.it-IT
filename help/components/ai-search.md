@@ -4,22 +4,27 @@ description: Il componente Ricerca IA contenuto offre ai visitatori del sito una
 role: Developer, Admin, User
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: e721e8b9469646300432b87d42bfb742aaf5f3fb
+    internal-label: Security
+source-git-commit: 6022fccf65523915134f38894fe5689849b2602f
 workflow-type: tm+mt
-source-wordcount: 805
+source-wordcount: '829'
 ht-degree: 16%
-
 ---
-
 
 # Componente Ricerca IA contenuto {#content-ai-search-component}
 
@@ -39,13 +44,16 @@ La [finestra di dialogo per modifica](#edit-dialog) consente all&#39;autore di c
 
 ## Versione e compatibilità {#version-and-compatibility}
 
-La versione corrente del componente Ricerca IA contenuto è la v1, introdotta con la versione 2.32.0 dei Componenti core a luglio 2026, ed è quella descritta in questo documento.
+La versione corrente del componente Ricerca IA contenuto è la v2, introdotta con la versione 2.33.0 dei Componenti core a ottobre 2026, ed è quella descritta in questo documento.
 
 La tabella che segue descrive tutte le versioni supportate del componente, le versioni di AEM con cui le versioni del componente sono compatibili e i collegamenti alla documentazione delle versioni precedenti.
 
-| Versione del componente | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
-|---|---|---|---|---|
-| v1 | - | - | - | In corso |
+| Versione del componente | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|
+| v2 | 6.5.21.0 e versioni successive* | 6,5 GA* | Compatibile |
+| [v1](/help/components/v1/ai-search.md) | - | - | Compatibile |
+
+*Il supporto per il componente Ricerca IA contenuto in AEM 6.5 e 6.5 LTS è limitato ad Adobe Managed Services (AMS).
 
 Per ulteriori informazioni sulle versioni e sugli aggiornamenti dei Componenti core, vedi il documento [Versioni dei Componenti core.](/help/versions.md)
 
@@ -55,7 +63,7 @@ Per avere un&#39;idea del componente Ricerca IA contenuto e vedere esempi delle 
 
 ## Dettagli tecnici {#technical-details}
 
-La documentazione tecnica più recente sul componente Ricerca IA contenuto [&#x200B; è disponibile su GitHub.](https://adobe.com/go/aem_cmp_tech_ai_search_v1_it)
+La documentazione tecnica più recente sul componente Ricerca IA contenuto [&#x200B; è disponibile su GitHub.](https://adobe.com/go/aem_cmp_tech_ai_search_v2)
 
 Per ulteriori informazioni sullo sviluppo di Componenti core, vedi la [documentazione per gli sviluppatori di Componenti core.](/help/developing/overview.md)
 

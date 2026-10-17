@@ -5,13 +5,11 @@ breadcrumb-title: Guida dei Componenti core
 feature: Core Components
 user-guide-description: Per i progetti AEM tradizionali, utilizza i Componenti core estendibili per consentire agli autori di creare facilmente il contenuto.
 feature-set: Experience Manager Sites, Experience Manager Forms
-source-git-commit: 20b54716af29ed8f283b3e6fffc2682dfee0d999
+source-git-commit: 16bb25a40209343edaeddb9948a58d921d3defe3
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 97%
-
+source-wordcount: '445'
+ht-degree: 96%
 ---
-
 
 # Aiuto dei Componenti core AEM {#using}
 
@@ -71,6 +69,7 @@ ht-degree: 97%
     + [Pagina (v1)](/help/components/v1/page-v1.md)
     + [Teaser (v1)](/help/components/v1/teaser.md)
     + [Ricerca rapida (v1)](/help/components/v1/quick-search.md)
+    + [Contenuto Ricerca IA](/help/components/v1/ai-search.md)
     + [Testo (v1)](/help/components/v1/text-v1.md)
     + [Titolo (v1)](/help/components/v1/title-v1.md)
     + Componenti per modulo v1 {#v1-forms}
