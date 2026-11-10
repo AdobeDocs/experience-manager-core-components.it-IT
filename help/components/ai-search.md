@@ -20,10 +20,10 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 6022fccf65523915134f38894fe5689849b2602f
+source-git-commit: a8f6d16fa3ca5d542e9416f97685ef28569adc65
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 16%
+source-wordcount: '801'
+ht-degree: 15%
 ---
 
 # Componente Ricerca IA contenuto {#content-ai-search-component}
@@ -34,7 +34,7 @@ Il componente Ricerca IA contenuto offre ai visitatori del sito una ricerca gene
 
 ## Utilizzo {#usage}
 
-Il componente Ricerca IA contenuto consente ai visitatori di eseguire ricerche in un [Source contenuto](https://experienceleague.adobe.com/it/docs/experience-manager-content-ai/using/contentsources) direttamente da una pagina e, facoltativamente, di visualizzare un riepilogo dei risultati generato dall&#39;intelligenza artificiale. Combina una casella di ricerca full-text/semantica standard con un pannello di riepilogo **Mostra riepilogo generato dall&#39;intelligenza artificiale** attivato da AEM Content AI.
+Il componente Ricerca IA contenuto consente ai visitatori di eseguire ricerche in un [Source contenuto](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources) direttamente da una pagina e, facoltativamente, di visualizzare un riepilogo dei risultati generato dall&#39;intelligenza artificiale. Combina una casella di ricerca full-text/semantica standard con un pannello di riepilogo **Mostra riepilogo generato dall&#39;intelligenza artificiale** attivato da AEM Content AI.
 
 La [finestra di dialogo per modifica](#edit-dialog) consente all&#39;autore di contenuto di definire l&#39;ambito del contenuto della ricerca, il comportamento di ricerca e le impostazioni generative. La finestra di dialogo per progettazione non è disponibile, poiché non sono disponibili impostazioni a livello di modello.
 
@@ -63,7 +63,7 @@ Per avere un&#39;idea del componente Ricerca IA contenuto e vedere esempi delle 
 
 ## Dettagli tecnici {#technical-details}
 
-La documentazione tecnica più recente sul componente Ricerca IA contenuto [&#x200B; è disponibile su GitHub.](https://adobe.com/go/aem_cmp_tech_ai_search_v2_it)
+La documentazione tecnica più recente sul componente Ricerca IA contenuto [ è disponibile su GitHub.](https://adobe.com/go/aem_cmp_tech_ai_search_v2)
 
 Per ulteriori informazioni sullo sviluppo di Componenti core, vedi la [documentazione per gli sviluppatori di Componenti core.](/help/developing/overview.md)
 
@@ -86,7 +86,7 @@ La finestra di dialogo per modifica consente all’autore di contenuto di defini
   * **PERSONALIZZATO** - Origine registrata al di fuori delle pipeline di acquisizione di AEM
 * **Origini contenuto** - Definisce il Source contenuto cercato da questo componente.
   * Le voci disponibili corrispondono alle origini di contenuto già esistenti e sono **disponibili**, nonché al tipo impostato in **Content Source Type**
-  * Per informazioni dettagliate, consulta il documento [Configurare e gestire le origini di IA per la gestione dei contenuti](https://experienceleague.adobe.com/it/docs/experience-manager-content-ai/using/contentsources).
+  * Per informazioni dettagliate, consulta il documento [Configurare e gestire le origini di IA per la gestione dei contenuti](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources).
 
 ### Scheda Comportamento di ricerca {#search-behavior}
 
@@ -102,13 +102,13 @@ La finestra di dialogo per modifica consente all’autore di contenuto di defini
 
 ### Scheda Ricerca generativa {#generative-search}
 
-![Scheda Ricerca generativa della finestra di dialogo per modifica](/help/assets/content-ai-search-edit-generative-search.png)
+![Scheda Ricerca generativa della finestra di dialogo per modifica](/help/assets/content-ai-search-edit-ai-search-mode.png)
 
-* **Mostra/nascondi riepilogo generativo/a ai visitatori** - Se questa opzione non è selezionata, i visitatori non possono modificare la visualizzazione o meno del riepilogo di IA.
+* **Mostra scheda modalità IA ai visitatori** - Se questa opzione non è selezionata, non viene visualizzata alcuna barra delle schede e l&#39;API di ricerca generativa non viene mai chiamata.
+  * I visitatori visualizzano solo una visualizzazione dei risultati di ricerca semplice.
   * Il valore predefinito è abilitato.
-* **Mostra riepilogo generativo per impostazione predefinita** - Questa opzione controlla lo stato predefinito dell&#39;interruttore rivolto al visitatore per il riepilogo generato da IA.
+* **Mostra pulsante Riprova quando la risposta AI non riesce**. Nella scheda Modalità IA viene sempre visualizzato un messaggio di errore in caso di errore. Questa opzione è disponibile solo se accanto a essa è visualizzato un pulsante Riprova.
   * Il valore predefinito è abilitato.
-* **Errore GenSearch - Fallback** - Definisce il comportamento o l&#39;errore della ricerca.
-  * **Solo risultati (nascondi errore)** - Se si verifica un errore, visualizzare solo i risultati restituiti, non l&#39;errore e il pulsante non riprova. Questo è il valore predefinito.
-  * **Mostra errore con nuovo tentativo** - Se si verifica un errore, visualizzare l&#39;errore con un pulsante nuovo tentativo.
-  * **Mostra solo messaggio di errore** - Se si verifica un errore, visualizza solo il messaggio di errore, nessun risultato.
+* **Testo liberatoria** - Questo testo viene visualizzato sotto il riepilogo generativo nella scheda Modalità IA.
+  * Lascia vuoto (impostazione predefinita) per utilizzare la liberatoria predefinita.
+
