@@ -20,10 +20,10 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 6022fccf65523915134f38894fe5689849b2602f
+source-git-commit: a8f6d16fa3ca5d542e9416f97685ef28569adc65
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 16%
+source-wordcount: '801'
+ht-degree: 15%
 ---
 
 # Componente Ricerca IA contenuto {#content-ai-search-component}
@@ -102,13 +102,13 @@ La finestra di dialogo per modifica consente all’autore di contenuto di defini
 
 ### Scheda Ricerca generativa {#generative-search}
 
-![Scheda Ricerca generativa della finestra di dialogo per modifica](/help/assets/content-ai-search-edit-generative-search.png)
+![Scheda Ricerca generativa della finestra di dialogo per modifica](/help/assets/content-ai-search-edit-ai-search-mode.png)
 
-* **Mostra/nascondi riepilogo generativo/a ai visitatori** - Se questa opzione non è selezionata, i visitatori non possono modificare la visualizzazione o meno del riepilogo di IA.
+* **Mostra scheda modalità IA ai visitatori** - Se questa opzione non è selezionata, non viene visualizzata alcuna barra delle schede e l&#39;API di ricerca generativa non viene mai chiamata.
+  * I visitatori visualizzano solo una visualizzazione dei risultati di ricerca semplice.
   * Il valore predefinito è abilitato.
-* **Mostra riepilogo generativo per impostazione predefinita** - Questa opzione controlla lo stato predefinito dell&#39;interruttore rivolto al visitatore per il riepilogo generato da IA.
+* **Mostra pulsante Riprova quando la risposta AI non riesce**. Nella scheda Modalità IA viene sempre visualizzato un messaggio di errore in caso di errore. Questa opzione è disponibile solo se accanto a essa è visualizzato un pulsante Riprova.
   * Il valore predefinito è abilitato.
-* **Errore GenSearch - Fallback** - Definisce il comportamento o l&#39;errore della ricerca.
-  * **Solo risultati (nascondi errore)** - Se si verifica un errore, visualizzare solo i risultati restituiti, non l&#39;errore e il pulsante non riprova. Questo è il valore predefinito.
-  * **Mostra errore con nuovo tentativo** - Se si verifica un errore, visualizzare l&#39;errore con un pulsante nuovo tentativo.
-  * **Mostra solo messaggio di errore** - Se si verifica un errore, visualizza solo il messaggio di errore, nessun risultato.
+* **Testo liberatoria** - Questo testo viene visualizzato sotto il riepilogo generativo nella scheda Modalità IA.
+  * Lascia vuoto (impostazione predefinita) per utilizzare la liberatoria predefinita.
+
